@@ -1,0 +1,574 @@
+/*
+ * EarthBound Text Dump
+ * Time: 16:51:30 - 12/09/2019
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc9720d:
+    "@You gotta stop talking to me, man!{pause(25)} I'm hanging on a thread here!" next
+    "@I don't want to reveal my secrets to you." next
+    "@Everyone who is brought here is meant to die here!{pause(35)} They will die serving the Mani for all eternity!{wait}{set(flag 167)}" eob
+
+l_0xc97289:
+    "@That's it!{pause(25)} You've completely pushed me past my boundries!" linebreak
+    "@AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHHHH!!" next
+    "@Just put me out of my misery already.{wait}{set(flag 168)}" eob
+
+l_0xc972d8:
+    "@I'm ready to go.{pause(25)} Take me away already!" end
+
+l_0xc972e7:
+    "@Life runs on a clock." linebreak
+    "@When time runs out,{pause(25)} you die,{pause(35)} and you become nothing more than distorted memories by those who you've carried in your arms." next
+    "@Memories will become dreams,{pause(35)} close enough to reach,{pause(30)} but somehow still so far away." next
+    "@When time sets upon you,{pause(25)} and the memories are as good as gone,{pause(35)} age will lull you to sleep." next
+    "@You'll wake something different,{pause(30)} and the memories will be shared as time goes on,{pause(35)} as a reminder of the person you once were." end
+
+l_0xc9734a:
+    "@Everyone should experience guilt someday..." next
+    "@Do you agree with me?" linebreak
+    "[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc97394)} {e(l_0xc9737f)}]" goto(l_0xc9737f)
+
+l_0xc9737f:
+    "@It all makes sense, doesn't it?" next
+    "@To find the motivation between novelty and the noose." end
+
+l_0xc97394:
+    "@Have you ever lost somebody before?{pause(35)} Have you ever felt blood on your hands?" end
+
+l_0xc973b1:
+    "@We need to be fixed.{pause(30)} We've grown distant from him." next
+    "@I cannot fix you,{pause(25)} but I will take you to the medical center.[03]{window_closeall}{pause(1)}[1F 21 08]" eob
+
+l_0xc973e4:
+    "@[1C 01 08]'s HP decreased to 0!" next
+    "@[1C 01 34]'s HP decreased to 0!" end
+
+l_0xc9740a:
+    "@Why aren't you smiling?" next
+    "@This is eternal.{pause(25)} Fear does not exist anymore." next
+    "@Give up your dreams to the burning sun,{pause(30)} like the rest of us." end
+
+l_0xc9743d:
+    "@Life is an illusion,{pause(35)} but the golden light is forever." next
+    "@A face like yours is one that I so desperately crave,{pause(50)} don't be sad.{pause(40)}" linebreak
+    "@Whenever you are ready,{pause(40)} I will be waiting." next
+    "@I will be waiting.{pause(50)} You cannot hide.{pause(35)} You cannot escape me, for I will be waiting." linebreak
+    "@I will pick you apart to find you.{pause(40)} I will peel out your skin from your flesh to find what is left of you.{pause(80)} I will squish your ashes into useless particles." end
+
+l_0xc9749e:
+    "@Are you stressed out?{pause(25)} Why don't you take a little walk?" linebreak
+    "@You've got a long time left to live,{pause(25)} so it's a good idea if you take it slow." next
+    "@..." next
+    "@Besides,{pause(25)} even if you were to rush through your life,{pause(30)} you won't have time to say <goodbye>,{pause(30)} would you?" end
+
+l_0xc974f4:
+    "[06 A5 00 {e(l_0xc97554)}]@I can't waste any more time mourning over a person that no longer exists." next
+    "@He will be in good hands under the watchful spirit of the Mani Mani." next
+    "@I'm so sorry.{pause(30)} My only friend has passed away." next
+    "@The world is tainted,{pause(60)} there are too many who fight for something of impossibility.{pause(70)} That is why people like us exist,{pause(35)} to break the mold and end this cycle of hate." end
+
+l_0xc97554:
+    "@What do you think you're doing?{pause(30)} Are you trying to find something?" linebreak
+    "@You won't find anything worthwhile in a damned place like this." next
+    "@You just look stupid,{pause(25)} trying to find purpose in an empty room!" next
+    "@Hah!" next
+    "@If my best friend was beside me right now,{pause(25)} he'd be laughing so hard that he'd puke![03]{window_closeall}{pause(1)}[1F 21 07]" eob
+
+l_0xc975cc:
+    "@Who...{pause(35)} Who are you...?{pause(30)} Can you hear me?" linebreak
+    "[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc9763a)} {e(l_0xc975f1)}]" goto(l_0xc975f1)
+
+l_0xc975f1:
+    "@You can hear me...?" linebreak
+    "  Are you a friend of my friend?" next
+    "@Ha ha ha!{pause(25)} I guess we can be friends,{pause(25)} considering you're friends with my friend,{pause(30)} my friend.{wait}{set(flag 165)}[1F 66 01 20 89 76 C9 00][1F 41 05]{set(flag 11)}" eob
+
+l_0xc9763a:
+    "@You cannot see me...?" linebreak
+    "  Are you mentally ill or something?" next
+    "@I'm pretty sure even a deaf person can hear a voice like mine..." next
+    "@Anyways,{pause(25)} it was nice talking to you!{pause(30)} Toodle-oo, friend..." end
+
+l_0xc97689:
+    "{window_open(1)}@Do you remember me...?{pause(30)} You can hear me...?" next
+    "@I know the reason why you came here.{pause(30)} I want to help you..." next
+    "@We need to be freed from this cursed place..." next
+    "@We need you to break us free...{pause(30)} [1C 02 01].{wait}[1F 66 01 21 05 77 C9 00]{window_closetop}" eob
+
+l_0xc97705:
+    "{window_open(1)}@You can hear my voice..." linebreak
+    "  But I don't think you can hear me...{wait}[1F 66 01 22 28 77 C9 00]{window_closetop}" eob
+
+l_0xc97728:
+    "{window_open(1)}@Oh, man..." linebreak
+    "  I'm getting pretty tired..." next
+    "@This is the first time I've gotten excercise like this!{pause(30)} You know what...?" next
+    "@I think I'm going to float in the air instead...{pause(35)} I mean,{pause(30)} I'm a ghost,{pause(25)} so why not...?{wait}[1F 66 01 23 80 77 C9 00][1F 66 02 24 A8 77 C9 00]{window_closetop}" eob
+
+l_0xc97780:
+    "{window_open(1)}@Wooooooooooo..." next
+    "@Sorry,{pause(30)} I'm a little rusty!{wait}[1F 67 02][1F 66 01 25 D1 77 C9 00]{window_closetop}" eob
+
+l_0xc977a8:
+    "{window_open(1)}@Wooooooooooo..." next
+    "@Sorry,{pause(30)} I'm being a little too loud...{wait}[1F 67 01][1F 66 01 26 D1 77 C9 00]{window_closetop}" eob
+
+l_0xc977d1:
+    "{window_open(1)}@Hey...{pause(30)} Uhhh..." linebreak
+    "@Do you...{pause(30)} want to know something cool about me...?" next
+    "@I...{pause(35)} I like..." next
+    "  sunflower seeds...{wait}{window_closetop}[1F 41 06]{unset(flag 11)}" eob
+
+l_0xc97823:
+    "[06 A5 00 {e(l_0xc978aa)}]@You cannot get past me." next
+    "@The Mani Mani Statue is the very creator of life.{pause(35)} He is the successor to a newer humanity." next
+    "@How could you refuse all he has to offer?" next
+    "@It would not be wise to lose the world's future to a couple of kids like you!{wait}{set(flag 774)}" eob
+
+l_0xc978aa:
+    "@You cannot get past me." next
+    "@The Mani Mani Statue is the very creator of li-" linebreak
+    "  Yaaaaaaaah!!" next
+    "@Oh my god! It's a ghost!!" next
+    "@I'm so sorry! I'll leave you alone!!{pause(30)} Please just don't hurt me!![03][1F F1 74 05 62 01][1F 61]{set(flag 63)}" eob
+
+l_0xc9794b:
+    "@(The entity of all evil.{pause(35)} The Mani Mani Statue glows menacingly.)[03]" call(data_21.l_0xc68583) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}" call(data_22.l_0xc69082) "[1F F1 7E 05 7B 02]{set(flag 59)}{set(flag 75)}[1F 21 9A][1F 41 05][1F E5 FF]{pause(20)}" goto(l_0xc97990)
+
+l_0xc97990:
+    "{window_open(1)}@(With the Mani Mani Statue destroyed,{pause(25)} the world surrounding [1C 02 01] began to revert back to normal." next
+    "@The Mani Mani has finally died.){wait}{window_closeall}[19 26 05][1F E8 FF]" eob goto(l_0xc979e5)
+
+l_0xc979e5:
+    "@Bones can tell tons of stories." linebreak
+    "  Are you a bone?" next
+    "[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc97a35)} {e(l_0xc97a1d)}]" goto(l_0xc97a1d)
+
+l_0xc97a1d:
+    "@You are a bone?{pause(25)} No...{pause(30)}" linebreak
+    "  @You aren't one bone, but many.{pause(40)} 206 bones to be exact!" end
+
+l_0xc97a35:
+    "@You aren't a bone?" linebreak
+    "@Then what are you?{pause(25)} Are you even human?" end
+
+l_0xc97a51:
+    "@Bones can tell lots of stories." next
+    "@I wonder if I can extract every bone from your body" next
+    "    and add it to my bone collection." next
+    "@It would be such a waste if somebody were to crush them all." next
+    "@What a restless sleep I would have." end
+
+l_0xc97aa4:
+    call(data_21.l_0xc680e2) eob
+
+l_0xc97aaa:
+    "[19 10 01]{rtoarg}@Do you want to stay here overnight?{pause(25)} YAH HOOOOOO!!" next
+    "@I'm sorry about that!{pause(20)} WOOOO!!{pause(25)} I just got a little overexcited, since nobody likes this place." end goto(l_0xc97b06)
+
+l_0xc97b06:
+    call(data_43.l_0xc900e8) eob
+
+l_0xc97b0c:
+    call(data_43.l_0xc9007f) eob
+
+l_0xc97b12:
+    "@I look like a pretty interesting political figure, don't I?{pause(25)}" linebreak
+    "@Well, the truth is,{pause(20)} I'm not.[03][1F 1E 73 05 09]{pause(120)}{set(flag 631)}" eob
+
+l_0xc97b35:
+    "@Welcome to Fechoria Eterna!" linebreak
+    "@Would you like to dine in or take out?" next
+    "@Oh wait!{pause(25)} That's not what I was supposed to say.{pause(30)} I'm going to be punished for this..." end
+
+l_0xc97b6b:
+    "[19 1F]{swap}[19 21 00]{result_is(2)}[1B 03 {e(l_0xc97c30)}][19 25 00][1B 03 {e(l_0xc97bc4)}][1D 20][1B 03 {e(l_0xc97bab)}]" newline
+    "@{user} took out" linebreak
+    "  the [1C 05 00] and" next
+    "@{target} ate it.{sound(68)}[03]" eob goto(l_0xc97bab)
+
+l_0xc97bab:
+    newline
+    "@{user}[19 1F]{swap} ate" linebreak
+    "  the [1C 05 00].{sound(68)}[03]{pause(1)}" eob goto(l_0xc97bc4)
+
+l_0xc97bc4:
+    "{swap}{store_registers}[1D 20][1B 03 {e(l_0xc97c06)}]" newline
+    "{store_registers}@{user} took out" linebreak
+    "  the [1C 05 00]," next
+    "[19 1F]{swap}  used it on" linebreak
+    "  [1C 05 00] and" next
+    "@{target} ate it.{sound(68)}{pause(1)}[03]" eob goto(l_0xc97c06)
+
+l_0xc97c06:
+    newline
+    "@{user} took out" linebreak
+    "  the [1C 05 00]" next
+    "[19 1F]{swap}@and used it on" linebreak
+    "  the [1C 05 00].{sound(68)}{pause(1)}[03]" eob goto(l_0xc97c30)
+
+l_0xc97c30:
+    "[1D 20][1B 03 {e(l_0xc97c5f)}]" newline
+    "@{user}[19 1F]{swap} took out" linebreak
+    "  the [1C 05 00]" next
+    "@and {target} took a drink.{sound(68)}{pause(1)}[03]" eob goto(l_0xc97c5f)
+
+l_0xc97c5f:
+    newline
+    "@{user}[19 1F]{swap} drank" linebreak
+    "  the [1C 05 00].{sound(68)}{pause(1)}[03]" eob goto(l_0xc97c7b)
+
+l_0xc97c7b:
+    newline
+    "@" call(data_33.l_0xc7e6d7) "[19 1F]{swap} ate" linebreak
+    "  the [1C 05 00] together.{sound(68)}{pause(1)}[03][02][1D 20][1B 02 {e(l_0xc97cb0)}]" newline
+    "@Now that's some good tasting food![03]" goto(l_0xc97cb0)
+
+l_0xc97cb0:
+    eob
+
+l_0xc97cb1:
+    "[1D 20][1B 02 {e(l_0xc97cc9)}]" newline
+    "@It doesn't taste that great...[03]" goto(l_0xc97cc9)
+
+l_0xc97cc9:
+    eob
+
+l_0xc97cca:
+    newline
+    "@{user}[19 1F]{swap} poured" linebreak
+    "  the [1C 05 00] over " call(data_33.l_0xc7e66e) " head." next
+    "@Instinctivly, {user} grew" linebreak
+    " and transformed into a murderous dragon![03]" eob goto(l_0xc97d21)
+
+l_0xc97d21:
+    newline
+    "@{user}[19 1F]{swap} sprayed a bit of" linebreak
+    "  [1C 05 00]!{sound(71)}[03]" eob goto(l_0xc97d43)
+
+l_0xc97d43:
+    newline
+    "@{user}[19 1F]{swap} used" linebreak
+    "  the [1C 05 00]!" next
+    "@A strange item came out of the box![03]" eob goto(l_0xc97d75)
+
+l_0xc97d75:
+    newline
+    "@{user}[19 1F]{swap} used" linebreak
+    "  the [1C 05 00]!" next
+    "@The enemy became" linebreak
+    "  stuck in a super sticky substance![03]" eob goto(l_0xc97da3)
+
+l_0xc97da3:
+    newline
+    "@{user}[19 1F]{swap} used" linebreak
+    "  the [1C 05 00]!" next
+    "@A bell chimed" linebreak
+    "  and a pack of fresh croutons was made![03]" eob goto(l_0xc97ddc)
+
+l_0xc97ddc:
+    newline
+    "@{user}[19 1F]{swap} fired" linebreak
+    "  the [1C 05 00]!{sound(70)}[03]" eob goto(l_0xc97df5)
+
+l_0xc97df5:
+    newline
+    "@{user}[19 1F]{swap} fired" linebreak
+    "  the [1C 05 00]!{sound(70)}{pause(8)}{sound(70)}{pause(8)}{sound(70)}{pause(8)}{sound(70)}{pause(8)}{sound(70)}{pause(8)}[03]" eob goto(l_0xc97e24)
+
+l_0xc97e24:
+    newline
+    "@{user}[19 1F]{swap} fired" linebreak
+    "  the [1C 05 00]!{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}{sound(70)}{pause(4)}[03]" eob goto(l_0xc97e9e)
+
+l_0xc97e9e:
+    newline
+    "@{user}[19 1F]{swap} fired" linebreak
+    "  the [1C 05 00]!{sound(70)}[03]" eob goto(l_0xc97eb7)
+
+l_0xc97eb7:
+    newline
+    "@{user}[19 1F]{swap} tossed" linebreak
+    "  the [1C 05 00]!{sound(70)}[03]" eob goto(l_0xc97ed1)
+
+l_0xc97ed1:
+    "[19 1F]{swap}" newline
+    "@{user} took out a snake" linebreak
+    "  from the [1C 05 00]" next
+    "  and used it as a weapon![03]" eob goto(l_0xc97efa)
+
+l_0xc97efa:
+    newline
+    "@{user}[19 1F]{swap} used [1C 05 00]!{pause(30)} " call(data_33.l_0xc7e66e) " teeth" next
+    "@became fresh, white and clean!" next
+    "@{user}'s clean teeth" linebreak
+    "  shone brightly," next
+    "blinding the enemy![03]" eob goto(l_0xc97f56)
+
+l_0xc97f56:
+    newline
+    "[19 1F]{swap}@{user} slashed away" linebreak
+    "  with the [1C 05 00]![03]" eob goto(l_0xc97f72)
+
+l_0xc97f72:
+    newline
+    "[19 10 02]{result_is(9)}[1B 02 {e(l_0xc97f84)}]" call(data_39.l_0xc88000) eob goto(l_0xc97f84)
+
+l_0xc97f84:
+    goto(data_39.l_0xc8807d)
+
+l_0xc97f89:
+    eob
+
+l_0xc97f8a:
+    newline
+    "@{user}[19 1F]{swap} threw" linebreak
+    "  the [1C 05 00]!" next
+    "@The [1C 05 00] is" linebreak
+    "  biting!" next
+    eob linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    linebreak
+    "@(The Mani Mani Statue is glistening a strange, powerful light...){wait}{sound(113)}" eob
+
+l_0xc98000:
+    "@(The Mani Mani Statue is glistening a strange, powerful light...){wait}{sound(113)}" eob
+
+l_0xc98024:
+    "[06 7A 00 {e(l_0xc981c6)}][06 44 00 {e(l_0xc982b3)}]{set(flag 744)}@My name is Edward." next
+    "@I've been known to many as the messiah of humanity,{pause(40)} the restorer of balance to human development.{pause(55)} To someone like you,{pause(25)} my plan seems nothing but a feverish dream," next
+    "    but I will work alongside the thousands of believers to make this dream a reality!" next
+    "@The Red Ravens will make sure this entire world ceases to exist,{pause(35)} and sees a new day in the light of the Mani Mani!{pause(35)} Are you interested in working with me?" linebreak
+    "  [19 02]Yes[02]  [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc98148)} {e(l_0xc980c1)}]" goto(l_0xc980c1)
+
+l_0xc980c1:
+    "@Insolent, child!{pause(25)} You must be pretty clueless to underestimate the Red Raven Society." next
+    "@It's about time you've been punished for your rash decisions." next
+    "@Remember my name,{pause(25)} for I am the one that will kill you.[03]" call(data_21.l_0xc6847a) "[1B 03 {e(data_21.l_0xc683de)}][1D 05 FF 01][1B 03 {e(l_0xc9817a)}]" eob
+
+l_0xc98148:
+    "@Heh heh heh...{pause(40)} You're just another roadblock in my way.{pause(35)} Die, you worthless fool!{wait}" call(data_21.l_0xc6847a) "[1B 03 {e(data_21.l_0xc683de)}][1D 05 FF 01][1B 03 {e(l_0xc9817a)}]" eob
+
+l_0xc9817a:
+    "{window_open(1)}" newline
+    "@No!{pause(25)} This cannot happen!{pause(25)} Not now!" next
+    "@I cannot lose now!{pause(25)} My dreams cannot cease to exist!" next
+    "{set(flag 44)}" goto(l_0xc981c6)
+
+l_0xc981c6:
+    "@You may have won this fight,{pause(25)} but this is far from over." next
+    "@The Red Ravens will tear away all that is undesirable,{pause(25)} until there's nothing left, but a perfect world!" next
+    "@Foolish fiends like you don't deserve to live peacefully in the upcoming day.{pause(30)} You're nothing, but filthy casualties filling up the grave!" next
+    "@Take this key and set your friend free.{pause(30)} She's been calling your name for days." next
+    "{set(flag 68)}{unset(flag 175)}{unset(flag 45)}{set(flag 351)}{set(flag 352)}{set(flag 353)}{set(flag 354)}{set(flag 355)}{set(flag 356)}[1D 03 FF][1B 02 {e(l_0xc9827c)}][1D 0E 00 AB]" call(data_33.l_0xc7dcb6) "{wait}{window_closeall}{unset(flag 122)}" eob
+
+l_0xc9827c:
+    "{set(flag 122)}@On second thought, you can't take it!" next
+    "@It doesn't look like you have enough space." end
+
+l_0xc982b3:
+    "@You may have won this fight,{pause(25)} but our reign is far from over." next
+    "@We will continue to push our motivations forward, until they all believe us." end
+
+l_0xc982f2:
+    "[06 44 00 {e(l_0xc9833f)}]@I thought I was gonna get a good time coming here," linebreak
+    "  But everybody is a complete weirdo!" next
+    "@I even bought chips and dip for the occasion,{pause(25)} but now I have them all to myself!" end
+
+l_0xc9833f:
+    "@Hey, what did you do?{pause(30)} Did you say something creepy?" next
+    "@Everybody ran out in such a hurry!{pause(25)} I'm so confused." end
+
+l_0xc98374:
+    "[06 02 00 {e(l_0xc983de)}]@Do you have business with our boss?" next
+    "@He's very busy conducting plans for our worldwide success." next
+    "@But, if you must need to see him," linebreak
+    "  I guess I'll let you pass." next
+    "@I can be a pretty nice guy every once in a while.[03][1F F1 7A 01 15 01][1F 61]{set(flag 2)}" eob
+
+l_0xc983de:
+    "@Don't hesitate, my good man." next
+    "@If you need to see the boss," linebreak
+    "  go right ahead!" next
+    "@I can't stop you,{pause(25)} but the others will." end
+
+l_0xc98424:
+    "[06 03 00 {e(l_0xc98465)}]@What is it, little man?" next
+    "@Are you looking for your spot?{pause(25)} Oh, sorry!{pause(25)} I'll get out of your way.[03][1F F1 7B 01 15 01][1F 61]{set(flag 3)}" eob
+
+l_0xc98465:
+    "@Why are you staring at me?" next
+    "@Go on through!" end
+
+l_0xc9847f:
+    "[06 04 00 {e(l_0xc984e3)}]@Must you interrupt me during prayer?" next
+    "@You want me to move?{pause(45)} Nuh uh!{pause(20)} No way!" next
+    "@Actually, now's a good time to let you through!{pause(30)} Hurry up![03][1F F1 7C 01 15 01][1F 61][1F F1 7C 01 2A 00]{set(flag 4)}" eob
+
+l_0xc984e3:
+    "@These bright red colors are really messing with my eyes!" next
+    "@Make sure to watch your step!" end
+
+l_0xc98517:
+    "[06 05 00 {e(l_0xc98571)}]@H-Hey!{pause(20)} What are you doing?{pause(25)} Stop it!" next
+    "@My body...{pause(30)} It's moving on it's own!{pause(45)} Yaaaaah!" next
+    "@Now I'm moving away!{pause(35)} Whoooaah![03][1F F1 7D 01 16 01][1F 61][1F F1 7D 01 2A 00]{set(flag 5)}" eob
+
+l_0xc98571:
+    "@What?{pause(20)} You didn't actually control my body with your mind.{pause(30)} I just wanted to move out of the way." next
+    "@How do you like humor?" end
+
+l_0xc98598:
+    "[06 06 00 {e(l_0xc985e0)}]@Are you Edward's son?" next
+    "@I'll move out of your way, sir![03][1F F1 7E 01 15 01][1F 61][1F F1 7E 01 2A 00]{set(flag 6)}" eob
+
+l_0xc985e0:
+    "@Ha ha!{pause(25)} You look like a mini Edward." next
+    "@I guess quiet personalities run in the family!" linebreak
+    "@Ha ha ha ha ha ha!" end
+
+l_0xc98602:
+    "[06 07 00 {e(l_0xc98631)}]@What are you doing here?" next
+    "@I'll stay out of your way,{pause(25)} but don't get any funny ideas![03][1F F1 7F 01 16 01][1F 61]{set(flag 7)}" eob
+
+l_0xc98631:
+    "@This isn't a hangout joint,{pause(25)} just so you know!" next
+    "@Edward's plans are so brilliant,{pause(25)} an idiot like you could never understand." end
+
+l_0xc9864b:
+    "[06 08 00 {e(l_0xc986b0)}]@Welcome to the Red Raven Operation Building." next
+    "@You can call it the RROB for short." next
+    "@You look like you could wipe the floor with us,{pause(25)} so I'm not going to kill you today.[03][1F F1 80 01 15 01][1F 61][1F F1 80 01 2A 00]{set(flag 8)}" eob
+
+l_0xc986b0:
+    "@You're not really supposed to be here.{pause(30)} This is for Red Raven associates only!" next
+    "@But I'll let somebody else deal with you." end
+
+l_0xc986cc:
+    "[06 5F 01 {e(data_32.l_0xc7c588)}]@What's this?" next
+    "@A kid snuck into the operation building?" next
+    "@Let me demonstrate how the Red Ravens deal with intruders![03]" call(data_21.l_0xc68500) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}[1F F1 81 01 7B 02]{set(flag 351)}" eob
+
+l_0xc9873b:
+    "[06 60 01 {e(data_32.l_0xc7c588)}]@Stupid kid!{pause(25)} What're you doing, wandering around in here?" next
+    "@It's about time you get clapped![03]" call(data_21.l_0xc68507) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}[1F F1 82 01 7B 02]{set(flag 352)}" eob
+
+l_0xc98785:
+    "[06 61 01 {e(data_32.l_0xc7c588)}]@Who are you?" next
+    "@You are not welcome here![03]" call(data_21.l_0xc6850e) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}[1F F1 83 01 7B 02]{set(flag 353)}" eob
+
+l_0xc987cf:
+    "[06 62 01 {e(data_32.l_0xc7c588)}]@Edward doesn't like visitors,{pause(25)} so leave now!" next
+    "@If you ain't gonna leave,{pause(25)} I'll make it so that you won't ever run again![03]" call(data_21.l_0xc68515) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}[1F F1 84 01 7B 02]{set(flag 354)}" eob
+
+l_0xc9881e:
+    "[06 63 01 {e(data_32.l_0xc7c588)}]@Non believers like you don't deserve to live in a better world!" next
+    "@That's why you're gonna die, right now![03]" call(data_21.l_0xc6851c) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}[1F F1 85 01 7B 02]{set(flag 355)}" eob
+
+l_0xc9886f:
+    "[06 64 01 {e(data_32.l_0xc7c588)}]@Are you trying to act all tough coming in here and starting a fight?" next
+    "@You've made the worst mistake you could possibly make." linebreak
+    "@Maybe if I beat you hard enough,{pause(20)} it'll show you why you shouldn't be here![03]" call(data_21.l_0xc68523) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}[1F F1 86 01 7B 02]{set(flag 356)}" eob
+
+l_0xc988cb:
+    "@Twoson will be ours,{pause(25)} just you wait." next
+    "@And soon enough,{pause(25)} the rest of this country will be ours as well." end
+
+l_0xc988f1:
+    "@Heh heh...{pause(25)} I was just thinking...{pause(30)} about how much you look like the boss." next
+    "@Are you really his child,{pause(25)} or are you just another poor cosplayer?" end
+
+l_0xc98913:
+    "@We will paint the country red in our name." next
+    "@We are the inescapable,{pause(25)} the bringers of the greater good.{pause(30)} We are the Red Raven Society." end
+
+l_0xc98940:
+    "@I don't really know you, but thanks anyway." end
+
+l_0xc9894e:
+    "[06 44 00 {e(data_50.l_0xc98b07)}]{window_open(1)}@Excuse me, traveler." next
+    "@I run a donation service!{pause(25)} Right now, I'm collecting donations from the residents of Lightford." next
+    "@Would you like to donate?" linebreak
+    "{open_wallet}[19 02]Yes[02]  [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(data_50.l_0xc98a27)} {e(l_0xc989c5)}]" goto(l_0xc989c5)
+
+l_0xc989c5:
+    "[1D 14 01 00 00 00][1B 03 {e(data_50.l_0xc989ea)}]@Well, I'm not planning on leaving until you make a donation.{wait}{window_closeall}" goto(data_30.l_0xc79081)
+

@@ -1,0 +1,395 @@
+/*
+ * EarthBound Text Dump
+ * Time: 16:51:30 - 12/09/2019
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc83ecd:
+    "@The department store is open again!{pause(35)} Yesssss!" next
+    "@It's about time I finally go shopping." end
+
+l_0xc83efd:
+    "@Something bad lies here." next
+    "@I'm not sure what it is,{pause(20)} but it's making me feel uneasy." next
+    "@If...{pause(50)} I don't want to make any assumptions here." next
+    "@What bad things could be hiding?" end
+
+l_0xc83f3c:
+    "@Someone must've punched him hard if he's stuck in the wall like that." next
+    "@Hopefully, he can get himself out of there soon." end
+
+l_0xc83f5f:
+    "[06 8F 00 {e(l_0xc83faf)}]@What happened?" next
+    "@You guys were sleepwalking for hours.{pause(45)} Is your hangover finally over?" next
+    "@You should be feeling much better now.{pause(45)} Everybody else is." end
+
+l_0xc83faf:
+    "@If I didn't wake you up,{pause(20)} you probably would've became food to the dust bunnies" next
+    "@Me?{pause(35)} Nah, I just choose to live down here.{pause(60)} It's much quieter." end
+
+l_0xc83fcf:
+    "@Greetings, [1C 01 08]." next
+    "[06 7E 02 {e(l_0xc83fe6)}]@Greetings, [1C 01 1E]." next
+    goto(l_0xc83fe6)
+
+l_0xc83fe6:
+    "@I hope life is treating you well." next
+    "@As you can probably tell,{pause(20)} things have changed drastically for me." next
+    "@The sad face of reality has smacked me in the face." next
+    "@After years of dedication,{pause(30)} I lost my job as mayor!" next
+    "@The evils that I've committed unconsciously have paid off to hurt me." next
+    "@People will do anything to mess up your image nowadays." next
+    "@But, I guess it's about time that I throw in the towel." next
+    "@I've got lots to do,{pause(25)} now that I have time on my hands." next
+    "@Maybe I'll go visit my family,{pause(20)} or take a visit to Twoson.{pause(55)} I'll never know until tommorow." next
+    "@It's terrible that I lost my job,{pause(20)} but now I can connect with the ones I love." end
+
+l_0xc84079:
+    "@Another drink over here,{pause(45)} please..." next
+    "@Huh?{pause(25)} [1C 02 01]?{pause(25)} Why are you bothering me now?" next
+    "@Can't you see that I'm not in the mood to talk right now?" next
+    "@Pokey's gone...{pause(50)} He's really gone..." next
+    "@I saw him take off in that helicopter." next
+    "@You had something to do with it,{pause(20)} didn't you?" next
+    "@Heh heh...{pause(60)} I despise you, [1C 02 01],{pause(45)} but you remind me of something I could've had." next
+    "@Now leave me be.{pause(30)} I want to die here now..." end
+
+l_0xc84111:
+    "@That was a pretty cool performance!{pause(35)} Monika collaborates really well with the Runaway Five!" next
+    "@There's just one thing, though,{pause(35)} I think Lucky was getting a little too close to her." next
+    "@It was a little creepy,{pause(20)} kinda threw me off guard." next
+    "@But, wouldn't you do anything to get that close to her?" end
+
+l_0xc84168:
+    "@The Runaway Five left already?{pause(25)} I guess I'm one of many who didn't get to see them up close." next
+    "@The Runaway Five really does run away alot,{pause(20)} don't they?" end
+
+l_0xc841b3:
+    "@I'm a messy guy!{pause(40)} Don't blame me!" next
+    "@I won't bug you!{pause(40)} Just don't give me a reason to get messy on you!" end
+
+l_0xc841de:
+    "[06 49 00 {e(l_0xc842f6)}][06 80 01 {e(l_0xc842f3)}][06 99 00 {e(l_0xc842f0)}][06 DA 00 {e(l_0xc842ed)}][06 5C 01 {e(l_0xc842ea)}][06 56 01 {e(l_0xc842e7)}][06 D9 00 {e(l_0xc842e4)}][06 10 00 {e(l_0xc842e1)}][06 8F 00 {e(l_0xc842de)}][06 4B 00 {e(l_0xc842db)}][06 8B 00 {e(l_0xc842d8)}][06 39 00 {e(l_0xc842d5)}][06 D6 00 {e(l_0xc842d2)}][06 47 00 {e(l_0xc842cf)}][06 45 00 {e(l_0xc842cc)}][06 80 00 {e(l_0xc842c9)}][06 2E 00 {e(l_0xc842c6)}][06 D3 00 {e(l_0xc842c3)}][06 55 00 {e(l_0xc842c0)}][06 0D 00 {e(l_0xc842bd)}][06 44 00 {e(l_0xc842ba)}][06 56 00 {e(l_0xc842b7)}][06 76 00 {e(l_0xc842b4)}][06 69 00 {e(l_0xc842b1)}][06 B6 00 {e(l_0xc842ae)}][06 50 00 {e(l_0xc842ab)}][06 40 00 {e(l_0xc842a8)}][06 28 00 {e(l_0xc842a5)}]{counter(1)}" eob
+
+l_0xc842a5:
+    "{counter(2)}" eob
+
+l_0xc842a8:
+    "{counter(3)}" eob
+
+l_0xc842ab:
+    "{counter(4)}" eob
+
+l_0xc842ae:
+    "{counter(5)}" eob
+
+l_0xc842b1:
+    "{counter(6)}" eob
+
+l_0xc842b4:
+    "{counter(7)}" eob
+
+l_0xc842b7:
+    "{counter(8)}" eob
+
+l_0xc842ba:
+    "{counter(9)}" eob
+
+l_0xc842bd:
+    "{counter(10)}" eob
+
+l_0xc842c0:
+    "{counter(11)}" eob
+
+l_0xc842c3:
+    "{counter(12)}" eob
+
+l_0xc842c6:
+    "{counter(13)}" eob
+
+l_0xc842c9:
+    "{counter(14)}" eob
+
+l_0xc842cc:
+    "{counter(15)}" eob
+
+l_0xc842cf:
+    "{counter(16)}" eob
+
+l_0xc842d2:
+    "{counter(17)}" eob
+
+l_0xc842d5:
+    "{counter(18)}" eob
+
+l_0xc842d8:
+    "{counter(19)}" eob
+
+l_0xc842db:
+    "{counter(20)}" eob
+
+l_0xc842de:
+    "{counter(21)}" eob
+
+l_0xc842e1:
+    "{counter(22)}" eob
+
+l_0xc842e4:
+    "{counter(23)}" eob
+
+l_0xc842e7:
+    "{counter(24)}" eob
+
+l_0xc842ea:
+    "{counter(25)}" eob
+
+l_0xc842ed:
+    "{counter(26)}" eob
+
+l_0xc842f0:
+    "{counter(27)}" eob
+
+l_0xc842f3:
+    "{counter(28)}" eob
+
+l_0xc842f6:
+    "{counter(29)}" eob
+
+l_0xc842f9:
+    call(l_0xc841de) "{ctoarg}{swap}[1F C0 1D {e(l_0xc843f6)} {e(l_0xc8442c)} {e(l_0xc8444c)} {e(l_0xc84485)} {e(l_0xc844bd)} {e(l_0xc844ea)} {e(l_0xc84525)} {e(l_0xc8455f)} {e(l_0xc84608)} {e(l_0xc84657)} {e(l_0xc84693)} {e(l_0xc84693)} {e(l_0xc84693)} {e(l_0xc84693)} {e(l_0xc84693)} {e(l_0xc846b6)} {e(l_0xc846b6)} {e(l_0xc846fc)} {e(l_0xc84728)} {e(l_0xc8474d)} {e(l_0xc8477f)} {e(l_0xc847e6)} {e(l_0xc8481a)} {e(l_0xc8484c)} {e(l_0xc848a4)} {e(l_0xc848db)} {e(l_0xc84930)} {e(l_0xc84973)} {e(l_0xc849aa)}]" eob
+
+l_0xc8437a:
+    "@Extra! Extra!{pause(25)}" linebreak
+    "@Get the latest news from The Daily Onnet!" next
+    eob
+
+l_0xc843a7:
+    "@Let's see what's in the news today...{pause(35)} Hmm..." next
+    eob
+
+l_0xc843c8:
+    "@It sounds quite interesting..." next
+    eob
+
+l_0xc843f6:
+    call(l_0xc8437a) call(l_0xc843a7) "@<Meteorite spotted coincidentally near last crash site 8 months ago>" end
+
+l_0xc8442c:
+    call(l_0xc8437a) call(l_0xc843a7) "@<Onnet Town flooded with complaints of peace disruptance>" end
+
+l_0xc8444c:
+    call(l_0xc8437a) call(l_0xc843a7) "@<Sharks reunited:{pause(35)} creates enough competition with the Red Ravens.>" end
+
+l_0xc84485:
+    call(l_0xc8437a) call(l_0xc843a7) "@<The Shark are going-{pause(40)} Oh wait!{pause(25)} Never mind...{pause(35)} The Sharks are gone now.>" end
+
+l_0xc844bd:
+    call(l_0xc8437a) call(l_0xc843a7) "@<Sharks disbanded by a boy named [1C 02 01].{pause(35)} Countless other problems begin to arise>" end
+
+l_0xc844ea:
+    call(l_0xc8437a) call(l_0xc843a7) "@<Red Raven associates spotted in Onnet with mysterious statue.>" end
+
+l_0xc84525:
+    call(l_0xc8437a) call(l_0xc843a7) "@<[1C 02 02] Polestar,{pause(25)} age 16,{pause(35)} has been missing for several days." next
+    "@She was last seen in Twoson near an old cottage with two suspicous looking men.{pause(55)} Anyone who has any information regarding this missing child,{pause(40)} please contact the Onnet Police immediantly.>" end
+
+l_0xc8455f:
+    call(l_0xc8437a) "@Oh,{pause(25)} hey!" next
+    "@Uh,{pause(20)} I'm not here to bring you the newspaper.{pause(35)} I'm a member of Mayor Pirkle's campaign." next
+    "@I was wondering if I could count on your vote during the next election.{pause(55)} Are you voting for Pirkle this year?" next
+    "@Wait, what?{pause(35)} You're looking for the paper?{pause(25)} Oh,{pause(20)} I'm sorry..." next
+    "@I'll go bother somebody else with my useless banter..." end
+
+l_0xc84608:
+    call(l_0xc8437a) call(l_0xc843c8) "@<Citizens in Summers report sightings of Grand Sabertooth>" next
+    "@<Is this what we've all been waiting for?>" end
+
+l_0xc84657:
+    call(l_0xc8437a) call(l_0xc843a7) "@<Missing citizen from Twoson,{pause(25)} [1C 02 02] has been found.>" end
+
+l_0xc84693:
+    call(l_0xc8437a) call(l_0xc843a7) "@<Black magic: the newest trend in Threed{pause(35)} Public transportation temporarily halted.>" end
+
+l_0xc846b6:
+    call(l_0xc8437a) call(l_0xc843c8) "@<Strange activity occuring at Fourside Department Store>" next
+    "@<<We would go in,{pause(25)} but none of our crew has returned back alive.>, says local police officer>" end
+
+l_0xc846fc:
+    call(l_0xc8437a) call(l_0xc843a7) "@<Strange boy driving a robotic spider interacts with missing student from Winters Boarding School.>" end
+
+l_0xc84728:
+    call(l_0xc8437a) "@On second thought,{pause(25)} there's nothing quite interesting.{pause(35)} Way to kill the surprise..." end
+
+l_0xc8474d:
+    call(l_0xc8437a) call(l_0xc843a7) "@<Ever feel like you're in a dumpy ROM hack?{pause(45)} Here are 5 signs that you're catching romaphobia>" end
+
+l_0xc8477f:
+    call(l_0xc8437a) call(l_0xc843c8) "@<Strange behavior in Threed possibly tied to the discovery of an ancient artifact.>" next
+    "@<<We've tried to communicate with some residents in the town,{pause(35)} but they seemed more interested in <toying with the elements of feeling> than talking with us.>{pause(45)} says news reporter.>" next
+    "@<More intel will be shared upon discovering what these elements of feeling are.>" next
+    "@<Stay tuned for more important information>" end
+
+l_0xc847e6:
+    call(l_0xc8437a) call(l_0xc843a7) "@<Mayor Pirkle threatened with disqualification after fudging the election results." next
+    "@Upon asking him why he chose to do this,{pause(20)} he replied,{pause(25)} <Because I can!>>" end
+
+l_0xc8481a:
+    call(l_0xc8437a) call(l_0xc843a7) "@<BREAKING NEWS:{pause(25)} Fourside Department Store killer revealed!{pause(50)} Restless Spirit Inhabiting Store>" end
+
+l_0xc8484c:
+    call(l_0xc8437a) call(l_0xc843c8) "@<Come down to Ron Valentines'!>" next
+    "@<Until next Sunday,{pause(20)} reservations are 30 percent off!>" next
+    "@<Come down before time runs out!{pause(25)} Ron Valentines',{pause(20)} providing a great time for all since 1996.>" end
+
+l_0xc848a4:
+    call(l_0xc8437a) call(l_0xc843a7) "@<New <Giygas> fetus theorizing club tops the Flat Earth Society>" end
+
+l_0xc848db:
+    call(l_0xc8437a) call(l_0xc843a7) "@<Twoson's population rate decreases even farther this year.>" next
+    "@<<At this rate,{pause(30)} we're going to lose more people than Threed has.>,{pause(45)} says the nameless mayor of Twoson.>" end
+
+l_0xc84930:
+    call(l_0xc8437a) call(l_0xc843a7) "@<Road to Twoson closed due to further inspection regarding the activity of <Alien Hunting>>" end
+
+l_0xc84973:
+    call(l_0xc8437a) call(l_0xc843a7) "@<Are you hungry?{pause(25)} Are you drooling all over your clothing right now?" next
+    "@Then try our brand new mushroom pizza at Onnet's Mach Pizza,{pause(35)} ya dingus!>" end
+
+l_0xc849aa:
+    call(l_0xc8437a) call(l_0xc843a7) "@<More than 200 citizens arrested for illegal alien hunting>" end
+
+l_0xc849ed:
+    call(l_0xc841de) "{ctoarg}{swap}[1F C0 1D {e(l_0xc84aad)} {e(l_0xc84aad)} {e(l_0xc84aad)} {e(l_0xc84aad)} {e(l_0xc84aad)} {e(l_0xc84aad)} {e(l_0xc84ad7)} {e(l_0xc84b3f)} {e(l_0xc84b5e)} {e(l_0xc84bbb)} {e(l_0xc84bee)} {e(l_0xc84bee)} {e(l_0xc84bee)} {e(l_0xc84bee)} {e(l_0xc84bee)} {e(l_0xc84c1b)} {e(l_0xc84c1b)} {e(l_0xc84cac)} {e(l_0xc84cfa)} {e(l_0xc84d38)} {e(l_0xc84d6b)} {e(l_0xc84d9c)} {e(l_0xc84dbc)} {e(l_0xc84deb)} {e(l_0xc84e1f)} {e(l_0xc84e64)} {e(l_0xc84f19)} {e(l_0xc84f55)} {e(l_0xc84f98)}]" eob
+
+l_0xc84a6e:
+    "@Take a look before you go on your way." next
+    eob
+
+l_0xc84a8a:
+    "@Hi there, fellow citizen!{pause(25)} I got the latest edition of Twoson Times!{pause(25)} Wanna read?" next
+    eob
+
+l_0xc84aad:
+    call(l_0xc84a6e) call(l_0xc84a8a) "@<Threed responsible for haunted tunnels>" end
+
+l_0xc84ad7:
+    call(l_0xc84a6e) call(l_0xc84a8a) "@<The hideout of the Red Raven Society has been found>" next
+    "@<Officials predict they are responsible for the disappearance of a young girl 12 days ago>" end
+
+l_0xc84b3f:
+    call(l_0xc84a6e) call(l_0xc84a8a) "@<[1C 02 02],{pause(20)} a young resident in Twoson, still hasn't been found yet>" end
+
+l_0xc84b5e:
+    call(l_0xc84a6e) call(l_0xc84a8a) "@<Twoson is no longer under the influence of the RRS.>{pause(25)}" linebreak
+    "@<24 hours after the discovery of their hideout,{pause(30)} the area has been quiet>" next
+    "@<Edward Dekmuz,{pause(20)} the supposed leader of the group,{pause(35)} was nowhere to be found along with the rest of the association>" end
+
+l_0xc84bbb:
+    call(l_0xc84a6e) call(l_0xc84a8a) "@<A young boy finally finds missing Twoson girl>" linebreak
+    "@<According to her parents,{pause(35)} her sudden disappearances are almost normal to them>" end
+
+l_0xc84bee:
+    call(l_0xc84a6e) call(l_0xc84a8a) "@<Government has done nothing about the haunted tunnels>" end
+
+l_0xc84c1b:
+    call(l_0xc84a6e) "@Oh,{pause(25)} hey!" next
+    "@Uh,{pause(20)} I'm not here to bring you the newspaper.{pause(35)} I'm a member of the Twoson Speaks! club." next
+    "@My question to you is,{pause(25)} <Do you see yourself living here in a few years?>" next
+    "@What?{pause(25)} You came to read the newspaper?{pause(45)} Oh,{pause(25)} sorry..." next
+    "@I'll go ask my useless prewritten questions somewhere else." end
+
+l_0xc84cac:
+    call(l_0xc84a6e) call(l_0xc84a8a) "@<Strange metal object crashes into cemetery in Threed>" next
+    "@<<It is quite odd,{pause(25)} but there are many things that are already odd enough in this town,{pause(35)} so I'm not quite surprised>{pause(40)} says, townsperson>" end
+
+l_0xc84cfa:
+    call(l_0xc84a6e) call(l_0xc84a8a) "@<Runaway Five van crashes into gas station in Fourside>" next
+    "@<<We're very sorry for all the damage we've done!{pause(25)} We want to make it in time for our shows,{pause(25)} with or without a flat tire.>,{pause(45)} says Lucky,{pause(20)} a member of the band>" end
+
+l_0xc84d38:
+    call(l_0xc84a6e) call(l_0xc84a8a) "@<Fourside mayor,{pause(25)} Montogomery Galloway acting strange ever since he found a golden statue>" end
+
+l_0xc84d6b:
+    call(l_0xc84a6e) call(l_0xc84a8a) "@<Runaway Five van repaired by thousands of fans.{pause(35)}<See what happens when you have a crap-ton of fans?>,{pause(40)} says Lucky,{pause(25)} a popular member of the band>" end
+
+l_0xc84d9c:
+    call(l_0xc84a6e) "@On second thought,{pause(25)} there's nothing quite interesting.{pause(35)} Sorry to leave you hanging..." end
+
+l_0xc84dbc:
+    call(l_0xc84a6e) call(l_0xc84a8a) "@<Everdred,{pause(25)} boss of Burglin Park to transform the area into an outdoor shopping mall>" end
+
+l_0xc84deb:
+    call(l_0xc84a6e) call(l_0xc84a8a) "@<Abandoned Red Raven van found in ditch near Threed.{pause(25)} Strange odours inside made a news reporter vomit>" end
+
+l_0xc84e1f:
+    call(l_0xc84a6e) call(l_0xc84a8a) "@<Dusty Dunes Desert rated number one in <Most Crowded Places>, due to its high rate of traffic>" end
+
+l_0xc84e64:
+    call(l_0xc84a6e) "@This looks pretty interesting!" next
+    "@<Hey there!{pause(25)} What?{pause(35)} You thought you were going to read some stale,{pause(20)} boring news article?>" next
+    "@<Well, you thought WRONG!{pause(25)} Introducing the newest hit book...{pause(35)} A mystery with twists and turns to the very end...{pause(45)}  The contents of a bowl that will make you question <why?>{pause(25)} and <how?>...>" next
+    "@<<Unidentified Soup>{pause(45)} the greatest story in years,{pause(45)} now avaliable in your local bookstore.>" end
+
+l_0xc84f19:
+    call(l_0xc84a6e) call(l_0xc84a8a) "@<Bus schedules delayed in Twoson due to large invasion by the RRS>" end
+
+l_0xc84f55:
+    call(l_0xc84a6e) call(l_0xc84a8a) "@<Hard tacos confirmed more popular than soft tacos, according to a recent survey in Twoson>" end
+
+l_0xc84f98:
+    call(l_0xc84a6e) call(l_0xc84a8a) "@<People returning to their normal selves.{pause(25)} Things are returning to how they used to be>" next
+    "@<<What even happened?>>" linebreak
+    "@<<What did I miss?>,{pause(45)} asks townsperson who managed to sleep through all this>" end
+
+l_0xc84fd8:
+    call(l_0xc841de) "{ctoarg}{swap}[1F C0 1D {e(l_0xc850ff)} {e(l_0xc850ff)} {e(l_0xc850ff)} {e(l_0xc850ff)} {e(l_0xc850ff)} {e(l_0xc850ff)} {e(l_0xc850ff)} {e(l_0xc850ff)} {e(l_0xc850ff)} {e(l_0xc850ff)} {e(l_0xc850ff)} {e(l_0xc850ff)} {e(l_0xc8514f)} {e(l_0xc8519e)} {e(l_0xc851e9)} {e(l_0xc8522f)} {e(data_38.l_0xc85291)} {e(data_38.l_0xc852f0)} {e(data_38.l_0xc8533a)} {e(data_38.l_0xc85370)} {e(data_38.l_0xc853b0)} {e(data_38.l_0xc8544c)} {e(data_38.l_0xc8549d)} {e(data_38.l_0xc854cc)} {e(data_38.l_0xc85507)} {e(data_38.l_0xc85548)} {e(data_38.l_0xc855d4)} {e(data_38.l_0xc85610)} {e(data_38.l_0xc85651)}]" eob
+
+l_0xc85059:
+    "@It is good to see you again,{pause(20)} friend who I have never seen." linebreak
+    eob
+
+l_0xc85065:
+    "@You must be afraid,{pause(30)} and confused." next
+    "@It's okay.{pause(45)} That's why I am here to help." next
+    "@This is our <newspaper> if that's what you prefer.{pause(35)} The <Threed Messiah>" next
+    "@The name is unfitting..." linebreak
+    "@There is no such thing present in a place like this." next
+    eob
+
+l_0xc850d8:
+    "@Hello there,{pause(25)} fellow visitor!" next
+    eob
+
+l_0xc850e6:
+    "@Would you like to see the latest edition of <Threedom NOW>?{pause(35)} It's our newest newspaper!" next
+    eob
+
+l_0xc850ff:
+    call(l_0xc85059) "@<New way to inhabit inanimate objects!>" next
+    call(l_0xc85065) "@<Just die and turn into a ghost...>" next
+    "@<...and you'll have lots of things to boast...>" next
+    "@<Try this out today!>" end
+
+l_0xc8514f:
+    call(l_0xc85059) "@<New kid in town impresses everybody with black magic skills>" next
+    call(l_0xc85065) "@<Witnesses say that he performed a sacred ritual for a soul possession of a tent>" next
+    end
+
+l_0xc8519e:
+    call(l_0xc85059) "@<Town lacking human sacrifices>" next
+    call(l_0xc85065) "@<<Things are seeming to get out of hand." next
+    "@We've already lost two hosts this morning,{pause(20)} and we don't know where they went.>,{pause(45)} says citizen>" end
+
+l_0xc851e9:
+    call(l_0xc85059) "@I am not at all pleased with this.{pause(35)} Who could have done something so terrible?" next
+    call(l_0xc85065) "@<Paranormal activity on a possessed tent has been halted>" end
+
+l_0xc8522f:
+    call(l_0xc850d8) "@It seems as though they have everyone..." next
+    "...but a handful of people, including me,{pause(30)} have slipped through the town's view." next
+    "@<Satanic activity ceased in Threed>" next
+    "@<Public transportation soon to resume>" end
+

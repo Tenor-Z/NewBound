@@ -1,0 +1,395 @@
+/*
+ * EarthBound Text Dump                                    // Finished
+ * Time: 16:51:30 - 12/09/2019
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc5c76f:
+    "@You want" linebreak
+    "the [1C 05 00]?" next
+    eob
+
+l_0xc5c77e:
+    "@Who will carry it?[03]" eob
+
+l_0xc5c78a:
+    "@Can't decide on what you want today?{pause(30)} That's okay." next
+    eob
+
+l_0xc5c7ae:
+    "@You don't have enough money for this item." next
+    eob
+
+l_0xc5c7b9:
+    "@You seem to be overloaded with stuff." next
+    "@Make some room in your bag and try again." end
+
+l_0xc5c7f1:
+    "@Thanks!." next
+    eob
+
+l_0xc5c7fb:
+    "@Thank you." next
+    eob
+
+l_0xc5c804:
+    "@Is there anything else you need?" linebreak
+    eob
+
+l_0xc5c80d:
+    "@[1C 02 00] is overloaded with stuff." next
+    "@They can't carry anything else." next
+    "@Can someone substitute for him?" linebreak
+    " " eob
+
+l_0xc5c845:
+    "@If you saw the sign outside,{pause(30)} you know what our restaurant is about." next
+    eob
+
+l_0xc5c86c:
+    "@Take care." end
+
+l_0xc5c876:
+    "@Please take care." end
+
+l_0xc5c88a:
+    "@What would you like to do?[03]" eob
+
+l_0xc5c896:
+    "@[1C 05 00]?" next
+    eob
+
+l_0xc5c89e:
+    "@Who will be responsible for this?[03]" eob
+
+l_0xc5c8aa:
+    "@You don't want to order today?{pause(30)} You're truly missing out on today's special." next
+    eob
+
+l_0xc5c8c8:
+    "@You're short on money." next
+    eob
+
+l_0xc5c8d8:
+    "@I'm sorry, but there's a bit of a problem." next
+    "@You're carrying too many belongings right now." next
+    "@Empty out and get rid of some things,{pause(25)} then try again." end
+
+l_0xc5c916:
+    "@Thank you." next
+    eob
+
+l_0xc5c920:
+    "@Thank you." next
+    eob
+
+l_0xc5c92a:
+    "@Would you like anything else?" linebreak
+    eob
+
+l_0xc5c933:
+    "@We have a bit of a problem." next
+    "@[1C 02 00] is carrying too many belongings." next
+    "@Can someone else carry it for them?" linebreak
+    eob
+
+l_0xc5c96a:
+    "@Hey, you don't look too good." next
+    "@There must be something bothering you." next
+    eob
+
+l_0xc5c99a:
+    "@Goodbye!" end
+
+l_0xc5c9a4:
+    "@Goodbye!" end
+
+l_0xc5c9ae:
+    "@Is there anything you need?[03]" eob
+
+l_0xc5c9b7:
+    "@Tsk tsk...{pause(30)} The [1C 05 00]?" next
+    eob
+
+l_0xc5c9c2:
+    "@Do you know who will carry it?[03]" eob
+
+l_0xc5c9ce:
+    "@Oh, so you don't want to buy it then?" next
+    eob
+
+l_0xc5c9e7:
+    "@Hey, man. You don't have any money." next
+    eob
+
+l_0xc5c9f2:
+    "@You got too much stuff with you." end
+
+l_0xc5ca04:
+    "@Thanks." next
+    eob
+
+l_0xc5ca0a:
+    "@Thanks." next
+    eob
+
+l_0xc5ca10:
+    "@Are you planning on buying anything else?" linebreak
+    eob
+
+l_0xc5ca1e:
+    "@[1C 02 00] is carrying too much stuff right now." next
+    "@I cannot give this item to them." next
+    "@Can someone else carry it?" linebreak
+    eob
+
+l_0xc5ca56:
+    "@I can no longer sell NOVA." next
+    "@But it doesn't matter because now I'm selling Magic Tarts," next
+    "@Yeah...{pause(30)} I got arrested last time for possession of illegal drugs!" next
+    eob
+
+l_0xc5cab4:
+    "@You reminded me how much I love this job!" end
+
+l_0xc5cad0:
+    "@You reminded me how much I love this job!" end
+
+l_0xc5caec:
+    "@This is all I have in stock." next
+    eob
+
+l_0xc5cafe:
+    "@You want to buy" linebreak
+    "  some tasty [1C 05 00]?" next
+    eob
+
+l_0xc5cb12:
+    "@Who is going to carry it?[03]" eob
+
+l_0xc5cb1e:
+    "@Aw man, that sucks!{pause(30)} I thought I was gonna get outta here today." end
+
+l_0xc5cb29:
+    "@I can't sell this to you if you can't pay for it." end
+
+l_0xc5cb33:
+    "@You got so much stuff on your shoulders right now!" next
+    "@You really gotta empty that bag sooner or later!" end
+
+l_0xc5cb67:
+    "@Thank you." next
+    eob
+
+l_0xc5cb71:
+    "@Double thanks!" next
+    eob
+
+l_0xc5cb7b:
+    "@Anything else you want to buy?" linebreak
+    eob
+
+l_0xc5cb88:
+    "@[1C 02 00] is carrying too much." next
+    "@It's impossible to sell this, due to your lack of space." next
+    "@Can someone else carry it?" linebreak
+    eob
+
+l_0xc5cbc0:
+    "@What's up?{pause(30)} I'm selling fresh water for a very good price!{pause(30)} Get it now, before it all goes away!" next
+    eob
+
+l_0xc5cbdc:
+    "@Today I open up my business,{pause(25)} whether it survives to see another day is a tommorow's mystery." next
+    "@The only thing we can do now is take it one step at a time, you know?" end
+
+l_0xc5cc35:
+    "@<Water tastes better than all that sugary stuff!>{pause(35)} You'll hear that from your dentist!" end
+
+l_0xc5cc53:
+    "@It's quite costly though..." next
+    eob
+
+l_0xc5cc63:
+    "@You want to buy some" linebreak
+    "  [1C 05 00]?" next
+    eob
+
+l_0xc5cc83:
+    "@Who is going to carry it?[03]" eob
+
+l_0xc5cc8f:
+    "@<Water tastes better than all that sugary stuff!>{pause(35)} You'll hear that from your dentist!" end
+
+l_0xc5ccae:
+    "@I'm sorry but you can't afford this right now." end
+
+l_0xc5ccbd:
+    "@You cannot carry any more items." end
+
+l_0xc5ccca:
+    "@Well, business is certainly booming!" next
+    eob
+
+l_0xc5ccda:
+    "@Well, business is certainly booming!" next
+    eob
+
+l_0xc5ccea:
+    "@Do you want to buy some more?" linebreak
+    eob
+
+l_0xc5ccf5:
+    "@[1C 02 00] is already carrying too many things." next
+    "@Can someone else carry it?" linebreak
+    eob
+
+l_0xc5cd18:
+    "@I've got some fresh bananas?{pause(25)} They're pretty healthy!" next
+    eob
+
+l_0xc5cd29:
+    "@Thank you." end
+
+l_0xc5cd2f:
+    "@Well, if you ever need to buy some bananas, you know where to find me!{pause(25)} Hee hee." end
+
+l_0xc5cd51:
+    "@Would you" linebreak
+    "like to buy some?" next
+    eob
+
+l_0xc5cd64:
+    "@You want" linebreak
+    "  the [1C 05 00]?" next
+    eob
+
+l_0xc5cd73:
+    "@Who is going to carry it?[03]" eob
+
+l_0xc5cd7f:
+    "@You don't want any?{pause(25)} Your loss, kid." end
+
+l_0xc5cd97:
+    "{load_registers}@You know you have to pay for the bananas, right?" end
+
+l_0xc5cdb3:
+    "@You cannot carry any more." end
+
+l_0xc5cdc0:
+    "@Thank you." next
+    eob
+
+l_0xc5cdcc:
+    "@Thank you." next
+    eob
+
+l_0xc5cdd8:
+    "@I have so much bananas to sell!{pause(25)} So much!{pause(25)} Are you interested in buying some more?" linebreak
+    eob
+
+l_0xc5cdf2:
+    "@[1C 02 00] can't carry a banana right now." next
+    "@Will someone else carry it for {swap}" call(data_33.l_0xc7e6a4) "?" linebreak
+    eob
+
+l_0xc5ce22:
+    "@Hey there!" next
+    "@Can I interest you in some delicous seasoning?" next
+    "@I've got nothing better to sell,{pause(25)} but that's okay!{pause(40)} These things are really neat!" next
+    "@They automatically sprinkle onto your food whenever you're gettin' ready to eat,{pause(35)} and it adds a new taste to the food completely." next
+    "@It all depends on the food itself regarding whether you like it or not." next
+    "@It's like one big guessing game!" next
+    eob
+
+l_0xc5cec0:
+    "@Please come again." end
+
+l_0xc5cec8:
+    "@Please come again." end
+
+l_0xc5ced0:
+    "@What would you like?" next
+    eob
+
+l_0xc5cedc:
+    "@[1C 05 00]?" next
+    eob
+
+l_0xc5cee4:
+    "@Who is going to carry it?[03]" eob
+
+l_0xc5cef0:
+    "@Please come again." next
+    eob
+
+l_0xc5cef9:
+    "@Oh, it looks like you don't have enough money." next
+    eob
+
+l_0xc5cf0a:
+    "@Oh, I don't think you can carry any more." end
+
+l_0xc5cf1c:
+    "@Thank you very much." next
+    eob
+
+l_0xc5cf26:
+    "@Thank you very much." next
+    eob
+
+l_0xc5cf30:
+    "@Would you like to buy anything else?" linebreak
+    eob
+
+l_0xc5cf3d:
+    "@[1C 02 00] is already carrying too many things." next
+    "@Can someone else carry it?" linebreak
+    eob
+
+l_0xc5cf60:
+    " resort)" goto(l_0xc5cf67)
+
+l_0xc5cf67:
+    "@We've got some really spectacular things!" next
+    eob
+
+l_0xc5cf82:
+    "@Please come again." end
+
+l_0xc5cf8a:
+    "@You really should eat here! " end
+
+l_0xc5cf9b:
+    "@What would you like?[03]" eob
+
+l_0xc5cfa6:
+    "@[1C 05 00]?" next
+    eob
+
+l_0xc5cfae:
+    "@Who is going to carry it?[03]" eob
+
+l_0xc5cfba:
+    "@Do you mean to tell me you are not going to buy anything...?" end
+
+l_0xc5cfd5:
+    "@You don't have enough money." end
+
+l_0xc5cfdf:
+    "@You are carrying too many things already." next
+    "@Sell something, or throw something away, and come back." end
+
+l_0xc5d00c:
+    "@Thank you very much.[03]" eob
+
+l_0xc5d015:
+    "@Thank you very much.[03]" eob
+
+l_0xc5d01e:
+    "@Would you like to buy one more?" linebreak
+    eob
+

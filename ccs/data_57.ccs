@@ -1,0 +1,482 @@
+/*
+ * EarthBound Text Dump
+ * Time: 16:51:30 - 12/09/2019
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xef6e03:
+    newline
+    "@{target} was obliterated!{sound(33)}" eob
+
+l_0xef6e19:
+    newline
+    "@{target} regained their senses!{sound(33)}" eob
+
+l_0xef6e31:
+    newline
+    "@{target} disappeared for good!{sound(33)}" eob
+
+l_0xef6e4a:
+    newline
+    "@{target}'s body" linebreak
+    "  returned to normal!{sound(37)}[03]" eob
+
+l_0xef6e67:
+    newline
+    "@{target}" linebreak
+    "  no longer feels numb!{sound(37)}[03]" eob
+
+l_0xef6e81:
+    newline
+    "@{target} felt" linebreak
+    "  much better!{sound(37)}[03]" eob
+
+l_0xef6e97:
+    newline
+    "@The poison was washed away in" linebreak
+    "  {target}'s body!{sound(37)}[03]" eob
+
+l_0xef6ebc:
+    newline
+    "@{target} got over" linebreak
+    "  the cold!{sound(37)}[03]" eob
+
+l_0xef6ed1:
+    newline
+    "@{target} finally" linebreak
+    "  stopped crying...{sound(37)}[03]" eob
+
+l_0xef6eed:
+    newline
+    "@{target}'s body" linebreak
+    "  again moved freely!{sound(37)}[03]" eob
+
+l_0xef6f0b:
+    newline
+    "@{target} was" linebreak
+    "  able to move!{sound(37)}[03]" eob
+
+l_0xef6f1e:
+    newline
+    "@{target} went" linebreak
+    "  back to normal!{sound(37)}[03]" eob
+
+l_0xef6f38:
+    newline
+    "@{target}" linebreak
+    "  no longer felt sunstroke!{sound(37)}[03]" eob
+
+l_0xef6f54:
+    newline
+    "@{target} woke up!{sound(37)}[03]" eob
+
+l_0xef6f64:
+    newline
+    "@{target} was" linebreak
+    "  able to concentrate!{sound(37)}[03]" eob
+
+l_0xef6f7c:
+    newline
+    "@{target} was revived!{sound(37)}[03]" eob
+
+l_0xef6f8e:
+    newline
+    "@It failed...[03]" eob
+
+l_0xef6f9a:
+    newline
+    "@{target}'s body was entombed by the strong aura of light![03]" eob
+
+l_0xef6fbd:
+    newline
+    "@{target}'s shield gained more strength![03]" eob
+
+l_0xef6fd3:
+    newline
+    "@{target}'s body was entombed in the power shield![03]" eob
+
+l_0xef6ff4:
+    newline
+    "@{target}'s power shield gained more strength![03]" eob
+
+l_0xef700c:
+    newline
+    "@{target}'s body was entombed in the psychic shield![03]" eob
+
+l_0xef7032:
+    newline
+    "@{target}'s psychic shield gained more strength![03]" eob
+
+l_0xef7050:
+    newline
+    "@{target}'s body was entombed in" next
+    "  the psychic power shield![03]" eob
+
+l_0xef707a:
+    newline
+    "@{target}'s psychic power shield gained more strength![03]" eob
+
+l_0xef7099:
+    newline
+    "@{target}'s shield got weak" linebreak
+    " and disappeared![03]" eob
+
+l_0xef70b1:
+    newline
+    "@The power shield" linebreak
+    "  deflected the attack!{sound(93)}{pause(30)}[03]" eob
+
+l_0xef70d2:
+    newline
+    "@The psychic power shield" linebreak
+    "[19 1F]{swap}  deflected [1C 12 00]!{sound(93)}[03]" eob newline
+    "@{target}'s psychic shield made[19 1F]{swap} [1C 12 00] vanish completely![03]" eob newline
+    "@The effects of PSI on" linebreak
+    "  {target} are gone!{sound(41)}[03]" eob
+
+l_0xef7142:
+    newline
+    "@[1C 01 4A] reverted" linebreak
+    "  to his normal form![03]" eob
+
+l_0xef7160:
+    newline
+    "@The Franklin Badge reflected back" linebreak
+    "  the lightning!{sound(93)}[03]" eob
+
+l_0xef7186:
+    newline
+    "@{user} is unable to move![03]" eob
+
+l_0xef7192:
+    newline
+    "@{user}'s body is" linebreak
+    "  numb.{pause(30)} " call(data_33.l_0xc7e602) " can't move![03]" eob
+
+l_0xef71b4:
+    newline
+    "@{user} is" linebreak
+    "  too sick to fight...[03]" eob
+
+l_0xef71cc:
+    newline
+    "@{target} is" linebreak
+    "  poisoned![03]" eob
+
+l_0xef71df:
+    newline
+    "@{user} is" linebreak
+    "  asleep![03]" eob
+
+l_0xef71f6:
+    newline
+    "@{user} can't" linebreak
+    "  move![03]" eob
+
+l_0xef720c:
+    newline
+    "[1F 41 08][1B 02 {e(l_0xef721e)}]{sound(55)}" goto(l_0xef7221)
+
+l_0xef721e:
+    "{sound(29)}" goto(l_0xef7221)
+
+l_0xef7221:
+    "@{user}[19 1F]{swap} tried" linebreak
+    "  [1C 12 00]!{sound(87)}" next
+    "@It didn't work at all![03]" eob newline
+    "@{target} is" linebreak
+    " standing their ground![03]" eob
+
+l_0xef725a:
+    newline
+    "@{user} was too distracted" linebreak
+    "  in eating the content inside the <Jar of Innards>![03]" eob
+
+l_0xef727f:
+    "[1D 21 03][09 03 {e(l_0xef72a0)} {e(l_0xef72b9)} {e(l_0xef72db)}]" newline
+    "@{user} felt terribly unconfident.[03]" eob
+
+l_0xef72a0:
+    newline
+    "@{user} feels like heading back home.[03]" eob
+
+l_0xef72b9:
+    newline
+    "@{user} started to cry.{pause(35)} {user} wants to go back home.[03]" eob
+
+l_0xef72db:
+    newline
+    "@{user} lost motivation" linebreak
+    "  to battle.[03]" eob
+
+l_0xef72f6:
+    eob
+
+l_0xef72f7:
+    newline
+    "@Black smoke was emmitted" linebreak
+    "  {user}'s body!{prompt}" linebreak
+    "@" call(data_33.l_0xc7e6d7) " is" linebreak
+    "  surrounded in the smoke!{prompt}" linebreak
+    "@It's getting harder to see!{prompt}" eob
+
+l_0xef733d:
+    newline
+    "@Hang on!{pause(35)} Someone's coming into the room..." linebreak
+    "@<Hey!{pause(25)} Get away from [1C 02 01], you weird floating raisin!>{prompt}{music(149)}{pause(60)}" newline
+    "@It was the Runaway Five!{prompt}{window_closetop}{pause(30)}{window_open(1)}" newline
+    "[1F 62 00]@They began to blast loud and energetic through the entire room.{prompt}{sound(11)}{pause(60)}{window_clear}@<You're no match for us, little dude. >" next
+    "@The powerful music drowned out the dark thoughts." linebreak
+    "@<Buh-bye!>{pause(20)}{prompt}{window_clear}@<Remember us,{pause(30)} the best band in the world!{pause(50)} Now and forever, baby!>{prompt}{pause(60)}[1F 62 01]{window_closetop}{window_open(14)}{set(flag 318)}" eob
+
+l_0xef7415:
+    "[1F 71 04 02]" newline
+    "@Something began to emerge from the water." linebreak
+    "@It was [1C 02 04]." eob
+
+l_0xef743b:
+    newline
+    "@[1C 02 04] snuck up from behind{prompt}" linebreak
+    "and used PSI Starstorm on the enemy!{prompt}" linebreak
+    eob
+
+l_0xef745f:
+    "[1D 21 08][09 08 {e(l_0xef749d)} {e(l_0xef74b0)} {e(l_0xef74c9)} {e(l_0xef74e6)} {e(l_0xef74fa)} {e(l_0xef7514)} {e(l_0xef7530)} {e(l_0xef7548)}]" newline
+    "@Pokey took off his shirt and hit the enemy with it.{pause(30)}" linebreak
+    "@The enemy was not affected.[03]" eob
+
+l_0xef749d:
+    newline
+    "@Pokey burped abruptly loud![03]" eob
+
+l_0xef74b0:
+    newline
+    "@Pokey vommitted" linebreak
+    "  on the grass![03]" eob
+
+l_0xef74c9:
+    newline
+    "@Pokey tripped" linebreak
+    "  over his own feet![03]" eob
+
+l_0xef74e6:
+    newline
+    "@Pokey fell asleep," linebreak
+    "  but woke up immediantly![03]" eob
+
+l_0xef74fa:
+    newline
+    "@Pokey started laughing" linebreak
+    "  for no reason![03]" eob
+
+l_0xef7514:
+    newline
+    "@Pokey tried to give [1C 01 08]" linebreak
+    " a kiss![03]" eob
+
+l_0xef7530:
+    newline
+    "@Pokey is trying very" linebreak
+    "  hard not to fall![03]" eob
+
+l_0xef7548:
+    newline
+    "@Pokey drank some" linebreak
+    "  of his drink![03]" eob
+
+l_0xef7569:
+    newline
+    "@{user} is" linebreak
+    "  wondering what to do![03]" eob
+
+l_0xef7579:
+    newline
+    "@{user} is" linebreak
+    "  busy on his phone![03]" eob
+
+l_0xef7591:
+    newline
+    eob
+
+l_0xef7593:
+    newline
+    "@{user} is" linebreak
+    "  too confused to help![03]" eob
+
+l_0xef75ab:
+    newline
+    "{sound(46)}@{delta} HP of damage" linebreak
+    "  to {target}![03]" eob
+
+l_0xef75c2:
+    newline
+    "{sound(30)}@{delta} HP of damage" linebreak
+    "  to {target}![03]" eob
+
+l_0xef75d9:
+    newline
+    "{sound(46)}@{delta} HP of damage" linebreak
+    "  to {target}![03]" eob
+
+l_0xef75f0:
+    newline
+    "{sound(30)}@{delta} HP of damage" linebreak
+    "  to {target}![03]" eob
+
+l_0xef7607:
+    newline
+    "{sound(47)}@{delta} HP of severe damage" linebreak
+    "  to {target}![03]" eob
+
+l_0xef7624:
+    newline
+    "{sound(31)}  [1C 08 01]" linebreak
+    "[03]" eob
+
+l_0xef7630:
+    newline
+    "  [1C 08 01]" linebreak
+    "{sound(47)}[03]" eob
+
+l_0xef763c:
+    newline
+    "{sound(35)}@{target} dodged" linebreak
+    "  the attack![03]" eob
+
+l_0xef7655:
+    newline
+    "{sound(35)}@{target} dodged" linebreak
+    "  the attack![03]" eob
+
+l_0xef766e:
+    newline
+    "@It didn't work" linebreak
+    "  on {target}![03]" eob
+
+l_0xef7682:
+    newline
+    "@It didn't work" linebreak
+    "  on {target}![03]" eob
+
+l_0xef7696:
+    newline
+    "@{target} wasn't affected" linebreak
+    "  at all![03]" eob
+
+l_0xef76b3:
+    newline
+    "@It didn't work" linebreak
+    "  on {target}![03]" eob
+
+l_0xef76c7:
+    newline
+    "{sound(34)}@But the attack missed![03]" eob
+
+l_0xef76d8:
+    newline
+    "{sound(34)}@...barely" linebreak
+    "  missing the target![03]" eob
+
+l_0xef76fd:
+    newline
+    "@But {target} was" linebreak
+    "  already dead...[03]" eob
+
+l_0xef7710:
+    newline
+    "@{user} drained " call(data_33.l_0xc7e66e) " own HP![03]" eob
+
+l_0xef7729:
+    newline
+    "@Drained away {delta} HP" linebreak
+    "  from {target}![03]" eob
+
+l_0xef773f:
+    newline
+    "@Drained away {delta} PP" linebreak
+    "  from {target}![03]" eob
+
+l_0xef7755:
+    newline
+    "@{target} lost" linebreak
+    "  {delta} PP![03]" eob
+
+l_0xef7768:
+    newline
+    "@{user} felt sick" linebreak
+    "  and took {delta} HP damage![03]" eob
+
+l_0xef7787:
+    newline
+    "@{target} felt pain" linebreak
+    "  from the poison" next
+    "  and took {delta} HP damage.[03]" eob
+
+l_0xef77b1:
+    newline
+    "@{target} felt dizzy" linebreak
+    "  and weak and received {delta} HP damage![03]" eob
+
+l_0xef77db:
+    newline
+    "@{target} sneezed" linebreak
+    "  and received {delta} HP damage![03]" eob
+
+l_0xef77fd:
+    newline
+    "@{target} joined" linebreak
+    "  the battle.[03]" eob
+
+l_0xef7810:
+    newline
+    "@{target} started" linebreak
+    "  growing.[03]" eob
+
+l_0xef7824:
+    newline
+    "@But no one was there.[03]" eob
+
+l_0xef7830:
+    newline
+    "@But, the seed didn't sprout.[03]" eob
+
+l_0xef7843:
+    "{music(98)}" newline
+    "@Time started again.[03]" eob
+
+l_0xef7858:
+    newline
+    "@" call(data_58.l_0xef790b) " attacked![03]" eob
+
+l_0xef7866:
+    newline
+    "@" call(data_58.l_0xef790b) " blocked the way![03]" eob
+
+l_0xef7879:
+    newline
+    "@" call(data_58.l_0xef790b) " directly targetted you![03]" eob
+
+l_0xef788b:
+    newline
+    "@" call(data_58.l_0xef790b) " trapped you![03]" eob
+
+l_0xef789c:
+    "@You encounter " call(data_58.l_0xef794b) "[03]" eob
+
+l_0xef78ab:
+    "@You meet " call(data_58.l_0xef794b) "[03]" eob
+
+l_0xef78b8:
+    "@You engage " call(data_58.l_0xef794b) "[03]" eob
+
+l_0xef78c7:
+    "@You confront " call(data_58.l_0xef794b) "[03]" eob
+
+l_0xef78d8:
+    newline
+    "@Now's your chance!{pause(25)}" linebreak
+    "  Hit them with an opening attack before it's too late![03]" eob
+

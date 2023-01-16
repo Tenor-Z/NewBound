@@ -1,0 +1,383 @@
+/*
+ * EarthBound Text Dump
+ * Time: 16:51:30 - 12/09/2019
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc7dc29:
+    "[1F C0 04 {e(l_0xc7dc3d)} {e(l_0xc7dc3e)} {e(l_0xc7dc3d)} {e(l_0xc7dc3e)}]" eob
+
+l_0xc7dc3d:
+    eob
+
+l_0xc7dc3e:
+    eob
+
+l_0xc7dc3f:
+    "{counter(1)}" goto(l_0xc7dc41)
+
+l_0xc7dc41:
+    "{inc}{ctoarg}[19 10 00][1B 02 {e(l_0xc7dc76)}]{store_registers}[18 07 05 00 00 00 00][1B 03 {e(l_0xc7dc76)}]{load_registers}[1D 0D 00 01 02][1B 03 {e(l_0xc7dc41)}]{load_registers}[1D 0D 00 01 03][1B 03 {e(l_0xc7dc41)}]" goto(l_0xc7dc76)
+
+l_0xc7dc76:
+    eob goto(l_0xc7dc7e)
+
+l_0xc7dc7e:
+    eob
+
+l_0xc7dc7f:
+    "{ctoarg}{swap}{store_registers}" goto(l_0xc7dc85)
+
+l_0xc7dc85:
+    "[1D 0D 00 01 02][1B 03 {e(l_0xc7dc97)}]{load_registers}[1D 0D 00 01 03]" goto(l_0xc7dc97)
+
+l_0xc7dc97:
+    eob
+
+l_0xc7dc98:
+    "{ctoarg}" eob
+
+l_0xc7dc9b:
+    "{swap}{store_registers}{result_is(1)}[1B 03 {e(l_0xc7dcb5)}]{load_registers}{result_is(2)}[1B 03 {e(l_0xc7dcb5)}]{load_registers}{result_is(8)}" goto(l_0xc7dcb5)
+
+l_0xc7dcb5:
+    eob
+
+l_0xc7dcb6:
+    "{sound(116)}{pause(60)}[1B 05]{window_closeall}{sound(102)}{pause(100)}{window_open(1)}[1B 06]" call(l_0xc7dcda) eob
+
+l_0xc7dccf:
+    "{sound(116)}{pause(60)}" call(l_0xc7dcda) eob
+
+l_0xc7dcda:
+    "{store_registers}" call(l_0xc7dc85) "[1B 03 {e(l_0xc7dd03)}]{load_registers}{swap}" newline
+    "@([1C 02 00] got" linebreak
+    "  the {swap}[19 19 00 00][1C 05 00].)" eob goto(l_0xc7dd03)
+
+l_0xc7dd03:
+    "[19 10 01]{swap}@([1C 02 00] decided to put the {load_registers}[19 19 00 00][1C 05 00]" linebreak
+    "  with {swap}[1C 02 00]'s belongings.)" eob goto(l_0xc7dd2c)
+
+l_0xc7dd2c:
+    "[1B 05][19 19 00 00]{store_registers}{swap}" eob goto(l_0xc7dd37)
+
+l_0xc7dd37:
+    "{swap}@[1C 02 00] used" linebreak
+    "  the {swap}[1C 05 00].[03]" eob
+
+l_0xc7dd4b:
+    "{open_hp}" goto(l_0xc7dd4d)
+
+l_0xc7dd4d:
+    "{open_wallet}" goto(l_0xc7dd4f)
+
+l_0xc7dd4f:
+    "[19 02]Yes[02][19 02]No[02][1C 07 02]" eob
+
+l_0xc7dd5e:
+    "[11]{clearline}[06 93 02 {e(l_0xc7dd68)}]" eob
+
+l_0xc7dd68:
+    "[0C 01]" eob
+
+l_0xc7dd6b:
+    "[1F 07 03]{pause(180)}[1F 01 00]" eob
+
+l_0xc7dd74:
+    "[1F 07 02]{pause(30)}[1F 01 00]" eob
+
+l_0xc7dd7d:
+    call(l_0xc7dd6b) "{music_resume}" eob
+
+l_0xc7dd85:
+    call(l_0xc7dd74) "{music_resume}" eob
+
+l_0xc7dd8d:
+    "{isset(flag 180)}[1B 03 {e(l_0xc7dde7)}]{isset(flag 181)}[1B 03 {e(l_0xc7dde7)}]{isset(flag 645)}[1B 03 {e(l_0xc7dde7)}]{isset(flag 446)}[1B 03 {e(l_0xc7dde7)}]{isset(flag 646)}[1B 03 {e(l_0xc7dde7)}]{isset(flag 647)}[1B 03 {e(l_0xc7dde7)}]{isset(flag 648)}[1B 03 {e(l_0xc7dde7)}]{isset(flag 675)}[1B 03 {e(l_0xc7dde7)}]{isset(flag 694)}[1B 03 {e(l_0xc7dde7)}]{isset(flag 695)}[1B 03 {e(l_0xc7dde7)}]" goto(l_0xc7dde7)
+
+l_0xc7dde7:
+    eob
+
+l_0xc7dde8:
+    "[1F E9 1F 05][1F 61]" eob
+
+l_0xc7ddef:
+    "{unset(flag 180)}{unset(flag 181)}{unset(flag 645)}{unset(flag 446)}{unset(flag 646)}{unset(flag 647)}{unset(flag 648)}{unset(flag 675)}{unset(flag 694)}{unset(flag 695)}{unset(flag 754)}" eob
+
+l_0xc7de11:
+    "{unset(flag 383)}{unset(flag 542)}{unset(flag 543)}{set(flag 778)}[06 F4 02 {e(l_0xc7de2a)}]{unset(flag 754)}{unset(flag 779)}" goto(l_0xc7de2a)
+
+l_0xc7de2a:
+    eob
+
+l_0xc7de2b:
+    "{unset(flag 383)}" eob
+
+l_0xc7de2f:
+    "{music(115)}{pause(60)}{wait}[1F 01 00]{sound(11)}" eob
+
+l_0xc7de3d:
+    newline
+    "@*Click!*" linebreak
+    "@Beep...{pause(25)} Beep...{pause(25)} Beep...{wait}{sound(11)}" eob
+
+l_0xc7de54:
+    call(l_0xc7de3d) "{window_closeall}{pause(10)}{music_resume}" eob
+
+l_0xc7de60:
+    "{unset(flag 779)}" call(l_0xc7dd8d) "[1B 03 {e(data_50.l_0xc9992f)}]{unset(flag 754)}" eob
+
+l_0xc7de72:
+    "[06 0B 03 {e(data_50.l_0xc9992f)}]{unset(flag 754)}" eob
+
+l_0xc7de7d:
+    call(l_0xc7de11) call(data_22.l_0xc69082) "{window_open(1)}" call(l_0xc7dfa4) "@[1C 02 00].{pause(30)} Looks like you got hurt badly!" next
+    "@But you can't give up just yet!" next
+    "@You've got to keep going!" next
+    "@Are you ready to get back up?" linebreak
+    "[19 02]Yes[02]  [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc7df3c)} {e(l_0xc7dee0)}]" goto(l_0xc7dee0)
+
+l_0xc7dee0:
+    "@But if you give up now..." next
+    "@Everything you've worked for" linebreak
+    "will become meaningless." next
+    "@Are you going to give up now?" linebreak
+    "[19 02]No[02]  [19 02]Yes[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc7df3c)} {e(l_0xc7df78)}]" goto(l_0xc7df3c)
+
+l_0xc7df3c:
+    "@[1C 02 00] decided to keep on fighting,{pause(25)} bearing a more stronger flame in his soul!" next
+    "@You can do it!{pause(35)} Don't lose hope!{wait}{window_closeall}{set(flag 475)}" eob
+
+l_0xc7df78:
+    "@This is it, then.{pause(35)} Our time has come..." next
+    "@Goodnight, [1C 02 00].{wait}{window_closeall}{unset(flag 475)}" eob
+
+l_0xc7dfa4:
+    "[06 0E 00 {e(l_0xc7dfb9)}]{isset(flag 128)}[1B 02 {e(l_0xc7dfb9)}]{counter(3)}{ctoarg}" eob
+
+l_0xc7dfb9:
+    "{counter(1)}{ctoarg}" eob
+
+l_0xc7dfbe:
+    "[1F 13 01 02]{pause(16)}[1F 13 01 03]{pause(12)}[1F 13 01 04]{pause(8)}[1F 13 01 05]{pause(60)}{music(79)}[1F EA 6A 00][1F 61][1F E7 6A 00]{open_hp}[1F 41 0D]{window_open(1)}@[1C 01 08]'s strength increased with memory of the Giant Step!" next
+    "@[1C 01 08]'s Speed increased by 5!{sound(40)}[1E 0C 01 05]" next
+    "@[1C 01 08]'s Vitality increased by 5!{sound(40)}[1E 0D 01 05]" next
+    "@[1C 01 08]'s strength increased with the memory of Shadow Wood!" next
+    "@[1C 01 08]'s Guts increased by 5!{sound(40)}[1E 0B 01 05]" next
+    "@[1C 01 08]'s Luck increased by 5!{sound(40)}[1E 0E 01 05]" next
+    "@[1C 01 08]'s strength increased with the memory of Welfare Lake!" next
+    "@[1C 01 08]'s Speed increased by 5!{sound(40)}[1E 0C 01 05]" next
+    "@[1C 01 08]'s IQ increased by 5!{sound(40)}[1E 0A 01 05]" next
+    "@[1C 01 08]'s strength increased with the memory of Rainfield!" next
+    "@[1C 01 08]'s Vitality increased by 5!{sound(40)}[1E 0D 01 05]" next
+    "@[1C 01 08]'s Luck increased by 5!{sound(40)}[1E 0E 01 05]" next
+    "@[1C 01 08]'s strength increased with the memory of the Remedy Diamond!" next
+    "@[1C 01 08]'s Guts increased by 5!{sound(40)}[1E 0B 01 05]" next
+    "@[1C 01 08]'s IQ increased by 5!{sound(40)}[1E 0A 01 05]" next
+    "@[1C 01 08]'s strength increased with the memory of the Dreaming Cloud." next
+    "@[1C 01 08]'s Speed increased by 5!{sound(40)}[1E 0C 01 05]" next
+    "@[1C 01 08]'s Guts increased by 5!{sound(40)}[1E 0B 01 05]" next
+    "@[1C 01 08]'s strength increased with the memory of the Ruins of Enigma." next
+    "@[1C 01 08]'s Luck increased by 5!{sound(40)}[1E 0E 01 05]" next
+    "@[1C 01 08]'s IQ increased by 5!{sound(40)}[1E 0A 01 05]" next
+    "@[1C 01 08]'s strength increased with the memory of Ashton Spring." next
+    "@[1C 01 08]'s Speed increased by 5!{sound(40)}[1E 0C 01 05]" next
+    "@[1C 01 08]'s Luck increased by 5!{sound(40)}[1E 0E 01 05][03]{window_closeall}[1F 41 0E]{pause(60)}{window_open(1)}@All that had been forgotten,{pause(45)} had finally been remembered." next
+    "@The people and the places that have changed his life.{pause(75)} The sacrifices made along the way.{pause(75)} The experiences shared together." next
+    "@[1C 02 01] finally began to come to his senses.{pause(70)} [1C 02 01]'s strength increased with the memory of those who have impacted him...{sound(40)}{set(flag 74)}[03]{window_closeall}{pause(30)}{window_open(14)}@[1C 01 08] gained 200,000 exp.[03][1E 09 01 40 0D 03]" linebreak
+    "[1F 04 03]" newline
+    "@A powerful light shone down on [1C 02 01],{pause(40)} {sound(103)} and he developed the power Teleport [8C].[1F 71 01 01][1F 71 01 04]{prompt}[1F 04 01]{window_closeall}{pause(120)}{pause(180)}{pause(10)}[1F EB 01 06][1F E5 FF][1F 15 01 00 05 03 01]{pause(10)}[1F EA 6A 00][1F 61]{window_open(1)}@Thank you, everyone!" next
+    "@This is my first step forward.{pause(60)} I will never forget all of you![03]{window_closeall}" goto(data_52.l_0xc9b4c9)
+
+l_0xc7e3f9:
+    eob
+
+l_0xc7e3fa:
+    "[19 19 00 00]{swap}@[1C 02 00] reorganized {swap}" call(l_0xc7e660) "{swap} belongings.{pause(25)} The {swap}[1C 05 00] moved to a different spot.{wait}[02][19 19 00 00]{swap}@[1C 02 00] gave" linebreak
+    "the {swap}[1C 05 00]" linebreak
+    "for [1C 02 FF] to carry," next
+    "{load_registers}@but " call(l_0xc7e5f3) " had no more room in the bag to carry it.{wait}[02][19 19 00 00]{swap}@[1C 02 00] put" linebreak
+    "the {swap}[1C 05 00]" linebreak
+    "with [1C 02 FF]'s belongings," next
+    "@but there was no more room in the bag to carry it.{wait}[02][19 19 00 00]{swap}@[1C 02 00] gave the {swap}[1C 05 00]" linebreak
+    "for [1C 02 FF] to carry.{wait}[02][19 19 00 00]{swap}@[1C 02 00] put" linebreak
+    "  the {swap}[1C 05 00]" linebreak
+    "  with [1C 02 FF]'s belongings.{wait}[02][19 19 00 00]{swap}{store_registers}[19 10 01]{swap}@[1C 02 00]{load_registers} reorganized [1C 02 00]'s belongings.{pause(25)} The {swap}[1C 05 00] moved to a different spot.{wait}[02][19 19 00 00]@[1C 02 FF] took out" linebreak
+    "  the [1C 05 00]" linebreak
+    "  from {swap}[1C 02 00]'s belongings," next
+    "{load_registers}@but " call(l_0xc7e5f3) " had no room left in the bag to carry it.{wait}[02][19 19 00 00]{swap}[1B 05][19 10 01]{swap}@[1C 02 00][1B 06] put [1C 02 00]'s {swap}[1C 05 00]" linebreak
+    "  with [1C 02 FF]'s belongings," next
+    "@but there was no more room left in the bag to carry it.{wait}[02][19 19 00 00]@[1C 02 FF] took out" linebreak
+    "the [1C 05 00]" linebreak
+    "from {swap}[1C 02 00]'s belongings.{wait}[02][19 19 00 00]{swap}[1B 05][19 10 01]{swap}@[1C 02 00][1B 06] put [1C 02 00]'s {swap}[1C 05 00]" linebreak
+    "to [1C 02 FF]'s belongings." end goto(l_0xc7e5f3)
+
+l_0xc7e5f3:
+    "{result_is(2)}[1B 03 {e(l_0xc7e5fe)}]he" eob
+
+l_0xc7e5fe:
+    "she" eob
+
+l_0xc7e602:
+    "[1C 14 01][09 03 {e(l_0xc7e613)} {e(l_0xc7e616)} {e(l_0xc7e61a)}]" goto(l_0xc7e613)
+
+l_0xc7e613:
+    "he" eob
+
+l_0xc7e616:
+    "she" eob
+
+l_0xc7e61a:
+    "it" eob
+
+l_0xc7e61d:
+    "[1C 14 01][09 03 {e(l_0xc7e62e)} {e(l_0xc7e631)} {e(l_0xc7e635)}]" goto(l_0xc7e62e)
+
+l_0xc7e62e:
+    "He" eob
+
+l_0xc7e631:
+    "She" eob
+
+l_0xc7e635:
+    "It" eob
+
+l_0xc7e638:
+    "[1C 15 01]{swap} [1C 0A 00 00 00 00] [1C 15 01][09 03 {e(l_0xc7e656)} {e(l_0xc7e659)} {e(l_0xc7e65d)}]" goto(l_0xc7e656)
+
+l_0xc7e656:
+    "he" eob
+
+l_0xc7e659:
+    "she" eob
+
+l_0xc7e65d:
+    "it" eob
+
+l_0xc7e660:
+    "{result_is(2)}[1B 03 {e(l_0xc7e66b)}]his" eob
+
+l_0xc7e66b:
+    "her" eob
+
+l_0xc7e66e:
+    "[1C 14 01][09 03 {e(l_0xc7e67f)} {e(l_0xc7e682)} {e(l_0xc7e685)}]" goto(l_0xc7e67f)
+
+l_0xc7e67f:
+    "his" eob
+
+l_0xc7e682:
+    "her" eob
+
+l_0xc7e685:
+    "its" eob
+
+l_0xc7e689:
+    "[1C 15 01][09 03 {e(l_0xc7e69a)} {e(l_0xc7e69d)} {e(l_0xc7e6a0)}]" goto(l_0xc7e69a)
+
+l_0xc7e69a:
+    "his" eob
+
+l_0xc7e69d:
+    "her" eob
+
+l_0xc7e6a0:
+    "its" eob
+
+l_0xc7e6a4:
+    "{result_is(2)}[1B 03 {e(l_0xc7e6b0)}]him" eob
+
+l_0xc7e6b0:
+    "her" eob
+
+l_0xc7e6b3:
+    "{result_is(2)}[1B 03 {e(l_0xc7e6bf)}]sir" eob
+
+l_0xc7e6bf:
+    "ma'am" eob
+
+l_0xc7e6c5:
+    "{result_is(2)}[1B 03 {e(l_0xc7e6d1)}]Sir" eob
+
+l_0xc7e6d1:
+    "Ma'am" eob
+
+l_0xc7e6d7:
+    "[19 10 01]{swap}[1C 02 00]{counter(1)}" goto(l_0xc7e6e1)
+
+l_0xc7e6e1:
+    "{inc}{ctoarg}[1D 19 00][1B 03 {e(l_0xc7e70e)}][19 10 00][1D 0D 00 01 02][1B 03 {e(l_0xc7e70e)}][19 10 00][1D 0D 00 01 03][1B 03 {e(l_0xc7e70e)}]" goto(l_0xc7e6e1)
+
+l_0xc7e70e:
+    "{ctoarg}{swap}[09 05 {e(l_0xc7e729)} {e(l_0xc7e729)} {e(l_0xc7e72a)} {e(l_0xc7e735)} {e(l_0xc7e735)}]" eob
+
+l_0xc7e729:
+    eob
+
+l_0xc7e72a:
+    "[19 10 02]{swap} and [1C 02 00]" eob goto(l_0xc7e735)
+
+l_0xc7e735:
+    " and [19 10 01]{result_is(2)}[1B 03 {e(l_0xc7e748)}]his friends" eob goto(l_0xc7e748)
+
+l_0xc7e748:
+    "her friends" eob
+
+l_0xc7e74e:
+    "{store_registers}" call(l_0xc7e6d7) "{load_registers}" eob
+
+l_0xc7e758:
+    "[19 10 02][1D 0D 00 01 02][1B 03 {e(l_0xc7e779)}][19 10 02][1D 0D 00 01 03][1B 03 {e(l_0xc7e779)}]kids" eob goto(l_0xc7e779)
+
+l_0xc7e779:
+    "kid" eob
+
+l_0xc7e77d:
+    "{counter(1)}" goto(l_0xc7e77f)
+
+l_0xc7e77f:
+    "[19 28 02][1B 02 {e(l_0xc7e796)}]{swap}[1C 11 00][1C 03 00]{inc}" goto(l_0xc7e77f)
+
+l_0xc7e796:
+    eob
+
+l_0xc7e797:
+    "{font_saturn}[06 0A 00 {e(l_0xc7e7f8)}]@You sleepy?" linebreak
+    "  Nap here?" linebreak
+    "{font_normal}[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc7e7d9)} {e(l_0xc7e7cc)}]" goto(l_0xc7e7cc)
+
+l_0xc7e7cc:
+    "{font_saturn}@No sleep?{pause(25)} Boing!{wait}{font_normal}" eob
+
+l_0xc7e7d9:
+    "{font_saturn}@Kay-o.{pause(25)} Sleep![03]{window_closeall}{font_normal}" call(data_44.l_0xc90f7d) call(data_44.l_0xc91582) "[1F 21 30]{set(flag 10)}" eob
+
+l_0xc7e7f8:
+    "@Morning good!" linebreak
+    "  Boing!{wait}{font_normal}" eob
+
+l_0xc7e80d:
+    call(data_43.l_0xc901bb) eob
+
+l_0xc7e813:
+    call(data_12.l_0xc5d37d) eob
+
+l_0xc7e819:
+    "{font_saturn}[06 4A 00 {e(data_34.l_0xc7e890)}][06 47 00 {e(l_0xc7e86c)}]@Hi Hi!" linebreak
+    " Me Mr. Saturn." next
+    "@You." linebreak
+    "familiar face." linebreak
+    "@Boing!" next
+    "Have we have" linebreak
+    "  met before?" next
+    "  Welcomes to...{pause(25)} Saturn Valley!{pause(25)} Boing!{wait}{font_normal}" eob
+
+l_0xc7e86c:
+    "@Thank for save." next
+    "@Let be" linebreak
+    "best friend" next
+    "Friend!{pause(25)} Boing!.{wait}{font_normal}" eob
+

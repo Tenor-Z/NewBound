@@ -1,0 +1,554 @@
+/*
+ * EarthBound Text Dump                                                    // Finished
+ * Time: 16:51:30 - 12/09/2019
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc52dcc:
+    "@Is that all you're looking for?" linebreak
+    "@Okay, okay." next 
+    "@Good luck out there, man!" end
+
+l_0xc52de8:
+    "@So that's everything?" linebreak
+    "@Keep an eye out for the police!" end
+
+l_0xc52e0d:
+    "@I've got what you need.[03]" eob
+
+l_0xc52e1c:
+    "@[1C 05 00]?" next
+    eob
+
+l_0xc52e24:
+    "@Okay, now who is going to carry this?[03]" eob
+
+l_0xc52e3a:
+    "@Looking to equip it?" linebreak
+    eob
+
+l_0xc52e59:
+    "@The [1C 05 00]...?" linebreak
+    "@Best deal I have is {swap}$[1C 0A 00 00 00 00]." next
+    "@It's your choice, man." linebreak
+    eob
+
+l_0xc52e85:
+    "@[1C 02 00] won't be able to use this item." next
+    "@Do you still wanna purchase it?" linebreak
+    eob
+
+l_0xc52eb2:
+    "@Okay, okay.{pause(25)} Do what you want with it..." next
+    eob
+
+l_0xc52ed7:
+    "@Are you for real?{pause(25)} You got no money for this!" next
+    eob
+
+l_0xc52ef5:
+    "@Uh, you can't really carry this right now." next
+    "@Just look at you,{pause(25)} carrying all that stuff around..." next
+    "@Now there is a way we can settle this,{pause(25)} I can take some stuff you don't need." next
+    eob
+
+l_0xc52f4a:
+    "@What's your deal?[03]" eob
+
+l_0xc52f5f:
+    "@[1C 05 00]?" linebreak
+    "@Best deal I can give you is {swap}$[1C 0A 00 00 00 00]." next
+    "@Hurry up!" linebreak
+    eob
+
+l_0xc52f94:
+    "@You do what you gotta do, kid.{pause(25)} You either buy it or you don't." next
+    eob
+
+l_0xc52fb6:
+    "@What's up with you?" next
+    "@You got nothing to sell?{pause(25)} You think you're some kind of comedian!?" next
+    "@Don't waste my time!" next
+    eob
+
+l_0xc52ffa:
+    "@I don't have any purpose for that junk!" linebreak
+    "@You can just keep it for now!" next
+    eob
+
+l_0xc53018:
+    "@Good deal, kid." linebreak
+    "@Thanks for buying." next
+    eob
+
+l_0xc53037:
+    "@Thanks, man." next 
+    "@Don't worry,{pause(30)} this money is cleaner than a fresh new car..." next
+    eob
+
+l_0xc53063:
+    "@Anything else you want?" linebreak
+    eob
+
+l_0xc53072:
+    "@What now?" linebreak
+    eob
+
+l_0xc5307d:
+    "@[1C 02 00] can't carry any more things." next
+    "@Can someone else carry it for them?" linebreak
+    eob
+
+l_0xc530a2:
+    "{font_saturn}@Hi Ho Boing!" linebreak
+    "@Welcome to my's shop!" next
+    "@Boing! Zoomy-woomy!" next
+    "@You's can buy!" linebreak
+    "@You's can sell!" next
+    "@I got lots of cool stuffs!" next
+    "@Boing!{pause(25)} Zoom!" next
+    "@How can" linebreak
+    "I help?" linebreak
+    "{font_normal}" eob
+
+l_0xc530fc:
+    "{font_saturn}@Kay-o" linebreak
+    "@Many thank to you!{wait}{font_normal}" eob
+
+l_0xc5310f:
+    "{font_saturn}@Many thank" linebreak
+    "for shopping!{wait}{font_normal}" eob
+
+l_0xc5311f:
+    "{font_saturn}@You want" linebreak
+    "to buy what?[03]{font_normal}" eob
+
+l_0xc53134:
+    "{font_saturn}@Hmmm?{pause(25)}" linebreak
+    "[1C 05 00]?" next
+    "{font_normal}" eob
+
+l_0xc53144:
+    "{font_saturn}@Who? Who will" linebreak
+    "carry this" linebreak
+    "good thing?[03]{font_normal}" eob
+
+l_0xc53161:
+    "{font_saturn}@Would you" linebreak
+    "like equip?" linebreak
+    "{font_normal}" eob
+
+l_0xc53172:
+    "{font_saturn}@[1C 05 00]?" next
+    "@Boing!" linebreak
+    "I sell for" linebreak
+    "{swap}$[1C 0A 00 00 00 00]." next
+    "@Does that make you" linebreak
+    "@buy?" next
+    "@Ding?" linebreak
+    "{font_normal}" eob
+
+l_0xc531ba:
+    "{font_saturn}@[1C 02 00] can no equip thing." next
+    "@Ding Ding!" next
+    "@You still" linebreak
+    "buy?" linebreak
+    "{font_normal}" eob
+
+l_0xc531ea:
+    "{font_saturn}@You don't want" linebreak
+    "to buy?" next
+    "@Kay-o" linebreak
+    "don't buy!" next
+    "{font_normal}" eob
+
+l_0xc53212:
+    "{font_saturn}@Boing?" next
+    "@I can not" linebreak
+    "see the moneys!" next
+    "@You" linebreak
+    "don't have" linebreak
+    "@moneys." next
+    "@Where did it go?{pause(25)} Zoom!" next
+    "{font_normal}" eob
+
+l_0xc53259:
+    "{font_saturn}@WOOOAH!" next
+    "@Your bag" linebreak
+    "huge!" next
+    "@No more" linebreak
+    "space" linebreak
+    "for thing.{pause(30)} Boing!" next
+    "{font_normal}" eob
+
+l_0xc5328f:
+    "{font_saturn}@Would you" linebreak
+    "like to" linebreak
+    "sell" linebreak
+    "me items?[03]{font_normal}" eob
+
+l_0xc532b3:
+    "{font_saturn}@[1C 05 00]?" next
+    "@I can pay" linebreak
+    "for good price" linebreak
+    "in {swap}$[1C 0A 00 00 00 00]." next
+    "@Do you" linebreak
+    "want to sell?" next
+    "@Sell?" linebreak
+    "{font_normal}" eob
+
+l_0xc532fa:
+    "{font_saturn}@Okie!{pause(25)} Zoom!" next
+    "{font_normal}" eob
+
+l_0xc53312:
+    "{font_saturn}@Mr. Saturn am disappoint.{pause(30)} Ugh!" next
+    "@I do not like" linebreak
+    "funny tricks." next
+    "@You do no" linebreak
+    "items you" linebreak
+    "do not needs!" next
+    "@That, I am sad!{pause(25)} Ding!" next
+    "{font_normal}" eob
+
+l_0xc53363:
+    "{font_saturn}@Uhhhh...{pause(30)} ...Ding?" next
+    "@I can no" linebreak
+    "buy that thing." next
+    "{font_normal}" eob
+
+l_0xc5338f:
+    "{font_saturn}@Many thank," linebreak
+    "to you good shopper." next
+    "{font_normal}" eob
+
+l_0xc533a3:
+    "{font_saturn}@Thank again!" next
+    "{font_normal}" eob
+
+l_0xc533b6:
+    "{font_saturn}@Do yous" next
+    "@need anything more?" next
+    "{font_normal}" eob
+
+l_0xc533d5:
+    "{font_saturn}@What would you likes?" linebreak
+    "{font_normal}" eob
+
+l_0xc533e5:
+    "{font_saturn}@[1C 02 00] has" linebreak
+    "big bag of" linebreak
+    "stuff!" next
+    "@Who will" linebreak
+    "help carry?" linebreak
+    "Boing?" next
+    "{font_normal}" eob
+
+l_0xc5341d:
+    "@Welcome to my humble little store!" next
+    "@Can I get you anything today?" linebreak
+    eob
+
+l_0xc53454:
+    "@Safe travels!" linebreak
+    "@We hope to see you again!" end
+
+l_0xc5346f:
+    "@Safe travels!" linebreak
+    "@We hope to see you again!" end
+
+l_0xc5348a:
+    "@What can I get for you today?[03]" eob
+
+l_0xc5349f:
+    "@[1C 05 00]?" next
+    eob
+
+l_0xc534a7:
+    "@Do you know who will carry this?[03]" eob
+
+l_0xc534b6:
+    "@Are you planning on equipping it here?" linebreak
+    eob
+
+l_0xc534c8:
+    "@Now, I can buy your [1C 05 00]" next
+    "@for {swap}$[1C 0A 00 00 00 00]?" linebreak
+    eob
+
+l_0xc534e9:
+    "@[1C 02 00] can't really equip this?" next
+    "@Are you still looking to buy it?" linebreak
+    eob
+
+l_0xc53515:
+    "@All right.{pause(25)} It's sold!" next
+    eob
+
+l_0xc5352c:
+    "[19 10 01]@" call(data_33.l_0xc7e6c5) ", it seems you are lacking the proper amount of money to purchase this." next
+    eob goto(l_0xc53562)
+
+l_0xc53562:
+    "@There's no room for this item in your bag." next
+    "@To make it worth your purchase, we'll need to make some room for it" next
+    "@You get get rid of some items you don't need, or you can sell them here to me!" next
+    "@Any way is good for reducing your storage!" next
+    eob
+
+l_0xc535d3:
+    "@What are you going to sell?[03]" eob
+
+l_0xc535df:
+    "@[1C 05 00]?" linebreak
+    "@I can pay" linebreak
+    "{swap}$[1C 0A 00 00 00 00] for that." next
+    "@Do you want to sell it?" linebreak
+    eob
+
+l_0xc53615:
+    "@It's all good.{pause(25)} Maybe it wasn't the price you were looking for..." next
+    eob
+
+l_0xc53645:
+    "@Well, it's impossible to buy something off you when you have nothing to sell." next
+    eob
+
+l_0xc5366d:
+    "@I'm sorry, but you can't sell that here." next
+    eob
+
+l_0xc53687:
+    "[19 10 01]@Sold!" linebreak
+    "  " call(data_33.l_0xc7e6b3) "." next
+    "[02]@Thank you for selling!" next
+    eob
+
+l_0xc536c1:
+    "@Is there anything else I can do today?" linebreak
+    eob
+
+l_0xc536d2:
+    "@What will it be today?" linebreak
+    eob
+
+l_0xc536e1:
+    "@[1C 02 00] is overloaded with items right now!" next
+    "@Can one of you others carry it?" linebreak
+    eob
+
+l_0xc53711:
+    newline
+    " <[1C 05 01]>" next
+    "@Some sort of old relic." next
+    "@Its creator and origins are still shrouded in mystery." next
+    "@It reflects all attacks of lightning back towards its original source." end
+
+l_0xc53750:
+    newline
+    " <[1C 05 02]>" next
+    "@" call(data_05.l_0xc56b5d) end
+
+l_0xc53761:
+    newline
+    " <[1C 05 03]>" next
+    "@" call(data_05.l_0xc56b5d) end
+
+l_0xc53772:
+    newline
+    " <[1C 05 04]>" next
+    "@It's practically unidentifiable due to its poor condition." next
+    "@It's seen some better days." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc537bc:
+    newline
+    " <[1C 05 05]>" next
+    "@It's practically unidentifiable due to its poor condition." next
+    "@It used to be part of some kind of machine." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc53809:
+    newline
+    " <[1C 05 06]>" next
+    "@A broken weapon of some sort." next
+    "@A broken weapon is no weapon at all." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc5382a:
+    newline
+    " <[1C 05 07]>" next
+    "@A broken can." next
+    "@You're gonna have to get real creative with this one." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc5384d:
+    newline
+    " <[1C 05 08]>" next
+    "@A busted-up weapon.{pause(25)} Looks pretty powerful." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc53870:
+    newline
+    " <[1C 05 09]>" next
+    "@Looks like something you'd use at home." next
+    "@You can't escape chores,{pause(35)} not even on adventures." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc53897:
+    newline
+    " <[1C 05 0A]>" next
+    "@A broken, leaky pipe." next
+    "@An Italian plumber's nightmare." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc538bc:
+    newline
+    " <[1C 05 0B]>" next
+    "@A super powerful beam gun." next
+    "@Too bad it's broken, though." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc538e0:
+    newline
+    " <[1C 05 0C]>" next
+    "@Some kind of broken tube." next
+    "@Tu-be or not tu-be?" next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc53908:
+    newline
+    " <[1C 05 0D]>" next
+    "@Someone broke this bazooka." next
+    "@It probably has some flashbacks of its own." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc53929:
+    newline
+    " <[1C 05 0E]>" next
+    "@A broken thingamajig." next
+    "@Use your imagination!" next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc53960:
+    newline
+    " <[1C 05 0F]>" next
+    "@A hunk of scrap metal." next
+    "@What the scrap could be made with this platter?" next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc5398e:
+    newline
+    " <[1C 05 10]>" next
+    "@A discarded metallic dish." next
+    "@Ah, the age of satilite..." next
+    call(data_05.l_0xc56b6f) end
+
+l_0xc539c4:
+    newline
+    " <[1C 05 11]>" next
+    call(data_05.l_0xc56b8e) end
+
+l_0xc539d4:
+    newline
+    " <[1C 05 12]>" next
+    call(data_05.l_0xc56b8e) end
+
+l_0xc539e4:
+    newline
+    " <[1C 05 13]>" next
+    call(data_05.l_0xc56b8e) end
+
+l_0xc539f4:
+    newline
+    " <[1C 05 14]>" next
+    call(data_05.l_0xc56b8e) end
+
+l_0xc53a04:
+    newline
+    " <[1C 05 15]>" next
+    call(data_05.l_0xc56b8e) end
+
+l_0xc53a14:
+    newline
+    " <[1C 05 16]>" next
+    call(data_05.l_0xc56b8e) next
+    "@Looks like this piece of junk will come in handy when it gets fixed!" end
+
+l_0xc53a47:
+    newline
+    " <[1C 05 17]>" next
+    call(data_05.l_0xc56b8e) end
+
+l_0xc53a57:
+    newline
+    " <[1C 05 18]>" next
+    call(data_05.l_0xc56b8e) end
+
+l_0xc53a67:
+    newline
+    " <[1C 05 19]>" next
+    call(data_05.l_0xc56b8e) end
+
+l_0xc53a77:
+    newline
+    " <[1C 05 1A]>" next
+    call(data_05.l_0xc56b8e) next
+    "@Increases guts when equipped." end
+
+l_0xc53a9f:
+    newline
+    " <[1C 05 1B]>" next
+    call(data_05.l_0xc56b8e) next
+    "@Provides fatal damage to enemies." next
+    "@A powerful weapon,{pause(25)} but there's a high chance of whiffing." end
+
+l_0xc53ae6:
+    newline
+    " <[1C 05 1C]>" next
+    call(data_05.l_0xc56b97) end
+
+l_0xc53af6:
+    newline
+    " <[1C 05 1D]>" next
+    call(data_05.l_0xc56b97) end
+
+l_0xc53b06:
+    newline
+    " <[1C 05 1E]>" next
+    call(data_05.l_0xc56b97) end
+
+l_0xc53b16:
+    newline
+    " <[1C 05 1F]>" next
+    call(data_05.l_0xc56b97) end
+
+l_0xc53b26:
+    newline
+    " <[1C 05 20]>" next
+    call(data_05.l_0xc56b97) end
+
+l_0xc53b36:
+    newline
+    " <[1C 05 21]>" next
+    call(data_05.l_0xc56b97) end
+
+l_0xc53b46:
+    newline
+    " <[1C 05 22]>" next
+    call(data_05.l_0xc56b97) end
+
+l_0xc53b56:
+    newline
+    " <[1C 05 23]>" next
+    call(data_05.l_0xc56ba9) next
+    "@Increases offence." end
+
+l_0xc53b76:
+    newline
+    " <[1C 05 24]>" next
+    call(data_05.l_0xc56ba0) end
+

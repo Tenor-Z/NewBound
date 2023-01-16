@@ -1,0 +1,521 @@
+/*
+ * EarthBound Text Dump
+ * Time: 16:51:30 - 12/09/2019
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc765cf:
+    "@Is life more crystal clear now?[06 DA 02 {e(l_0xc765ef)}]" end
+
+l_0xc765ef:
+    next
+    "@Have you ever encountered this life cycle?{pause(30)} That is basically what the progress of life ties to." end
+
+l_0xc7661b:
+    "@I've got to keep on moving forward." next
+    "@I've got to succeed in life,{pause(30)} so I can avoid becoming a garbageman, like my stepdad." end
+
+l_0xc76663:
+    "[06 49 00 {e(l_0xc766c5)}][06 15 00 {e(l_0xc76689)}]@We've really been blessed with the most unruly,{pause(20)} disobiedient kids on Earth." end
+
+l_0xc76689:
+    "@Finally you guys are back from who-knows-where!" next
+    "@Do you seriously think you can leave whenever you want?{pause(35)} You think this is a free summer resort!?" end
+
+l_0xc766c5:
+    "@What in the dying words of hell are you doing here?" next
+    "@Can't you see I'm not in the mood to put up with people like you?" next
+    "@Things have been in the shits!{pause(35)} Aloysius left me,{pause(25)} and my son is dead." next
+    "@Is this what's left?{pause(35)} There's no point in doing the simplist things." next
+    "@Why did this happen to me out of all people?" next
+    "@Whyyyy?{pause(25)} WHYYYYYYYY...*Sob*" end
+
+l_0xc7678a:
+    "@Hey hey!{pause(25)} I'm the thearapist for Mrs. Minch." next
+    "@It seems she's got a lot on her plate,{pause(20)} so I thought I'd come over and help." next
+    "@*Whisper* *Whisper*" next
+    "@(But to tell you the truth,{pause(20)} I only came here so I could stop her bellowing wails.)" end
+
+l_0xc76804:
+    "@Ow...{pause(25)} I've got bruises everywhere!" next
+    "@...{pause(25)}I hate you, Dad." next
+    "@Hey, [1C 02 01]..." next
+    "@Don't worry about what happened..." linebreak
+    "@You just go on out of here, okay?" end
+
+l_0xc7683a:
+    "[06 49 00 {e(l_0xc7685a)}]@I should have minded my own business...{pause(35)} I should have minded my own business..." end
+
+l_0xc7685a:
+    "@What's good, [1C 02 01]?{pause(25)} Been doin' whacky stuff recently?" next
+    "@I've been trying to get outside of the house as much as I can.{pause(35)} To avoid my parents,{pause(20)} know what I mean?" end
+
+l_0xc7689d:
+    eob
+
+l_0xc7689e:
+    "@This isn't really the place you should come to,{pause(20)} if you're looking for luxury." next
+    "@For example,{pause(20)} there are no locks on any of the doors.{pause(45)} Damn teenagers are at it again." next
+    "@It's the reason why we have a strict <Cleaning Cart Riding> policy." end
+
+l_0xc768f4:
+    "@If you really value your safety,{pause(20)} stay away from the Sharks." next
+    "@I saw them trying to build a bomb out of francium and glue sticks." end
+
+l_0xc76924:
+    "@I wanted to get a slice of pizza,{pause(20)} but I don't have any money." next
+    "@Oh,{pause(20)} how the smallest of issues can become the most painful." end
+
+l_0xc7695f:
+    "@Whuh?{pause(25)} Someone trying to make conversation with an introvert like me?{pause(25)} NO WAY!" end
+
+l_0xc76980:
+    "@Franks pretty cool...{pause(25)} but he looks like he's in his 30's." end
+
+l_0xc7699e:
+    "[06 49 00 {e(l_0xc76b36)}][06 69 00 {e(l_0xc76b0b)}][06 B6 00 {e(l_0xc76a1f)}]@These series of events have really devastated the town." next
+    "@We're going to focus on keeping the areas at risk secure,{pause(25)} and avoid any conflicts with the Sharks." next
+    "@In the meantime,{pause(20)} areas such as Twoson or Foggyland will be restricted." next
+    "@Citizens are forbidden to leave the town until further notice.{pause(35)} That includes YOU,{pause(20)} young man." end
+
+l_0xc76a1f:
+    "@Do you know why you were sent here today?" next
+    "@It is forbidden by law to leave Onnet Town until all further areas are inspected and official decisions have been made." next
+    "@What's a kid like you trying to break the law for?" next
+    "@Do you REALLY want to go to Twoson that badly?" linebreak
+    "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc76ad6)} {e(l_0xc76aa7)}]" goto(l_0xc76aa7)
+
+l_0xc76aa7:
+    "@That's what I thought." next
+    "@Go home, kid.{pause(30)} Your bones aren't made to fight." end
+
+l_0xc76ad6:
+    "@Wrong answer, kid.{pause(35)} Come with me.[03]{set(flag 38)}{unset(flag 289)}{unset(flag 290)}{unset(flag 291)}{unset(flag 292)}{unset(flag 293)}{window_closeall}" goto(data_15.l_0xc5f859)
+
+l_0xc76b0a:
+    eob
+
+l_0xc76b0b:
+    "@I come to the Police Station everyday to hear all the crime biz going around." next
+    "@I act tough, but I don't know a damn thing." end
+
+l_0xc76b36:
+    "@Do you wanna know how to become a hero?" next
+    "@Here's how...{pause(45)} You don't!" next
+    "@Why would you work to become such a thing?" next
+    "@Heroes don't exist unless you work to surpass the upper class.{pause(35)} Ever learned that in school?" end
+
+l_0xc76b87:
+    "[06 69 00 {e(l_0xc76bd2)}]@Wait!{pause(20)} You're not thinking about getting to Twoson, are you?" next
+    "@That's against the law!{pause(35)} I'm sorry, but I have to call the police!" next
+    "@Oh wait..." end
+
+l_0xc76bd2:
+    "@Hey, Mister Criminal!{pause(25)} How's the thug life working for you?" next
+    "@Don't try to do anything!{pause(30)} I'm on a short fuse, with only a cereal bar for breakfast!" end
+
+l_0xc76c29:
+    "[06 69 00 {e(l_0xc76c55)}]@Hey there,{pause(20)} have you ever considered getting a drivers license?" end
+
+l_0xc76c55:
+    "@Well, you look old enough to drive.{pause(25)} Why would you turn down such an oppertunity?" next
+    "@Do you really want to walk everywhere for the rest of your life?" next
+    "@Don't worry,{pause(20)} drivings a piece of cake.{pause(35)} Just don't get anxious looking down over tall bridges." end
+
+l_0xc76ca1:
+    "[06 02 00 {e(l_0xc76d3d)}]@Hey it's you!{pause(25)} I've heard about you from my partner at Giant Step." next
+    "@Is every kid like you nowadays?{pause(35)} Causing such trouble...{pause(35)} Tiring us police officers out..." next
+    "@You've been placed under arrest for trespassing private property!" next
+    "@<Upon decision by the mayor,{pause(30)} you may be taken into custody until further notice!>" next
+    "@<It is not required for you to say anything,{pause(25)} but anything you say can hurt your defense.>" next
+    "@<You will also be required to pay a fine of $50 for the damage you've caused.>" next
+    "@*Huff*...{pause(25)} *Huff*...{pause(25)} *Puff*..." next
+    goto(l_0xc76d3d)
+
+l_0xc76d3d:
+    "@Sorry,{pause(25)} that was a memo I have to recite to new criminals." next
+    "@Since you listened to me run my mouth,{pause(30)} I might consider dropping the $50 fine." next
+    "@I can be a nice guy when I want to be..." next
+    "@...{pause(25)}So what exactly were you trying to prove over there?" next
+    "@You know times are already tough as it is,{pause(35)} so your crimes are only making things worse." next
+    "@I mean,{pause(20)} you could serve community service,{pause(25)} but that's not exactly my decision." next
+    "@We'll have to wait to hear Chief Arthurs opinion of this incident." next
+    "@But, no matter what happens,{pause(35)} please promise me" next
+    "you'll grin and bear it.{pause(45)} Sometimes it's wise to learn and acknowledge your mistakes." next
+    "@Your life is heading off the rails,{pause(20)} and it'll only plow faster towards the bottom.{wait}{set(flag 2)}" eob
+
+l_0xc76e0c:
+    "@Next time you see a <Do Not Enter> sign,{pause(20)} don't go looking for trouble!" next
+    "@That sign could be the worst thing you've yet to see in your life." next
+    "@It could take everything away in an instant!" next
+    "@You may think trespassing unknown property is a fun trip." next
+    "@But the only trip you'll get" next
+    "is a trip to the Big House.{wait}{set(flag 109)}" eob
+
+l_0xc76e92:
+    "@What?{pause(20)} How do you know who I am?" next
+    "@A disguise?{pause(40)} I have none." next
+    "@Suspicion?{pause(40)} No clue." next
+    "@I'm actually a dog?{pause(40)} Yes!" next
+    "@Bark! Bark! (Now, don't blow my cover.)" end
+
+l_0xc76ec5:
+    "@Hurry out of my way!{pause(35)} I've got places to be!{wait}" call(data_21.l_0xc6845d) "[1B 03 {e(data_21.l_0xc683de)}]{window_open(1)}" newline
+    "@I'm busy, busy, busy.{pause(25)} Why aren't you?{wait}{set(flag 293)}" eob
+
+l_0xc76f20:
+    call(data_12.l_0xc5d581) eob
+
+l_0xc76f26:
+    call(l_0xc7716d) "[1B 03 {e(l_0xc77148)}]" call(l_0xc76fb2) call(data_21.l_0xc6829f) "{set(flag 587)}{set(flag 25)}" eob
+
+l_0xc76f42:
+    call(l_0xc7716d) "[1B 03 {e(l_0xc77148)}]" call(l_0xc76fb2) call(data_21.l_0xc682dd) "{set(flag 587)}{set(flag 26)}" eob
+
+l_0xc76f5e:
+    call(l_0xc7716d) "[1B 03 {e(l_0xc77148)}]" call(l_0xc76fb2) call(data_21.l_0xc6831b) "{set(flag 587)}{set(flag 27)}" eob
+
+l_0xc76f7a:
+    call(l_0xc7716d) "[1B 03 {e(l_0xc77148)}]" call(l_0xc76fb2) call(data_21.l_0xc68359) "{set(flag 587)}{set(flag 28)}" eob
+
+l_0xc76f96:
+    call(l_0xc7716d) "[1B 03 {e(l_0xc77148)}]" call(l_0xc76fb2) call(data_21.l_0xc68397) "{set(flag 587)}{set(flag 29)}" eob
+
+l_0xc76fb2:
+    "[06 CF 00 {e(l_0xc770b0)}][06 CE 00 {e(l_0xc7706a)}][06 CD 00 {e(l_0xc7703f)}][06 CC 00 {e(l_0xc77007)}]@I can promise you the hope." next
+    "@The hope to move on." next
+    "@Take my hand,{pause(20)} let's go together." next
+    "@Let the Flying Man take that first step along with you.[03]" eob
+
+l_0xc77007:
+    "@Through all the pain,{pause(20)} I will remain standing." next
+    "@The pain hurts deep,{pause(20)} but the withdrawl of one's self cuts even deeper." next
+    "@I shall remain strong,{pause(20)} for all that watch me.[03]" eob
+
+l_0xc7703f:
+    "@Our tears make a mark on the aspects we fear to forgive." next
+    "@We will forever remember how we felt on that day." next
+    "@Do not let the balance of life burn out the flame of determination." next
+    "@There is always light." next
+    "@There is always hope.[03]" eob
+
+l_0xc7706a:
+    "@Our scars can tell stories far more than words could ever comprehend." next
+    "@Others around us can understand how we feel,{pause(35)} but they will never see the mind our actions have manifested upon." next
+    "@Sometimes,{pause(20)} it's best the shut off the mind for a long slumber." next
+    "@The changes we've created can stab a knife through our back in any second given." next
+    "@Sometimes,{pause(20)} the greatest enemy can sometimes be yourself." next
+    "@I will help you fight it.[03]" eob
+
+l_0xc770b0:
+    "@As time passes by,{pause(20)} the grip of our motivation will slip out of our reach." next
+    "@But with every change that is made,{pause(25)} a new flame of oppertunity is born." next
+    "@Through tough times,{pause(25)} through the warmth of what we know,{pause(30)} and the impact life has set,{pause(30)} we'll begin to understand what we exist to fulfill." next
+    "@Without purpose,{pause(20)} the flame will burn with no fuel,{pause(25)} drained from the troubles life tries to push forward." next
+    "@Through the pain,{pause(20)} through the blood,{pause(25)} we will continue to burn.{pause(25)} We will ignite an even greater light than we had burned the day before." next
+    "@Growing stronger and stronger each day.{pause(25)} The natural progress will begin to prove" next
+    "that sometimes you'll need to dwell in the dark to see the light again.[03]" eob
+
+l_0xc77148:
+    "@There's nothing I can discuss anymore that would seem relevant." next
+    "@I've been drained of all I have.{pause(20)} Where did it all go?" end
+
+l_0xc7716d:
+    "[19 10 02]{store_registers}{result_is(11)}[1B 03 {e(l_0xc7719c)}]{load_registers}{result_is(12)}[1B 03 {e(l_0xc7719c)}]{load_registers}{result_is(13)}[1B 03 {e(l_0xc7719c)}]{load_registers}{result_is(14)}[1B 03 {e(l_0xc7719c)}]{load_registers}{result_is(15)}" goto(l_0xc7719c)
+
+l_0xc7719c:
+    eob
+
+l_0xc7719e:
+    "[06 7F 01 {e(l_0xc77236)}]@You may not have realized it,{pause(20)} but the manifestations hung over your walls have made you sleep deprived." next
+    "@In a sacred place like this,{pause(25)} only then can you truly rest your eyes." next
+    "@Not only from the events and influences around us,{pause(20)} but the things we leave behind as well." next
+    "@Would you like to sleep for a while?" linebreak
+    "[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc7722d)} {e(l_0xc77208)}]" goto(l_0xc77208)
+
+l_0xc77208:
+    "@Slumber will clense all doubt and fear." next
+    "@This is a world made by your mind, after all." end
+
+l_0xc7722d:
+    call(data_45.l_0xc91693) "[1F 21 35]" eob
+
+l_0xc77236:
+    "@Hopefully,{pause(20)} you can now see the world much brighter now." end
+
+l_0xc77251:
+    "@Even though your far from home,{pause(25)} I am kept in a safe place inside your mind." next
+    "@Would you like some [1C 01 04]?" next
+    "[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc772c8)} {e(l_0xc7728e)}]" goto(l_0xc7728e)
+
+l_0xc7728e:
+    "@Are you sure?{pause(25)} There's no rush!{pause(40)} You have all the time in the world." next
+    "@I guess its hard to put down a goal once you set it, huh?" next
+    "@But, throughout your adventures,{pause(30)} make sure to check on your family every now and then." next
+    "@Keep me close, [1C 02 01].[03][1F E1 1F 07 3C]" eob
+
+l_0xc772c8:
+    "@Why don't you sit down and relax while you're at it.{pause(25)} You've come a long way." next
+    "@It's nice to see you again, [1C 02 01]." next
+    "@It's been such a long,{pause(20)} long time.[03]" call(data_44.l_0xc915f4) call(data_45.l_0xc91693) "{unset(flag 383)}[1F 21 34][1F E1 1F 07 3C]" eob
+
+l_0xc772ff:
+    "@Big bro!" next
+    "@Isn't it cool to find lost forgotten memories?" next
+    "@Did you check out the area outside of the town?{pause(50)} I heard that's where your mindset lies." next
+    "[1F E1 05 00 3C]@By any chance,{pause(25)} would you like to store stuff with me?" linebreak
+    goto(data_18.l_0xc64687)
+
+l_0xc7735d:
+    "@(When I was a pup,{pause(20)} you used to feed me all your table scrapings.)" next
+    "@(But now,{pause(20)} there's something more that I value than food.)" next
+    "@(It's my hope for you, [1C 02 01].{pause(35)} Don't you forget it!)" end
+
+l_0xc7739f:
+    "@(I sing not only for myself,{pause(20)} but for those willing to listen.)" next
+    "@(When the world stops and listens to the cries of another,{pause(30)} only then will change finalize decisions for who we are.)" next
+    "@(You've heard my song before,{pause(30)} but what remains is nothing more than broken notes of a forgotten melody.)" end
+
+l_0xc773f4:
+    "@I wanted to protect those that I relate to,{pause(25)} but I've missed the big picture." next
+    "@For satisfaction proves that solutions are nothing but a dream." next
+    "@We're all flying endlessly in the space of the universe.{wait}[1F E1 1F 05 3C]" eob
+
+l_0xc7743d:
+    "@Remember when life was simple?" next
+    "@Playing video games all day,{pause(30)} hanging with my best friends..." next
+    "@I guess we've all got to move on sooner or later.{pause(40)} The world waits for nobody." next
+    "@We can sustain time, but we can't sustain ourselves.{wait}[1F E1 1F 03 3C]" eob
+
+l_0xc7749d:
+    "@I've lost everyone I loved,{pause(35)} but I've been able to see what I've been missing my whole life." next
+    "@But I suppose all things are grand when happiness never dies.{wait}[1F E1 1F 02 3C]" eob
+
+l_0xc774c3:
+    "        " goto(l_0xc774c6)
+
+l_0xc774c6:
+    "@I thought for the longest time I was unworthy of being loved...{pause(40)} but you fixed me." next
+    "@The truth inside,{pause(25)} it's always in the last place you look.{wait}[1F E1 1F 06 3C]" eob
+
+l_0xc774ec:
+    "@[1C 02 01]" next
+    "@Are you ready to accept what the empty spaces have filled in for you?{wait}[1F E1 1F 06 3C]" eob
+
+l_0xc77511:
+    "@I still remain present,{pause(20)} but not much is acknowledged of me." next
+    "@You may remember me,{pause(30)} but sooner or later, I'll slip away." next
+    "@We all will, eventually." end
+
+l_0xc77529:
+    "@I'm only a memory,{pause(25)} but I am restless." next
+    "@There is still negativity...{pause(25)} There is still negativity in your heart, [1C 02 01].{pause(30)} Somewhere..." end
+
+l_0xc77544:
+    "@I am remembered by you.{pause(35)} I am still worthy of rememberance." next
+    "@I'm nothing more than a thought,{pause(35)} but I am still alive." end
+
+l_0xc77572:
+    "@Yo, [1C 02 01]." next
+    "@What are you doing here?" end
+
+l_0xc7758a:
+    "@This is far more than any dream I've had!" next
+    "@Not a fever dream,{pause(30)} but a remedy!" end
+
+l_0xc77592:
+    "@Ukipikokiki!{pause(25)} (You've grown stronger [1C 02 01].{pause(20)} Seems you finally mastered PSI Teleport.)" next
+    "@Ukipiko!{pause(25)} (I'm so hungry,{pause(20)} I could eat my tail!)" end
+
+l_0xc7759c:
+    "@Even though I'm dead,{pause(20)} I still live on." next
+    "@Through a dream,{pause(20)} in your head,{pause(20)} I will still live on." end
+
+l_0xc775bf:
+    "@This is a world created by your mind, [1C 02 01]." next
+    "@Yet it can bend and form into any shape possible." next
+    "@Time here is limited,{pause(35)} but also infinite.{wait}[1F E1 05 00 3C]" eob
+
+l_0xc775fd:
+    "[06 5D 00 {e(l_0xc77683)}]@I'm the perfect image of you,{pause(25)} I'm everything you wish you were." next
+    "@Do you envy me,{pause(25)} or are you proud of what I've become?" next
+    "[1D 03 FF][1B 02 {e(l_0xc77639)}][1D 0E 00 4A]" call(data_33.l_0xc7dccf) "{wait}{set(flag 93)}[1F E1 1F 03 3C]" eob
+
+l_0xc77639:
+    newline
+    "@I was planning on giving you something,{pause(20)} but I can't." next
+    "@You have too many things in your possession at the moment." next
+    "@This gift will remind you of how far away your goals truly are.{wait}[1F E1 05 00 3C]" eob
+
+l_0xc77683:
+    "@We will become one in the future." next
+    "@Soon you will see me in your eyes...{wait}[1F E1 05 00 3C]" eob
+
+l_0xc7768f:
+    "@(I should be asleep, but I'm not.)" next
+    "@(I've been pulled from a dream too late to remember.)" next
+    "@(You know me,{pause(30)} so I know I'll be in good hands.){wait}[1F E1 05 00 3C]" eob
+
+l_0xc776c8:
+    "@When its our time to bloom,{pause(20)} the process we made will find its way." next
+    "@We will come of age.{wait}[1F E1 05 00 3C]" eob
+
+l_0xc776ee:
+    "@Here lies the will of [1C 02 01]." next
+    "@He gave in to the darkness inside his heart." end
+
+l_0xc77713:
+    "@Here lies the courage of [1C 02 01]." next
+    "@Shut away by the nightmares only he can see." end
+
+l_0xc7774b:
+    "@Here lies the hope of [1C 02 01]." next
+    "@These gashes were too deep to move forward." end
+
+l_0xc7777e:
+    "@Here lies the motivation of [1C 02 01].{pause(35)} A careless soul can't move forward." end
+
+l_0xc77790:
+    "@Here lies the mindset of [1C 02 01].{pause(25)} What still remains is only dead inside.{wait}{set(flag 159)}" eob
+
+l_0xc7779e:
+    "@Here lies the soul of Buzz Buzz." next
+    "@He died trying to help [1C 02 01] and his friends once again." next
+    "@They saw him growing tired,{pause(25)} and had taken him above with open arms." next
+    "@He will be remembered in the eyes of many." next
+    "@Rest in Peace, Buzz Buzz." end
+
+l_0xc777f2:
+    "@Outside of Magicant lies center of your mind." next
+    "@That is where your self worth awaits.{pause(25)} But be warned," next
+    "you may not be ready to return.{pause(35)} Past trauma has seeped into your head,{pause(20)} after all these years of pushing it all aside." next
+    "@You haven't dealt with these emotions on your own.{wait}[1F E1 1F 05 3C]" eob
+
+l_0xc7786e:
+    "@Welcome to Magicant, [1C 02 01].{pause(35)} This world was created by your mind." next
+    "@Your thoughts,{pause(20)} memories,{pause(25)} they've created life in this endless world." next
+    "@Everything you've done so far has impacted this world and your well-being." next
+    "@Take the time to browse around.{pause(25)} You might find something long forgotten." next
+    "@Outside this town lies the center of your mind." next
+    "@It's the home of your true feelings.{wait}[1F E1 1F 06 3C]" eob
+
+l_0xc7794c:
+    "[06 4A 00 {e(data_32.l_0xc7c588)}]@Through the prescense of the Mani Mani Statue,{pause(30)} a voice began to speak." next
+    "@(What is the purpose of moving forward?{pause(20)} There will only be more pain that awaits us.)" next
+    "@(If only there was a world where no change was present,{pause(45)} where people can truly be themselves.)" next
+    "@(But that will never happen.{pause(35)} Tortured hearts don't fade away...)" next
+    "@Continuing down this path will get you NOTHING,{pause(45)} except for the same bloody bruises and broken bones.)[03]" call(data_21.l_0xc6857c) "[1B 03 {e(data_21.l_0xc683de)}]{set(flag 74)}{pause(1)}[1F F1 4E 05 7B 02]{pause(40)}[1F 15 6A 00 00 03 01][1F 61][1F E7 6A 00]{window_open(1)}@(As soon as the doubt in [1C 02 01]'s heart receded,{pause(65)} a voice hidden inside began to communicate.)" next
+    call(l_0xc77c50) "@Don't give up,{pause(25)} everything will be okay!" linebreak
+    "@Take that first step,{pause(30)} and don't think twice." next
+    call(l_0xc77c50) "@These changes to life aren't always easy to adapt." next
+    call(l_0xc77c50) "@But our patience will pay off the pain.{pause(30)} We will learn that sometimes these changes will benefit us for the good,{pause(30)} and some changes might be for one's own good." next
+    call(l_0xc77c50) "@Your past hasn't been easy to push aside, [1C 02 01].{pause(40)} All those times you've hurt and bled were never meaningless." next
+    call(l_0xc77c50) "@But now you're here,{pause(30)} You're able to understand how tough times can get,{pause(20)} and how we can help ourselves." next
+    call(l_0xc77c50) "@The <Sanctuary> locations you've visited have shown you what you've grown blind to,{pause(35)} the truth.{pause(50)} But sometimes,{pause(20)} before you help yourself,{pause(35)} you might need to help others." next
+    call(l_0xc77c50) "@Your best friend,{pause(30)} Pokey.{pause(40)} Until now,{pause(25)} he has only been a burden." next
+    call(l_0xc77c50) "@Buried deep in the ground,{pause(25)} shut off from the real world.{pause(30)} The pain that pounds in his heart." next
+    call(l_0xc77c50) "@He needs his friend to be there,{pause(35)} to tell him that everything will be okay." next
+    call(l_0xc77c50) "@Pokey needs the light,{pause(20)} to pull him out of the dark,{pause(35)} and show him what he's been shutting away." next
+    call(l_0xc77c50) "@But if the time comes,{pause(30)} where pain rules over progress,{pause(30)} it will be time to end the restlessness that has grown with him." next
+    call(l_0xc77c50) "@If Pokey cannot recognize his mistakes through his troubles,{pause(35)} maybe things aren't meant to be after all." next
+    call(l_0xc77c50) "@After years of receding hatred and anger,{pause(35)} he may finally rest in peace.{pause(30)} No longer shall he live in loneliness and past regrets." next
+    call(l_0xc77c50) "@You are the only one who can show him the light." linebreak
+    "You are the only one who can forgive." next
+    "@[1C 02 01].{pause(35)} You're talking to yourself.{pause(30)} I am you, [1C 02 01]." next
+    call(l_0xc77c50) "@You know why you came here.{pause(40)} You came here to hear the truth." next
+    call(l_0xc77c50) "@The truth to why you're willing to work so much for the sake of other people." next
+    call(l_0xc77c50) "@Even though you're not aware of what you want,{pause(25)} you've done well." next
+    call(l_0xc77c50) "@You know why you came here.{pause(25)} We know what we're here to do.{pause(50)} We can't run away from this now.{pause(60)} We have to let ourselves go.{pause(70)} We have to move on.[03]" call(l_0xc77c50) "{window_closetop}{pause(120)}{window_open(1)}@(The voice [1C 02 01] had heard was the inner figure of himself.{pause(40)} Someone so close,{pause(20)} but so far away." next
+    "@You know where you want to go,{pause(25)} so let's head there, [1C 02 01]." next
+    "@I'll be seeing you later.{pause(25)} When the time comes...{wait}{window_closetop}[1F 07 03]" call(l_0xc77c50) "{pause(60)}" goto(data_33.l_0xc7dfbe)
+
+l_0xc77c4f:
+    eob
+
+l_0xc77c50:
+    "[1F EA 6A 00][1F 61][1F E7 6A 00]" eob
+
+l_0xc77c5b:
+    "@There's too much time in this world.{pause(35)} How could we use all this time?" next
+    "@To defy the rules set between time..." next
+    "@But there's no time to waste!{pause(35)} We're running out of time!" end
+
+l_0xc77c84:
+    "@Snowmen cannot last forever,{pause(20)} as time wears out." next
+    "@Humans can't last forever, either.{pause(35)} But memories like these will stand for eternity." end
+
+l_0xc77cb8:
+    "@It's good to know that I'm more than a worthless protoplasm to some." next
+    "@Even strangers have the nicest hearts,{pause(35)} but don't let that fool you." end
+
+l_0xc77cd0:
+    "@Hello, [1C 02 01].{pause(25)} It's a surprise to see you here." next
+    "@Who could've thought I would be living in the dreams of someone else?" end
+
+l_0xc77cdf:
+    "@[1C 02 01],{pause(20)} my good friend." next
+    "@You're my only friend." next
+    "@You can erase me from your mind,{pause(30)} but I'll always be your friend." next
+    "@Everything I do,{pause(20)} no matter how hard I try..." next
+    "it hurts me..." linebreak
+    "@Someone out there is causing mayhem under my name." next
+    "@[1C 02 01].{pause(35)} If you happen to see him..." linebreak
+    "@Tell Future Pokey to burn and dissolve into the ground!{pause(35)} He needs to hear it from you." end
+
+l_0xc77d3a:
+    "@Hey, [1C 02 01]." next
+    "@You've come so far,{pause(25)} I can't help but be proud of you." next
+    "@You've set a good example for me,{pause(25)} you've helped me realize the wrong things I've been doing." next
+    "@Because of you,{pause(20)} I was able to die happy." next
+    "@Even as a spirit,{pause(30)} I will forever be in your debt." next
+    "@Thank you, [1C 02 01].{pause(25)} Remember I'm always here! {wait}{window_closeall}{pause(1)}[1F E1 1F 04 3C][1F 1E 42 05 09]{set(flag 639)}" eob
+
+l_0xc77d9f:
+    "{window_closeall}[1F 21 D6]" eob
+
+l_0xc77da5:
+    "{window_closeall}[1F 21 28]" eob
+
+l_0xc77dab:
+    "{window_open(1)}@The [1C 05 C4] was complete." next
+    "@The [1C 05 C4] returned to the center of the earth,{pause(35)} and disappeared without a trace.{wait}{window_closeall}[1D 01 FF C4]" eob
+
+l_0xc77dce:
+    newline
+    "@{user}[19 1F]{swap} used" linebreak
+    "  the [1C 05 00]." next
+    "@There was no reaction.[03]" eob goto(l_0xc77df0)
+
+l_0xc77df0:
+    "@{user}[19 1F]{swap} used" linebreak
+    "  the [1C 05 00]." next
+    "@There was no reaction.[03]" eob newline
+    "[19 1F]{swap}" newline
+    "@{user} then decided to equip" linebreak
+    "  the [1C 05 00].{sound(115)}[03]" eob newline
+    "[19 1F]{swap}@It wasn't possible to" linebreak
+    "  equip the [1C 05 00]." next
+    "@The alternate solution is that," linebreak
+    "  " call(data_33.l_0xc7e602) " decided to fight with " call(data_33.l_0xc7e66e) " the previously used weapon.[03]" eob newline
+    "[19 1F]{swap}@{user} equipped" linebreak
+    "  the [1C 05 00]." next
+    "@ But it seems that the" linebreak
+    "  [1C 05 00] wasn't made for {user}.[03]" eob goto(l_0xc77eb6)
+
+l_0xc77eb6:
+    newline
+    "[19 1F]{swap}@{user} attempted" linebreak
+    "  to use the [1C 05 00]." next
+    "@However,{pause(20)} {user} is unable to use" linebreak
+    "  the [1C 05 00] efficiently.[03][02]@However,{pause(20)} {user} is unable to use" linebreak
+    "  the [1C 05 00] efficiently.[03]" eob
+
+l_0xc77eff:
+    eob
+
+l_0xc78000:
+    "{set(flag 11)}[1F 41 05][1F 15 B9 01 09 03 01][1F 15 6A 00 49 00 01]{pause(1)}[1F EF 6A 00][1F E8 FF][1F 61][1F F2 CD 00 42 00][1F EB FF 06]{set(flag 534)}{music_resume}[1F EF CD 00]" eob
+

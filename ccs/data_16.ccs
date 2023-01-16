@@ -1,0 +1,505 @@
+/*
+ * EarthBound Text Dump                                  //Stillworking
+ * Time: 16:51:30 - 12/09/2019
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc60b71:
+    "{pause(2)}[1F F1 FD 02 08 00]{pause(2)}[1F F1 FE 02 08 00]{pause(2)}[1F F1 FF 02 08 00]" eob
+
+l_0xc60b8a:
+    "@Soy Kinzo." end
+
+l_0xc60b9b:
+    "@mi nombre No Es Rick!{pause(30)} Mi nombre es Ricca." end
+
+l_0xc60bae:
+    "@Me llamo Sir Daniel Willington el vigésimo tercero." end
+
+l_0xc60bbf:
+    "@(...I'm the fourth brother.{pause(30)} They killed me...{pause(40)} but don't tell nobody.)" end
+
+l_0xc60be3:
+    "@(We were too late, we're the only ones who know the truth." next
+    "@They have everyone wrapped around their fingers.)" end
+
+l_0xc60c1b:
+    "@(My life was taken away too fast.{pause(30)} I miss being alive." next
+    "@Now I only exist as a soul forever.{pause(30)} If only I could reach out to my mother..." next
+    "@I haven't seen her in years.{pause(40)} It's tearing me apart everyday.{pause(55)} Please let her know that I'm still here.)[06 8A 00 {e(l_0xc60c95)}]{wait}{window_closeall}{set(flag 135)}[06 C6 02 {e(data_50.l_0xc9992f)}]{pause(60)}" call(data_22.l_0xc68880) eob
+
+l_0xc60c95:
+    next
+    "@(She still remembers me?{pause(30)} Ahhh...{pause(50)} Now I can finally be at peace.{pause(30)} Thank you for your help.){wait}{window_closeall}{set(flag 135)}[06 C6 02 {e(data_50.l_0xc9992f)}]{pause(60)}" call(data_22.l_0xc68880) eob
+
+l_0xc60cd8:
+    "@(My son's soul is still here. I can feel it...{pause(20)} Can you do me a favor, please?" next
+    "@If you see him,{pause(35)} please tell him that I'm still here.{pause(20)} He needs to hear his mother again.)[06 87 00 {e(l_0xc60d31)}]{set(flag 138)}" end
+
+l_0xc60d31:
+    next
+    "@(You saw him already?{pause(30)} I hope he's okay...{pause(60)} We've got a long time to wait before disinigrating.{pause(50)} It's only going to be a while before we'll meet each other.){wait}{set(flag 138)}" eob
+
+l_0xc60d6c:
+    "[19 10 01]{rtoarg}@[1C 02 00] spotted something shiny." next
+    "@It was a pair of glasses!" next
+    "[1D 03 FF][1B 02 {e(l_0xc60db8)}][1D 0E FF BB][1F 1E 1A 03 06]" call(data_33.l_0xc7dccf) "{set(flag 385)}" end goto(l_0xc60db8)
+
+l_0xc60db8:
+    "@You have no more room." end
+
+l_0xc60dc4:
+    "@Hmmmm...{pause(20)} Desert Monkeys." next
+    "@Desert Monkeys...{pause(40)} ... {pause(45)} ...Dessert Monkeys!!" next
+    "@Yum! Gimmie Dessert Monkeys!!" end
+
+l_0xc60e2a:
+    call(data_12.l_0xc5d3cb) eob
+
+l_0xc60e30:
+    "[06 49 00 {e(l_0xc611e2)}][06 FC 02 {e(l_0xc61139)}][06 2A 02 {e(l_0xc60ff3)}]{music(119)}@Yes...{pause(40)} This is a warped world we live in..." next
+    "@The charade of a perfect world we live in, has set the stage unintentionally." next
+    "@The Mani Mani has us in our clutches.{pause(35)} From our eyes,{pause(15)} nothing has changed." next
+    "@But in reality,{pause(40)} this world has aged and decayed rapidly along with it's people." next
+    "@[1C 01 08],{counter(1)}" call(data_45.l_0xc91675) "{sound(37)}{pause(20)} [1C 01 1E]," linebreak
+    "{counter(2)}" call(data_45.l_0xc91675) "{pause(20)}  [1C 01 34]{counter(3)}" call(data_45.l_0xc91675) "{sound(37)}{pause(20)} and [1C 01 4A]," next
+    "@with the power of all of them combined,{pause(20)} they will kill the illusion." next
+    "@Then,{pause(40)} people will be able to see the true change in this world." next
+    "@Do you understand?" next
+    "@You need to locate the Mani Mani Statue,{pause(40)} and you have to destroy it." next
+    "@It is resting somewhere in Fourside.{pause(40)} Somewhere dark, it hides...{pause(70)} Hidden to the eye of the people." next
+    "{pause(60)}" linebreak
+    "@...Upon realization,{pause(30)} it looks like I have something that you may have lost." next
+    "@Someone left it here...{pause(30)} Though I'm not sure who." next
+    "[1D 03 FF][1B 02 {e(l_0xc610f1)}][1D 0E 00 8B]{set(flag 554)}" call(data_33.l_0xc7dcb6) next
+    goto(l_0xc60ff3)
+
+l_0xc60ff3:
+    "{window_open(1)}@Your adventure is going to get a lot harder." next
+    "@So, I shall give you this ability that may help you along the way." next
+    "@The monkey next to you will teach you how to teleport." next
+    "@Would you like to learn this special power?" linebreak
+    "[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc610c1)} {e(l_0xc61082)}]" goto(l_0xc61082)
+
+l_0xc61082:
+    "@Hmmm.{pause(35)} Very well." linebreak
+    "@This power will serve you well on your expedition." next
+    "@Make sure that you talk to that monkey before you go.{pause(40)} He is the only one who can show you this rare power...{wait}{set(flag 2)}{window_closeall}[1F 07 03]{pause(20)}{music_resume}" eob
+
+l_0xc610c1:
+    "@Ha ha ha." linebreak
+    "@Yes.{pause(35)} This power will serve you well on your expedition." next
+    "@Make sure that you talk to that monkey before you go.{pause(40)} He is the only one who can show you this rare power...{wait}{set(flag 2)}{window_closeall}[1F 07 03]{pause(20)}{music_resume}" eob
+
+l_0xc610f1:
+    "@[1C 02 01]. It seems that you can't carry anything else." next
+    "@Please get rid of something out of your storage." next
+    "@You're going to need this Crouton Maker.{wait}[1F 07 03]{pause(20)}{music_resume}" eob
+
+l_0xc61139:
+    "@This is a warped world we live in..." next
+    "@The charade of a perfect world we live in,{pause(30)} has set the stage unintentionally.." next
+    "@I was told that you would arrive here,{pause(30)} so the prophecy is correct." next
+    "@The Mani Mani has us in our clutches again.{pause(30)} From our eyes,{pause(35)} nothing has changed." end
+
+l_0xc611e2:
+    "@Thank you.{pause(35)} You have been very patient." next
+    "@You have come so far,{pause(20)} but it is still out of reach." next
+    "@The <Mani Mani>...{pause(20)} ...It is still here." end
+
+l_0xc61228:
+    "@I totally forgot that this hole led to an underground maze.{pause(30)} Gosh, I'm such a screw up!" next
+    "@Leave it to the digging crew to completely turn this labrynth into a maze." next
+    "@Now, it's going to be a lot more tedious to find the treasure we're looking for." next
+    "@It's a little creepy down here,{pause(30)} I keep hearing scratching and digging all around me,{pause(30)} and I don't think it's the other workers." next
+    "@I don't think we're the only ones down here." next
+    "@Whatever is in here might interfere with our work.{pause(30)} This is something we clearly overlooked." end
+
+l_0xc612d2:
+    "[06 15 01 {e(data_32.l_0xc7c588)}]" call(l_0xc613b3) call(data_21.l_0xc6858a) "[1B 03 {e(data_21.l_0xc683de)}]" call(l_0xc615e9) "{pause(1)}[1F F1 3F 03 7B 02]{set(flag 277)}" call(l_0xc615a7) eob
+
+l_0xc612ff:
+    "[06 16 01 {e(data_32.l_0xc7c588)}]" call(l_0xc613b3) call(data_21.l_0xc68591) "[1B 03 {e(data_21.l_0xc683de)}]" call(l_0xc615e9) "{pause(1)}[1F F1 40 03 7B 02]{set(flag 278)}" call(l_0xc615a7) eob
+
+l_0xc6132c:
+    "[06 17 01 {e(data_32.l_0xc7c588)}]" call(l_0xc613b3) call(data_21.l_0xc68598) "[1B 03 {e(data_21.l_0xc683de)}]" call(l_0xc615e9) "{pause(1)}[1F F1 41 03 7B 02]{set(flag 279)}" call(l_0xc615a7) eob
+
+l_0xc61359:
+    "[06 18 01 {e(data_32.l_0xc7c588)}]" call(l_0xc613b3) call(data_21.l_0xc6859f) "[1B 03 {e(data_21.l_0xc683de)}]" call(l_0xc615e9) "{pause(1)}[1F F1 45 03 7B 02]{set(flag 280)}" call(l_0xc615a7) eob
+
+l_0xc61386:
+    "[06 19 01 {e(data_32.l_0xc7c588)}]" call(l_0xc613b3) call(data_21.l_0xc685a6) "[1B 03 {e(data_21.l_0xc683de)}]" call(l_0xc615e9) "{pause(1)}[1F F1 46 03 7B 02]{set(flag 281)}" call(l_0xc615a7) eob
+
+l_0xc613b3:
+    "{music(155)}[06 09 02 {e(l_0xc614f2)}][06 08 02 {e(l_0xc614b1)}][06 07 02 {e(l_0xc6146d)}][06 06 02 {e(l_0xc61443)}]{window_open(1)}@You are the ones destroying our home!" next
+    "@You humans converted our hole into some sort of a funhouse attraction!" next
+    "@I am Mino of the Five Master Moles.{pause(45)} Since you had the nerve to step into our hole,{pause(35)} I am going to tear you apart." next
+    "@Don't worry,{pause(35)} I'll dig you all a nice grave.[03]{window_closeall}" eob
+
+l_0xc61443:
+    "{window_open(1)}@Your stay has worn out,{pause(30)} now you will become worm food." next
+    "@I'm Mack of the Five Master Moles.{pause(35)} Allow me to demonstrate my power.[03]{window_closeall}" eob
+
+l_0xc6146d:
+    "{window_open(1)}@I am Maz of the Five Master Moles." next
+    "@I think I'm a bit weaker than the others.{pause(30)} But why does that matter?{pause(50)} I'll do what I must." next
+    "{window_closeall}" eob
+
+l_0xc614b1:
+    "{window_open(1)}@You can dig all you want,{pause(30)} but all you'll find is your doom!" next
+    "@I'm Meister of the Five Master Moles,{pause(35)} and I shall avenge my fallen home![03]{window_closeall}" eob
+
+l_0xc614f2:
+    "{window_open(1)}@Well done." next
+    "@You've managed to defeat four of the Master Moles," next
+    "@However, I remain standing." next
+    "@This is where your winning streak finally ends!" next
+    "@Take your best shot!" next
+    "@But, I will warn you." next
+    "@That I,{pause(30)} Marvel,{pause(40)} master of the Five Master Moles,{pause(35)} will shut you down for good!![03]{window_closeall}" eob
+
+l_0xc615a7:
+    "{isset(flag 277)}[1B 02 {e(l_0xc615e8)}]{isset(flag 278)}[1B 02 {e(l_0xc615e8)}]{isset(flag 279)}[1B 02 {e(l_0xc615e8)}]{isset(flag 280)}[1B 02 {e(l_0xc615e8)}]{isset(flag 281)}[1B 02 {e(l_0xc615e8)}]{set(flag 282)}{set(flag 72)}" call(data_33.l_0xc7dd85) "{unset(flag 54)}{unset(flag 55)}{set(flag 492)}" goto(l_0xc615e8)
+
+l_0xc615e8:
+    eob
+
+l_0xc615e9:
+    "[06 09 02 {e(l_0xc61615)}][06 08 02 {e(l_0xc61611)}][06 07 02 {e(l_0xc6160d)}][06 06 02 {e(l_0xc61609)}]{set(flag 518)}" eob
+
+l_0xc61609:
+    "{set(flag 519)}" eob
+
+l_0xc6160d:
+    "{set(flag 520)}" eob
+
+l_0xc61611:
+    "{set(flag 521)}" eob
+
+l_0xc61615:
+    eob
+
+l_0xc61616:
+    "[06 C3 01 {e(l_0xc61702)}]@Ukeke Upaputo?" next
+    "@(Excuse me, sir. Do you have" linebreak
+    "a [1C 05 E0]?)" next
+    "@Ukiikiiko Eeekiku..." next
+    "@(I know you need me to move out of your way,{pause(30)} but I don't care.{pause(50)} I just need a [1C 05 E0].)" next
+    "@Ukiki Kokushi?" next
+    "@(May I please have the [1C 05 E0]?)" linebreak
+    call(data_33.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc616b2)} {e(l_0xc61696)}]" goto(l_0xc61696)
+
+l_0xc61696:
+    "@Uki, Ayayaya!!" next
+    "@(I'm not moving anytime soon.)" end
+
+l_0xc616b2:
+    call(data_14.l_0xc5e456) "[1B 02 {e(l_0xc61696)}]{store_registers}" call(l_0xc623aa) "[1B 02 {e(l_0xc61696)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}@Kyako Kyako!" next
+    "@(Would you look at that?{pause(30)} It's a [1C 05 E0]!){wait}{wait}{window_closeall}[1F 1E 20 03 06][1F 17 22 03 2B 00 01]{set(flag 451)}" eob
+
+l_0xc61702:
+    "@Ukki Komi Ukikiikoko." next
+    "@(You're one lucky bastard.){wait}" end
+
+l_0xc61715:
+    "[06 C4 01 {e(l_0xc61803)}]@Kikiki Kiki! Kikikiki KikiKi{pause(45)} KI!!" next
+    "@(I'm so hungry...{pause(30)} SO HUNGRY!!{pause(30)} I'm in the mood for a [1C 05 5D]!)" next
+    "@Kikiki Kiki Kikikikiki Kiki" next
+    "@(Only a [1C 05 5D] can sustain me.)" next
+    "@Kikiki Kiki KI?" next
+    "@(Do you have one?)" linebreak
+    call(data_33.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc617bb)} {e(l_0xc6179b)}]" goto(l_0xc6179b)
+
+l_0xc6179b:
+    "@Kikiki Kiki KIKI KIKIIKIIKI KIKIII!" next
+    "@(I must get a [1C 05 5D]!{pause(30)} [1C 05 5D]!! [1C 05 5D]!!)" end
+
+l_0xc617bb:
+    call(data_14.l_0xc5e456) "[1B 02 {e(l_0xc6179b)}]{store_registers}[19 19 00 00]{swap}{result_is(93)}[1B 02 {e(l_0xc6179b)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}@Kikie!" next
+    "@(YESSSSS!!{pause(35)} My precious!){wait}{window_closeall}[1F 1E 1F 03 06][1F 17 21 03 2B 00 01]{set(flag 452)}" eob goto(l_0xc61803)
+
+l_0xc61803:
+    "@Kikki KiKiki" next
+    "@(I can't help but laugh.)" end
+
+l_0xc61817:
+    "[06 C5 01 {e(l_0xc61949)}]@Uki Ukikie Ukiekie Uki!" next
+    "@(Talah Rama has got to get some air conditioning,{pause(30)} I'm dying in here...)" next
+    "@Ukie Kikukie Kiyko!" next
+    "@(They're selling [1C 05 7F] somewhere in this desert...)" next
+    "@Upeikiko Kikikomi?" next
+    "@(I don't have any money,{pause(20)} since I'm a monkey.{pause(70)} Do you have one on you?)" next
+    call(data_33.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc618ed)} {e(l_0xc618c2)}]" goto(l_0xc618c2)
+
+l_0xc618c2:
+    "@Ukie Uke" next
+    "@(I'm going to die of heatstroke.)" end
+
+l_0xc618ed:
+    call(data_14.l_0xc5e456) "[1B 02 {e(l_0xc618c2)}]{store_registers}[19 19 00 00]{swap}{result_is(127)}[1B 02 {e(l_0xc618c2)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}@Ukoko Ukiekiyouko?" next
+    "@(Yes!! Looks like I'm going to last another day!!){wait}{window_closeall}[1F 1E 24 03 06][1F 17 26 03 2B 00 01]{set(flag 453)}" eob goto(l_0xc61949)
+
+l_0xc61949:
+    "@Ukiri Ukie" next
+    "@(Can Talah Rama afford air conditioning or what?)" end
+
+l_0xc61966:
+    "[06 C6 01 {e(l_0xc61a71)}]@Ukiki Ukikie Ukoko Kikoo Ukiekiki" next
+    "@(Name?{pause(20)} Monkette.{pause(30)} What do I want?{pause(20)} [1C 05 5F].{pause(40)} When?{pause(20)} Now.)" next
+    "@Ukie? Ukiko!" next
+    "@(Do you own one?{pause(30)} Give it!" next
+    call(data_33.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc61a14)} {e(l_0xc619ef)}]" goto(l_0xc619ef)
+
+l_0xc619ef:
+    "@Uki{pause(30)} Ukiko Kieyieyko!" next
+    "@(I will spit on your grave when you die.)" end
+
+l_0xc61a14:
+    call(data_14.l_0xc5e456) "[1B 02 {e(l_0xc619ef)}]{store_registers}" call(l_0xc62395) "[1B 02 {e(l_0xc619ef)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}@Uk! Ukiko" next
+    "@(That's better...{pause(30)} I guess I'll let you move.){wait}{window_closeall}[1F 1E 23 03 06][1F 17 25 03 2B 00 01]{set(flag 454)}" eob
+
+l_0xc61a71:
+    "@Ukkien..." next
+    "@(Not interested in talking to you...)" end
+
+l_0xc61a88:
+    "[06 C7 01 {e(l_0xc61b70)}]@Uuuki kyukipopoki" next
+    "@(Hey man,{pause(35)} you don't have a [1C 05 6C], do you?)" next
+    "@Kya Kya?" next
+    "@(How about you give me one?{pause(30)} Help a guy out, huh?)" linebreak
+    call(data_33.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc61b03)} {e(l_0xc61add)}]" goto(l_0xc61add)
+
+l_0xc61add:
+    "@Kya." next
+    "@(*Sad monkey sounds*)" end
+
+l_0xc61b03:
+    call(data_14.l_0xc5e456) "[1B 02 {e(l_0xc61add)}]{store_registers}[19 19 00 00]{swap}{result_is(108)}[1B 02 {e(l_0xc61add)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}@Gulp,{pause(15)} gulp...{pause(20)} Ukioki!" next
+    "@(Gulp,{pause(15)} gulp...{pause(20)} Good stuff, man.){wait}{window_closeall}[1F 1E 2E 03 06][1F 17 30 03 2B 00 01]{set(flag 455)}" eob goto(l_0xc61b70)
+
+l_0xc61b70:
+    "@Kya Kya" next
+    "@This isn't the monkey language. You cannot comprehend what he is saying." end
+
+l_0xc61b85:
+    "[06 C8 01 {e(l_0xc61c76)}]@I am a monkey capable of fluent English." next
+    "@Isn't it nice to hear a language that doesn't sound completely ridiculous?" next
+    "@It gives you a break from all of that <Uki kikikomiyo kiki ko> gibberish." next
+    "@Anyway,{pause(20)} I'm not going to move at all." next
+    "@I'll only move if you have a [1C 05 5F].{pause(40)} Do you have one you can give to me?" next
+    call(data_33.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc61c20)} {e(l_0xc61c0f)}]" goto(l_0xc61c0f)
+
+l_0xc61c0f:
+    "@Kyeykie Kikikiokio" next
+    "@(I guess it's back to bananas for me...)" end
+
+l_0xc61c20:
+    call(data_14.l_0xc5e456) "[1B 02 {e(l_0xc61c0f)}]{store_registers}" call(l_0xc62395) "[1B 02 {e(l_0xc61c0f)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}@Kikiki!!" next
+    "@(Pizza! Yeah! Yeah!!){wait}{window_closeall}[1F 1E 2D 03 06][1F 17 2F 03 2B 00 01]{set(flag 456)}" eob
+
+l_0xc61c76:
+    "@Why thank you, kind sir." next
+    "@This pizza shall change the future!!" next
+    "@Let's encourage more monkeys to learn the human language!!" end
+
+l_0xc61cac:
+    "[06 C9 01 {e(l_0xc61da4)}]@Uki Uk Kiyoki!" next
+    "@(There's barely anything to eat in this desert.{pause(20)} We monkeys are in danger.)" next
+    "@Ukie Kik Kikyouko" next
+    "@(There are many creatures out there that thirst for our muscle and skin.)" next
+    "@Uuuuukiiiiii..." next
+    "@(Do you have a [1C 05 5A] on you?{pause(30)} I've never been so hungry in my life.)" next
+    call(data_33.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc61d5d)} {e(l_0xc61d50)}]" goto(l_0xc61d50)
+
+l_0xc61d50:
+    "@UkeekeKioy" next
+    "@(Why do I feel so woozy?)" end
+
+l_0xc61d5d:
+    call(data_14.l_0xc5e456) "[1B 02 {e(l_0xc61d50)}]{store_registers}" call(l_0xc62380) "[1B 02 {e(l_0xc61d50)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}@Unkikie Ukioyoi!" next
+    "@(Mmmmmm...[1C 05 5A]!{pause(30)} Chow time, baby!){wait}{window_closeall}[1F 1E 28 03 06][1F 17 2A 03 2B 00 01]{set(flag 457)}" eob
+
+l_0xc61da4:
+    "@Ukiyiko Kiki" next
+    "@(The monkey beside me likes them tasty burgers.)" end
+
+l_0xc61ddb:
+    "[06 CA 01 {e(l_0xc61ed7)}]@Unikiki KiyoKipeo" next
+    "@(My brother died yesterday.)" next
+    "@Ukie Unkikie...Kiokiyo Kiki" next
+    "@(He was trying to get a tasty [1C 05 5A]...{pause(30)} what a moron.)" next
+    "@Uki Ukilio Ukipikoe?" next
+    "@(Do you have a [1C 05 5A]?{pause(35)} I'm trying to prevent the extinction of monkeys.)" next
+    call(data_33.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc61e8e)} {e(l_0xc61e81)}]" goto(l_0xc61e81)
+
+l_0xc61e81:
+    "@Ukiekokoko" next
+    "@(So, yeah. The desert is scary,{pause(20)} isn't it?)" end
+
+l_0xc61e8e:
+    call(data_14.l_0xc5e456) "[1B 02 {e(l_0xc61e81)}]{store_registers}" call(l_0xc62380) "[1B 02 {e(l_0xc61e81)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}@Unkikkie!" next
+    "@(It's a [1C 05 5A]!!{pause(35)} FOOOOOOOD!!){wait}{window_closeall}[1F 1E 27 03 06][1F 17 29 03 2B 00 01]{set(flag 458)}" eob
+
+l_0xc61ed7:
+    "@Ukikiki Ukio" next
+    "@(Did you give the guy beside me a [1C 05 5A]?)" end
+
+l_0xc61f07:
+    "[06 CB 01 {e(l_0xc62008)}]@Ukie Ukie Ukie Kiyo" next
+    "@(I'm Ukie Ukie Kiyo!)" next
+    "@Ukie Ukikikie" next
+    "@(Right now,{pause(15)} I'm craving a [1C 05 A6].)" next
+    "@Ukie Ukiiiki Kioko" next
+    "@(Do you wish to fill my desire?)" next
+    call(data_33.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc61fab)} {e(l_0xc61f97)}]" goto(l_0xc61f97)
+
+l_0xc61f97:
+    "@Uki...Ki" next
+    "@(Damn brat.)" end
+
+l_0xc61fab:
+    call(data_14.l_0xc5e456) "[1B 02 {e(l_0xc61f97)}]{store_registers}[19 19 00 00]{swap}{result_is(166)}[1B 02 {e(l_0xc61f97)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}@Ukiyakioko KIIIIIIIIIIII" next
+    "@(Yes! I shall begin my accension to the next world!){wait}{window_closeall}[1F 1E 37 03 06][1F 17 39 03 2B 00 01]{set(flag 459)}" eob goto(l_0xc62008)
+
+l_0xc62008:
+    "@Uki Uki Uki Kiyo" next
+    "@(I'm Uki Uki Kiyo.)" end
+
+l_0xc62026:
+    "[06 CC 01 {e(l_0xc620e3)}]@Uikkie Uiki Uki Kiyo Kiyo Ukipiokoko" next
+    "@(I'm not gonna move my fat ass until you give me a [1C 05 5A].)" linebreak
+    call(data_33.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc62089)} {e(l_0xc6206b)}]" goto(l_0xc6206b)
+
+l_0xc6206b:
+    "@Uikikiki" next
+    "@(Alright, but I'm not moving then.)" end
+
+l_0xc62089:
+    call(data_14.l_0xc5e456) "[1B 02 {e(l_0xc6206b)}]{store_registers}" call(l_0xc62380) "[1B 02 {e(l_0xc6206b)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}@Uikki Ukopekikikikoko" next
+    "@(Alright alright, I'll move.){wait}{window_closeall}[1F 1E 36 03 06][1F 17 38 03 2B 00 01]{set(flag 460)}" eob
+
+l_0xc620e3:
+    "@Uiki" next
+    "@(I'm okay.)" end
+
+l_0xc620f7:
+    "[06 CD 01 {e(l_0xc62236)}]@Beep Beeeep Boop BZZT!!" next
+    "@(I am not a monkey. I am just a robot inhabiting a monkey.)" next
+    "@Beep Bop BZZZT Beeeeeeeeeeep." next
+    "@(A [1C 05 5C] keeps me stable.)" next
+    "@Beep Boop Beeep Boopoo Beeep Zap?" next
+    "@(Do you have one that I can use?)" linebreak
+    call(data_33.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc621d0)} {e(l_0xc6219a)}]" goto(l_0xc6219a)
+
+l_0xc6219a:
+    "@BEEP BEEP! Zap! Boop Plink Ding!!" next
+    "@(ACCESS DENIED)" end
+
+l_0xc621d0:
+    call(data_14.l_0xc5e456) "[1B 02 {e(l_0xc6219a)}]{store_registers}[19 19 00 00]{swap}{result_is(92)}[1B 02 {e(l_0xc6219a)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}@Beep{pause(20)} Beep Boop{pause(20)} Plink!{pause(20)} Beeeeep!" next
+    "@(Why thank you.{pause(20)} Now it is crucial that I move on with my plan to surpass Talah Rama himself.){wait}{window_closeall}[1F 1E 32 03 06][1F 17 34 03 2B 00 01]{set(flag 461)}" eob goto(l_0xc62236)
+
+l_0xc62236:
+    "@Ukikuki kaikiki!" next
+    "@(*Chatting Eagerly*)" end
+
+l_0xc62257:
+    "[06 CE 01 {e(l_0xc6235d)}]@Kiki Kiekieyo Kiki!" next
+    "@(E-Excuse me sir,{pause(20)} but do you have a [1C 05 8C]?)" next
+    "@Kiki Kiyokikipokiko" next
+    "@(I really need a [1C 05 8C]...)" next
+    "@Kuuki Kikiomikoko?" next
+    "@(Don't ask me why...)" linebreak
+    call(data_33.l_0xc7dd4f) "[11]{clearline}[09 02 {e(l_0xc622fc)} {e(l_0xc622dc)}]" goto(l_0xc622dc)
+
+l_0xc622dc:
+    "@Ki Ki Kiki ku!" next
+    "@(Aw man!{pause(30)} C'mon, please?)" end
+
+l_0xc622fc:
+    call(data_14.l_0xc5e456) "[1B 02 {e(l_0xc622dc)}]{store_registers}[19 19 00 00]{swap}{result_is(140)}[1B 02 {e(l_0xc622dc)}]{load_registers}[1D 0F 00 00]{sound(118)}{pause(10)}@Kiki Kiyuki Kuku Kyumi!" next
+    "@(Thanks, I really needed this...){wait}{window_closeall}[1F 1E 31 03 06][1F 17 33 03 2B 00 01]{set(flag 462)}" eob goto(l_0xc6235d)
+
+l_0xc6235d:
+    "@Koke Kiyuki Kiki" next
+    "@(Yes! This is gonna be great!)" end
+
+l_0xc62380:
+    "[19 19 00 00]{swap}{rtoarg}{result_is(90)}[1B 03 {e(l_0xc62394)}]{swap}{result_is(233)}" goto(l_0xc62394)
+
+l_0xc62394:
+    eob goto(l_0xc62395)
+
+l_0xc62395:
+    "[19 19 00 00]{swap}{rtoarg}{result_is(95)}[1B 03 {e(l_0xc623a9)}]{swap}{result_is(97)}" goto(l_0xc623a9)
+
+l_0xc623a9:
+    eob goto(l_0xc623aa)
+
+l_0xc623aa:
+    "[19 19 00 00]{swap}{rtoarg}{result_is(224)}[1B 03 {e(l_0xc623be)}]{swap}{result_is(225)}" goto(l_0xc623be)
+
+l_0xc623be:
+    eob goto(l_0xc623bf)
+
+l_0xc623bf:
+    "[06 CF 01 {e(l_0xc624f5)}]@Kyikuro Kiki Koko" next
+    "@(Talah Rama has been hiding something from us.{pause(40)} It appears that he knows something that we don't.)" next
+    "@Ukiikii Kukukakukomi" next
+    "@(He seems to be taking it very seriously, though.)" next
+    "@Kukukikuko Kipichukokiku" next
+    "@(One time,{pause(20)} when everyone else was asleep,{pause(20)} I heard him,{pause(30)} crying.)" next
+    "@Kukiko Kuhuki <Kiku Kiguchukokokiki>" next
+    "@(He said somehing,{pause(30)} something like; <It's such a shame>.)" next
+    "@Kiiikiii Kukkukipokipoki" next
+    "@(Here is something of my gratitude,{pause(50)} for making it this far in.)" next
+    "@(Hopefully you can understand what I've been trying to figure out.)[03][1D 03 FF][1B 02 {e(l_0xc624d6)}][1D 0E 00 5C]" call(data_33.l_0xc7dccf) "{set(flag 463)}" end
+
+l_0xc624d6:
+    next
+    "@Kie{pause(20)} Kiuku" next
+    "@(You might want to empty out your bag a bit.{pause(20)} You don't have any room.)" end
+
+l_0xc624f5:
+    "@Kika Kikikupi?" next
+    "@(Did you find a [1C 05 3A] yet?)" next
+    "@Ukika Uiiikipoi?" next
+    "@(Or did you come here to get another [1C 05 5C]?)" next
+    "@Uikipiki Kika!!" next
+    "@(I am the bearer of eggs!!)[03][1D 03 FF][1B 02 {e(l_0xc624d6)}][1D 0E 00 5C]" call(data_33.l_0xc7dccf) end
+
+l_0xc62578:
+    "[06 D0 01 {e(l_0xc6266c)}]@Kiyukukik Ikipikikau" next
+    "@(There's some batshit crazy monkey here that knows how to teleport.)" next
+    "@Kyu?{pause(15)}  Kyikki?" next
+    "@(Crazy,{pause(35)} isn't it?)" next
+    "@Kyu Kiyku Kiyiyiyiyi" next
+    "@(Let me give you a [1C 05 A6].)" next
+    "[1D 03 FF][1B 02 {e(l_0xc62641)}][1D 0E 00 A6]@Kiki Uyuikiki" next
+    "@(I don't know how you'll find it useful{pause(40)} But why do I care?)[03]" call(data_33.l_0xc7dcb6) "{set(flag 464)}" end
+
+l_0xc62641:
+    "@Kiek Kieki" next
+    "@(Your bag is full.{pause(25)} Empty it.)" end
+
+l_0xc6266c:
+    "@Recently,{pause(35)} a group of people in red keep visiting this cave." next
+    "@We don't know who they are,{pause(20)} or what they want." next
+    "@My best guess is they want to learn the teleport ability as well." next
+    "@Who would want to learn something so cool from an old fart like Talah Rama?" next
+    "@It must be difficult,{pause(20)} having to live in a crazy environment like this." next
+    "@An environment where your best friend could secretly be a total psychopath." next
+    "@Unlike you humans,{pause(20)} a monkey's life is simple as can be." next
+    "@...{pause(30)}and yes I am one of the monkeys here that secretly knows the human language." end
+
+l_0xc6271a:
+    "@Ukikki Rukikki" next
+    "@(I hope that one day,{pause(30)} things will change for us monkeys.)" next
+    "@Waakikki Hoikikki" next
+    "@(But, things aren't going to get better if we don't do anything about it.)" next
+    "@Ukipiki kikikukomi" next
+    "@(Let this melody explain my sorrow for this downhill world.)" end
+

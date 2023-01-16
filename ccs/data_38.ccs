@@ -1,0 +1,430 @@
+/*
+ * EarthBound Text Dump
+ * Time: 16:51:30 - 12/09/2019
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc85291:
+    call(data_37.l_0xc850d8) call(data_37.l_0xc850e6) "@<Denver sighted in Winters>" next
+    "@<<Okay, so basically,{pause(25)} it's like that <Tessie> creature we were looking for,{pause(25)} but it's much more interesting!>,{pause(45)}says member of the Denver club>" end
+
+l_0xc852f0:
+    call(data_37.l_0xc850d8) call(data_37.l_0xc850e6) "@<The results are in for the <Skip Sandwhich Eating Contest>" next
+    "@<<This really fat guy crushed the competition,{pause(25)} but now he's faster than speed itself.>,{pause(45)} says a judge from the competition>" end
+
+l_0xc8533a:
+    call(data_37.l_0xc850d8) call(data_37.l_0xc850e6) "@<Two sides of town arguing over which is the more efficient procedure>" end
+
+l_0xc85370:
+    call(data_37.l_0xc850d8) call(data_37.l_0xc850e6) "@<Big changes planned for Threed>" next
+    "@<Three kids help return town to a functional state>" end
+
+l_0xc853b0:
+    call(data_37.l_0xc850d8) "@Oh,{pause(25)} hey!" next
+    "@I'm not here to bring you the newspaper.{pause(25)} I'm part of the <Resurrection> group." next
+    "@Would you like to take part in a special ritual with our team?{pause(45)} It's all to praise the marvelous Mani." next
+    "@What?{pause(25)} You're looking for the newspaper.{pause(45)} Oh,{pause(20)} sorry." next
+    "@I'll go promote my dangerous activities elsewhere." end
+
+l_0xc8544c:
+    call(data_37.l_0xc850d8) call(data_37.l_0xc850e6) "@<Hi, [1C 02 01]!{pause(25)} I can't believe you found my article in the news!>" next
+    "@I hope you're safe and well!>" next
+    "@<Love you! (Sincerely,{pause(25)} your mother)>" next
+    "@Hmm...{pause(35)} That wasn't supposed to be there..." next
+    "@Someone must've snuck it in somehow..." end
+
+l_0xc8549d:
+    call(data_37.l_0xc850d8) call(data_37.l_0xc850e6) "@<Half the town participates in annual supernatural cleanup>" end
+
+l_0xc854cc:
+    call(data_37.l_0xc850d8) call(data_37.l_0xc850e6) "@<Local man eaten by zombies overnight,{pause(25)} still lives to see another day.{pause(60)}<Everywhere on my body hurts, and I can't really move around.{pause(45)} Even speaking is difficult for me>>" end
+
+l_0xc85507:
+    call(data_37.l_0xc850d8) call(data_37.l_0xc850e6) "@<Newspaper readers are dumb!" next
+    "@They just copy everything we say!>" next
+    "@Hmph!{pause(35)} How rude!" end
+
+l_0xc85548:
+    call(data_37.l_0xc850d8) "@*Sigh*{pause(25)} I need something similiar to this right now..." next
+    "@<Do you want a place to let out all your pain?{pause(25)} Do you finally want to get those voices to shut up?>" next
+    "@<Stop by our graveyard.{pause(25)} We got lots of open spaces ready for those who want to sleep for good.>" next
+    "@<Just make a turn up north and to the left.{pause(35)} We'll see ya there!!" end
+
+l_0xc855d4:
+    call(data_37.l_0xc850d8) "@Hang on a second..." next
+    "@There's nothing interesting to read.{pause(25)} Something is definetly wrong today." end
+
+l_0xc85610:
+    call(data_37.l_0xc850d8) call(data_37.l_0xc850e6) "@<Thanks for reading our newspaper!{pause(25)} You're really really awesome!!>" end
+
+l_0xc85651:
+    call(data_37.l_0xc850d8) call(data_37.l_0xc850e6) "@<[1C 02 01] confirmed the official savior of this town>" end
+
+l_0xc8567b:
+    call(data_37.l_0xc841de) "{ctoarg}{swap}[1F C0 1D {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85767)} {e(l_0xc85791)} {e(l_0xc857bb)} {e(l_0xc8581b)} {e(l_0xc858ba)} {e(l_0xc858f0)} {e(l_0xc85985)} {e(l_0xc859b5)} {e(l_0xc85a11)} {e(l_0xc85a6c)} {e(l_0xc85ad8)} {e(l_0xc85b55)} {e(l_0xc85bab)}]" eob
+
+l_0xc856fc:
+    "@Hello, sir!{pause(25)} Have you heard the good news?" next
+    "@In a huge place like this,{pause(25)} so much can happen.{pause(25)} It can be pretty difficult to catch up!" next
+    "@That's what I'm here for!{pause(25)} I can read you the recent edition of the Fourside Herald." next
+    eob
+
+l_0xc8574a:
+    "@...{pause(30)}Well it says here on the front page..." next
+    eob
+
+l_0xc85767:
+    call(l_0xc856fc) call(l_0xc8574a) "@<Mysterious boy comes to town,{pause(25)} offers Montgomery Galloway a golden statue>" end
+
+l_0xc85791:
+    call(l_0xc856fc) call(l_0xc8574a) "@<Mysterious boy now Galloway's assistant>" end
+
+l_0xc857bb:
+    call(l_0xc856fc) call(l_0xc8574a) "@<Governmental laws becoming more stricter>" next
+    "@Heh,{pause(25)} no kidding..." next
+    "@Even this newspaper knows something fishy is happening here." end
+
+l_0xc8581b:
+    call(l_0xc856fc) call(l_0xc8574a) "@<Galloway's assistant seen riding away in helicopter>" next
+    "@<Jailed citizens now free>" next
+    "@Whew!{pause(25)} What a relief!" next
+    "@I should go visit my dad,{pause(25)} who should still be stuck in jail." end
+
+l_0xc858ba:
+    call(l_0xc856fc) call(l_0xc8574a) "@<Galloway's identity revealed!{pause(25)} His real name is...{pause(30)}> Huh?{pause(45)} Darnit! This paper is a little smudged.{pause(25)} I can't read what it says." end
+
+l_0xc858f0:
+    call(l_0xc856fc) "@Oh,{pause(25)} hey!" next
+    "@Uh,{pause(25)} I didn't come here to bring you the newspaper." next
+    "@I came here to...{pause(20)} Uh...{pause(55)} Hmm..." next
+    "@You know what?{pause(25)} I can't take this anymore!{pause(40)} I'm going home!" next
+    "@Find someone else to deliver your crummy newspaper!" end
+
+l_0xc85985:
+    call(l_0xc856fc) call(l_0xc8574a) "@<Local man steps on leaf.{pause(25)} Leaf doesn't crunch>" end
+
+l_0xc859b5:
+    call(l_0xc856fc) "@<Popular star Monika driven out of town by the Runaway Five>" next
+    "@<<They are disgusting!{pause(35)} They freak me out!{pause(30)} Why did I think this show was a good idea?>,{pause(25)} says Monika>" end
+
+l_0xc85a11:
+    call(l_0xc856fc) "@<Pyramid in Scaraba finally opened again>" next
+    "@<Pyramid was smart enough to let four children inside,{pause(20)} before quickly closing its doors>" next
+    "@<<Awww man...{pause(25)} But we were so close!{pause(20)} It's not fair!>,{pause(35)} pouts Scaraba scientist>" end
+
+l_0xc85a6c:
+    call(l_0xc856fc) "@Hm?{pause(25)} Oh no!" next
+    "@I got the pages mixed up!{pause(35)}" linebreak
+    "@This is all my fault!{pause(30)}" linebreak
+    "@Here,{pause(20)} let me just get them back together...{pause(70)} (Suddenly,{pause(30)} all the papers fell to the floor)." next
+    "@Wha...{pause(25)} I...{pause(25)} But...{pause(50)} *Sob*" end
+
+l_0xc85ad8:
+    call(l_0xc856fc) "@<Fourside Hotel dining area disaster>" next
+    "@<Food ingredients infested with rat fecal matter>" next
+    "@<Hotel possibly shutting down soon>{pause(25)} Oh, wait. This is our hotel." next
+    "@Just don't ask how it all happened." end
+
+l_0xc85b55:
+    call(l_0xc856fc) call(l_0xc8574a) "@<Debate issued over newspaper sales>" next
+    "@<Strong possibility that Fourside Herald will no longer be for free>" next
+    "@What are they thinking?{pause(25)} This kind of thinking ruins the economy, you know?" end
+
+l_0xc85bab:
+    call(l_0xc856fc) call(l_0xc8574a) "@<Local boy ran over by car.{pause(25)} Suffers no injuries at all>" end
+
+l_0xc85bd4:
+    call(data_37.l_0xc841de) "{ctoarg}{swap}[1F C0 1D {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85c99)} {e(l_0xc85cd3)} {e(l_0xc85d13)} {e(l_0xc85d45)} {e(l_0xc85de3)} {e(l_0xc85e27)} {e(l_0xc85e65)} {e(l_0xc85eb1)} {e(l_0xc85f32)}]" eob
+
+l_0xc85c55:
+    "@Greetings, young man." linebreak
+    " You must be looking for this." next
+    eob
+
+l_0xc85c76:
+    "@Sit back and enjoy the Summers Dream paper." next
+    eob
+
+l_0xc85c99:
+    call(l_0xc85c55) call(l_0xc85c76) "@<Group of people reported missing in Winters>" end
+
+l_0xc85cd3:
+    call(l_0xc85c55) call(l_0xc85c76) "@<Local woman dropped popsicle in sand>" next
+    "@<Dissolves a 42 feet hole in the ground>" end
+
+l_0xc85d13:
+    call(l_0xc85c55) call(l_0xc85c76) "@<Mayor of Summers confirms there is no reason to have a newspaper in Summers,{pause(35)} he just wanted to fit in with the neighbours>" end
+
+l_0xc85d45:
+    call(l_0xc85c55) "@Oh,{pause(25)} bonjour!" next
+    "@I don't have a newspaper to give to you,{pause(40)} non!{pause(25)} Instead,{pause(20)} I have an offer that you might be interested in." next
+    "@Right now,{pause(20)} until tomorrow,{pause(25)} we're selling soothing massages for $59.99." next
+    "@Heh?{pause(25)} You're are not interested in this special offer?{pause(45)} You rather read the news?" next
+    "@Je suis desole!{pause(25)} I'll try not to bother you again, sir." end
+
+l_0xc85de3:
+    call(l_0xc85c55) call(l_0xc85c76) "@<Summers in risk of giant tsunamis caused by Grand Sabertooth>" end
+
+l_0xc85e27:
+    call(l_0xc85c55) call(l_0xc85c76) "@<Summers does nothing about tsunami warnings.>" next
+    "@Well, that's not exactly true.{pause(25)} We did put it in the newspaper!" end
+
+l_0xc85e65:
+    call(l_0xc85c55) call(l_0xc85c76) "@<Small search party bombs ocean seas in search for Grand Sabertooth>" next
+    "@<None have returned alive>" end
+
+l_0xc85eb1:
+    call(l_0xc85c55) "@Well, there's nothing interesting enough,{pause(35)} so I'll read the <About> section." next
+    "@<Welcome to The Summer's Dream,{pause(25)} the official newspaper for Summers!>" next
+    "@<Let the smooth waters wash away all your pains,{pause(25)} kick back and relax!>" next
+    "@<You must be tired from travelling all day>" end
+
+l_0xc85f32:
+    call(l_0xc85c55) call(l_0xc85c76) "@<Deli store planning to open next month now shut down>" next
+    "@<<One of the ovens got left on overnight,{pause(25)} and now everything smells like fish!>,{pause(45)} complains the Health Department>" end
+
+l_0xc85f76:
+    call(data_37.l_0xc841de) "{ctoarg}{swap}[1F C0 1D {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86059)} {e(l_0xc86088)} {e(l_0xc860b9)} {e(l_0xc860e4)} {e(l_0xc86112)} {e(l_0xc86147)} {e(l_0xc86186)}]" eob
+
+l_0xc85ff7:
+    "@Ehum!{pause(25)} Salutations from the hottest place on Earth." next
+    "@While you're getting sunburn,{pause(25)} you should read our handy newspaper." next
+    "@<The Scaraba Discussion>" next
+    eob
+
+l_0xc8603c:
+    "@Now,{pause(20)} let's see...{pause(25)} Uh..." end
+
+l_0xc86059:
+    call(l_0xc85ff7) "@<Group of children responsible for the disappearance of Grand Sabertooth.>" next
+    call(l_0xc8603c) eob
+
+l_0xc86088:
+    call(l_0xc85ff7) "@<Local pyramid opens for the public.>" next
+    "@<Get there before it closes!>" next
+    call(l_0xc8603c) eob
+
+l_0xc860b9:
+    call(l_0xc85ff7) "@<Never mind,{pause(25)} the pyramid is now closed>" next
+    call(l_0xc8603c) eob
+
+l_0xc860e4:
+    call(l_0xc85ff7) "@<Strange sandy building suddenly gains life.>" next
+    call(l_0xc8603c) eob
+
+l_0xc86112:
+    call(l_0xc85ff7) "@<Sailor in Toto arrested for child endangerment.>" next
+    "@<<I did it all for a cause,{pause(40)} all for a cause, y'here?>>" next
+    call(l_0xc8603c) eob
+
+l_0xc86147:
+    call(l_0xc85ff7) "@<The hero, [1C 02 01] spotted in Scaraba.>" next
+    call(l_0xc8603c) eob
+
+l_0xc86186:
+    call(l_0xc85ff7) "@<Loud sounds blaring throughout Eagleland>" next
+    "@<Many left confused on how such loud sounds could work in a Super Nintendo game.>" next
+    "@Gee, these writers have no shame!" next
+    call(l_0xc8603c) eob
+
+l_0xc861dd:
+    "@It is good to be informed,{pause(25)} but the information that you learn can be used to kill you." next
+    "@You never know when a best friend might stab you in the back,{pause(30)} leaving deep emotional gashes on your body." next
+    "@All you believe,{pause(20)} will prove all that you know." next
+    "@And all that you know,{pause(25)} can leave you lost in the dark." next
+    "@Mani is the only light in a world of dark." next
+    "@If we believe what they know,{pause(25)} they can't kill us." end
+
+l_0xc86279:
+    "[06 4F 00 {e(l_0xc86320)}][06 84 00 {e(l_0xc862b8)}]@(Don't get too close!{pause(25)} You don't know what it might do.)" next
+    "@(It's hotter than Arizona.)" end
+
+l_0xc862b8:
+    "@Despite still being a bit hot,{pause(25)} it seems you can take a piece of the meteorite with you." next
+    "@Do you want to take a piece?" linebreak
+    "[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc862f8)} {e(l_0xc862f7)}]" goto(l_0xc862f7)
+
+l_0xc862f7:
+    eob
+
+l_0xc862f8:
+    "[1D 03 FF][1B 02 {e(l_0xc86311)}][1D 0E 00 C1][1B 05]" call(data_33.l_0xc7dcb6) "{set(flag 79)}" end
+
+l_0xc86311:
+    "@There's nowhere to put it." end
+
+l_0xc86320:
+    "@(A meteor landed on the clifftop.{pause(25)} It's not the first time.)" end
+
+l_0xc8634c:
+    "@If you're wealthy and looking for a home,{pause(25)} check out <Beak Point Real Estate>" next
+    "@If you're poor and looking for some free luxury,{pause(25)} shame on you!" next
+    "@If you're none of those...{pause(65)} Well, I don't know what you'd be then..." end
+
+l_0xc86399:
+    "@<Onnet Hospital>" next
+    "@Stronger every day,{pause(25)} successful every second!" end
+
+l_0xc863da:
+    "@(They're just flowers.)" next
+    "@(Nothing special.)" end
+
+l_0xc86419:
+    "@<Onnet Homeless Shelter>." next
+    "@It's not in the best of condition,{pause(45)} but it's never been open to the public, anyway." end
+
+l_0xc86431:
+    "@<Giant Step>" next
+    "@Do Not Enter!{pause(20)}" linebreak
+    "@(It looks quite nostalgic)" end
+
+l_0xc86467:
+    "@The face of Onnet!" next
+    "@Yes, this is the <Onnet City Hall>" end
+
+l_0xc86477:
+    "@This road leads to Twoson." end
+
+l_0xc86483:
+    "@<Please look both ways before crossing the street.{pause(35)} In case you don't know,{pause(30)} cars WILL run you over!>" end
+
+l_0xc864a7:
+    "@Meditation is important,{pause(20)} even if you don't really think so." next
+    "@<Anonymous Wisdom>" end
+
+l_0xc864e6:
+    "@Welcome to the <Onett Public Library>{pause(20)}" next
+    "@Our closing sale has begun!{pause(35)} We're offering books for free!" end
+
+l_0xc86511:
+    "@This path will take you towards Onnet." next
+    "@What a good place to be!" end
+
+l_0xc8652a:
+    "@Say hello to at least one person today." next
+    "@If you can't,{pause(50)} well...{pause(60)} that's okay too...{pause(25)}" next
+    "@<Anonymous Wisdom>" end
+
+l_0xc86554:
+    "@Welcome to Lightford,{pause(20)} a small blip in history." end
+
+l_0xc86568:
+    "@<This farm is Cow Approved!>" next
+    "@(Mooooo!)" end
+
+l_0xc86591:
+    "@<Burglin Park>" next
+    "@In the midst of something better." end
+
+l_0xc865cb:
+    "@Welcome to Twoson!" next
+    "@A town of new and old." end
+
+l_0xc865f3:
+    "@Be careful of people in red suits." end
+
+l_0xc8661b:
+    "@New shows every week!{pause(25)} Visit the Chaos Theatre." end
+
+l_0xc86646:
+    "@<Burglin Park Second Enterance>{pause(25)} We've got nothing to hide anymore." end
+
+l_0xc86663:
+    "@We will paint the town red...{pause(45)}in your own blood." next
+    "@We are coming,{pause(20)} whether you like it or not." next
+    "@<The Red Raven Society>" end
+
+l_0xc86689:
+    "@<Huge, but haunted tunnel>{pause(25)}" linebreak
+    "@This tunnel should take you to Threed.{pause(25)} Better have your ghost vacuums ready!" end
+
+l_0xc866ab:
+    "@<Residance of the brilliant genius,{pause(25)} Orange Kid>" next
+    "@<<Yep, that's me!{pause(35)} Come on in!>>" end
+
+l_0xc866c4:
+    "@<Home of Apple Kid>" end
+
+l_0xc866dd:
+    "@<Lost all sense of what you're doing?{pause(25)} Visit our Hint Shop today!>" end
+
+l_0xc866f3:
+    "@<Busy Bulletin Board>" next
+    "@(This bulletin board is so boring...{pause(20)})" linebreak
+    "@(The thousands of written letters are lulling you to sleep...)" next
+    "@(...)" linebreak
+    "@(Wake up!)" end
+
+l_0xc8672b:
+    end
+
+l_0xc8672d:
+    "@<You actually found our sign.{pause(25)} I'm impressed!>" next
+    "@<Not a lot of people stop to read this sign anymore.{pause(25)}>" next
+    "@<Thank you.>" end
+
+l_0xc86787:
+    "@Come sleep with the dead!" next
+    "@<Threed Hotel>" end
+
+l_0xc867c5:
+    "@(Just a kind guy trying to sell out hints.)" next
+    "@<Hint Shop>" end
+
+l_0xc86813:
+    "@Skinny dipping prohibited on this property!!" end
+
+l_0xc8683d:
+    "[19 10 01]{swap}@[1C 02 00] took a look inside the drawers." next
+    "[06 F3 02 {e(l_0xc8688e)}][19 10 01]{swap}@Inside,{pause(25)} there is a [1C 05 CE]." next
+    "[1D 03 FF][1B 02 {e(l_0xc8689c)}][1D 0E 00 CE]" call(data_33.l_0xc7dccf) "{set(flag 755)}" end goto(l_0xc8688e)
+
+l_0xc8688e:
+    "@There was nothing, but dust inside." end
+
+l_0xc8689c:
+    "@But, there is no room to put it." end
+
+l_0xc868ad:
+    "@(Do not enter behind department store!{pause(35)} Crime scene investigation in progress!)" next
+    "@(If you prefer not to listen,{pause(25)} prepare to engage in police brutality!)" end
+
+l_0xc86900:
+    "@(Coming Soon...)" next
+    "@(The best thing to come to the best city!)" next
+    "@(Fourside Vision Movie Theatre)" next
+    "@(Showing the following movies upon grand opening...)" next
+    "@(Christmas Tree Kickers,{pause(40)} Goose Cheese,{pause(50)} and another shitty Illumination movie!)" next
+    "@(Stay tuned for more information.)" end
+
+l_0xc86961:
+    "@<If you notice any bugs in our pastries,{pause(35)} there will be an additional price added to your order>" next
+    "@<Everyone knows a life isn't for free>" end
+
+l_0xc86995:
+    "@(I can see all sorts of things with my hidden third eye!" next
+    "@(It seems you don't believe me.{pause(35)} That is what I saw in my head.)" end
+
+l_0xc869be:
+    "@This is the world you created, [1C 02 01].{pause(35)} I was created from a faint memory in the back of your mind, [1C 02 01]." end
+
+l_0xc869cb:
+    "@Take a look around.{pause(25)} You might find something that means most to you." end
+
+l_0xc869dd:
+    "@Scaraba Museum" next
+    "@(Revisit ancient history among ancient history!)" end
+
+l_0xc86a25:
+    "@(If you see a guy in blue,{pause(20)} claiming to heal you from unknown conditions,{pause(35)} please don't be alarmed." next
+    "@He's not part of the staff,{pause(25)} but we don't know if he is dangerous." next
+    "@We are completely in the dark about what he is doing and why he is here." next
+    "@If you see him,{pause(30)} remember to be nice and friendly." next
+    "@We don't want to raise a conflict in this hospital,{pause(25)} especially for something we can't do anything about.{pause(30)} <Fourside Hospital Manager>)" end
+
+l_0xc86ab2:
+    eob
+

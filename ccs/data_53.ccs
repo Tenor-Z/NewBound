@@ -1,0 +1,528 @@
+/*
+ * EarthBound Text Dump
+ * Time: 16:51:30 - 12/09/2019
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc9bfcd:
+    "@But..." linebreak
+    "@...{pause(30)}I understand now." linebreak
+    "@The Chosen Four must do what's best for everything on Earth." next
+    "@This will be the last time your souls can be transferred." next
+    "@You will simply cease to exist afterwards...{pause(55)}" linebreak
+    "@We must not waste any more time!{pause(25)} I'll begin the extraction, now." next
+    "@Please stay still." next
+    "{pause(60)}" linebreak
+    "@[1C 02 01], are you ready?[03]{window_closeall}{pause(1)}" call(data_22.l_0xc69082) "[1F 07 03][1F 15 6A 00 79 02 01][1F 61][1F EB FF 06][1F 21 51][1F E5 FF][1F 15 6A 00 0E 03 01][1F 61][1F E6 6A 00]{music(179)}[1F E9 6A 00][1F 61][1F 01 00][1F 15 A2 00 3B 01 FF][1F 21 68][1F E5 FF][1F EB FF 06]{window_open(1)}@[1C 02 01]," linebreak
+    "@[1C 02 02],{pause(30)} [1C 02 03],{pause(30)} [1C 02 04]...{pause(30)}" linebreak
+    "@This will be the last time you will hear of me,{pause(30)} this is the last time you'll hear of all of us." next
+    "@But, you've got to stay strong,{pause(30)}" linebreak
+    "@for every soul living in this world,{pause(25)} stay strong." next
+    "@Your courage will be remembered by thousands.{pause(65)} I know that you'll save us all." next
+    "@I'm sorry for all the pain I may have caused.{pause(30)} It is something I need to deal with alone." next
+    "@This is where it all ends, [1C 02 01]." next
+    "@There's only one thing left to do,{pause(30)} and that is to pull the lever." next
+    "@Will you do it, [1C 02 01]?" linebreak
+    "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc9c19b)} {e(l_0xc9c128)}]" goto(l_0xc9c128)
+
+l_0xc9c128:
+    "@What's wrong?{pause(25)} Why are you hesitating now?" next
+    "@Are you going to pull the lever, [1C 02 01]?" linebreak
+    "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc9c19b)} {e(l_0xc9c15f)}]" goto(l_0xc9c15f)
+
+l_0xc9c15f:
+    "@You don't want to pull the lever?{pause(35)} You're not ready to leave behind this world yet?" next
+    "@Do you still want to travel through time?" linebreak
+    "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc9c19b)} {e(l_0xc9c128)}]" goto(l_0xc9c19b)
+
+l_0xc9c19b:
+    "@If you aren't ready to leave, that's okay." next
+    "@You can say goodbye to everyone before you depart." next
+    "@It's not easy to give up everything that made you who you are." next
+    "@Please take as much time as you need.{pause(30)}" linebreak
+    "@Just keep in mind, that we don't have as much time as you think![03]{music(91)}{window_closeall}{set(flag 372)}{pause(1)}[1F 21 5D][1F E5 FF]{pause(60)}[1F EC FF 01][1F 15 6A 00 3C 01 01]" call(data_52.l_0xc9b4b8) "[19 26 01]{unset(flag 382)}{unset(flag 328)}{unset(flag 331)}{unset(flag 329)}{unset(flag 330)}{unset(flag 332)}{unset(flag 327)}{unset(flag 337)}{unset(flag 11)}[1F E8 FF]" eob goto(l_0xc9c262)
+
+l_0xc9c262:
+    "@Something wrong happened...{pause(30)}" linebreak
+    "@There has been a slight interference with our plans!{wait}{set(flag 285)}" eob
+
+l_0xc9c27e:
+    "{font_saturn}@This place scary.{pause(30)} Want to go home NOW!" next
+    "@Zoom!{pause(25)} Large cliff!{pause(30)} Zoom!{wait}{font_normal}" eob
+
+l_0xc9c293:
+    "[1F 07 03]{pause(180)}{music(72)}[1F 15 B7 01 63 01 01] {pause(1)}[1F EF B7 01][1F E8 FF][1F 15 6A 00 23 02 01][1F 61][1F 15 6A 00 23 02 01][1F 15 72 01 24 02 01][1F 61][1F 15 6A 00 23 02 01][1F 61][1F ED][1F E5 FF][1F 1F B7 01 06]{pause(120)}{sound(70)}[19 10 01][19 22 00 03 72 01][1F 14 00][1F 15 CA 01 25 02 05][1F 61]{pause(100)}{window_open(1)}" call(data_06.l_0xc57e1c) "{window_closeall}{pause(120)}" call(data_21.l_0xc68577) "[1B 03 {e(data_21.l_0xc683de)}]{set(flag 73)}{unset(flag 632)}{set(flag 633)}{set(flag 108)}{unset(flag 468)}{unset(flag 741)}{set(flag 742)}{set(flag 422)}{set(flag 517)}{unset(flag 372)}{set(flag 19)}{set(flag 304)}{set(flag 11)}[1F 41 05][1F 01 00]" call(data_22.l_0xc69082) call(data_44.l_0xc915f4) "[1F EB FF 06][1F 15 6A 00 2B 02 01][1F 61][1F 21 D7][1F E5 FF]{set(flag 510)}" call(data_22.l_0xc6893b) "[1F 12 04][1F 12 03]{pause(180)}[1F 04 03]{window_open(14)}@The end of the Chosen Four.{pause(30)}{wait}{pause(30)}{window_closeall}[1F 04 01]{pause(30)}[1F 15 02 01 27 02 01][1F 61][1F E7 02 01]{set(flag 661)}{music_resume}{pause(120)}{pause(120)}{pause(120)}{pause(120)}{pause(120)}[1F 07 1B][1F EA 02 01][1F 61][1F 07 1C]{pause(120)}[1F 07 1B][1F 15 02 01 28 02 01][1F 61][1F 07 1C]{pause(120)}[1F 07 1B][1F 15 02 01 29 02 01][1F 61][1F 07 1C]{pause(120)}[1F 07 1B][1F 15 02 01 2A 02 01][1F 61][1F 07 1C][1F 61]{set(flag 538)}[1F 15 10 00 41 02 FF][1F 15 89 01 42 02 FF][1F 15 8A 01 43 02 FF][1F 15 8B 01 44 02 FF][1F 21 D8]{music(181)}[1F E5 FF]{pause(100)}{pause(100)}{pause(100)}{pause(100)}{pause(100)}[1F 07 1B][1F 15 02 01 2F 02 01][1F 61][1F 07 1C]{pause(120)}[1F 1F 8B 01 06][1F 15 04 00 33 02 01][1F 61][1F E7 04 00][1F 07 1B][1F 15 02 01 2E 02 01][1F 61][1F 07 1C]{pause(120)}[1F 1F 8A 01 06][1F F1 DE 02 32 02][1F 61][1F E6 DE 02][1F 07 1B][1F 15 02 01 2D 02 01][1F 61][1F 07 1C]{pause(120)}[1F 1F 89 01 06][1F 15 02 00 31 02 01][1F 61][1F E7 02 00][1F 07 1B][1F 15 02 01 2C 02 01][1F 61][1F 07 1C]{pause(120)}[1F 1F 10 00 06][1F 15 01 00 30 02 01][1F 61][1F E7 01 00]{pause(60)}{unset(flag 661)}" call(data_33.l_0xc7dd6b) "{music_resume}[1F EA 04 00][1F 61][1F E7 04 00][1F EA 02 00][1F 61][1F E7 02 00][1F EA 01 00][1F 61][1F E7 01 00]{pause(40)}{pause(30)}" call(data_34.l_0xc7f949) "{pause(60)}{window_open(1)}@We will meet again.{pause(30)} Not soon,{pause(25)} but sooner.{pause(35)} Adios!{wait}{window_closeall}{pause(30)}[1F EA 04 00][1F 61]{sound(99)}[1F 61][1F 15 F2 00 34 02 01]{pause(120)}{pause(60)}[1F 17 E8 02 3A 02 01]{pause(10)}[1F 15 58 01 3D 02 01][1F 61][1F 17 E9 02 3B 02 01]{pause(10)}[1F 15 58 01 3E 02 01][1F 61][1F 17 EA 02 3C 02 01]{pause(10)}[1F 15 58 01 3F 02 01][1F 61]{set(flag 628)}{pause(60)}[1F E9 DE 02][1F 61][1F E6 DE 02][1F E9 DE 02][1F 61][1F E6 DE 02]{pause(30)}[1F E9 DE 02][1F 61][1F E6 DE 02][1F EA 01 00][1F 61][1F E7 01 00][1F EA 02 00][1F 61][1F E7 02 00][1F E9 DE 02][1F 61][1F E6 DE 02]{pause(30)}" call(data_34.l_0xc7f9f8) "{pause(30)}[1F E9 DE 02][1F 61][1F E6 DE 02][1F F1 D8 02 35 02][1F 61][1F E6 D8 02][1F EA 01 00][1F 61][1F E7 01 00][1F EA 02 00][1F 61][1F E7 02 00]{pause(60)}[1F F1 CF 02 36 02][1F 61][1F E6 CF 02]{pause(30)}[1F E9 DE 02][1F 61][1F E6 DE 02]{pause(60)}[1F E9 DE 02][1F 61][1F E6 DE 02]{pause(30)}[1F E9 CF 02][1F 61][1F E6 CF 02]{pause(15)}[1F E9 D8 02][1F 61][1F E6 D8 02]{pause(80)}[1F EA 02 00][1F 61][1F E7 02 00][1F EA 01 00][1F 61][1F E7 01 00]{pause(60)}" call(data_34.l_0xc7fb56) "[1F EA 02 00][1F 61][1F E7 02 00][1F F1 CF 02 0D 00][1F 67 01][1F 66 01 14 EC FB C7 00][1F 67 02][1F 66 02 16 22 FD C7 00][1F 1F 01 00 06][1F 1F 02 00 06][19 26 04][1F EC FF 01][1F E8 FF][1F 41 05]{unset(flag 498)}{isset(flag 99)}[1B 02 {e(data_50.l_0xc9992f)}]{set(flag 746)}" eob goto(l_0xc9c65b)
+
+l_0xc9c65b:
+    "{pause(20)}[1F 15 9B 00 FC 02 01][1F 61][1F E7 9B 00]{window_open(1)}{pause(10)}{counter(1)}[19 11 02]{rtoarg}@The dinosaurs get more and more intense each day.{pause(20)}[1F EA 9B 00][1F 61]{window_closeall}{set(flag 739)}[02][1F 1A 03 05 03]{pause(60)}[1F 1B 03 05][1F E9 03 05][1F 61][1F E6 03 05]{window_open(1)}@Hello there.{pause(25)} I haven't seen you guys around here before." next
+    "@Welcome to Tendassee!{pause(25)} My name is Tenda!{wait}{window_closetop}{pause(10)}[1F F1 04 05 04 03][1F 61][1F E6 04 05]{window_open(1)}@Excuse me, what do you think you're doing here?" next
+    "@You can't just wander in here whenever you feel like it.{pause(30)} I command you to leave this cage, now!" next
+    "@Get out of here right now!{pause(30)}" linebreak
+    "@I'm too short to kick you out,{pause(20)} so leave now!{wait}{window_closetop}[1F E9 04 05][1F 61][1F E6 04 05][1F 1E 13 05 06]{set(flag 651)}{window_open(1)}@Is that Tendakraut I smell?{pause(30)} Gimmie that!" next
+    "{sound(118)}[1D 01 FF D3]{set(flag 616)}[19 10 01]{rtoarg}@([1C 02 00]'s Tendakraut was taken away.)" next
+    "@(At least they got what they wanted.)[03]{window_closeall}" eob goto(l_0xc9c7fa)
+
+l_0xc9c7fa:
+    "[1F 12 02][1F 41 0F][1F 41 05]{set(flag 763)}{set(flag 295)}{set(flag 468)}{set(flag 469)}{set(flag 472)}{set(flag 473)}{set(flag 476)}{set(flag 513)}{set(flag 530)}{set(flag 749)}{set(flag 750)}{set(flag 805)}[1F 15 6A 00 79 02 01][1F 61]{pause(1)}[1F EB FF 06][1F 21 51]{pause(180)}[1F 15 B5 01 0B 03 FF][1F 21 C4][1F E6 FF 00]{pause(1)}[1F 1F B5 01 06][1F EC FF 01]{pause(1)}{set(flag 775)}{set(flag 11)}" eob
+
+l_0xc9c85d:
+    "[1F 01 00]{sound(8)}[1F 15 6A 00 27 00 01]" call(data_52.l_0xc9b4b8) "[1F 15 2D 00 0B 00 01][1F 1E 16 00 06]{sound(9)}[1F ED][19 24 2D 00 01 01 00][1F E4 2D 00 00][19 22 01 03 2D 00][1F 13 01 00][1F E5 FF]{pause(1)}[1F E7 2D 00]{unset(flag 295)}{set(flag 467)}{set(flag 97)}{pause(30)}{music(177)}{pause(120)}{pause(120)}{window_open(1)}{pause(20)}@Hey, [1C 02 01].{pause(30)}" linebreak
+    "@I know it's probably a bad time to be over here right now..." next
+    "@Something came in the mail for you." linebreak
+    "@It doesn't have a stamp or anything, it somehow ended up at my house." next
+    "@I know you're still half asleep, so I'll read it to you." next
+    "@It says, <To [1C 02 01]>." next
+    "@<>" next
+    "@...{pause(35)}<DEEZ NUTS!{pause(30)} HA!{pause(25)} GOT'EM! HA HA HA HA!!>{pause(35)} What the...?{pause(30)} Was that supposed to be funny?" next
+    "@Who keeps sending all this junk mail anyway?{wait}{pause(20)}{window_closeall}{pause(1)}{set(flag 209)}[1F 15 6A 00 07 03 01][1F 61][1F EB FF 06][1F 21 51][1F 15 6A 00 08 03 01][1F 61]" goto(l_0xc9c98a)
+
+l_0xc9c98a:
+    "{pause(1)}" goto(l_0xc9c98a)
+
+l_0xc9c991:
+    "[06 49 00 {e(l_0xc9cbc4)}][06 10 00 {e(l_0xc9cb79)}][06 11 01 {e(l_0xc9c9e8)}][06 0A 00 {e(l_0xc9c9db)}]@Why have you returned?" next
+    "@It is time for your daily meditation!{wait}" call(data_45.l_0xc92458) eob
+
+l_0xc9c9db:
+    "@Go to the Place of Emptiness now" end
+
+l_0xc9c9e8:
+    "@Well done, Prince [1C 02 04]." next
+    "@Your daily meditation is completed." next
+    "@Now it is time for me to reveal your true purpose.{wait}{window_closetop}" call(data_33.l_0xc7dd6b) "{music(119)}{pause(60)}{window_open(1)}@It has been written in the holy scrolls that you are chosen among a group of four." next
+    "@Your purpose is to synchronise with the other three to restore the balance of differences." next
+    "@Failure to achieve such an accomplishment will result in doom." next
+    "@Your efforts will determine the condition regarding the balance of human life and development." next
+    "@Strangers do not await your arrival,{pause(35)} but rather lost friends." next
+    "@You are one of the four that will save the world as written in destiny, Prince [1C 02 04]." next
+    "@It is important that you seek out [1C 02 01] and the rest of the Chosen Four." next
+    "@There is nothing left for me to teach you.{pause(25)} You are now left to find your true calling, Prince [1C 02 04]." next
+    "@During your journey,{pause(25)} you will begin to understand what this really means.{pause(50)} I wish you luck, Prince [1C 02 04]." next
+    "@I pray for all success that is to come of your destiny.{wait}{window_closeall}{pause(1)}{window_open(14)}[1E 09 04 70 17 00]" linebreak
+    "{prompt}{window_closeall}" goto(data_45.l_0xc9237e)
+
+l_0xc9cb77:
+    eob
+
+l_0xc9cb78:
+    eob
+
+l_0xc9cb79:
+    "@There will be struggles,{pause(25)} but I have the belief that you will overcome them with the help of your friends." next
+    "@Do not hesitate to reach out for help if you need it.[03]{window_closeall}" call(data_44.l_0xc915f4) "{sound(37)}{pause(90)}[1F 21 33]" eob
+
+l_0xc9cbc4:
+    "@As usual,{pause(25)} the prophecy of the Chosen Four has worked out in prediction." next
+    "@There is not more to discuss.{pause(25)} Please enjoy yourself if you can, Prince [1C 02 04]." end
+
+l_0xc9cc13:
+    "[06 49 00 {e(l_0xc9cc9b)}][06 10 00 {e(l_0xc9cc49)}]@People drop stuff in Dalaam every day!" next
+    "@Since you're the Prince,{pause(35)} you can take whatever treasures you find." end
+
+l_0xc9cc49:
+    "@The Shadows of Nature are a really bothersome bunch, huh?" next
+    "@Why would someone want to conserve nature in a country like Dalaam?" end
+
+l_0xc9cc9b:
+    "@Hey, remember what I said about picking up loose things?" next
+    "@Uh, you do know that those items once belonged to people.{pause(30)} You're technically stealing their belongings." next
+    "@Not that it matters or anything.{pause(25)}" linebreak
+    "  You are the Prince after all.{pause(25)} Theft crimes don't matter." end
+
+l_0xc9ccf5:
+    "[06 10 00 {e(data_20.l_0xc68017)}]" goto(data_17.l_0xc63229)
+
+l_0xc9cd01:
+    eob
+
+l_0xc9cd02:
+    "[06 DD 00 {e(data_21.l_0xc685cb)}][19 10 01]{rtoarg}@[1C 02 00] opened up the present." next
+    "@Inside was the [1C 05 64].{wait}[1D 03 FF][1B 02 {e(data_21.l_0xc685bb)}]{sound(116)}[1D 00 FF 64][19 10 01]{rtoarg}@[1C 02 00] took it.{wait}{set(flag 221)}" eob goto(l_0xc9cd4f)
+
+l_0xc9cd4f:
+    "[06 49 00 {e(l_0xc9cdf7)}]{counter(1)}" goto(l_0xc9cd58)
+
+l_0xc9cd58:
+    "{ctoarg}[1D 19 00][1B 03 {e(l_0xc9cdaf)}][19 10 00]{result_is(4)}[1B 03 {e(l_0xc9cd74)}]{inc}" goto(l_0xc9cd58)
+
+l_0xc9cd74:
+    "{counter(4)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc9cdaf)}]@I love you, Prince [1C 02 04]." next
+    "@I wish you could teach me karate in the bedroom...{pause(35)} Tee hee hee..." linebreak
+    "@I'm sorry, did that sound too weird?" end
+
+l_0xc9cdaf:
+    "@I miss [1C 02 04] so much when he isn't here." next
+    "@Can't he just stay here and take care of us girls?" end
+
+l_0xc9cdf7:
+    "@Prince [1C 02 04] is back, but is he here to stay?" next
+    "@Are you finished doing cool stuff?{pause(25)} Everyone here misses you!" end
+
+l_0xc9ce2c:
+    "@Oh, it's Prince [1C 02 04]!{pause(25)} Please come inside!" next
+    "@Watch where you step.{pause(25)} I spilled my drink all over the place." end
+
+l_0xc9ce4d:
+    "[06 DE 00 {e(data_21.l_0xc685cb)}][19 10 01]{rtoarg}@[1C 02 00] opened up the present." next
+    "@Inside was a [1C 05 80]." next
+    "[1D 03 FF][1B 02 {e(data_21.l_0xc685bb)}]{sound(116)}[1D 00 FF 80][19 10 01]{rtoarg}@[1C 02 00] took it.{wait}{set(flag 222)}" eob goto(l_0xc9ce9b)
+
+l_0xc9ce9b:
+    "[06 10 00 {e(l_0xc9ced1)}]@Prince [1C 02 04], you're super cool!" next
+    "@Not like <Bruce Lee> cool,{pause(25)} but you're getting there." end
+
+l_0xc9ced1:
+    "@Screw what I said earlier.{pause(25)} You're the real deal, Prince [1C 02 04]!" end
+
+l_0xc9cef7:
+    "[06 49 00 {e(l_0xc9cfd1)}]{counter(4)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc9cfac)}]@Beautiful morning, isn't it Prince [1C 02 04]?" next
+    "@Every day around here seems the same,{pause(25)} but what really goes on underground?" next
+    "@Prince [1C 02 04],{pause(25)} have you heard of the Shadows of Nature group?" next
+    "[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc9cf88)} {e(l_0xc9cf70)}]" goto(l_0xc9cf70)
+
+l_0xc9cf70:
+    "@You haven't?{pause(25)} Well, to sum it all up,{pause(30)} the Shadows of Nature is a nature conservation group working towards a greener world.{pause(45)} However, not everything they do is safe." end
+
+l_0xc9cf88:
+    "@Then you are aware of how difficult they can be?{pause(30)} That's good to know." end
+
+l_0xc9cfac:
+    "@The Shadows of Nature have been blocking off a mountain nearby." end
+
+l_0xc9cfd1:
+    "@Dalaam is back to how it used to be." next
+    "@Honestly, I can't tell the difference between then and now." next
+    "@Nothing really changed at all...{pause(25)} has it?" next
+    "@Oh yeah!{pause(25)} The Shadows of Nature aren't here anymore!{pause(25)} That's what changed!" end
+
+l_0xc9d011:
+    "@I am under deep meditation." next
+    "@Hmmmmmmmmmmm...{pause(50)}" linebreak
+    "@Soon, I will float, just like this island!" end
+
+l_0xc9d02d:
+    "[06 49 00 {e(l_0xc9d0b1)}][06 10 00 {e(l_0xc9d073)}]@I love watching the sunrise." next
+    "@If only life were that simple,{pause(25)} to rise and fall without question." next
+    "@Wait,{pause(65)} that's basically life in a nutshell ." end
+
+l_0xc9d073:
+    "@Why is it called a sunrise if the sun is actually rotating AROUND the Earth, instead or rising?" next
+    "@...You don't need to answer me." next
+    "@I'm just alone in my showerthoughts!" end
+
+l_0xc9d0b1:
+    "@I've ranted for so long,{pause(20)} everyone around me thinks I'm crazy." next
+    "@I get if you don't want to listen, but don't just assume there's something wrong with me." next
+    "@People can be so mean,{pause(25)} I rather not talk to anybody from now on!" next
+    "@...Except for you, of course." end
+
+l_0xc9d125:
+    "[06 10 00 {e(l_0xc9d163)}]@Prince [1C 02 04]'s daily meditation helps predict our country's future." next
+    "@We gotta know if Dalaam is gonna go big or go to shit." end
+
+l_0xc9d163:
+    "@Prince [1C 02 04]'s meditation has finished.{pause(35)} It looks like it's going to be another normal day." next
+    "@No, I'm not complaining!{pause(25)} I like peace just as much as the next guy!" end
+
+l_0xc9d1b7:
+    "@(This is the place of nothingness.)" next
+    "@(When you step foot onto the mountain,{pause(20)} the tense feeling in your body is finally put at ease.)" next
+    "@(Thoughts are put aside,{pause(25)} and your body releases the sorrows and doubts that weigh you down.)" next
+    "@(As you begin to collect yourself,{pause(25)} you will finally begin to realize and resolve.)" end
+
+l_0xc9d23f:
+    "[06 8C 02 {e(l_0xc9d2a5)}]@The cave is blocked by the Shadows of Nature." next
+    "@Apparently, they're trying to conserve natural habitats of Dalaam,{pause(25)} but I think they're just wasting their time." next
+    "@For starters, there's not a lot of habitats to conserve on a floating island.{pause(30)} It doesn't seem like they're going to leave, though." end
+
+l_0xc9d2a5:
+    "@The Shadows of Nature group finally gave up and went home." end
+
+l_0xc9d2ba:
+    "[06 C3 00 {e(data_32.l_0xc7c588)}]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(data_22.l_0xc690a6)}]{music(155)}@You got rid of my group.{pause(35)} I am very upset, to say the least." next
+    "@I am not here to bring harm,{pause(30)} but to protect with open arms.{pause(35)} But, you've gone and took all my hard work away!{pause(70)} And for that..." next
+    "@...I'm going to knock you six feet underground![03]" call(data_21.l_0xc6842c) "[1B 03 {e(data_21.l_0xc683de)}][1F 1E 5E 04 08]{pause(120)}{set(flag 195)}" eob
+
+l_0xc9d334:
+    "[06 10 00 {e(l_0xc9d3a9)}]@You actually came to visit me!" next
+    "@I thought that adults didn't care about wittle kids wike me nowadays." next
+    "@Do you want to play, or are you busy right now?{pause(35)} Tell me the truth, I won't cry!" end
+
+l_0xc9d3a9:
+    "@I don't look that young to you, don't I?" next
+    "@That's cause I'm not.{pause(25)} I'm secretly 34 years old, but don't tell!" end
+
+l_0xc9d3e0:
+    "[06 49 00 {e(l_0xc9d4b0)}][06 10 00 {e(l_0xc9d47c)}]@Prince [1C 02 04]!" next
+    "@Want to play with me?" linebreak
+    "[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc9d45a)} {e(l_0xc9d425)}]" goto(l_0xc9d425)
+
+l_0xc9d425:
+    "@Aw man, you never have time to play!" next
+    "@You're a mean [1C 02 04] [1C 02 04] head!{pause(30)} Oops, I meant <Poo poo head>!" end
+
+l_0xc9d45a:
+    "@Yay!{pause(25)} Let's play!" next
+    "@(She's distracted in her own game)" end
+
+l_0xc9d47c:
+    "@I saw some guys in black hoods walking around town." next
+    "@They look pretty silly dressed as bunnies!{pause(20)} Tee hee!" end
+
+l_0xc9d4b0:
+    "@You should play more often.{pause(25)} You'll get the hang of it someday!" end
+
+l_0xc9d4d3:
+    "[06 10 00 {e(l_0xc9d4fd)}]@Prince [1C 02 04],{pause(25)} will you go out with me?" next
+    "@Wait!{pause(25)} I wasn't talking about you, Prince [1C 02 04]!{pause(25)} I have...{pause(60)} I have a cousin named Prince [1C 02 04]... (blush)" end
+
+l_0xc9d4fd:
+    "@You're never going to fall for me, are you?" end
+
+l_0xc9d523:
+    "@Prince [1C 02 04]!" next
+    "@It appears that I made it just in time." next
+    "@Judging by where your heading,{pause(30)} I suppose it's time for your daily meditation." next
+    "@I am here to inform you that the defence team is currently investigating the conflicts with the Shadows of Nature." next
+    "@I'm not sure what you plan on doing,{pause(30)} but it would be wise of you to search and confront the leader,{pause(45)} who happens to be conducting his plans on the Dreaming Cloud west of here." next
+    "@It will not be difficult for you,{pause(35)} for you are the Starstorm Superstar of Dalaam.{pause(60)} Good luck today,{pause(25)} Prince [1C 02 04]!{wait}{sound(40)}{set(flag 595)}" eob
+
+l_0xc9d5c4:
+    "@... ... ..." next
+    "@You found your way back here.{pause(25)} It's always nice to have visitors here!{pause(30)} Why don't you stay here and rest?" next
+    call(data_44.l_0xc915f4) "{sound(37)}{pause(90)}" linebreak
+    "@You're a really great guy, [1C 02 01].{pause(25)} I envy you a little bit,{pause(25)} but we're still good friends, right?" end
+
+l_0xc9d621:
+    "@(The Shadows of Nature are blocking the cave enterance.{pause(30)} It doesn't look like they're going to move anytime soon.)" end
+
+l_0xc9d656:
+    call(data_33.l_0xc7dd2c) "{result_is(253)}[1B 02 {e(l_0xc9d6b7)}]{load_registers}" call(data_33.l_0xc7dd37) "{sound(118)}[1B 06][1D 0F 00 00]" newline
+    "@(Overexcited by the strange object,{pause(25)} the Shadows of Nature ran off back to Fourside.){wait}{sound(33)}[1F 1E 53 04 08][1F 1E 54 04 08][1F 1E 55 04 08]{set(flag 652)}" eob
+
+l_0xc9d6b7:
+    newline
+    "@(It will not make them move)." end
+
+l_0xc9d6ce:
+    "@Dalaam Restaurant." next
+    "@(All you can eat,{pause(25)} EXCEPT ANIMALS!!)" end
+
+l_0xc9d6f8:
+    "[19 19 00 00]{swap}{result_is(211)}[1B 03 {e(l_0xc9d70b)}]" goto(data_32.l_0xc7c6b6)
+
+l_0xc9d70b:
+    "@The Tenda changed their mind at the last second." end
+
+l_0xc9d72e:
+    "[06 9B 00 {e(l_0xc9d743)}]" goto(l_0xc9d735)
+
+l_0xc9d735:
+    "@I want to solve life's mysteries!" next
+    "@I want to know what the Unidentified Soup is!" end
+
+l_0xc9d743:
+    "@You came all the way to visit us Tendas?" next
+    "@I've never felt so important in my entire life." next
+    "@You should tell more people to visit our village!{pause(25)} That would be great!" next
+    "@Assuming they don't get pulled underground by the weird soil men." end
+
+l_0xc9d779:
+    call(data_44.l_0xc90dea) eob
+
+l_0xc9d77f:
+    "[06 49 00 {e(l_0xc9d875)}][06 5C 00 {e(l_0xc9d854)}][06 9B 00 {e(l_0xc9d7e2)}]@We may not answer all of life's questions," next
+    "@but there is one question we all would like the answer to." next
+    "@We would like to know the contents in the bowl of soup." next
+    "@There is a book called <Unidentified Soup>.{pause(25)} Every Tenda dreams of reading this book." next
+    "@It's quite a big deal, since we're not close to any libraries.{wait}{set(flag 154)}" eob
+
+l_0xc9d7e2:
+    "@You really did all of us a big favour, so I'll give you a [1C 05 A0]." next
+    "@Use it however you like.[03][1D 03 FF][1B 02 {e(l_0xc9d81f)}][1D 0E 00 A0]" call(data_33.l_0xc7dccf) "{set(flag 92)}" end
+
+l_0xc9d81f:
+    newline
+    "@Oh geez, you don't have any more space!" next
+    "@I don't want my gift to weigh you down, so I'll wait until you have more room." next
+    "@Probably explains why you walk so slow." end
+
+l_0xc9d854:
+    "@Come back and visit again sometime!" linebreak
+    "@We need people to know that we aren't extinct.{wait}{window_closeall}{pause(1)}[1F F1 E4 04 0C 00]" eob
+
+l_0xc9d875:
+    "[06 09 03 {e(l_0xc9d8de)}]@Thanks to your efforts,{pause(25)} we were able to identify the Unidentified Soup!" next
+    "@Here,{pause(20)} why don't I give the book back to you?" next
+    "@I can't believe you own such a rare book!" next
+    "[1D 03 FF][1B 02 {e(l_0xc9d91b)}][1D 0E 00 A4]" call(data_33.l_0xc7dcb6) "{set(flag 777)}" next
+    goto(l_0xc9d8de)
+
+l_0xc9d8de:
+    "@I'm praying for all my people still living in the Lost Underworld." next
+    "@Wherever you all are,{pause(25)} I love you!{pause(20)} (kiss){wait}[1F F1 E4 04 0C 00]" eob
+
+l_0xc9d91b:
+    "@You can't stuff a book this rare into your backpack!" next
+    "@Your backpack is full!" end
+
+l_0xc9d940:
+    "{store_registers}[06 9B 00 {e(data_32.l_0xc7c6b6)}]{load_registers}[19 19 00 00]{swap}{result_is(164)}[1B 03 {e(l_0xc9d95e)}]" goto(data_32.l_0xc7c6b6)
+
+l_0xc9d95e:
+    "[1F 41 05]@Waitaminute! What's this?" next
+    "@Is this the..." next
+    "@book of <Unidentified Soup>?..." next
+    "@Oh{pause(20)} my{pause(20)} gosh!{pause(25)} We finally got it!{pause(20)} We finally got it!" next
+    "@Our long years of yearning are finally over!" next
+    "@Now, to decipher the clues of this strange soup!" next
+    "@...{pause(30)} Hmmm...{pause(35)} Mmmm hmmm...{pause(35)} Yes, I see...{pause(30)} Got it!" next
+    "@I feel like I just solved the mystery of life!" next
+    "@I-{pause(20)}I got to tell the others!" next
+    "@This is starting to get interesting!{sound(121)}[03]{window_closeall}[1F 15 6A 00 79 02 01][1F 61]{window_open(1)}@(As the leader of the Tendas read <Unidentified Soup>,{pause(25)} the Tendas began to understand the legendary concepts of making soup.)[03]{window_closeall}" call(data_44.l_0xc91582) "[1F 21 E7][1F E5 FF]{pause(1)}{music_resume}{window_open(1)}" newline
+    "@This book will begin a new evolution for Tenda civilization!" next
+    "@How could I repay you?{pause(30)} I know!{pause(20)} I'll give you some" linebreak
+    "  <[1C 05 D3]>." next
+    "@It is made by Tendas and it tastes fantastic!" next
+    "@It's also sloppy, so don't microwave it!{pause(25)} Thank you for everything!" next
+    "[1D 01 FF A4][1D 0E 00 D3][1B 05]{sound(116)}{pause(60)}{window_open(1)}@[1C 02 01] gave <Unidentified Soup> to the leader of the Tenda." next
+    call(data_33.l_0xc7dcb6) "{wait}{window_closeall}{set(flag 155)}{pause(60)}{set(flag 509)}" call(data_22.l_0xc68931) call(data_46.l_0xc935b7) "[1F E8 FF][1F 41 06]" eob
+
+l_0xc9db12:
+    "[06 9B 00 {e(l_0xc9db1e)}]" goto(l_0xc9d735)
+
+l_0xc9db1e:
+    "@It's pretty cozy in this cave!" end
+
+l_0xc9db2c:
+    "[06 9B 00 {e(l_0xc9db38)}]" goto(l_0xc9d735)
+
+l_0xc9db38:
+    call(data_19.l_0xc6505d) eob
+
+l_0xc9db3e:
+    "[06 9B 00 {e(l_0xc9db4a)}]" goto(l_0xc9d735)
+
+l_0xc9db4a:
+    "@There's a huge uproar going on underground." next
+    "@Every once in a while,{pause(20)} the ground shakes,{pause(25)} stirring us all from our sleep." next
+    "@All of us Tendas know that there are very scary monsters living underground,{pause(25)} but there's one beast that towers over the rest." next
+    "@The king of minerals himself, Colbatheart." next
+    "@He is the guardian of the Lost Underworld and has lived for thousands of years." next
+    "@Getting rid of him will help us all,{pause(25)} but there's a good chance it will only increase the fatality rate." next
+    "@You guys look pretty tough." next
+    "@I'd let you down there,{pause(25)} but I can't lift up that rock." next
+    "@You see,{pause(20)} I'm a bit rusty.{pause(25)} I need time to adapt again!" end
+
+l_0xc9dbaf:
+    "[06 9B 00 {e(l_0xc9dbbb)}]" goto(l_0xc9d735)
+
+l_0xc9dbbb:
+    "@So, you survived the great outdoors?" next
+    "@Ha ha!{pause(25)} You never know what trouble you're going to get into out there." end
+
+l_0xc9dbd6:
+    "[06 9B 00 {e(l_0xc9dbe2)}]" goto(l_0xc9d735)
+
+l_0xc9dbe2:
+    "@Will you answer with Yes,{pause(25)} or No?" linebreak
+    "[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc9dc0e)} {e(l_0xc9dc08)}]" goto(l_0xc9dc08)
+
+l_0xc9dc08:
+    "@Did you answer with No,{pause(25)} or are you just uninterested in my question?" end
+
+l_0xc9dc0e:
+    "@Are you a <Yes Man>, or do you just want me to stop talking?{pause(55)} Either way,{pause(25)} have this tasty drink!{wait}{window_closeall}[06 DC 00 {e(data_50.l_0xc9992f)}]" call(data_33.l_0xc7dd74) "{music(92)}[1F 41 02]" eob
+
+l_0xc9dc2c:
+    "[06 9B 00 {e(l_0xc9dd87)}][06 02 00 {e(l_0xc9dd78)}]@Yes, welcome to our tiny little cave.{pause(25)} This is as good as it gets!" next
+    "@You say you're looking for <Sanctuary Locations>, huh?" next
+    "@Well, I've heard of one that's around here." next
+    "@Under that rock is the entrance to the Lost Underworld." next
+    "@In the middle of the entrance is a place called the Ruins of Enigma." next
+    "@That's the place you want to go." next
+    "@It might be a bit dangerous,{pause(25)} but that's how it goes in a dark and mysterious cave." next
+    "@My friend over there can help you get down there,{pause(25)} but he hasn't lifted anything strong in a really long time." next
+    "@It's going to be a while before he's strong enough to lift that rock over." next
+    "@Oh yeah!{pause(25)} Did I ever tell you that there's a talking rock down there?" next
+    "@Don't look at me like I got two heads.{pause(25)} I'm straight up being serious!" next
+    "@You'll have to see for yourself!" next
+    "@Oh,{pause(25)} and watch out for Colbatheart." next
+    "@He rests at the bottom of the underground.{wait}{set(flag 2)}" eob
+
+l_0xc9dd78:
+    "@Tendas are at the bottom of the underground trophic level,{pause(25)} so we don't go down there a lot." end
+
+l_0xc9dd87:
+    "@I can tell you what the Unidentified Soup is,{pause(25)} but I don't want to spoil the book for you." end
+
+l_0xc9ddb4:
+    "[06 9B 00 {e(l_0xc9ddc0)}]" goto(l_0xc9d735)
+
+l_0xc9ddc0:
+    call(data_43.l_0xc902f2) eob
+
+l_0xc9ddc6:
+    "@From this day on,{pause(25)} no bowls will be left empty.{pause(25)} We shall share our passion of soup with the rest of the world!" end
+
+l_0xc9ddd1:
+    "@Awwww I just want to cuddle with somebody!" end
+
+l_0xc9ddf8:
+    "@Does anyone know that we're all here?" end
+
+l_0xc9de0e:
+    "[06 A7 01 {e(data_32.l_0xc7c588)}][06 80 01 {e(data_54.l_0xc9e252)}]{music(119)}[06 02 00 {e(l_0xc9e041)}]@Hello, [1C 02 08].{pause(25)} It is me,{pause(20)} the talking rock." next
+    "[19 05 01 01 01][19 05 01 02 01][19 05 01 06 01][1E 00 01 64][1E 04 01 64]{sound(37)}{pause(10)}@Don't worry, you're not on drugs.{pause(25)} I'm literally a talking rock." next
+    "@I've been observing your adventures so far,{pause(25)} believe it or not." next
+    "@I've seen how much you've changed during the course of your adventure." next
+    "@The uninterested, insecure part of you is gone,{pause(25)} in place of a bold and strong boy." next
+    "@Even though I'm a talking rock,{pause(25)} I can see what will become of you in the future." next
+    "{pause(60)}" linebreak
+    "@Through your process of collecting eight melodies,{pause(25)} the four of you will work together to fight a common enemy." next
+    "@But through these tough times,{pause(25)} you will begin to find yourself again." next
+    "@When the time comes, the world will be at stake." next
+    "@And your destiny shall conclude the fateful legacy." next
+    "@Up until now,{pause(25)} you've only put the pieces together, [1C 02 01]." next
+    "@It's about time you learned what they all mean." next
+    "@Each <Your Sanctuary> location has given you a lost memory you thought you never had." next
+    "@A burden of your mind.{pause(25)} These memories have been forgotten for long years." next
+    "@You need to open them back up again, [1C 02 01]." next
+    "@When these memories are all gathered together,{pause(25)} your true self will call out," next
+    "@and it will be time to confront the greatest entity that weighs you down,{pause(25)} your mind." next
+    "@Only then, when you heal your mind, you will be able to save Earth." next
+    "@You've helped many others,{pause(25)} now it is time to help yourself." next
+    "@When you pass the Ruins of Enigma,{pause(20)} you will reach the entrance to the Lost Underworld." next
+    "@There, you will find the last <Your Sanctuary> location." next
+    goto(l_0xc9e041)
+
+l_0xc9e041:
+    "@That place is Ashton Spring." next
+    "{pause(60)}" linebreak
+    "@1. <Giant Step>." next
+    "{pause(30)}" linebreak
+    "@2. <Shadow Wood>." next
+    "{pause(30)}" linebreak
+    "@3. <Welfare Lake>." next
+    "{pause(30)}" linebreak
+    "@4. <Rainfield>." next
+    "{pause(30)}" linebreak
+    "@5. <The Remedy Diamond>." next
+    "{pause(30)}" linebreak
+    "@6. <Dreaming Cloud>." next
+    "{pause(30)}" linebreak
+    "@7. <The Ruins of Enigma>." next
+    "{pause(30)}" linebreak
+    "@and <Ashton Spring>." next
+    "@All of these places have connected with you in life somehow,{pause(25)} and now you must seek them." next
+    "@Only when you seek these locations," linebreak
+    "@will you be able to forgive yourself." next
+    "@This is your true calling, [1C 02 01].{pause(25)} You must not ignore it now!" next
+    "@Huh?{pause(25)} What is that?{pause(25)} You've already visited six of those locations?" next
+    "@Oka{pause(5)}a{pause(5)}ay then...{pause(30)} Forget everything I just said." next
+    "@Keep doing what you're doing, [1C 02 01].{pause(30)} Better days are calling your name,{pause(25)} you just have to reach out to them." next
+    "@All your hard work will lead the way to peace.{pause(80)} Geez, I talk too much, don't I?{wait}{music_resume}{set(flag 2)}" eob goto(data_54.l_0xc9e252)
+

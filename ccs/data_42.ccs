@@ -1,0 +1,403 @@
+/*
+ * EarthBound Text Dump
+ * Time: 16:51:30 - 12/09/2019
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc8dc4f:
+    "[06 D6 00 {e(l_0xc8dd12)}][06 47 00 {e(l_0xc8dcf9)}][06 7C 00 {e(l_0xc8dcb2)}][06 28 02 {e(l_0xc8dc8d)}]@You think you can stop all this?{pause(25)} What are you going to do?" end
+
+l_0xc8dc8d:
+    "@We have no choice, but to give it a shot.{pause(25)} We don't have a lot of options." end
+
+l_0xc8dcb2:
+    "@C'mere stupid devils!{pause(25)} You have yet to learn about the rightous ways of God." end
+
+l_0xc8dcd6:
+    "@We got them right where we want em'!{pause(25)} This Apparition Cleanser thing really works!" end
+
+l_0xc8dcf9:
+    "@I think it's safe to go through the tunnels now." end
+
+l_0xc8dd12:
+    "@Hopefully these restless spirits will die along with their bodies." end
+
+l_0xc8dd35:
+    "[06 D6 00 {e(l_0xc8df28)}][06 47 00 {e(l_0xc8de88)}][06 7C 00 {e(l_0xc8de2c)}][06 28 02 {e(l_0xc8de13)}][06 0E 00 {e(l_0xc8dd98)}]@They're starting to advance towards us.{pause(25)} Everybody brace yourselves!" next
+    "@Don't give in!{pause(25)} We're so close!" end
+
+l_0xc8dd98:
+    "@Hey, buddy.{pause(25)} This might be a little weird, but..." next
+    "@That weird thingamabobber that crashed in the graveyard...{pause(35)} It seemed quite familiar..." next
+    "@Has this happened before?" end
+
+l_0xc8de13:
+    "@Finally,{pause(20)} all this paranormal baloney is ending!{pause(25)} I can finally get some sleep!" end
+
+l_0xc8de2c:
+    "@I'm ready to help catch some demons!{pause(25)} I even brought my holy bible!" end
+
+l_0xc8de4a:
+    "@We got them all!{pause(25)} Those stupid demons are dumbfounded by our excellent plan!" next
+    "@Go into the tent,{pause(25)} see for yourself." end
+
+l_0xc8de88:
+    "@Whoever crashed into the graveyard nearby is going to pay lots of damage fees." next
+    "@I don't care if they're alive or not,{pause(35)} I'll revive them as a ghost and make them pay for what they've done.{pause(25)} Look at my beautiful graveyard now!" next
+    "@Were you involved in destroying my property!?" linebreak
+    "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc8def6)} {e(l_0xc8df0d)}]" goto(l_0xc8def6)
+
+l_0xc8def6:
+    "@Wha-?{pause(25)} But...{pause(25)} How could you?!?{pause(25)} You ruined my beautiful graveyard!" end
+
+l_0xc8df0d:
+    "@Okay.{pause(25)} But can you direct me to the person who DID wreck my graveyard?{pause(30)} Do you know how many years it took to arrange all these gravestones?" end
+
+l_0xc8df28:
+    "@I'm just glad this town didn't turn out like an apocolyptic scenario." end
+
+l_0xc8df51:
+    "@We are trying our very best to make this graveyard look just the way it did before this machine came crashing through." next
+    "@If this strange machine belongs to you,{pause(25)} can you please take it away?" end
+
+l_0xc8df8a:
+    "@If you are going to depart on this machine,{pause(20)} I wish you luck!" next
+    "@I wish you that, and a safer flight!" end
+
+l_0xc8dfbb:
+    call(data_21.l_0xc680e2) eob
+
+l_0xc8dfc1:
+    "[06 47 00 {e(l_0xc8dff7)}]@This graveyard was meant to be closed,{pause(20)} but you're already here, so what's the point?" end
+
+l_0xc8dff7:
+    "@Who wrecked my home?{pause(25)} I've got nowhere to live now." next
+    "@Aha ha ha ha ha ha{pause(30)} A{pause(5)}A{pause(5)}A{pause(5)}AHA HA HA HA HA HA HA!!{pause(75)} A{pause(5)}A{pause(5)}A{pause(5)}A{pause(5)}A{pause(5)}A{pause(5)}A{pause(5)}A{pause(5)}A{pause(5)}AHAHAHAHAHAHAHAHAHAHAHAHA HAAA!!!{pause(30)} YOU SCUM!!{pause(60)} Someone ought' to cut you down for your mistakes!" end
+
+l_0xc8e044:
+    call(data_43.l_0xc900bd) eob
+
+l_0xc8e04a:
+    "[06 47 00 {e(l_0xc8e07c)}]@Which do you prefer?{pause(25)} Human sacrifices or Organ Harvesting?{pause(30)} Personally, Skin Possession is my favourite!" end
+
+l_0xc8e07c:
+    "@The people in this town are really intense." next
+    "@They will not leave me alone." end
+
+l_0xc8e0ad:
+    "[06 47 00 {e(l_0xc8e0d8)}]@They used my body for terrible rituals." next
+    "@There's really nothing left to live for.{pause(25)} I just want this stinging pain in my head to silence!" end
+
+l_0xc8e0d8:
+    "@This town isn't that bad." next
+    "@There's plenty of places to hide here compared to other places." next
+    "@That's what you want to do in times like these.{pause(25)} Why aren't you hiding?" end
+
+l_0xc8e132:
+    call(data_43.l_0xc9002b) eob
+
+l_0xc8e138:
+    call(data_12.l_0xc5d317) eob
+
+l_0xc8e13e:
+    call(data_12.l_0xc5d323) eob
+
+l_0xc8e144:
+    call(data_12.l_0xc5d341) eob
+
+l_0xc8e14a:
+    "[06 47 00 {e(l_0xc8e176)}]@Welcome to Threed.{pause(25)} A town possessed by dark intentions and paranormal activity." end
+
+l_0xc8e176:
+    "@Welcome to Threed.{pause(25)} A town risen from the ground up for a much brighter future." next
+    "@Thank you for all you have done." end
+
+l_0xc8e1bd:
+    "[06 47 00 {e(l_0xc8e251)}][06 7D 00 {e(l_0xc8e218)}]@Once you enter this town, there's no escape." next
+    "@In Threed, you either live slow or die fast." end
+
+l_0xc8e218:
+    "@There haven't been a lot of possessed people outside recently.{pause(25)} Maybe something has changed,{pause(25)} we never know." next
+    "@But no matter how safe things are,{pause(20)} this town still oughta be one that you won't escape!" end
+
+l_0xc8e251:
+    "@I would leave this town,{pause(20)} but I don't feel like it.{pause(45)} I think I got used to all the crazy stuff that used to happen here." end
+
+l_0xc8e275:
+    "[06 47 00 {e(l_0xc8e2c7)}]@Are you...{pause(25)} Are you...?" next
+    "@Are you really here?{pause(25)} Are you really alive?" next
+    "@Nobody has come here in so long...{pause(30)} Things are dark,{pause(25)} and quiet." end
+
+l_0xc8e2c7:
+    "@Everything is bright again.{pause(25)} Thank you." end
+
+l_0xc8e2ea:
+    "[06 47 00 {e(l_0xc8e33b)}]@In a place like this,{pause(25)} it's really recommended to watch where you go." next
+    "@Nothing is really safe anymore,{pause(25)} at least for us." end
+
+l_0xc8e33b:
+    "[19 10 01]{result_is(2)}@I heard you guys saved this town.{pause(25)} That's really nice of you." next
+    "@You're sure to get lots of awards,{pause(25)} maybe even a Nobel Piece Prize if you're lucky.{pause(30)} The least I can do is give you a kiss.{pause(30)} *Smooch*{pause(25)} Thank you!" end goto(l_0xc8e388)
+
+l_0xc8e388:
+    "[06 47 00 {e(l_0xc8e42a)}][06 7D 00 {e(l_0xc8e3fb)}]@If you have a story to share,{pause(25)} or if you want to take part in helping our town advance,{pause(25)} stop by the circus tent." next
+    "@The people inside are trying to grab the town by the reins and steer us to a much safer environments." next
+    "@We've been working night and day,{pause(25)} so your contribution shall not only help us,{pause(25)} but the people who cannot see a brighter future like we can." end
+
+l_0xc8e3fb:
+    "@Just when I thought things would get better,{pause(25)} they haven't." next
+    "@Is there really nothing we can do?" end
+
+l_0xc8e42a:
+    "@Our hard work has paid off!{pause(25)} In just a few days, this town will be back to the way it used to be." next
+    "@And now that I've done my part,{pause(25)} hopefully I can live my life like nothing happened!" end
+
+l_0xc8e467:
+    "[06 47 00 {e(l_0xc8e501)}]@Since I moved here to Threed,{pause(25)} I found it pretty easy to get along with people." next
+    "@Nobody really talks to me,{pause(20)} but that's just how I like it." next
+    "@My house is haunted by a poltergiest,{pause(25)} and he's very very loud." next
+    "@All he wants is to leave this place,{pause(25)} he just wants to rest,{pause(20)} but he can't." next
+    "@He's so relatable.{pause(25)} We get along really well." end
+
+l_0xc8e501:
+    "@Did I ever tell you I met an ant colony down in the sewers the other day?{pause(25)} I never saw them again, cause the monsters are looking for me!" end
+
+l_0xc8e515:
+    "[06 47 00 {e(l_0xc8e5a4)}][06 45 00 {e(l_0xc8e576)}]@Get out of here!{pause(25)} People have reported a moving tent in the center of town,{pause(25)} and it doesn't look too friendly." next
+    "@Stay away!{pause(25)} Curiosity killed the cat,{pause(20)} remember!" end
+
+l_0xc8e576:
+    "@Is that scary tent gone now?" next
+    "@Phew...{pause(25)} What a relief!" end
+
+l_0xc8e5a4:
+    "@Come back again to Threed!" end
+
+l_0xc8e5b1:
+    "[06 47 00 {e(l_0xc8e5f7)}][06 7D 00 {e(l_0xc8e5f7)}]@I know they will be waiting for me when I get back home." next
+    "@I can't let them get what they want, can I?" end
+
+l_0xc8e5f7:
+    "@These terrible people have been hunting me down for weeks.{pause(25)} I don't know what they want from me." next
+    "@I don't know where to go,{pause(25)} I don't know who to see or what to do!{pause(30)} I need help!" end
+
+l_0xc8e62c:
+    "@Oh hey!{pause(25)} I remember seeing your face a while back." next
+    "@You're probably wondering if I ever got back home safely, right?" next
+    "@Well, I did get back home,{pause(25)} but it wasn't mine anymore." next
+    "@A big <For Sale> sign broke my heart into a thousand pieces." next
+    "@Now I'm living on the streets,{pause(25)} and everything is still bleak for me." next
+    "@I know I should be happy everyone is safe, but what about me?" end
+
+l_0xc8e6a9:
+    "@(Please, please.{pause(25)} Don't go to sleep!{pause(25)} Don't close your eyes, please!)" end
+
+l_0xc8e6e3:
+    "@Owoo{pause(5)}o{pause(5)}o{pause(5)}o{pause(5)}o{pause(5)}o{pause(5)}ooo!{pause(25)} (Night has come, but the day begins now...)[03]" eob
+
+l_0xc8e6ed:
+    "[06 47 00 {e(l_0xc8e715)}]@Judging by the way you look,{pause(25)} you just got here.{pause(40)} You will learn soon enough..." end
+
+l_0xc8e715:
+    "@I underestimated you.{pause(25)} You guys are heroes!{pause(25)} Thank you for saving this little town!" end
+
+l_0xc8e734:
+    "[06 47 00 {e(l_0xc8e7b3)}]@A bus just passed by,{pause(25)} and went into the tunnel.{pause(35)} It was the newest thing I've seen in days in this stupid town." next
+    "@I sometimes wish that they could have taken me away with them.{pause(25)} I need some fresh air soon,{pause(25)} or I might become one of them." next
+    "@I'm sorry.{pause(25)} I shouldn't talk like that about the satanists that way.{pause(25)} They might be listening to our conversation." end
+
+l_0xc8e7b3:
+    "@Those terrible ghosts are finally gone.{pause(30)} Before all this,{pause(25)} we never stood a ghost of a chance to prove our worth to our neighbouring towns." next
+    "@You can hate me for that terrible pun,{pause(25)} but you can't argue that I'm speaking the truth." end
+
+l_0xc8e804:
+    "[06 49 00 {e(l_0xc8e9e8)}][06 47 00 {e(l_0xc8e95d)}]@In this town,{pause(20)} you're either on two sides." next
+    "@Either the side that wants to preserve and the side that wants to replicate terrible schemes." next
+    "@Debates taking place everywhere in town about the source of the downfall." next
+    "@Truth is,{pause(20)} there's a very old abandoned factory somewhere north of here." next
+    "@I haven't seen it myself,{pause(25)} so it's complicated to say." next
+    "@The more people stay here,{pause(25)} the more bodies we will find in the morning." next
+    "@There has been jars of severed body parts all over the place,{pause(25)} filled to the brim with the remains of last night's victims." next
+    "@Teeny tiny ants collect these Jars of Innards, and deliver them to the factory to serve to their ruler.[06 45 00 {e(l_0xc8e95b)}]" next
+    "@If you ever need some,{pause(25)} look for the red tent south of here.{pause(25)} You can't miss it,{pause(25)} because it's everywhere." next
+    "@This may sound like a crazy story,{pause(25)} I know how you feel.{pause(25)} Not a lot of people know this, so put this knowledge to good use." end
+
+l_0xc8e95b:
+    end
+
+l_0xc8e95d:
+    "@I heard that a couple bad boys busted into the abandoned factory and crushed the <Master of the Ants>." next
+    "@Was that you guys?{pause(35)} Wow,{pause(20)} you're stronger than I thought." next
+    "@Ha ha ha ha ha ha!" next
+    "@You guys are the real deal,{pause(25)} you got that?{pause(35)} You even got a spot on the news!" next
+    "@<Group of Kids Beat the Snot Out Of Swoll Ants>.{pause(35)} Ha ha ha ha ha ha ha!!" end
+
+l_0xc8e9e8:
+    "@It's good to see a friendly face every once in a while." next
+    "@Things are busy busy!{pause(25)} The mayor of Threed is working hard to reset our economy." next
+    "@But, despite all our hard work,{pause(30)} half of our land is going to give way to bigger graveyards to fill in the bodies from weeks ago.{pause(25)} Those poor townspeople..." next
+    "@I got something to ask of you,{pause(25)} just between you and me.{pause(35)} Do you think Threed is ready to open to the public once again?" linebreak
+    "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc8ea79)} {e(l_0xc8ea6a)}]" goto(l_0xc8ea6a)
+
+l_0xc8ea6a:
+    "@We still have lots of holes to fill." end
+
+l_0xc8ea79:
+    "@That's good to hear.{pause(35)} Maybe things will turn out a lot better this time." end
+
+l_0xc8ea8b:
+    "@After I heard that public buses were back open,{pause(25)} so I rode straight back home." next
+    "@I'm so surprised by how much has changed,{pause(35)} especially with the lack of zombies on the bus." end
+
+l_0xc8eace:
+    "@Do you know where that girl at the hotel went?{pause(25)} I really wanted to meet her." next
+    "@She won't let me into her hotel room.{pause(40)} What will it take for a nice guy like me to hook up with a pretty girl?" end
+
+l_0xc8eb2c:
+    "@I'm interested in that guy over there." next
+    "@But, if he's big and loud like his tuba,{pause(25)} then I don't want to meet him." end
+
+l_0xc8eb75:
+    "{window_open(1)}@Oooo{pause(5)}r{pause(5)}a{pause(5)}a{pause(5)}a{pause(5)}a{pause(5)}a{pause(5)}a{pause(5)}a{pause(5)}ahahahahahaha!![03]{window_closeall}{pause(1)}{unset(flag 49)}" call(data_21.l_0xc68538) "[1B 03 {e(l_0xc8ebdd)}][1F 1E 13 02 09][1F 1E 14 02 09][1F 1E 15 02 09]{pause(120)}{set(flag 669)}{set(flag 69)}{unset(flag 373)}{pause(1)}[1F 21 A0]{pause(1)}[1F E5 FF]" call(data_40.l_0xc88761) "{unset(flag 11)}" goto(data_31.l_0xc7a2f7)
+
+l_0xc8ebdd:
+    "{unset(flag 11)}{set(flag 49)}" eob
+
+l_0xc8ebe4:
+    "{window_open(1)}@(They stare at you with their dark, dead eyes.{pause(30)} You are clearly unwelcome.)[03]{window_closeall}[06 0E 00 {e(data_50.l_0xc9992f)}]{set(flag 46)}{set(flag 433)}{set(flag 588)}" eob
+
+l_0xc8ec0f:
+    "[19 23 16 02 01 FF 00][1F 16 16 02 00][1F 1A 16 02 03]{pause(30)}[1F 1B 16 02]{window_open(1)}@(They stare at you with their dark, dead eyes.{pause(30)} You are clearly unwelcome.)[03]{window_closeall}{sound(114)}{pause(60)}[1F F1 17 02 F7 02][1F 61][1F E6 17 02][19 23 17 02 01 01 00][1F 16 17 02 00][1F 1A 17 02 03]{pause(30)}[1F 1B 17 02]{window_open(1)}@(You hear a whisper,{pause(25)} but so far away.{pause(35)} Why are they...{pause(40)}crying?{pause(35)} Tears flow down their faces,{pause(30)} expressionless, and dead.)[03]{window_closeall}[1F E9 17 02][06 0E 00 {e(data_50.l_0xc9992f)}]{set(flag 46)}{set(flag 433)}{set(flag 588)}" eob goto(l_0xc8ec90)
+
+l_0xc8ec90:
+    "{window_open(1)}@(You hear a whisper,{pause(25)} but it's so far away.{pause(30)} Why are they...{pause(40)}crying?{pause(30)} Tears start flowing down their faces,{pause(30)} expressionless and dead.{pause(90)} There is no life left in their eyes.)[03]{window_closeall}[06 0E 00 {e(data_50.l_0xc9992f)}]{set(flag 46)}{set(flag 433)}{set(flag 588)}" eob
+
+l_0xc8ecb4:
+    call(data_12.l_0xc5d32f) eob
+
+l_0xc8ecba:
+    "@Hee hee.{pause(25)} That girl at the hotel is lookin' pretty fly." next
+    "@I should talk to her,{pause(25)} but she's completely out of my league." next
+    "@Sexy chicks like her deserve to be treasured and protected.{pause(25)} Don't you agree?" end
+
+l_0xc8ed1e:
+    "[06 D6 00 {e(l_0xc8edcc)}][06 47 00 {e(l_0xc8ed87)}]@There's always ants picking up what's left of the dead bodies." next
+    "@I wonder why they're so fascinated with it.{pause(25)} Where do they take it away to?" next
+    "@It kinda keeps the town clean,{pause(25)} but it's disgusting to watch." end
+
+l_0xc8ed87:
+    "@Did you find the king of the ants?{pause(35)} They've all seem to disappear somewhere." next
+    "@There hasn't been any ants here,{pause(20)} or any bodies." end
+
+l_0xc8edcc:
+    "@This place is a lot better now,{pause(25)} I think I could get used to this." next
+    "@It's like my dream town!" end
+
+l_0xc8ee02:
+    "[06 49 00 {e(l_0xc8eeb4)}][06 47 00 {e(l_0xc8ee6e)}]@Darkness covered our town months ago,{pause(25)} when some guy named Damien showed up.{pause(40)} That guy was something crazy." next
+    "@He's the one who twisted the town with dark magic.{pause(25)} Now look at the condition of this place." end
+
+l_0xc8ee6e:
+    "@Psst!{pause(25)} The teeny tiny ants around here work for a guy they call <Brother Antoid>." next
+    "@But, don't tell them that I told you this, okay?" end
+
+l_0xc8eeb4:
+    "@This guy named Damien showed me how to ressurect a hellbound harpy.{pause(35)} I feel super lucky now." end
+
+l_0xc8eee5:
+    "@I think this <Damien> guy might be working with the Red Raven Society." next
+    "@He looks like a total loon,{pause(25)} so it wasn't too hard to figure out who he was." next
+    "@His co-worker Edward is the real deal, though." next
+    "@To survive the slash of a professional hitman and replace his broken body with super strong robot parts...{pause(45)} He is quite extraordinary." next
+    "@Hey!{pause(25)} Don't take this the wrong way!{pause(25)} I'm on the good side!" next
+    "@I couldn't kill somebody even if my life depended on it.{pause(45)} Does that make sense to you?" end
+
+l_0xc8ef99:
+    "@I just saw a pretty face down by this hotel.{pause(25)} I wonder if she left because of me." end
+
+l_0xc8efb9:
+    "[06 47 00 {e(l_0xc8f0d2)}][06 7D 00 {e(l_0xc8f086)}][06 7C 00 {e(l_0xc8f066)}][06 28 02 {e(l_0xc8f031)}]@This town really went downhill." next
+    "@I don't even live here,{pause(25)} but I can't imagine the pain everybody experiences here." next
+    "@All I wanted was to order a pizza." end
+
+l_0xc8f031:
+    "@Threed really needs a huge amount of <Apparition Cleansers>.{pause(35)} We're going to do the right thing and deliver them!" end
+
+l_0xc8f066:
+    "@If <Apparition Cleansers> are so important,{pause(25)} why are WE delivering them?{pause(60)} It's like asking a mailman to go around singing Christmas carols." end
+
+l_0xc8f086:
+    "@Seems the Apparition Cleansers really did their thing.{pause(35)} Not a single one escaped!" next
+    "@There might be a small handful that are still out there,{pause(25)} but it's not their fault.{pause(50)} That's what you get for not reading the bold print!" end
+
+l_0xc8f0d2:
+    "@You're a real hero,{pause(25)} even though you may not look like one." next
+    "@I guess that's what makes someone heroic.{pause(25)} The biggest impacts on life come from the people you'd least expect." end
+
+l_0xc8f11b:
+    "[06 47 00 {e(l_0xc8f208)}][06 7D 00 {e(l_0xc8f1b5)}][06 28 02 {e(l_0xc8f193)}]@I'm only here because my wife ran an illegal clinic in our basement." next
+    "@Seeing all those unwanted...{pause(25)} things kept away makes me sick to my stomach.{pause(70)} All those poor people." next
+    "@*Sob*{pause(20)} I couldn't do anything about it.{pause(25)} *Boo hoo*{pause(25)}" end
+
+l_0xc8f193:
+    "@I think I am pretty lucky that I escaped alive." next
+    "@I might have ended up just like them." end
+
+l_0xc8f1b5:
+    "@Hee hee...{pause(25)} I dare you to poke one of the bodies." next
+    "@C'mon!{pause(20)} They're harmless...{pause(30)} I hope..." next
+    "@If they do bite you,{pause(25)} you don't need to worry!{pause(25)} I'll have a ten second headstart to run and warn people about your death!" end
+
+l_0xc8f208:
+    "@I like this new look for the town,{pause(20)} but I'm not going to leave this tent." next
+    "@Remember,{pause(25)} they want you to believe that everything is alright,{pause(35)} when it may be the complete opposite.{pause(70)} This could be a trap for all we know..." end
+
+l_0xc8f240:
+    "@Surprisingly,{pause(20)} there hasn't been anything done regarding the safety of this hotel." next
+    "{unset(flag 589)}{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 02 {e(l_0xc8f296)}]@A few nights ago,{pause(25)} two teenagers went missing and nobody batted an eye." end
+ 
+l_0xc8f296:
+    "@Those two teenagers...{pause(25)} I hope they're okay.{pause(30)} One of them looked EXACTLY like you." end
+
+l_0xc8f2b7:
+    "@Threed is really freed thanks to you!" next
+    "@The freshness of the air,{pause(25)} the sun returning to shine down on us once again.{pause(30)} Threed has been breathed life again after all." end
+
+l_0xc8f2ef:
+    "@When grown-ups wouldn't listen,{pause(25)} the children stepped to the plate and changed everything." next
+    "@Who knew someone like you could do something so big?" end
+
+l_0xc8f324:
+    "@If you're leaving town,{pause(25)} tell all your friends." next
+    "@Threed welcomes them with open arms!" end
+
+l_0xc8f344:
+    "@The tunnels are...{pause(30)} clear?" next
+    "@The town is...{pause(30)} saved?{pause(30)} People are...{pause(30)} happy?" next
+    "@That's good to...{pause(30)} hear?{pause(30)} Why do my sentences end with long...{pause(30)} pauses?{pause(35)} I've got to be super...{pause(30)} cautious,{pause(25)} so it's always best to ask...{pause(30)} questions?" end
+
+l_0xc8f392:
+    "@Going through the tunnels will bring you to Fourside." next
+    "@But don't go away without preparing youself!" linebreak
+    "@You will need to cross the Dusty Dunes Desert in order to get there." next
+    "@It is wise to have at least a huge gallon of water,{pause(25)} super strong weapons,{pause(25)} and good friends.{pause(30)} Sadly,{pause(25)} I don't got any of those things,{pause(40)} so I ain't getting out anytime soon." end
+
+l_0xc8f3eb:
+    "@Hey, sir!{pause(25)} Do you know if they hand out free napkins on public buses?" next
+    "@I'm asking for a friend,{pause(25)} seriously!" end
+
+l_0xc8f41f:
+    "[19 10 01]{rtoarg}@You guys are super cool!{pause(25)} Thanks a bunch!" end goto(l_0xc8f42a)
+
+l_0xc8f42a:
+    "@We got heroes in the house!{pause(25)} Whoot{pause(20)} Whoo{pause(5)}o{pause(5)}o{pause(5)}ot!" end
+
+l_0xc8f43f:
+    "@You guys are hella strong all right." end
+
+l_0xc8f448:
+    "@Yeah, you're good,{pause(20)} or something..." end
+

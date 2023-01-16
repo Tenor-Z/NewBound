@@ -1,0 +1,572 @@
+nxtdfvirpqckvqfjlb@awdrt.com
+    "  Mr. Saturn." next
+    "@Here we all" linebreak
+    "  Mr. Saturn." next
+    "@Hmmm...your name" linebreak
+    "  Mr. Saturn too?{wait}{font_normal}" eob goto(l_0xc7e962)
+
+l_0xc7e962:
+    "@Boing!{pause(25)} What name?{wait}{font_normal}" eob
+
+l_0xc7e96c:
+    "{font_saturn}[06 4A 00 {e(l_0xc7e9ed)}][06 47 00 {e(l_0xc7e9b9)}]@Yum" linebreak
+    "  Hot spring." next
+    "@Jump in" linebreak
+    "  hot spring." next
+    "@But don't" linebreak
+    "  drink pink water.{wait}{font_normal}" eob
+
+l_0xc7e9b9:
+    "{isset(flag 629)}[1B 02 {e(l_0xc7e9ed)}]@Ewww" linebreak
+    "  Smelly!" next
+    "@Go into" linebreak
+    "  hot spring!" linebreak
+    "  Eww!{pause(25)} Smell!{wait}{font_normal}" eob
+
+l_0xc7e9ed:
+    "@Much better!{pause(25)} Relaxation!" linebreak
+    "  Zoom!{wait}{font_normal}" eob
+
+l_0xc7ea00:
+    "{font_saturn}[06 4A 00 {e(l_0xc7eb3c)}][06 AD 00 {e(l_0xc7eb16)}][06 47 00 {e(l_0xc7ea71)}]@I trust you" linebreak
+    "  Boing!" next
+    "@Have" linebreak
+    "  surprise" linebreak
+    "for you!" next
+    "@But I,{pause(25)}" linebreak
+    "  very very busy!" next
+    "@We kept" linebreak
+    "  getting taken." linebreak
+    "  by scary monster." next
+    "@Help us!{pause(25)} Boing!" goto(l_0xc7eb38)
+
+l_0xc7ea71:
+    "@Surprise for" linebreak
+    "  you." next
+    goto(l_0xc7ea80)
+
+l_0xc7ea80:
+    "[1D 03 FF][1B 02 {e(l_0xc7eb25)}]{store_registers}[06 AC 00 {e(l_0xc7eae1)}][06 AB 00 {e(l_0xc7eabd)}]{load_registers}[1D 0E 00 FC][19 19 00 00]{set(flag 171)}" newline
+    "@Here! Here!{pause(25)} Have" linebreak
+    "  [1C 05 00].[03]{sound(116)}" goto(l_0xc7ea80)
+
+l_0xc7eabd:
+    "{load_registers}[1D 0E 00 F9][19 19 00 00]{set(flag 172)}" newline
+    "@Here! Here!{pause(25)} Have" linebreak
+    "  [1C 05 00].[03]{sound(116)}" goto(l_0xc7ea80)
+
+l_0xc7eae1:
+    "{load_registers}[1D 0E 00 99][19 19 00 00]{set(flag 173)}" newline
+    "@Lucky!" next
+    "@Here!{pause(25)} Have" linebreak
+    "  [1C 05 00]" next
+    "@Have" linebreak
+    "  good happy day![03]{sound(116)}" goto(l_0xc7eb16)
+
+l_0xc7eb16:
+    newline
+    "@Something" linebreak
+    "  I have not.{font_normal}" end goto(l_0xc7eb25)
+
+l_0xc7eb25:
+    newline
+    "@No room." linebreak
+    "  Empty! Empty!{pause(25)} Boing!" goto(l_0xc7eb38)
+
+l_0xc7eb38:
+    "{font_normal}" end
+
+l_0xc7eb3c:
+    "@Grandfather." linebreak
+    "  Zoom!{wait}{font_normal}" eob
+
+l_0xc7eb4c:
+    "{font_saturn}[06 4A 00 {e(l_0xc7ebcf)}][06 47 00 {e(l_0xc7ebc3)}]@We very helpful" linebreak
+    "  but we need helps." next
+    "@Scary monster" linebreak
+    "  take friends." next
+    "@Boing!{pause(25)} Behind" linebreak
+    "  waterfall.{pause(25)} Please" next
+    "halp us.{pause(25)} Very sad!" linebreak
+    "  Behind waterfall!{pause(25)} In base." next
+    "@Zoom!" linebreak
+    "  Spooky monster!{wait}{font_normal}" eob
+
+l_0xc7ebc3:
+    "@Much thank.{wait}{font_normal}" eob
+
+l_0xc7ebcf:
+    "@Boing!" linebreak
+    "  So tasty!" next
+    "@Making..." linebreak
+    "  yummy soup!" linebreak
+    "  Ding!{pause(25)} Much later.{wait}{font_normal}" eob
+
+l_0xc7ebf9:
+    "{font_saturn}[06 4A 00 {e(l_0xc7ec50)}][06 47 00 {e(l_0xc7ec3d)}]@Most of us" linebreak
+    "  gone." next
+    "@Gone into" linebreak
+    "  bad place.{pause(25)} Sick!{pause(25)} Boing!" next
+    "@Might be sick.{pause(25)} Yuck!" linebreak
+    "  Boing!{wait}{font_normal}" eob
+
+l_0xc7ec3d:
+    "@Yay! Yay!" linebreak
+    "  Everyone back now!{pause(25)} No more bad place!{wait}{font_normal}" eob
+
+l_0xc7ec50:
+    "@Boing! Boing! Ketchup!{wait}{font_normal}" eob
+
+l_0xc7ec5c:
+    "@Funny Funny!{pause(25)} Big nose funny!{wait}{font_normal}" eob
+
+l_0xc7ec6c:
+    "{font_saturn}[06 49 00 {e(l_0xc7ecdb)}][06 4A 00 {e(l_0xc7eccd)}][06 47 00 {e(l_0xc7ecbe)}]@Used to live" linebreak
+    "  in Twoson!" next
+    "@Bad red people" linebreak
+    "  kick out me." linebreak
+    "  So sad." next
+    "Boing!{pause(25)} Ding!{wait}{font_normal}" eob
+
+l_0xc7ecbe:
+    "@You halp us.{pause(25)} We happy.{wait}{font_normal}" eob
+
+l_0xc7eccd:
+    "@SU{pause(5)}U{pause(5)}U{pause(5)}U{pause(5)}U{pause(5)}U{pause(5)}PA Zoom!!{wait}{font_normal}" eob
+
+l_0xc7ecdb:
+    "@Feel much better!{pause(20)} Boing!{wait}{font_normal}" eob
+
+l_0xc7ece9:
+    "{font_saturn}[06 49 00 {e(l_0xc7edd9)}][06 47 00 {e(l_0xc7ed90)}]@Scary base" linebreak
+    "  where friends are." next
+    "@Behind" linebreak
+    "  waterfall." linebreak
+    "@Boing!" next
+    "@Weird man" linebreak
+    "  waiting behind." next
+    "@He speak" linebreak
+    "  He tell you" next
+    "@[52]Don't move" linebreak
+    "  a muscle.[52]" next
+    "@So" linebreak
+    "  don't move." next
+    "@Wait" linebreak
+    "  for man to let you in base." linebreak
+    "{pause(25)} That is the only way you can enter, [1C 02 01].{sound(114)}{pause(120)}{wait}{set(flag 131)}{font_normal}" eob
+
+l_0xc7ed90:
+    "@You meet" linebreak
+    "  man behind waterfall?" next
+    "@No?{pause(25)} Go! Go!" next
+    "@He waits" linebreak
+    "  to see you." linebreak
+    "@Go there!{pause(20)} Boing!" next
+    "@Pretty" linebreak
+    "  familiar" linebreak
+    "  Zoom!{wait}{font_normal}" eob
+
+l_0xc7edd9:
+    "@I like you!{pause(25)} Boing!" linebreak
+    "{pause(25)} only as" linebreak
+    "  friend.{wait}{font_normal}" eob
+
+l_0xc7edf1:
+    "{font_saturn}@Hi! Hi!" linebreak
+    "  Got drink." next
+    "@What drink?" linebreak
+    "  I not sure.{pause(25)} It is safe! Boing!" next
+    "@Would you" linebreak
+    "  like drink?" linebreak
+    "[19 02]Yes[02][19 02]No[02]{font_normal}[1C 07 02][11]{clearline}[09 02 {e(l_0xc7ee4f)} {e(l_0xc7ee3e)}]" goto(l_0xc7ee3e)
+
+l_0xc7ee3e:
+    "{font_saturn}@Tasty drink!" linebreak
+    "  Zoom!{wait}{font_normal}" eob
+
+l_0xc7ee4f:
+    "{font_saturn}@Drink is good for you." linebreak
+    "  Slurp drink!{pause(25)} Boing!{wait}{font_normal}{window_closeall}[06 DC 00 {e(data_50.l_0xc9992f)}]" call(data_33.l_0xc7dd74) "{music(92)}[1F 41 01]" eob
+
+l_0xc7ee7b:
+    "{font_saturn}[06 47 00 {e(l_0xc7eeb1)}]@You's look tired." next
+    "@Why not" linebreak
+    "  rest in" linebreak
+    "  hot springs?" next
+    "@Hot springs go{pause5)}o{pause(5)}o{pause(5)}o{pause(5)}o{pause(5)}ood!{pause(25)} Boing!" end
+
+l_0xc7eeb1:
+    "@Yay! Yay!" next
+    "@You go to" linebreak
+    "  hot springs to get" linebreak
+    "  happy!{pause(25)} Boing!" next
+    "@You all rested!{wait}{font_normal}" eob
+
+l_0xc7eede:
+    "{font_saturn}@Hi! Hi!" linebreak
+    "  I'm only baby." next
+    "@Please" linebreak
+    "  be gentle." linebreak
+    "@Zoom!{pause(25)} Boing!{wait}{font_normal}" eob
+
+l_0xc7ef0d:
+    "{font_saturn}@Future" linebreak
+    "  not too bright" next
+    "for Mr. Saturn." linebreak
+    " One day,{pause(25)} maybe things" linebreak
+    "  get better?{wait}{font_normal}" eob
+
+l_0xc7ef3b:
+    "[06 49 00 {e(l_0xc7f0e2)}][06 86 00 {e(l_0xc7f0d6)}][06 84 00 {e(l_0xc7ef67)}][06 4A 00 {e(l_0xc7efa2)}][19 10 01]{rtoarg}@Greetings, [1C 02 00]." next
+    goto(l_0xc7ef67)
+
+l_0xc7ef67:
+    "@We are still working hard on Project Vannish." next
+    "@It might be a while before it is complete,{pause(25)} so please bear with us." end goto(l_0xc7efa2)
+
+l_0xc7efa2:
+    "@After days of hard work and dedication,{pause(25)} Project Vannish is finally complete!{pause(20)}" linebreak
+    "@Thank you for being patient, [1C 02 01].{pause(25)} With this machine,{pause(25)} you should be able to travel through time and space,{pause(30)} like the Phase Distorter I made years ago." next
+    "@During the development of Vannish,{pause(25)} we discovered the location of Pokey." next
+    "@He has travelled yesteryear to an earlier time before the creation of this land." next
+    "@Even though the Mani Mani Statue was destroyed,{pause(25)} it seems that he is using an even greater source to control us all." next
+    "@That means..." next
+    "@In just a few days,{pause(30)} you'll need to travel back to that era to stop Pokey before his negative manifestations swallow this world in one fell swoop." next
+    "@We haven't got a lot of time left.{pause(25)} It won't be long until things turn from bad to worse." next
+    "@We are heading to the very edge of our reality.{pause(25)} If one thing goes wrong,{pause(20)} the rest of the world will die a painless death." next
+    "@The fate of the world depends on our actions,{pause(20)} so we must take action as soon as we can." end
+
+l_0xc7f0d6:
+    "[06 A9 00 {e(l_0xc7ef67)}]" goto(l_0xc7efa2)
+
+l_0xc7f0e2:
+    "@You guys managed to return back alive,{pause(25)} for the second time." next
+    "@I wouldn't really call it, luck,{pause(25)} or a miracle." next
+    "@I would call it <Bravery>...{pause(25)} Whatever that may be...{pause(30)} I don't get out much." end
+
+l_0xc7f165:
+    "[06 49 00 {e(l_0xc7f634)}][06 FD 02 {e(l_0xc7f50b)}][06 86 00 {e(l_0xc7f34c)}][06 84 00 {e(l_0xc7f25b)}]@Hm...{pause(20)}Yes." next
+    "@Project Vannish has been working very well!{pause(25)} Everything is ready to go!" next
+    "...{pause(30)}or it would be ready to go if I didn't..." next
+    "@.{pause(25)}.{pause(25)}.{pause(30)}[1C 02 01].{pause(25)} There's a bit of a problem, however." next
+    "@We forgot to add comfortable seats,{pause(25)} so we tried to do that...{pause(30)}and then it blew up." next
+    "@Science is sometimes like a love hate relationship,{pause(20)} you see?{wait}{window_closeall}{pause(1)}[1F F1 E5 02 1F 01]" eob
+
+l_0xc7f25b:
+    "@A piece of the meteor from Onnet is required to keep Vannish from malfunctioning." next
+    "@Go to the clifftop and extract a piece,{pause(25)} then bring it back here." next
+    "@I'm worried about what might be waiting over there, however.{pause(25)} Try to be a bit careful, at least." end
+
+l_0xc7f29e:
+    "[19 19 00 00]{swap}{result_is(193)}[1B 03 {e(l_0xc7f2b1)}]" goto(data_32.l_0xc7c6b6)
+
+l_0xc7f2b1:
+    "[1D 01 FF C1]{sound(118)}@You managed to get a piece of the meteorite?" linebreak
+    "@Perfect!{pause(25)} I'll get started right away!{pause(25)}" linebreak
+    "@As I suspected,{pause(20)} Pokey's plans have already begun.{pause(30)} We have less time then I thought." next
+    "@Now you see,{pause(20)} this mysterious element should keep Project Vannish stable." next
+    "@I now have the confidence to tell you that everything is ready to go!" next
+    "@...{pause(25)}except we might need a bit more time to make sure everything works.{pause(25)} We must make sure that you guys will be able to return in one piece." next
+    "@In the meantime,{pause(25)} why not get some rest and prepare yourself.{pause(25)} It might be a while before everything has been tested.{wait}{set(flag 134)}{set(flag 169)}" eob
+
+l_0xc7f34c:
+    "[06 A9 00 {e(l_0xc7f5ec)}]@Finally, it's complete! " next
+    "@The Phase Distorter, version two," next
+    "@{pause(15)} is equipped with two new features." next
+    "@First,{pause(20)} it can repair your biological functions." next
+    "@Second,{pause(20)} it can save your progress." next
+    "@Don't be afraid, get right in!" next
+    "@...There is just one thing, though..." next
+    "@You might not be able to return.{pause(20)}  So, make sure you are optimally outfitted." next
+    "@Are you ready to go?" linebreak
+    "[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc7f459)} {e(l_0xc7f459)}]" goto(l_0xc7f459)
+
+l_0xc7f459:
+    "@Even if you're not 100%,{pause(15)} perfectly,{pause(15)} completely ready..." next
+    "@Well, you should be as prepared as possible.{pause(20)}  It would be for the best." next
+    "@Without careful preparation, you would be in big trouble." next
+    "@I just want to make sure you're ready." next
+    "@Let me know when your preparations are complete.{wait}{set(flag 765)}" eob
+
+l_0xc7f50b:
+    "@Good.{pause(20)}  At last,{pause(15)} the time has come." next
+    "@Are you ready?" linebreak
+    "[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc7f54c)} {e(l_0xc7f459)}]" goto(l_0xc7f459)
+
+l_0xc7f54c:
+    "@Remember, the Phase Distorter, version 2," next
+    "@is equipped with two new features." next
+    "@First,{pause(20)} it can repair your biological functions." next
+    "@Second,{pause(20)} it can save your progress." next
+    "@Don't be afraid!{pause(15)}  Get right in!{wait}{set(flag 133)}[1F F1 E5 02 1F 01]" eob
+
+l_0xc7f5ec:
+    "@Yes...{pause(20)}  Most intriguing..." next
+    "@Leave everything to us, and you get some rest." next
+    "@This is getting most fascinating!" end
+
+l_0xc7f634:
+    "@It's a miracle!" next
+    "@A miracle that has only happened because of your great courage!" next
+    "@...Believe me,{pause(15)} I went through a lifetime's worth of stress while you were gone..." next
+    "@I just wish I could have come with you as a robot." next
+    "@I should have used the Phase Distorter." next
+    "@What a story that would have been..." next
+    "@<Scientist and four kids save the world!>{pause(30)}  Wah ha ha ha ha!" end
+
+l_0xc7f710:
+    "[06 49 00 {e(l_0xc7f813)}][06 4A 00 {e(l_0xc7f7a5)}]" goto(l_0xc7f71e)
+
+l_0xc7f71e:
+    "@The Apple Kid was lost, and he was just wandering around, so I brought him here." next
+    "@That was quite a while ago...{pause(20)}  Would you like some tea? " next
+    "@Ah,{pause(15)} I see that you're busy." next
+    "@It looks like things are pretty rough.{pause(20)}  You take care now...{wait}{set(flag 668)}" eob
+
+l_0xc7f7a5:
+    "[06 9C 02 {e(l_0xc7f71e)}]@I'm not sure what will happen, but I sense big-time trouble ahead for you." next
+    "@I'm going to stay here for a while and help Mr. Saturn." next
+    "@It's important for a man to enjoy doing his duty." end
+
+l_0xc7f813:
+    "@Incredible!{pause(20)}" linebreak
+    "  Excellent!" next
+    "@I'm not quite sure what for, but congratulations on a job well done!" next
+    "@If we ever have the chance to get together again," next
+    "@let's go on a picnic or something." next
+    "@Maybe we could play horseshoes, too!" end
+
+l_0xc7f8ab:
+    "{font_saturn}@(Hot" linebreak
+    "  springs..." linebreak
+    "  Rest here.){wait}{font_normal}" eob
+
+l_0xc7f8c7:
+    "{font_saturn}@Happy." linebreak
+    "  Boing." next
+    "@More happy." linebreak
+    "  Ding" linebreak
+    "  ding." next
+    "@Much more" linebreak
+    "  Happy." linebreak
+    "  Boo boo's." next
+    "@Big big" linebreak
+    "  happy." linebreak
+    "  Zooooom!{wait}{font_normal}" eob
+
+l_0xc7f921:
+    "{font_saturn}@Was scared." next
+    "@Now kay-o." linebreak
+    "  I strong." next
+    "@Boing!{font_normal}" end
+
+l_0xc7f949:
+    "{window_open(1)}@Our travels together end here." next
+    "@I must return to Dalaam, and use this experience for the good of my country." next
+    "@[1C 01 08],{pause(15)}" linebreak
+    "  [1C 01 1E],{pause(20)}" linebreak
+    "  [1C 01 34]..." next
+    "@Let me demonstrate a strange power before I go.{pause(20)}  I realized this power as a child." next
+    "@PSI Farewell!  Now![03]{window_closeall}{set(flag 637)}" eob
+
+l_0xc7f9f8:
+    "{window_open(1)}@[1C 01 1E],{pause(20)}" linebreak
+    "  [1C 01 08]..." next
+    "@It was great to hang out with you guys.{pause(20)}  It really was." next
+    "@I'm glad that I had the chance to use some of the theories" next
+    "@that I have been studying so hard." next
+    "@It's remarkable." next
+    "@....." next
+    "@If..." next
+    "@Just maybe..." next
+    "@Well, if you two get hitched someday," next
+    "@maybe I'll be the one that fixes your broken electronic appliances." next
+    "@....." next
+    "@I'm going to stay here for a while and see if I can learn more from Dr. Andonuts." next
+    "@I mean,{pause(15)} from my dad." next
+    "@...So it looks like this is good bye for now,{pause(20)} my friends.{wait}{window_closeall}" eob
+
+l_0xc7fb3e:
+    "@It was fun hanging out together." end
+
+l_0xc7fb56:
+    "{window_open(1)}@[1C 01 08], will you escort me home?" linebreak
+    "[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc7fba1)} {e(l_0xc7fb89)}]" goto(l_0xc7fb89)
+
+l_0xc7fb89:
+    "@Well then,{pause(15)} I'll escort you!{wait}" linebreak
+    "{window_closeall}" eob
+
+l_0xc7fba1:
+    "@I'll miss all of you,{pause(5)} but,{pause(15)} I have to go back to being just a regular kid..." next
+    "@Well,{pause(15)} I gotta get going...{wait}{window_closeall}" eob
+
+l_0xc7fbec:
+    "[1F 67 02]" call(l_0xc7fc3e) "[19 22 01 01 02 00]{swap}{store_registers}{result_is(4)}[1B 03 {e(l_0xc7fc32)}]{load_registers}{result_is(5)}[1B 03 {e(l_0xc7fc32)}]{load_registers}{result_is(6)}[1B 03 {e(l_0xc7fc26)}][1F 15 02 00 37 02 01]" goto(l_0xc7fd06)
+
+l_0xc7fc26:
+    "[1F 15 02 00 38 02 01]" goto(l_0xc7fd06)
+
+l_0xc7fc32:
+    "[1F 15 02 00 39 02 01]" goto(l_0xc7fd06)
+
+l_0xc7fc3e:
+    "[1F E5 FF]{pause(30)}[19 22 01 01 02 00][1F 13 01 00][19 22 02 01 01 00][1F 13 02 00]{pause(30)}{window_open(1)}@[1C 01 08]..." linebreak
+    " Thank you for escorting me home." next
+    "@....." next
+    "@...There was something I wanted to tell you, but I've forgotten it." next
+    "@I'm sure I'll remember by the time I see you again." next
+    "@Well,{pause(15)} I guess this is it..." next
+    "@Good-bye." next
+    "@Uhhh...{pause(20)}" linebreak
+    " ...So long" next
+    "@...See ya." next
+    "@...Bye.{wait}{window_closeall}[1F EB 02 06]" eob goto(l_0xc7fd06)
+
+l_0xc7fd06:
+    "[1F 61][1F E7 02 00][1F 13 01 01]{pause(60)}[1F EA 02 00][1F 61][1F 12 02]{set(flag 638)}[1F E8 FF]" eob
+
+l_0xc7fd22:
+    "[19 22 01 01 02 00][1F 13 01 00][19 22 02 01 01 00][1F 13 02 00]{pause(30)}{window_open(1)}@I really should go home.{pause(20)}  I shouldn't be out just wandering here and there." next
+    "@Don't you think so?" linebreak
+    "[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc7fd8e)} {e(l_0xc7fdd6)}]" goto(l_0xc7fdd6)
+
+l_0xc7fd8e:
+    "@All right.{pause(20)}  Let's go back to Polestar Preschool in Twoson..." next
+    "@You remember where it is, right?" next
+    "@Let's go...{wait}{window_closeall}" eob
+
+l_0xc7fdd6:
+    "@Well...  Okay.{pause(20)}" linebreak
+    "  I guess I would like to be with you a little longer.{wait}{window_closeall}" eob
+
+l_0xc7fe02:
+    "{font_saturn}@You worn" linebreak
+    "  down?" next
+    "@Ahhh..." linebreak
+    "  Boing!{isset(flag 629)}[1B 02 {e(l_0xc7fe2f)}]{isset(flag 214)}[1B 02 {e(l_0xc7fe31)}]" goto(l_0xc7fe2f)
+
+l_0xc7fe2f:
+    end
+
+l_0xc7fe31:
+    next
+    "@Buuurp!" linebreak
+    "  Barf!" next
+    "@Stinky!" linebreak
+    "  Peeee-" linebreak
+    "  yeuuu!{wait}{font_normal}" eob
+
+l_0xc7fe61:
+    "{font_saturn}[06 49 00 {e(l_0xc7fe96)}]@Longer" linebreak
+    "  ladder!" next
+    "@Can" linebreak
+    "  go to" linebreak
+    "  hot springs!{wait}{font_normal}" eob
+
+l_0xc7fe96:
+    "@Bell rings" linebreak
+    "  ding, ding.  Boing!{wait}{font_normal}" eob
+
+l_0xc7feb1:
+    "[1F E6 E6 02][19 10 01]{rtoarg}{window_open(1)}[06 75 02 {e(l_0xc7ff06)}]@(You enjoyed the hot springs immensely.{pause(20)}  It made you feel reborn.){wait}" goto(l_0xc7fefa)
+
+l_0xc7fefa:
+    call(data_44.l_0xc9162c) "{window_closeall}[1F E9 E6 02]" eob goto(l_0xc7ff06)
+
+l_0xc7ff06:
+    "@(You got in and washed all of the extremely dirty gunk off of your body.){wait}{unset(flag 629)}" goto(l_0xc7fefa)
+
+l_0xc80000:
+    call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc8045b)}][06 71 00 {e(l_0xc8037f)}][06 7E 02 {e(l_0xc80027)}][06 0C 00 {e(l_0xc803ac)}][06 0D 00 {e(l_0xc803ac)}]" goto(l_0xc80027)
+
+l_0xc80027:
+    "@This is the cycle shop{pause(5)} <Punk-Sure>!" next
+    "@Bicycles are so much fun and are so convenient..." next
+    "@It's a lot faster than walking." next
+    "@You'll be really popular with the biking crowd." next
+    "@Do you want a bicycle?" linebreak
+    "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc800f5)} {e(l_0xc800c1)}]" goto(l_0xc800c1)
+
+l_0xc800c1:
+    "[1D 05 FF B0][1B 03 {e(l_0xc802e6)}][06 51 00 {e(l_0xc8034d)}]@Oh... you don't know how to ride a bike." next
+    "@Me neither." end
+
+l_0xc800f5:
+    "[06 51 00 {e(l_0xc802b9)}]@Unfortunately, we don't have any more bikes for sale.{pause(20)}  We only have rentals." next
+    "@Do you want to rent one?" linebreak
+    "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc8015a)} {e(l_0xc800c1)}]" goto(l_0xc800c1)
+
+l_0xc8015a:
+    "@I really like your straight-forward style." next
+    "@I'll tell you what,{pause(15)} I'll let you borrow a bike for free." next
+    "[1D 03 FF][1B 02 {e(l_0xc80277)}][1D 0E 00 B0]" call(data_33.l_0xc7dccf) next
+    "{set(flag 81)}@You know that two people can't ride on one bicycle," next
+    "@so of course three or four people on a bike would be impossible!" next
+    "@Did you also know that you can't ride a bike with anything following you?" next
+    "@Teddy bears, for example..." next
+    "@Carrying a bear and riding is impossible for you." next
+    "@And don't even think about riding a bike into a cave." end
+
+l_0xc80276:
+    eob
+
+l_0xc80277:
+    newline
+    "{sound(5)}@You have too many items.{pause(20)}  Why don't you get rid of something and come back." next
+    "@I know you want it now,{pause(15)} but my hands are tied..." end
+
+l_0xc802b9:
+    newline
+    "@Didn't you already borrow a bicycle?{pause(20)}  We don't have any more right now..." end
+
+l_0xc802e6:
+    newline
+    "[1D 01 FF B0]@You're here to return your bike?" next
+    "{set(flag 113)}{unset(flag 81)}@Look how low your seat is!{pause(20)}  Geez,{pause(15)} you must have short legs." next
+    "@That's it!{pause(20)}  I'll call you stubby legs!{wait}{sound(118)}" eob
+
+l_0xc8034d:
+    newline
+    "@Yeah,{pause(10)} yeah,{pause(5)} sure, sure.{pause(20)}  You've already borrowed a bicycle." end
+
+l_0xc8037f:
+    "@Hey!{pause(15)}  Stubby legs!" next
+    "[06 7E 02 {e(l_0xc80027)}][06 0D 00 {e(l_0xc803ac)}][06 0C 00 {e(l_0xc803ac)}]" goto(l_0xc80027)
+
+l_0xc803ac:
+    "{counter(1)}@Do you wanna ride a bike?" next
+    "@That's not gonna work... two people on one bike is strictly forbidden.[03][1D 05 FF B0][1B 03 {e(l_0xc803f8)}]" end
+
+l_0xc803f8:
+    next
+    "@You're here to return the bicycle?" linebreak
+    "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc802e6)} {e(l_0xc8042b)}]" goto(l_0xc8042b)
+
+l_0xc8042b:
+    "@Well,{pause(15)} don't forget to return it...{pause(20)}  You're gonna have to sooner or later." end
+
+l_0xc8045b:
+    "@You know that two people can't ride a bike," next
+    "@but did you know that you can't ride a bike" next
+    "@when you are carrying an unconscious friend's stuff?" next
+    "@Carrying a lot of items and riding aroud is impossible for you." end
+
+l_0xc804d1:
+    "[06 49 00 {e(data_35.l_0xc808bd)}][06 08 03 {e(l_0xc8054d)}][06 55 00 {e(data_35.l_0xc807bc)}][06 54 00 {e(data_35.l_0xc806bb)}][06 0D 00 {e(l_0xc80579)}]@Whistle, whistle anywhere.{pause(10)}" linebreak
+    "  It makes me smile{pause(10)}" linebreak
+    "  all the while." next
+    "@I'm [1C 02 02]'s mo" goto(l_0xc80530)
+
+l_0xc80530:
+    "ther.{pause(20)}  I'm busy taking care of these kids." next
+    goto(l_0xc8054d)
+
+l_0xc8054d:
+    "@You shouldn't worry about [1C 02 02].{pause(20)}  She has a guardian angel,{pause(15)} it seems." end
+
+l_0xc80579:
+    "{counter(2)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(data_35.l_0xc80673)}]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(data_35.l_0xc80718)}]@Yahoo!{pause(5)}  I knew it!{pause(20)}  You saved [1C 02 02]." next
+    call(data_35.l_0xc806bb) linebreak
+    goto(data_35.l_0xc805ba)
+

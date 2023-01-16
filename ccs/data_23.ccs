@@ -1,0 +1,543 @@
+/*
+ * EarthBound Text Dump
+ * Time: 16:51:30 - 12/09/2019
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc6a77b:
+    "@<Hotel Twoson>" next
+    "@<It's only 50 dollars,{pause(30)} no discounts or refunds permitted!>" end
+
+l_0xc6a7a5:
+    "@<Threed Grand Hotel>" next
+    "@<60 dollars for 1 night.{pause(25)} We've had to increase our prices due to town conditions." end
+
+l_0xc6a7d2:
+    "@<Le Summer>" next
+    "@<Relaxation's only worth 150 dollars.>" end
+
+l_0xc6a800:
+    "[06 49 00 {e(l_0xc6a832)}]@<Galloway Hotel and Suites>" next
+    "@<75 dollars for 1 night.{pause(25)} 75 thousand for a room in excellent condition.>" end
+
+l_0xc6a832:
+    "@<Enrich Grand Hotel>" next
+    "@<75 dollars.{pause(25)} Nothing more.>" end
+
+l_0xc6a861:
+    "@<Hotel Dark Moon>" next
+    "@<75 dollars for 1 night,{pause(25)} implying that the lamps don't find you.>" end
+
+l_0xc6a895:
+    "@<Great Southern International Resort Hotel>" next
+    "@<100 dollars for 1 night.{pause(25)} A bit excessive, don't you think?{pause(35)} But it sure as hell is worth it.>" end
+
+l_0xc6a8d4:
+    "{font_saturn}@I has escaped slaveryyyyy." next
+    "@Zoom Zoom!" next
+    "@No good!" next
+    "@Boing Boing Zoom!" next
+    "@Bad slavery!{pause(30)} Boing!" next
+    "@Ding!{wait}{font_normal}" eob
+
+l_0xc6a90c:
+    "{font_saturn}@<Welfare Lake>?{pause(30)} Cool beans!" next
+    "@Boing!{pause(25)} Zooooom!" next
+    "@Find it?{pause(30)} Find it!{pause(30)} Boing!{wait}{font_normal}" eob
+
+l_0xc6a937:
+    "@My back is feeling a thousand times better now." end
+
+l_0xc6a950:
+    "@Things are looking good for me.{pause(35)} Seems like I'll be out of here in a few days!" next
+    "@Not only that,{pause(30)} but my grandchildren have come to visit me." next
+    "@Do you have grandchildren?" linebreak
+    "[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc6a9c8)} {e(l_0xc6a9a9)}]" goto(l_0xc6a9a9)
+
+l_0xc6a9a9:
+    "@Ohohohoho...{pause(35)} I knew that from the start, honey!{pause(40)} I was just messing with you." end
+
+l_0xc6a9c8:
+    "@Wait! What?" next
+    "@What the...?" next
+    "@That's pretty disgusting, mister." next
+    "@You're way too young for that sort of life." end
+
+l_0xc6a9f9:
+    "@Hey [1C 02 03], do you want to hang out today?" next
+    "@Huh?{pause(30)} Is something going on?" end
+
+l_0xc6aa2f:
+    "[06 58 00 {e(l_0xc6ad29)}][06 5D 02 {e(l_0xc6abd5)}][06 5C 02 {e(l_0xc6ad29)}]@Hey! Hey!" next
+    "@[1C 02 03] and Tony!{pause(35)} The hell you doing here?" next
+    "@I'm currently busy at the moment...{pause(35)} It's super important stuff..." next
+    "@Dr. Andonut's order got mixed up,{pause(25)} so I'm responsible for fixing this mess." next
+    "@Oh, damn...{pause(35)} I forgot to tell you guys..." next
+    "@I'm currently getting rich off my new mixture,{pause(20)} NOVA." next
+    "@You can't tell anyone!!{pause(45)} If the landlords find out,{pause(35)} we could get evicted." next
+    "@We can't let that happen!{pause(35)} Don't you see how much money we can make off this shit?" next 
+    "@This is a once in a lifetime opportunity,{pause(30)} and I'm taking full advantage of it." next
+    "@Don't.{pause(30)} Tell.{pause(30)} Anyone." next
+    "@Wait...{pause(35)} Why are you guys roaming around in the middle of the night anyway?{pause(45)} You going out somewhere?" next
+    "@Hmm...{pause(60)} Well, if you are leaving,{pause(35)} at least take this key.{pause(35)} It should unlock the lockers down in the storage room." next
+    "@You might find some nifty things in there.{pause(35)} It's pretty dangerous out there." next
+    "@The key's a little bent, but you should be good.[03][1D 03 FF][1B 02 {e(l_0xc6acda)}][1D 0E 00 CD]" call(data_33.l_0xc7dcb6) next
+    "{set(flag 604)}@Make sure to call me every once in a while.{pause(25)} Lets me know you guys are safe." next
+    "@I don't want to have to be responsible for burying your bodies.{pause(15)}" next
+    "Ah ha ha ha ha!{wait}{window_closeall}" eob
+
+l_0xc6abd5:
+    "[1D 01 FF CD]@What happened?{pause(35)} That key didn't work?" next
+    "@Fuck...{pause(55)} Whatever,{pause(45)} I think I've got a little something to fix that, anyway." next
+    "@I've got what's called a <Bad Key Machine.>{pause(40)} I made that back then,{pause(25)} when my skills amused people..." next
+    "@But look at me now!{pause(25)} I'm a drug dealer living in a school!" next
+    "@Not exactly an improvement...{pause(45)} Ah ha ha ha ha ha!" next
+    "@Use this machine on the locks,{pause(35)} they should open this time.[03][1D 03 FF][1B 02 {e(l_0xc6acda)}][1D 0E 00 AC]" call(data_33.l_0xc7dcb6) next
+    "{set(flag 88)}@[1C 02 03],{pause(30)} I feel this journey is essential to you." next
+    "@I guarentee you that there will be lots of broken things you can pick up and fix." next
+    "@It'll help you strengthen your knowledge,{pause(15)} and all that, you know?" next
+    "@Now get going!{pause(25)} I've got NOVA to sell, here.{wait}{window_closeall}" eob
+
+l_0xc6acda:
+    newline
+    "@Welp,{pause(15)} that's quite unfortunate.{pause(25)} You can't take this key." next
+    "@You've got too much things.{pause(25)} Aha ha ha ha ha ha!" next
+    "@Don't worry, I can wait all night.{pause(40)} I haven't really slept in days." end
+
+l_0xc6ad29:
+    "@Make sure to call me every once in a while.{pause(25)} Lets me know you guys are safe." next
+    "@I don't want to be responsible for burying your bodies.{pause(20)}" next
+    "@Ah ha ha ha ha ha!" end
+
+l_0xc6ad68:
+    call(data_12.l_0xc5d34d) eob
+
+l_0xc6ad6e:
+    "[06 43 01 {e(l_0xc6af0b)}]@Someone left behind a monkey for sale." next
+    "@It won't listen to anyone unless you give it some Bubble Gum." next
+    "@Do you want to take this poor monkey into your arms?{pause(35)} It shall only cost you a dollar." next
+    "{open_wallet}[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc6ae36)} {e(l_0xc6ae07)}]" goto(l_0xc6ae07)
+
+l_0xc6ae07:
+    "@Please?{pause(25)} I can give you him for free!{pause(30)} It's the best you can do for him!" end
+
+l_0xc6ae36:
+    "[1D 14 01 00 00 00][1B 03 {e(l_0xc6ae77)}][1D 03 FF][1B 02 {e(l_0xc6aee1)}]{pause(1)}[1D 09 01 00][1D 0E 03 68]{store_registers}{sound(118)}{open_wallet}@Things are looking bright for this little fellow.{pause(40)} Enjoy!" call(data_33.l_0xc7dcb6) "{set(flag 323)}" end
+
+l_0xc6ae77:
+    "@Not even for one dollar?{pause(25)} Pleeeeeease!" next
+    "@Fine!{pause(30)} I'll give you the monkey for free!." next
+    "[1D 03 FF][1B 02 {e(l_0xc6aee1)}][1D 0E 00 68]@Take this pack of bubble gum.{pause(25)} You're going to need it for that monkey!" call(data_33.l_0xc7dcb6) "{set(flag 323)}" end
+
+l_0xc6aee1:
+    "@Oh no!{pause(45)} Your bag is full." next
+    "@Please empty your bag.{pause(30)} Your monkey depends on it." end
+
+l_0xc6af0b:
+    "@That's unfortunately all the bubble gum I have." end
+
+l_0xc6af23:
+    "[06 43 01 {e(l_0xc6af5d)}]@The label on the bubble gum reads <Extra Inflation>." next
+    "@I wonder how big of a bubble this bubble gum will blow." end
+
+l_0xc6af5d:
+    "@It's cold outside, so I think I'll stay in here to get warm!" next
+    "@Why pay for heat when you can get it for free, right?" end
+
+l_0xc6af6c:
+    "[1D 05 FF 68][1B 03 {e(l_0xc6af8a)}]@Kya Kya?{pause(30)} (What do you want, delinquent?)" next
+    "@Kiyki Koko!" next
+    "(I'm too busy trying to be a cool monkey!)" end
+
+l_0xc6af8a:
+    "@Kiyu Ukakata{pause(35)}" linebreak
+    "@(I guess you're my new owner now or something.{pause(40)} Cool.)" next
+    "@Kyu Ukitpiko Kiki!" linebreak
+    "@(I don't know much,{pause(30)} but I can do some pretty cool bubble gum tricks!)" next
+    "@(Watch and learn, delinquent!)" next
+    "@The Bubble Monkey took some Bubble Gum from [1C 02 03].{pause(40)} Soon enough,{pause(20)} the Bubble Monkey blew a huge bubble.[03]{window_closeall}{set(flag 334)}{set(flag 22)}" call(data_39.l_0xc880b9) call(data_21.l_0xc6822a) eob
+
+l_0xc6afe1:
+    "@Waiting for Denver to arrive takes forever,{pause(35)} but I've got stew on the brew." next
+    "@Want some stew?" linebreak
+    "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc6b037)} {e(l_0xc6b027)}]" goto(l_0xc6b027)
+
+l_0xc6b027:
+    newline
+    "@Aw man, the stew's gonna get cold.{pause(35)} It's not like Denver's gonna appear anytime soon." end
+
+l_0xc6b037:
+    "@Here you go!{pause(35)} Enjoy the stew that's cooking on the brew...[03]" call(data_45.l_0xc91693) "[1F 21 2E][06 C0 02 {e(l_0xc6b063)}]{set(flag 485)}" goto(l_0xc6b063)
+
+l_0xc6b063:
+    "[06 0E 00 {e(data_50.l_0xc9992f)}]{set(flag 344)}[1F 66 01 27 0F AE C9 00]{isset(flag 22)}[1B 02 {e(data_50.l_0xc9992f)}][1F 66 02 30 87 B0 C6 00]" eob
+
+l_0xc6b087:
+    "[1F EB 09 06][1F 15 2E 00 FB 00 01][1F 61][19 22 03 03 2E 00][1F 13 03 00][1F F3 2E 00 03]{pause(60)}[1F F4 2E 00]{window_open(1)}@Kiyahuki Kikikiokio.{pause(40)}" linebreak
+    "@(I need some gum, [1C 02 03].{pause(40)} You can thank me later...)" next
+    "@Koki Kyukikipokiki." linebreak
+    "@(Well, here's go nothing.){wait}{window_closeall}{pause(30)}" goto(data_40.l_0xc88103)
+
+l_0xc6b0f9:
+    eob
+
+l_0xc6b0fa:
+    "[06 34 00 {e(l_0xc6b161)}][06 81 00 {e(l_0xc6b144)}]@I hope we really find Denver!" next
+    "@He's somewhere in the water,{pause(35)} grooving to some sort of oceanic hip-hop." end
+
+l_0xc6b144:
+    "@Sometimes standing here is a bit boring,{pause(25)} but what are you gonna do when you're just a follower?" end
+
+l_0xc6b161:
+    "@Seriously though,{pause(25)} is he ever going to come outta that water?" end
+
+l_0xc6b18d:
+    "[06 0E 00 {e(l_0xc6b4bb)}][06 7F 00 {e(l_0xc6b492)}]@...{pause(50)}Whuh?{pause(25)} Oh,{pause(45)} It's you [1C 02 03],{pause(35)} my son!" next
+    "@How long has it been?{pause(75)} I...{pause(40)} It's...{pause(45)} I don't know what to say...{pause(55)} This is all too..." next
+    "@..." next
+    "@...{pause(45)}[1C 02 03]...{pause(45)} It's been too long,{pause(55)} please forgive me..." next
+    "@Hiding away,{pause(35)} burying myself in my own creations...{pause(50)} I've been such a bad father,{pause(20)} haven't I?" next
+    "@I understand how you feel...{pause(55)} Why don't you sit down for a while?{pause(30)} We can discuss our troubles together." next
+    "@I can't imagine the trauma I've put you through." next
+    "@Do you forgive me, [1C 02 03]?" linebreak
+    "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc6b2a3)} {e(l_0xc6b28c)}]" goto(l_0xc6b28c)
+
+l_0xc6b28c:
+    "@I understand,{pause(70)} I haven't been able to forgive myself either." next
+    "@Ever since that time..." next
+    goto(l_0xc6b2ca)
+
+l_0xc6b2a3:
+    "@Really?{pause(20)} After everything I forced upon you?" next
+    "@I...{pause(70)} Thank you, [1C 02 03]." next 
+    "@I haven't really been able to forgive myself.{pause(60)} Ever since that time..." next
+    "@There's just too much emotions I'm feeling right now...{pause(40)} It's going to be hard for me..." next
+    goto(l_0xc6b2ca)
+
+l_0xc6b2ca:
+    "@Would you like to discuss what's been on your mind?" next
+    "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc6b317)} {e(l_0xc6b300)}]" goto(l_0xc6b300)
+
+l_0xc6b300:
+    "@There's too much that I want to discuss...{pause(35)} Please listen to me, [1C 02 03]." next
+    goto(l_0xc6b329)
+
+l_0xc6b317:
+    "@I understand, [1C 02 03]." next
+    "@There's too much that I discuss...{pause(35)} Please listen to me." next
+    goto(l_0xc6b329)
+
+l_0xc6b329:
+    "@I'm sure you understand the pain I've been through..." next
+    "@...You almost died last time,{pause(30)} [1C 02 03]." next
+    "@It broke me.{pause(30)} I don't want to lose you again, [1C 02 03]." next
+    "@Even if it means sheltering away,{pause(30)} reaching the edge of insanity.{pause(60)} I don't want to hurt you anymore, [1C 02 03]." next
+    "@Not even for the sake of the world...{pause(35)} No more..." next
+    "@It's hurt me so much to even think that I would lose the only thing I had left." next
+    "@Why did this have to happen?{pause(45)} You made such risky choices against your own will." next
+    "@Turning your body into a robot,{pause(25)} travelling back in time,{pause(30)} for the sake of everyone else." next
+    "@You really are a great person,{pause(45)} [1C 02 03].{pause(60)} Your mother would've been damn proud of you." next
+    "@..." next
+    "@Now, I heard that a girl named [1C 02 02] called you for help." next
+    "@I got just the right invention to help!{pause(35)} It's a bit busted though..." next
+    "@It took me a bit of time, but I managed to repair the <Sky Runner>." next
+    "@It still runs the same as normal,{pause(50)} but that's part of the problem." next
+    "@You might want to be a bit careful!{pause(75)} If you don't respond to the equipped alarm inside the Sky Runner," next
+    "@The whole thing will blow into bits..." next
+    "@It's waiting for you in the next room,{pause(25)} you'll be able to get to Threed in no time!" next
+    "@So, what are you waiting for?{pause(25)} Get inside, and get to Threed quickly!" next
+    "@[1C 02 01] and [1C 02 02] need your help!" next
+    goto(l_0xc6b492)
+
+l_0xc6b492:
+    "@I know it's a bit early to say goodbye,{pause(25)} but I promise we will meet again soon,{pause(50)} it's my promise." next
+    "@Good luck,{pause(30)} my son.{wait}[1F F1 6F 02 89 00]{set(flag 127)}" eob
+
+l_0xc6b4bb:
+    "[19 10 01]{rtoarg}{result_is(3)}[1B 03 {e(l_0xc6b4fe)}][06 82 00 {e(l_0xc6b516)}]@Well, well, well...{pause(40)} Look who came to visit!" next
+    "[19 10 01]{rtoarg}@It's [1C 02 00]!{pause(25)} It's been quite a while!" next
+    "{set(flag 130)}" goto(l_0xc6b523)
+
+l_0xc6b4fe:
+    "@Hey, [1C 02 03].{pause(25)} What's good?" next
+    "{set(flag 130)}" goto(l_0xc6b56e)
+
+l_0xc6b516:
+    "[19 10 01]{rtoarg}@Hey, [1C 02 00]!" next
+    goto(l_0xc6b523)
+
+l_0xc6b523:
+    newline
+    "@Now [1C 02 03] can sometimes be a bit reckless.{pause(45)} He sometimes acts without thinking." next
+    "@But knowing you,{pause(30)} you'll probably get him under control." linebreak
+    "@Hah Hah Hah Hah Hah..." next
+    goto(l_0xc6b56e)
+
+l_0xc6b56e:
+    "{isset(flag 215)}[1B 02 {e(l_0xc6b60b)}][06 10 00 {e(l_0xc6b5b4)}]@Apple Kid?{pause(35)} Who's that?" next
+    "@Either I forgot about him...{pause(35)} or he's probably just dead." end goto(l_0xc6b5b4)
+
+l_0xc6b5b4:
+    "@All right, so I got a call from some strange guy." next
+    "@Apparently,{pause(30)} he's good friends with Dr. Andonuts." next
+    "@He's gonna be here soon." end
+
+l_0xc6b60b:
+    "[06 B8 00 {e(l_0xc6b75b)}]@There's a dirty, rotten chamber near Stonehenge.{pause(35)} It's been abandoned for years." next
+    "@You're looking for the <Sanctuary Locations>, right?" next
+    "@Well,{pause(25)} that's where <Rainfield> is located." next
+    "@It happens to be the next <Sanctuary Location>{pause(50)}" linebreak
+    "@However,{pause(25)} there is a catch." next
+    "@The Stonehedge Base is home to the nastiest creatures.{pause(45)} Creatures that are meant to be left forgotten...[06 06 00 {e(l_0xc6b759)}]" next
+    "@If you manage to get past it all,{pause(25)} only bright memories shall wait for you at the end." next
+    "@You should head down there whenever you're ready." next
+    "@You probably remember my assistant, Big Foot, don'tcha?{pause(45)} He's a real big fan.{wait}{set(flag 6)}" eob
+
+l_0xc6b759:
+    end
+
+l_0xc6b75b:
+    "@Hmm Hmm!" next
+    "@I believe you managed to collect most of the <Sanctuary Melodies> if I'm correct?" next
+    "@In the nick of time as well..." next
+    "@While you were gone, I repaired the Sky Runner...{pause(60)} again." next
+    "@I guess you can use it to get to Summers...{pause(55)} But...{pause(40)} Uhh..." next
+    "@Just don't let [1C 02 03] use it this time!{pause(35)} Ha ha ha!{wait}[1F F1 6F 02 8A 00]" eob
+
+l_0xc6b7d0:
+    "{counter(3)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc6b871)}]@Hey! Hey!{pause(25)} [1C 02 03],{pause(25)} my main man!" next
+    "@Although things are going strong over here money-wise,{pause(35)} we have a small problem right now." next
+    "@Tony's gone.{pause(25)} He's been missing for days..." next
+    "@We don't know where he is,{pause(25)} or if he's still alive..." next
+    "@I know I'm supposed to be responsible for him,{pause(35)} but maybe you can help find him for me.{pause(60)} That'd be neat." end
+
+l_0xc6b871:
+    "@You've worked with [1C 02 03] in the past, right?" next
+    "@Well, then it's worth telling you this." next
+    "@Tony has completely disappeared from here.{pause(40)} We have no idea where he is,{pause(35)} but this is a real big problem for me." next
+    "@Where did he go?{pause(35)} We're only left to think." end
+
+l_0xc6b8eb:
+    "[06 7E 00 {e(l_0xc6ba02)}][06 58 01 {e(l_0xc6b952)}][06 13 01 {e(l_0xc6b99f)}]@It looks like my mythical watching committee is gaining lots of attention." next
+    "@New life lives in these waters,{pause(25)} and we might be the first to find it." next
+    "@That's right!{pause(25)} We're talking about the legendary beast,{pause(25)} Denver! " end
+
+l_0xc6b952:
+    "@The weather is rapidly changing..." next
+    "@This frequent climate change can only mean one thing..." next
+    "@Does this mean...{pause(30)} Denver is finally making an appearance." next
+
+l_0xc6b99f:
+    "@Wait!{pause(35)} I thought I saw Denver!" next
+    "@We're all wasting our time!{pause(25)} He's already made his debut!" next
+    "@In fact,{pause(20)} he's probably not in this specific lake!" next
+    "@I think we're all looking in the wrong place,{pause(25)} but I don't want to tell anyone.{pause(60)} I hate upsetting people." end
+
+l_0xc6ba02:
+    "@I'm the happiest man alive." next
+    "@But not for the reason you think...{pause(30)} Eh..." next
+    "@My wife isn't gonna be too happy." end
+
+l_0xc6ba5f:
+    "[06 7E 00 {e(l_0xc6bb1d)}][06 58 01 {e(l_0xc6bac0)}][06 13 01 {e(l_0xc6bad6)}]@My friend got me addicted to finding this mythical creature." next
+    "@I mean,{pause(20)} Denver basically consumed my identity." next
+    "@I just hope it's worth putting my entire life aside..." end
+
+l_0xc6bac0:
+    "@Is he gonna rise out of that lake soon?{pause(25)} I got a date with Mach Pizza." end
+
+l_0xc6bad6:
+    "@We are a team passionate for proving the existance of Denver.{pause(30)} We look out for each other." next
+    "@We even noticed that someone wasn't able to make it today." next
+    "@However, there is nothing we can do about it." next
+    "@Our <Rules and Guidelines> book says so.{pause(60)} It says it interferes with our Denver watching time,{pause(45)} or something like that." end
+
+l_0xc6bb1d:
+    "@Wow!{pause(25)} Whoever wrote that <Rules and Guidelines> book wasn't kidding." next
+    "@It turns out that the member who hasn't been showing up finally arrived." next
+    "@Now,{pause(20)} I understand." next
+    "@...{pause(35)}I understand what it means to be patient." end
+
+l_0xc6bb60:
+    "[06 7E 00 {e(l_0xc6bbe3)}][06 16 00 {e(l_0xc6bbaf)}]@Boy it's windy out today!" next
+    "@But it doesn't matter to me.{pause(40)} I'm so determined,{pause(35)} I'll share body heat with someone if I have to." end
+
+l_0xc6bbaf:
+    "@O{pause(5)}o{pause(5)}o{pause(5)}o{pause(5)}o{pause(5)}!{pause(45)} It's a monkey!" next
+    "@I'll give you a treat, little guy!" next
+    "@...{pause(35)}Oh no!{pause(40)} I only have Bubble Gum on me.{pause(40)} Oh well..." end
+
+l_0xc6bbe3:
+    "@That was quite the funky monkey we saw today." end
+
+l_0xc6bbf9:
+    "[06 49 00 {e(l_0xc6bc43)}]@Ki-yekiko Ukikokiki." next
+    "@(There is some leftover Bubble Gum I've been storing in my monkey pockets.)" next
+    "@(Don't ask what a monkey pocket is.{pause(35)} And don't ask for any Bubble Gum, because it's all mine.){wait}{window_closeall}" goto(data_46.l_0xc92a82)
+
+l_0xc6bc42:
+    eob
+
+l_0xc6bc43:
+    "@Kiyaki Koyokioki Upikoki." linebreak
+    "(The other monkeys tell me you're a hero, [1C 02 01].)" next
+    "(Thank you for whatever you do!)" end
+
+l_0xc6bc80:
+    "[06 35 00 {e(l_0xc6bc9b)}]@*BZZZZZT!*" next
+    "@Very good." next
+    "@You only needed one brain cell to figure it out...{pause(45)} I probably should have made it more difficult." next
+    goto(l_0xc6bc9b)
+
+l_0xc6bc9b:
+    "@*BZZZT!*{pause(20)} Hey, [1C 02 03].{pause(25)} I haven't seen you in so long!" next
+    "@I've been feeling blue ever since.{pause(45)} Heh heh heh...{pause(55)} Get it?" next
+    "@It's me,{pause(20)} Brick Road!{pause(20)} *BZZZZT!*{pause(25)} Or am I?" next
+    "@Your father, Doctor Andonuts,{pause(25)} created a hologram of my beautiful face!" next
+    "@Now I can be here,{pause(25)} even when I'm not." next
+    "@Being a dungeon is cool and all,{pause(35)} but there's some things even a human dungeon can't do." next
+    "@*BZZZT!*{pause(25)} So, where you heading off to today?{pause(45)}" linebreak
+    "@Thought you would check up on your favourite dungeon maker?" next
+    "@Or perhaps you're on your way to see your father.{pause(55)} It's been years since you guys talked." next
+    "@He'd be so happy to see you.{pause(35)} *BZZT!*" next
+    "{set(flag 53)}@Before you go,{pause(25)} would you like to rest for a little bit before you leave?" linebreak
+    "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc6bdab)} {e(l_0xc6bd9d)}]" goto(l_0xc6bd9d)
+
+l_0xc6bd9d:
+    "@You're not tired?{pause(25)} Well, those bags under your eyes speak for themselves!" end
+
+l_0xc6bdab:
+    call(data_45.l_0xc91693) "[1F 21 2F][1F E5 FF]{unset(flag 383)}{window_open(1)}@Okay,{pause(25)} hope you find a soft spot on the ground.{wait}{window_closeall}[1F E8 FF]" eob
+
+l_0xc6bdd2:
+    eob
+
+l_0xc6bdd3:
+    "@These stones mark history in Eagleland, " call(data_33.l_0xc7e758) " They take into the form of the land itself." next
+    "@Earth, and wind..." next
+    "@...When these elements formed,{pause(35)} a sanctuary was birthed." next
+    "@It was said to hold bright memories,{pause(25)} buried long ago deep in the hearts of the travelers." next
+    "@These memories will come to light upon reaching this place,{pause(25)} unlocking the heart and touching the soul." next
+    "@That place,{pause(30)} is Stonehenge." end
+
+l_0xc6be74:
+    "[06 C0 00 {e(data_32.l_0xc7c588)}][19 10 01]{result_is(1)}[1B 02 {e(data_22.l_0xc690a6)}]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(data_22.l_0xc690a6)}]{music(155)}@W...{pause(25)} Why did you come back here?" next
+    "@These memories are meant to sleep forever.{pause(30)} But you won't let that happen,{pause(25)} will you?" next
+    "@Why...?[03]" call(data_21.l_0xc68417) "[1B 03 {e(data_21.l_0xc683de)}][1F 1E A4 02 08]{pause(120)}{set(flag 192)}" eob goto(l_0xc6bef9)
+
+l_0xc6bef9:
+    "@(There's no response.)" end
+
+l_0xc6bf0c:
+    "@Thanks a lot, [1C 02 01].{pause(45)} I thought that life would leave me out in the cold for good." next
+    "@I was conducting some studies with Dr. Andonuts.{pause(55)} There's still some stuff we got to work on,{pause(30)} but it's coming along nicely." next
+    "@The Mr. Saturns are very intelligent beings.{pause(35)} I'm pretty sure they've thought of something brilliant to make for this situation." next
+    "@I'm not quite sure how much time we'll have left," linebreak
+    "@but we'll have to work to the best of our abilities.{pause(35)}" next
+    "@Hmmm...?{pause(30)} Oh yeah!" next
+    "@Aren't you looking for the final volume of <Unidentified Soup>?" next
+    "@I figured..." next
+    "@Well, I was going to go to your house to deliver it..." next
+    "@...But then I forgot that you weren't there,{pause(35)} so I returned it to the library." next
+    "@...{pause(30)}It's been...{pause(35)} quite a ride.{pause(35)} But it isn't quite over yet, is it?" next
+    "@[1C 02 01]...{pause(45)} I'm not sure how to say this, but..." next
+    "@Are you truly willing to risk everything to to find harmony?{wait}{unset(flag 766)}" eob
+
+l_0xc6c035:
+    "{font_saturn}@Yaaaaay!" next
+    "@No more goopy goopy sploosh!{pause(35)} Boing!{isset(flag 644)}[1B 02 {e(l_0xc6c059)}]" end
+
+l_0xc6c059:
+    next
+    "@Take bouncy present.{pause(25)} From meeeeeee!!" next
+    "{font_normal}[1D 03 FF][1B 02 {e(l_0xc6c081)}][1D 0E 00 DC]" call(data_33.l_0xc7dccf) "{wait}{set(flag 644)}" eob
+
+l_0xc6c081:
+    "@Uh ohs." next
+    "@No room.{pause(25)} I'm disappoint.{wait}{font_normal}" eob
+
+l_0xc6c099:
+    "{counter(3)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xc6c168)}]@Oh!{pause(20)} [1C 02 03]!{pause(35)} I can't believe it's you!" next
+    "@You came to save me, didn't you?" next
+    "@Thanks a lot, [1C 02 03]!" linebreak
+    "{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 02 {e(l_0xc6c107)}]{counter(4)}" call(data_33.l_0xc7dc7f) "[1B 02 {e(l_0xc6c129)}]{counter(2)}" call(data_33.l_0xc7dc7f) "[1B 02 {e(l_0xc6c118)}]" end
+
+l_0xc6c107:
+    next
+    "@Oh!{pause(20)} [1C 02 01]!{pause(35)} Thank you!!" goto(l_0xc6c13a)
+
+l_0xc6c118:
+    next
+    "@Oh!{pause(20)} [1C 02 02]!{pause(35)} Thank you!!" goto(l_0xc6c13a)
+
+l_0xc6c129:
+    next
+    "@Oh!{pause(20)} [1C 02 04]!{pause(35)} Thank you!!" goto(l_0xc6c13a)
+
+l_0xc6c13a:
+    next
+    "@Phew!{pause(40)} I thought I was really going to die." next
+    "@Thanks, [1C 02 03]..." next
+    "@But..." next
+    "@There's something...{pause(35)} wrong though." next
+    "@I can't return back to school, [1C 02 03]." next
+    "@Please...{pause(45)} don't ask me now...{pause(55)} I just want to be left alone right now..." next
+    "@I got some stuff I have to take care of..." end
+
+l_0xc6c168:
+    "@Do you know where [1C 02 03] is at the moment?" next
+    "[19 10 01]{swap}@I have to talk to him..." next
+    "@Please let me know when he gets back,{pause(35)} it would really mean a lot to me." next
+    "@Thanks a lot, [1C 02 00]...{wait}" next
+    eob goto(l_0xc6c1c3)
+
+l_0xc6c1c3:
+    "@Woah!{pause(25)} How many days has it been?" next
+    "@I bet the rest of the <Denver Watchers> are worried sick about me." next
+    "@As soon as all of this is over,{pause(15)} I'm going back to Winters!" next
+    "@...Where I shall stay for the rest of the week...{pause(45)} or the rest of the month...{pause(55)} or perhaps the year..." end
+
+l_0xc6c236:
+    "@I'm glad someone had the nerve to come rescue us." next
+    "@We honestly had a better chance of drowing than someone finding us down here." end
+
+l_0xc6c287:
+    "@This is quite a conspiracy!!" next
+    "@Who locked us in these tubes?{pause(45)} For what purpose?{pause(45)} Why are they feeding us such angry thoughts?" next
+    "@My brain really hurts..." next
+    "@It's a conspiracy, I tell you!{pause(30)} A conspiracy!" end
+
+l_0xc6c2db:
+    "[06 34 00 {e(l_0xc6c38c)}][06 13 01 {e(l_0xc6c377)}]@Denver could rise out of the water any second now,{pause(35)} and I still won't get any good footage!" next
+    "@Heck, I could turn my back right now,{pause(30)} just to hear that Denver finally decided to show up." next
+    "@...I'm sorry if I'm a bit moody.{pause(35)} I haven't had my morning coffee." end
+
+l_0xc6c334:
+    "@W-We've never been able to get a good look at Denver yet.{pause(30)}" linebreak
+    "@I'm gonna end up wasting my camera battery if it turns out that he doesn't exist." next
+    "@What a waste that would be...{pause(40)}" linebreak
+    "@Would it be worth all this hard work, just to find out that it's been a hoax all along?" end
+
+l_0xc6c377:
+    "@I want to keep Denver as a pet.{pause(35)} He would dominate at Saturday night parties." end
+
+l_0xc6c38c:
+    "@We're missing one member,{pause(30)} but I'm not gonna let that bother my observation!" end
+
+l_0xc6c3a9:
+    "[06 34 00 {e(l_0xc6c40b)}][06 13 01 {e(l_0xc6c3ea)}]@Somebody told me that Denver is somewhere near Fourside." next
+    "@I don't know...{pause(45)} If you listen very closely,{pause(35)} sometimes you can hear heavy techno music coming from underwater." end
+
+l_0xc6c3ea:
+    "@It turns out that Denver has a pretty good taste of music!" end
+
+l_0xc6c40b:
+    "@I'm also starting to think that Denver has something to do with the weather.{pause(25)} It's always very windy whenever he stirs..." end
+
+l_0xc6c42c:
+    "@Denver could be anywhere!{pause(45)} I've sent a few waterproof cameras into our lakes." next
+    "@However,{pause(30)} much to my disappointment,{pause(35)} it seems that Denver is pretty good at shying away." end
+

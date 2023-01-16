@@ -1,0 +1,461 @@
+/*
+ * EarthBound Text Dump
+ * Time: 16:51:30 - 12/09/2019
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xef58c7:
+    "[06 DF 00 {e(data_21.l_0xc685cb)}][19 10 01]{rtoarg}@[1C 02 00] checked out the broken remains of Project Vannish." next
+    "@There was a [1C 05 82]." next
+    "[1D 03 FF][1B 02 {e(data_21.l_0xc685bb)}][1D 0E 00 82]" call(data_33.l_0xc7dccf) "{set(flag 223)}{wait}[02]{sound(99)}[1F 15 A9 00 6C 02 01][1F 61][1F 1F A9 00 06][1F 15 62 00 08 00 01][1F E4 62 00 07][1F E4 62 00 01][1F E4 62 00 03][1F E4 62 00 05][1F E4 62 00 07]{pause(1)}[1F E4 62 00 01]{pause(2)}[1F E4 62 00 03]{pause(3)}[1F E4 62 00 05]{pause(4)}[1F E4 62 00 07]{pause(5)}[1F E4 62 00 01]{pause(6)}[1F E4 62 00 03]{pause(7)}[1F E4 62 00 05]{pause(8)}[1F E4 62 00 07]{window_open(1)}@Prince [1C 02 04]!{pause(25)} It would appear that I am just in time...{pause(70)} and especially in such a dire situation.[03]{window_closeall}" call(data_44.l_0xc915f4) "{sound(37)}{pause(90)}{window_open(1)}@Congratulations on the four of you for making it this far.{pause(80)} You have excelled in everything that I have taught you, Prince [1C 02 04].{pause(50)} It has been an honor to teach you,{pause(40)} but it looks like it is time that we part ways." next
+    "@Before you depart on your final journey,{pause(25)} let me give you the last power I have." next
+    "@I wish you luck...{pause(30)} Please do not let me down.{pause(50)} The fate of the entire world is in your hands![03]{window_closeall}[1F 71 04 03][1F 1F 62 00 06]{sound(99)}[1F 15 A9 00 6D 02 01][1F 61][1F 71 04 03]{window_open(1)}@([1C 01 4A]'s PSI Starstorm _ trippled in power!){sound(103)}{wait}{window_closeall}" eob
+
+l_0xef5a3e:
+    "[06 A7 01 {e(l_0xef5a81)}]@Who on earth knew that rocks could talk?" next
+    "@...{pause(30)}Well, I guess we knew,{pause(25)} cause there's a rock here..." end
+
+l_0xef5a81:
+    "@It's about time that rock finally shutted up." next
+    "@My head is going to hurt a lot less now." next
+    "@Man, I'm telling you.{pause(25)} He says some pretty whacky stuff!" end
+
+l_0xef5ab5:
+    "@For some reason,{pause(25)} you smell like [1C 05 D3]." next
+    "@If you got some,{pause(25)} you better hand it over." end
+
+l_0xef5aed:
+    "[06 A7 01 {e(l_0xef5bc8)}][06 68 02 {e(l_0xef5b97)}]@Hey! What are you doing here?{pause(25)} You ain't allowed to be in Tendassee." next
+    "@I'm too small to kick you out, so git atta here!" next
+    "@Go on,{pause(20)} move it!{pause(30)} Wait, is that [1C 05 D3]?{pause(35)} You can leave this place,{pause(30)} after you give me that [1C 05 D3]." next
+    "[19 10 01]{rtoarg}@([1C 02 00]'s [1C 05 D3] was snatched right out of their hands.)" next
+    "@(Now there is no more [1C 05 D3].{pause(25)} So sad.){wait}{set(flag 616)}" eob goto(l_0xef5b97)
+
+l_0xef5b97:
+    "@The talking rock is shaped like a face." next
+    "@I'm not quite sure if it's a coincidence or not." end
+
+l_0xef5bc8:
+    "@I think us Tendas are too unintelligent to understand the talking rock.{pause(50)} You're not a Tenda,{pause(20)4} so you might understand him." end
+
+l_0xef5be6:
+    "[06 49 00 {e(l_0xef5c46)}]@All Tendas are the same,{pause(25)} no matter where they're from." next
+    "@The Tendas living here in the underground are just more headstrong and stubborn than others." next
+    "@You can't say anything around here without getting a piece of duct-tape slapped over your mouth.{pause(30)} I just got lucky talking to you." end
+
+l_0xef5c46:
+    "@I want to go back above ground.{pause(45)} You know what they say?{pause(60)} Once an underground Tenda,{pause(30)} always an underground Tenda." next
+    "@I don't think I'll be able to get back up there.{pause(25)} It's just wishful thinking." end
+
+l_0xef5c98:
+    "[06 49 00 {e(l_0xef5ce4)}]@Don't you hear this bopping music?{pause(35)} It's all made by the Tendas." next
+    "@I guarentee that it's better than anything you've listened to." end
+
+l_0xef5ce4:
+    "@Getting tired of hearing this song over and over?{pause(40)} Well, we can't do anything about that.{pause(35)} Plus,{pause(25)} it's very well written." end
+
+l_0xef5d16:
+    "[06 FF 02 {e(l_0xef5df8)}]{set(flag 767)}@The Lost Underworld is prone to hundreds,{pause(20)} if not,{pause(25)} thousands of earthquakes every day." next
+    "@When these earthquakes happen,{pause(25)} you won't be able to move a muscle until it's over." next
+    "@But, if you're in a lucky spot,{pause(25)} you can heal yourself in the hot springs." next
+    "@These hot springs are only active during an earthquake,{pause(25)} so it would be best to get there before the next one." next
+    "@The Blue hot springs can restore health," next
+    "@and the Red hot springs can heal other conditions, like poison or paralysis."end
+
+l_0xef5df8:
+    "@Salutations!{pause(25)} I am the Tenda encyclopedia for hot springs!" next
+    "@As an expert on hot springs,{pause(25)} I always know that hot springs appear after earthquakes." next
+    "@However, such earthquakes make people stop right in their tracks." next
+    "@The blue springs will only restore your HP." next
+    "@While the red springs will only heal certain conditions." end
+
+l_0xef5e94:
+    "[06 49 00 {e(l_0xef5f31)}]@We're quite unlucky to be down here,{pause(25)} so we just built our own little town and tried to make it as close to home as possible." next
+    "@Your presence here tells me that you're just as unlucky as us." next
+    "@If these dinosaurs won't kill us off,{pause(25)} I don't know what will." next
+    "@That's the reason why most of us stay inside Tendassee." next
+    "@It's a lot safer together then it is apart." end
+
+l_0xef5f31:
+    "@What's new?{pause(25)} We're all happy underground,{pause(40)} not quite..." next
+    "@This place is okay,{pause(30)} but I just wish that I never trailed away from home." end
+
+l_0xef5f7d:
+    "@This place ain't that safe.{pause(25)} These dinosaurs will eat Tendas without thinking twice." next
+    "@If you can get more of them into this cage,{pause(25)} this place will be a whole lot more safer." next
+    "@Just be a little careful.{pause(35)} We're like the size of ants down here." end
+
+l_0xef5fdf:
+    "[06 49 00 {e(l_0xef6038)}]@Some strong guy in a green suit went into Ashton Spring." next
+    "@I think he's burned to a crisp now.{pause(30)} It's practically a furnace in there!" end
+
+l_0xef6038:
+    "@Ashton Spring is definetly the place you don't want to end up at!" end
+
+l_0xef6049:
+    call(data_19.l_0xc655b1) eob
+
+l_0xef604f:
+    "@That bird over there is as noisy as a telephone.{pause(30)} Check him out,{pause(45)} try placing a call for pizza or something." end
+
+l_0xef6084:
+    "[06 49 00 {e(l_0xef60c5)}]@The qualities of this town are so fine,{pause(25)} you'll never want to leave!" next
+    "@Even if you do want to leave,{pause(25)} you don't really have a choice." end
+
+l_0xef60c5:
+    "@The only way you can get the Stareasaurus to stop chasing you is by staring back at it until the end of time." end
+
+l_0xef60f2:
+    "@Rrrrrrring!{pause(25)} Ring!{pause(30)} Caw CAWW!!" next
+    call(data_17.l_0xc63029) eob
+
+l_0xef610c:
+    eob
+
+l_0xef610d:
+    "@(Leave the damn dinosaurs alone!)" linebreak
+    "{pause(20)} (<The Ruler of Tendassee>)" end
+
+l_0xef6132:
+    "@(Try not to engage in conversation with this rock unless absolutely necassary!{pause(35)} <The Ruler of Tendassee>)" end
+
+l_0xef6157:
+    "@(Just to let y'all know,{pause(25)} I run this place, okay?{pause(35)} <The Ruler of Tendassee>)" end
+
+l_0xef617b:
+    "[06 6E 01 {e(data_32.l_0xc7c588)}]{window_open(1)}@Hey there!{pause(35)} One of our policies here is that everyone has some chum avaliable to appease Brother." next
+    "@Do you have a <Jar of Innards> with you?" linebreak
+    "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xef61f3)} {e(l_0xef61cb)}]" goto(l_0xef61cb)
+
+l_0xef61cb:
+    "@That's not good!{pause(30)} I don't have mine either.{pause(35)} Brother is going to be so disappointed...[03]{window_closeall}" call(data_21.l_0xc6853f) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}[1F F1 B0 02 7B 02]{set(flag 366)}" eob
+
+l_0xef61f3:
+    "[1D 05 FF 69][1B 03 {e(l_0xef6247)}]@Good.{pause(30)} It's good to see someone following the rules,{pause(25)} unlike me." next
+    "@I don't have my <Jar of Innards>,{pause(30)} so I'm bound to get fired sooner or later.{pause(35)} Brother is going to be so disappointed when he finds out...[03]{window_closeall}" call(data_21.l_0xc6853f) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}[1F F1 B0 02 7B 02]{set(flag 366)}" eob
+
+l_0xef6247:
+    "@Good.{pause(30)} I'm going to follow you around for a little bit,{pause(25)} don't try anything suspicous." next
+    "@You see,{pause(25)} I lost my <Jar of Innards>.{pause(30)} Brother is going to be so disappointed when he finds out...[03]{window_closeall}" eob
+
+l_0xef6276:
+    "@Our colony consists of two races,{pause(25)} the Black Antoids and us,{pause(25)} the Red Antoids." next
+    "@Our last living ancestor,{pause(25)} Brother Antoid,{pause(30)} makes sure that we are all happy and well,{pause(30)} in exchange to keep him alive." next
+    "@The only way we can repay him is with the <Jar of Innards>." end
+
+l_0xef62b1:
+    "@Brother Antoid can only be appeased by the <Jar of Innards>." next
+    "@In his rotting years of deformation,{pause(25)} he hasn't been doing too well." end
+
+l_0xef62f5:
+    "[06 6F 01 {e(data_32.l_0xc7c588)}]{window_open(1)}@Halt!{pause(25)} Who goes there?" next
+    "@An intruder?{pause(30)} What business do you have with our Brother?" next
+    "@Whatever you intend to do,{pause(30)} don't expect to get by so easily." next
+    "@Brother is in no condition to see a face like yours!" next
+    "@So, either state your business or get out of here![03]{window_closeall}" call(data_21.l_0xc68546) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}[1F F1 B3 02 7B 02]{set(flag 367)}" eob
+
+l_0xef63b5:
+    "[06 70 01 {e(data_32.l_0xc7c588)}]{window_open(1)}@You don't belong here!{pause(30)} Get out![03]{window_closeall}" call(data_21.l_0xc6854d) "[1B 03 {e(data_21.l_0xc683de)}]{pause(1)}[1F F1 B4 02 7B 02]{set(flag 368)}" eob
+
+l_0xef6400:
+    "{font_saturn}@Bad tiny ants.{pause(25)} Yucky yucky body parts!" next
+    "@Make us work forever.{pause(30)} I so tired...{pause(30)} Boing!{wait}{font_normal}" eob
+
+l_0xef6419:
+    "{font_saturn}@Mr. Saturn make <Jar of Innards> all day.{pause(25)} Boing!" next
+    "@Want to go home!{pause(25)} Zoom!{wait}{font_normal}" eob
+
+l_0xef6446:
+    "[06 47 00 {e(data_32.l_0xc7c588)}]{music(134)}{sound(78)}@Who are you?" next
+    "@Are you another corpse I can feast on?{pause(30)} Gyoooooooorgh!" next
+    "{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(l_0xef66ca)}]@What do you want from a terrible beast like me!?" next
+    "@If you can't give me life, then you're no good at all.{pause(30)} No good...{pause(35)} Gyooooorgh!" next
+    "@Those who can't acknowledge another's dying words deserve to burn eternally,{pause(30)}" linebreak
+    "  but those who can't offer greater things for another are just as cruel..." next
+    "@I've heard of a name like yours all through this place.{pause(35)} I never thought you'd be this{pause(35)} *Gyyyyyooooorgh!*{pause(30)} cruel of a person..." next
+    "{sound(78)}@Someone like you deserves to have everything taken away from you..." next
+    "@I have been promised eternal life by the Mani Mani." next
+    "@But until that day comes,{pause(35)} you loathsome humans will have to make it up for me." next
+    "{sound(78)}{pause(40)}" linebreak
+    goto(l_0xef6569)
+
+l_0xef6569:
+    "@Gyoooooooorgh!" linebreak
+    "@It's about time the tables have turned." next
+    "{sound(78)}{pause(40)}@One day,{pause(30)} the Antoids will rise,{pause(30)} and take down your colony." linebreak
+    "@Do you want to die a slow, painful death just like me?{pause(50)} Gyoooorgh![03]" call(data_21.l_0xc68554) "[1B 03 {e(data_21.l_0xc683de)}]{window_open(1)}{music(134)}@{sound(78)}This{pause(40)} cannot happen..." next
+    "@I was supposed to help everyone out!{pause(25)} Gyooooorgh!{pause(30)} I've let so much people down.{pause(20)}{sound(78)}{pause(40)}" next
+    "@In the end,{pause(25)} I never got what was promised to me." next
+    "@[1C 02 01]!{pause(25)} Yes I know your name.{pause(35)} Please forgive me...{pause(35)} Gyo{pause(5)}o{pause(5)}o{pause(5)}o{pause(5)}gh!{sound(78)}" linebreak
+    "  {pause(90)}Tell the other Antoids that I'm in a better,{pause(85)} better,{pause(95)} place." next
+    "@Please?{pause(30)} G{pause(5)}y{pause(5)}ooo{pause(25)}ooorgh...{sound(78)}{pause(40)}" next
+    "{window_closeall}{pause(1)}[1F F1 B9 02 7B 02]{set(flag 71)}{set(flag 366)}{set(flag 367)}{set(flag 368)}{set(flag 590)}{set(flag 623)}{set(flag 629)}{set(flag 489)}{set(flag 490)}{unset(flag 125)}{unset(flag 773)}{unset(flag 761)}[19 26 04]{music_resume}" eob goto(l_0xef66ca)
+
+l_0xef66ca:
+    "@Those who can't acknowledge another's dying words deserve to burn eternally," linebreak
+    "  but those who can't offer greater things for another are just as cruel..." next
+    "@I've heard of a name like yours all through this place.{pause(35)} I never thought you'd be this{pause(35)} *Gyyyyyoooooorgh!*{pause(30)} cruel of a person." next
+    "@Someone like you deserves to have everything taken away from you..." linebreak
+    "@I have been promised eternal lie by the Mani Mani." next
+    "@But, until that day comes,{pause(25)} you loathsome humans will have to make it up for me.{sound(78)}" next
+    "@Do you want to die a slow, painful death like me?" next
+    "@I don't care who you are.{pause(30)} You're no match for me!{pause(25)} Gyooooooooooorgh!" next
+    goto(l_0xef6569)
+
+l_0xef679a:
+    "[06 C1 00 {e(data_32.l_0xc7c588)}]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(data_22.l_0xc690a6)}]{music(155)}@Sup,{pause(25)} my name's Damian.{pause(50)} You like what you see down in Threed?{pause(35)} I must be really good at my job, or something." next
+    "@Sorry, kiddo.{pause(25)} I don't plan on stopping my actions.{pause(35)} Not as long as the golden figure gives me strength." next
+    "@Try to stop me,{pause(25)} but it will cost you your life.[03]" call(data_21.l_0xc6841e) "[1B 03 {e(data_21.l_0xc683de)}][1F 1E C1 02 08]{pause(120)}{set(flag 193)}" eob
+
+l_0xef6814:
+    call(data_12.l_0xc5d36b) eob
+
+l_0xef681a:
+    "[1D 05 FF 69][1B 03 {e(l_0xef6874)}]@Please make sure all jars of innards go straight to Brother." next
+    "@Hey you!{pause(25)} You have your <Jar of Innards>, right?" next
+    "@...{pause(35)} It doesn't matter.{pause(35)} I don't like the looks of you anyway.[03]" eob
+
+l_0xef6874:
+    "@You had your <Jar of Innards> with you all this time." next
+    "@But now Brother has died.{pause(30)} He's gone for good." next
+    "@Hopefully he's in Antoid heaven by now.{pause(30)} I don't know,{pause(25)} I'm trying to be positive about this.[03]" eob
+
+l_0xef68d7:
+    "{window_open(1)}[1D 05 FF 69][1B 03 {e(l_0xef6954)}]@I knew I was no match for you." next
+    "@At least I died helping my Brother." next
+    "@Will I see you in the afterlife?{pause(30)} That's a good question." next
+    "@Cause we don't know where we're going to end up until we're there.[03]{window_closeall}" eob
+
+l_0xef6954:
+    "@I guess I gotta die starving then.{pause(30)} Where did your <Jar of Innards> go?" next
+    "@Oh well,{pause(25)} I don't have any time left anyway.{pause(20)}" linebreak
+    "@Toodle oo![03]{window_closeall}" eob
+
+l_0xef69a1:
+    newline
+    "@{target} is already at" linebreak
+    "  max HP.{sound(36)}[03]" eob
+
+l_0xef69ba:
+    newline
+    "@{target} recovered" linebreak
+    "  {delta} HP!{sound(36)}[03]" eob
+
+l_0xef69d2:
+    newline
+    "@{target} recovered" linebreak
+    "  {delta} PP!{sound(36)}[03]" eob
+
+l_0xef69ea:
+    newline
+    "@{target}'s" linebreak
+    "  Offense is {delta}![03]" eob
+
+l_0xef69ff:
+    newline
+    "@Defense is {delta}![03]" eob
+
+l_0xef6a0d:
+    newline
+    "@It is vulnerable to PSI Fire![03]" eob
+
+l_0xef6a24:
+    newline
+    "@It is vulnerable to PSI Freeze![03]" eob
+
+l_0xef6a3c:
+    newline
+    "@It is vulnerable to PSI Flash![03]" eob
+
+l_0xef6a54:
+    newline
+    "@It is vulnerable to Paralysis![03]" eob
+
+l_0xef6a6c:
+    newline
+    "@Can be hypnotized![03]" eob
+
+l_0xef6a7f:
+    newline
+    "@Vulnerable to Brainshock.[03]" eob
+
+l_0xef6a99:
+    newline
+    "@{user} blacked out" linebreak
+    "and became {target}![03]" eob
+
+l_0xef6ab3:
+    newline
+    "@{user} couldn't become" linebreak
+    " {target}![03]" eob
+
+l_0xef6ac7:
+    newline
+    "@The air around {target} became solid as diamond!" linebreak
+    "{target} is now Diamondized.{sound(83)}[03]" eob
+
+l_0xef6ae0:
+    newline
+    "@{target}'s muscles became paralyzed." linebreak
+    "{target} can no longer move!{sound(83)}[03]" eob
+
+l_0xef6afb:
+    newline
+    "@{target} felt a strong,{pause(20)} disgusting stomach pain." linebreak
+    "{target} felt sick.{sound(83)}[03]" eob
+
+l_0xef6b18:
+    newline
+    "@{target} started to feel a bit woozy." linebreak
+    "{target} became poisoned.{sound(83)}[03]" eob
+
+l_0xef6b2f:
+    newline
+    "@{target} felt congested.{sound(83)}[03]" eob
+
+l_0xef6b43:
+    "[1C 15 01][09 03 {e(l_0xef6b54)} {e(l_0xef6b59)} {e(l_0xef6b5f)}]" goto(l_0xef6b54)
+
+l_0xef6b54:
+    "(he)" eob
+
+l_0xef6b59:
+    "(she)" eob
+
+l_0xef6b5f:
+    "(it)" eob
+
+l_0xef6b64:
+    "[1C 15 02][09 03 {e(l_0xef6b75)} {e(l_0xef6b79)} {e(l_0xef6b7d)}]" goto(l_0xef6b75)
+
+l_0xef6b75:
+    "(1)" eob
+
+l_0xef6b79:
+    "(2)" eob
+
+l_0xef6b7d:
+    "(3)" eob
+
+l_0xef6b81:
+    newline
+    "@{target} lost all sense of logic and brainpower." linebreak
+    "{target} felt terribly confused.{sound(83)}[03]" eob
+
+l_0xef6b98:
+    newline
+    "@{target} lost physical control over {target}'s body." linebreak
+    "{target} was possessed by a demon.{sound(83)}[03]" eob
+
+l_0xef6bbb:
+    newline
+    "@{target} was drenched in negative emotions." linebreak
+    "{target} began to cry uncontrollably.{sound(83)}[03]" eob
+
+l_0xef6bd3:
+    newline
+    "@{target}" linebreak
+    "is unable to move!{sound(83)}[03]" eob
+
+l_0xef6bef:
+    newline
+    "@{target} became" linebreak
+    "completely still.{sound(83)}[03]" eob
+
+l_0xef6c0b:
+    newline
+    "@{target} couldn't" linebreak
+    "concentrate properly.{sound(83)}" next
+    "@{target} couldn't" linebreak
+    "use PSI powers.[03]" eob
+
+l_0xef6c3a:
+    newline
+    "@{target} felt" linebreak
+    "terribly confused.{sound(83)}[03]" eob
+
+l_0xef6c55:
+    newline
+    "@{target} couldn't keep their eyelids open." linebreak
+    "{target} fell asleep.{sound(83)}[03]" eob
+
+l_0xef6c6b:
+    newline
+    "@{target} was knocked out and cannot stand.{sound(32)}[03]" eob
+
+l_0xef6c84:
+    newline
+    "@{target} was" linebreak
+    "  knocked out and cannot fight.{sound(32)}{unset(flag 587)}" next
+    "[06 CF 00 {e(l_0xef6ce2)}][06 CE 00 {e(l_0xef6cd9)}][06 CD 00 {e(l_0xef6cd0)}][06 CC 00 {e(l_0xef6cc7)}]{set(flag 204)}" call(l_0xef6ceb) eob
+
+l_0xef6cc7:
+    "{set(flag 205)}" call(l_0xef6ceb) eob
+
+l_0xef6cd0:
+    "{set(flag 206)}" call(l_0xef6ceb) eob
+
+l_0xef6cd9:
+    "{set(flag 207)}" call(l_0xef6ceb) eob
+
+l_0xef6ce2:
+    "{set(flag 208)}" call(l_0xef6ceb) eob
+
+l_0xef6ceb:
+    "[19 10 02]{store_registers}{result_is(11)}[1B 02 {e(l_0xef6cfc)}][1F 12 0B]" eob goto(l_0xef6cfc)
+
+l_0xef6cfc:
+    "{load_registers}{result_is(12)}[1B 02 {e(l_0xef6d0a)}][1F 12 0C]" eob
+
+l_0xef6d0a:
+    "{load_registers}{result_is(13)}[1B 02 {e(l_0xef6d18)}][1F 12 0D]" eob
+
+l_0xef6d18:
+    "{load_registers}{result_is(14)}[1B 02 {e(l_0xef6d26)}][1F 12 0E]" eob
+
+l_0xef6d26:
+    "[1F 12 0F]" eob
+
+l_0xef6d2a:
+    newline
+    "@{target} was torn to pieces." linebreak
+    "{target} was destroyed and cannot be used anymore.{sound(32)}" next
+    "[1D 01 FF 02]" eob
+
+l_0xef6d4c:
+    newline
+    "@{target} was torn to pieces." linebreak
+    "{target} was destroyed and cannot be used anymore.{sound(32)}" next
+    "[1D 01 FF 03]" eob
+
+l_0xef6d71:
+    newline
+    "@{target} was defeated!{sound(33)}" eob
+
+l_0xef6d83:
+    newline
+    "@{target} was knocked out!{sound(33)}" eob
+
+l_0xef6d96:
+    newline
+    "@{target} ceased the commotion!{sound(33)}" eob
+
+l_0xef6da7:
+    newline
+    "@{target} vanished completely!{sound(33)}" eob
+
+l_0xef6db8:
+    newline
+    "@{target} dissolved into the ground.{sound(33)}" eob
+
+l_0xef6dd8:
+    newline
+    "@{target} was broken into pieces!{sound(33)}" eob
+
+l_0xef6df0:
+    newline
+    "@{target} was busted!{sound(33)}" eob
+

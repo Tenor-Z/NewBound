@@ -1,0 +1,575 @@
+/*
+ * EarthBound Text Dump
+ * Time: 16:51:30 - 12/09/2019
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc798bf:
+    "{window_open(1)}@I understand, [1C 02 02].{pause(25)} I've been holding you back for too long." next
+    "@Sometimes I have to learn to be a better father in the heat of the moment." next
+    "@It's about time you spread your wings and make your own decisions." next
+    "@I'll let you go,{pause(35)} but please,{pause(45)} please be safe.{wait}{window_closeall}[06 01 00 {e(l_0xc798f7)}]{set(flag 1)}" eob goto(l_0xc798f7)
+
+l_0xc798f7:
+    "[1F F1 D9 00 2B 00]" eob
+
+l_0xc798fe:
+    "{window_open(1)}@Hey, [1C 02 01].{pause(25)} How are things on your end?" next
+    "@Wait.{pause(30)} Where's [1C 02 02]?" next
+    "@You didn't lose her, did you?" next
+    "@I'm trying to keep it together,{pause(25)} but I am still filled with worry.[1F 16 D9 00 03][03]{sound(8)}{window_closeall}{pause(20)}{sound(9)}[1F 1E D9 00 06]" eob
+
+l_0xc79942:
+    "@Hey there!{pause(30)} You wouldn't happen to know where [1C 02 01] is, right?" next
+    "@Well,{pause(20)} maybe you should go find him.{pause(35)} He must be looking for you right now...{pause(30)} That is..." next
+    "@If he hasn't already gotten HIMSELF lost.{pause(30)} Ha ha ha ha ha!{pause(70)} Relax,{pause(30)} I was just kidding." next
+    goto(data_30.l_0xc79796)
+
+l_0xc79997:
+    "[1F 41 05][1F F1 E7 00 6D 00][1F 15 6A 00 6F 00 01]" call(data_52.l_0xc9b4b8) "[1F 15 78 00 6E 00 FF][1F 15 6A 00 70 00 FF][1F 21 41]" call(data_52.l_0xc9b4b8) "[1F 1F 6A 00 06][1F 1F 78 00 06][1F 17 F7 00 0C 00 01][1F 41 06]" eob
+
+l_0xc799d7:
+    "{set(flag 11)}[1F 41 05]{set(flag 536)}{music_resume}[1F 15 95 00 73 00 01][1F 15 96 00 74 00 01][1F 15 B9 00 75 00 01][1F 15 BA 00 76 00 01][1F 15 BB 00 77 00 01]{window_closeall}{unset(flag 2)}{unset(flag 3)}{unset(flag 4)}{unset(flag 5)}{unset(flag 6)}[1F 61]{window_open(1)}" call(l_0xc79a64) "{window_closeall}{unset(flag 2)}[1F 61]{window_open(1)}" call(l_0xc79a98) "{window_closeall}{unset(flag 3)}[1F 61]{window_open(1)}" call(l_0xc79ab9) "{window_closeall}{unset(flag 4)}[1F 61]{window_open(1)}" call(l_0xc79ad7) "{window_closeall}{unset(flag 5)}[1F 61]{window_open(1)}" call(data_47.l_0xc9594d) "{window_closeall}{unset(flag 6)}[1F 61]" eob
+
+l_0xc79a64:
+    "@Well,{pause(20)} we've done our job,{pause(30)} the show is over." next
+    "@We've sang our songs,{pause(30)} pleased our fans,{pause(30)} and sweated our butts off." next
+    "@You've decided to let us go,{pause(25)} and we're never performing here again.[03]" eob
+
+l_0xc79a98:
+    "@I guess you thought twice about keeping us here,{pause(20)} didn't you, Mister Red Raven?[03]" eob
+
+l_0xc79ab9:
+    "@This place only fueled my koinoniphobia.[03]" eob
+
+l_0xc79ad7:
+    "@Thank you for letting us go,{pause(20)} your compassion is incredible beyond words." next
+    "@We will forever be in your debt,{pause(70)} NOT!" linebreak
+    "@We're free from your dirty debt and we ain't coming back![03]" eob
+
+l_0xc79b12:
+    "[1F 1A 40 01 03]{pause(5)}[1F 1B 40 01]{pause(5)}[1F 1A 40 01 03]{pause(50)}[1F 1B 40 01][1F F1 40 01 B3 00][1F 61][1F E6 40 01][19 10 01][19 22 00 02 40 01][1F 13 00 00]{window_open(1)}@Hey, [1C 02 01]." next
+    "@To thank you for helping us break free,{pause(30)} we're going to take you to Threed." next
+    "@We might have lost our fans here in Twoson,{pause(25)} but we didn't lose our license." next
+    "@It's going to be a while until we show our faces back here again." next
+    "@Now, what are you waiting for?{pause(20)} Get in already![03]{window_closeall}[1F 15 6A 00 B4 00 01][1F EF 6A 00][1F E8 FF][1F E9 40 01][1F 61][1F 1F 6A 00 06][1F ED][1F 66 01 03 12 9B C7 00][02][1F 15 B9 01 09 03 01][1F 41 05]{set(flag 747)}[1F 15 6A 00 B6 00 01][1F EF 6A 00][1F E8 FF][1F 61][1F EB FF 06]{unset(flag 536)}{set(flag 535)}{music_resume}[1F E5 FF][1F F1 40 01 B7 00][1F 61]{unset(flag 309)}{window_open(1)}" call(l_0xc79bec) "{window_closeall}[1F F1 75 01 B8 00]{pause(60)}[1F EE 75 01][1F E8 FF][1F 67 01]" eob
+
+l_0xc79bec:
+    "@Okay...{pause(30)} Does everyone got their seatbelts on?" next
+    "@Good... Good..." next
+    "@It's been a while,{pause(45)} but let's go{pause(5)}o{pause(5)}o{pause(5)}o{pause(5)}o{pause(5)}o{pause(5)}o{pause(5)}o!![03]" eob
+
+l_0xc79bff:
+    "{window_open(1)}@Aw nuts!{pause(25)} I must've popped a tire!" next
+    "@Ugh!{pause(25)} What a bummer..." next
+    "@We'll have to get there quick!{pause(50)} SUPER S.U.V SPEE{pause(5)}E{pause(5)}E{pause(5)}E{pause(5)}EED!![03]{window_closeall}" eob
+
+l_0xc79c1e:
+    "[1F ED]{set(flag 314)}[1F 15 F3 00 B9 00 FF][1F 21 3C][1F EF F3 00]" eob
+
+l_0xc79c32:
+    "[1F ED]{unset(flag 314)}[1F 15 F3 00 BA 00 FF][1F 21 3F][1F EF F3 00]" eob
+
+l_0xc79c46:
+    "[1F ED][1F 15 6A 00 4A 00 01][1F EF 6A 00][1F EC FF 01][1F E8 FF][1F 61][1F 13 01 05][1F 13 02 05]{unset(flag 535)}{music_resume}[1F ED][1F E5 FF][1F 15 95 00 4B 00 01][1F 61]{pause(30)}" call(l_0xc79cc8) "{pause(20)}[1F F2 95 00 4C 00][1F 61]{pause(30)}[1F F3 F3 00 08]{pause(30)}[1F 13 01 01][1F 13 02 01]{pause(30)}" call(l_0xc79d27) "{pause(30)}[1F F4 F3 00]{pause(30)}[1F EA F3 00][1F 61][1F 67 01][19 26 03]{set(flag 211)}{set(flag 761)}{unset(flag 11)}[1F 41 06][1F 15 B9 01 0A 03 01]" eob goto(l_0xc79cc8)
+
+l_0xc79cc8:
+    "{window_open(1)}@Well,{pause(20)} we made it.{pause(35)} Welcome to Threed." next
+    "@Unfortuately,{pause(25)} this isn't where we're stopping.{pause(35)} A shady town like this sets a bad reputation for a group like us." next
+    "@We've got to get to Fourside before time runs out,{pause(30)} and before this tire dies on us.[03]{window_closeall}" eob
+
+l_0xc79d27:
+    "{window_open(1)}@I'm not sure what goes on in this town,{pause(25)} but I advise that you be careful." next
+    "@This place has got some creepy vibes." next
+    "@Alright!{pause(20)} We're going to head out now." next
+    "@See you in Fourside...{pause(50)} hopefully.{pause(35)} Stay cool![03]{window_closeall}" eob
+
+l_0xc79d5f:
+    "[1F E9 1A 02][1F 61]" eob
+
+l_0xc79d66:
+    "[1F E9 1A 02][1F 61]{unset(flag 46)}{set(flag 296)}" eob
+
+l_0xc79d73:
+    "{unset(flag 296)}{set(flag 297)}" eob
+
+l_0xc79d7a:
+    "{unset(flag 297)}{set(flag 298)}" eob
+
+l_0xc79d81:
+    "[1F E5 FF][1F 41 05][19 10 01][1F 1C 00 03]{pause(60)}[1F 1D 00][1F E9 ED 01][1F E9 EE 01][1F E9 EF 01][1F E9 F0 01][1F 07 02]{pause(10)}{music(111)}[1F 15 6A 00 8B 02 01][1F 61]{pause(120)}{window_open(1)}@([1C 02 01]?{pause(25)} What is this feeling?)" next
+    "@Everything is turning dark..." next
+    "@I can't breathe.{pause(35)} What is going on?" next
+    "@I'm... flying?" next
+    "@Is this the end...?" next
+    "@No..." linebreak
+    "@I... can't die yet..." next
+    "@Not yet...){wait}{window_closeall}" call(data_44.l_0xc915f4) call(data_22.l_0xc69082) "{set(flag 11)}[1F EB FF 06][1F 15 10 00 96 02 FF][1F 15 89 01 97 02 FF][1F 21 4D][1F E5 FF]{pause(240)}[1F 1F 10 00 06][1F EC 01 01]{pause(30)}[19 22 01 03 89 01][1F 13 01 00]{pause(20)}[1F 1F 89 01 06][1F 15 02 00 08 00 01]{pause(60)}[1F F2 02 00 2F 00][1F 61][1F 1F 02 00 06][1F EC FF 01][1F E8 FF]" eob goto(l_0xc79e55)
+
+l_0xc79e55:
+    call(data_22.l_0xc69082) "{pause(60)}[1F 13 02 05]{pause(60)}[1F 07 03][1F 15 6A 00 FE 02 01][1F 61][1F E7 6A 00]{pause(120)}{window_open(1)}@H-{pause(20)}Hello?{pause(25)} Are you there?" next
+    "@Things have gone dark,{pause(25)} it's hard to see." next
+    "@I can feel my surroundings starting to numb." linebreak
+    "@I can't move.{pause(30)} There's no way out of the darkness." next
+    "@You're the only person who can help us." next
+    "@You're the only one that can find us again,{pause(40)} [1C 02 03].{wait}{pause(30)}{window_closeall}{pause(1)}[1F 1F 6A 00 06][1F EB FF 06][1F 21 C8][1F 15 6A 00 83 02 01]" call(data_52.l_0xc9b4b8) "[1F 21 C9][1F 15 6A 00 84 02 01]" call(data_52.l_0xc9b4b8) "{unset(flag 11)}[1F 41 06]" goto(l_0xc79f33)
+
+l_0xc79f32:
+    eob
+
+l_0xc79f33:
+    "[1F 21 42][1F E5 FF][1F 64][1F 11 03][1D 08 02 00][1F 12 01][1F 12 02]{unset(flag 298)}{unset(flag 433)}{set(flag 636)}{pause(180)}{window_open(1)}@Do you remember me, [1C 02 03]?" next
+    "@Do you remember who I am?{pause(25)} I am [1C 02 02]." next
+    "@I am with [1C 02 01],{pause(20)} but the two of us are trapped." next
+    "@We have been imprisoned in Threed.{pause(35)} Neither of us can move,{pause(20)} nor can we get out of here." next
+    "@We need your help,{pause(20)} please [1C 02 03]." next
+    "@Memory is bound to bring you back to the spot where we first met." next
+    "@The faces of old friends awaits you, [1C 02 03].{pause(35)} It is now time.[03]{window_closeall}[1F 07 03]{pause(120)}{pause(180)}[1F 1E 50 02 06][1F EC FF 01][1F E8 FF]{set(flag 128)}[19 26 06]{unset(flag 297)}{unset(flag 11)}{set(flag 212)}[02][1F 1A 4F 02 03]{pause(60)}[1F 1B 4F 02]{pause(30)}[1F 1E 4F 02 06][1F 15 B6 00 72 00 01]{pause(1)}[1F E7 B6 00]{window_open(1)}@Whuh?{pause(20)} Hey, [1C 02 03].{pause(35)} What are you doing so late?" next
+    "{window_closeall}[1F EA B6 00][1F 61][1F E7 B6 00]{window_open(1)}@I was having such a nice dream,{pause(20)} until you stirred me awake." next
+    "@Why don't you finish whatever you're working on in the morning?" next
+    "@It's too early,{pause(20)} we should head back to bed." next
+    "@...{pause(25)}Is something wrong, [1C 02 03]?{pause(35)} Is that why you woke up so early?" next
+    "[19 22 03 03 B6 00][1F 13 03 00]@Well,{pause(20)} I can tell that there's something bothering you,{pause(40)} it's written all over your face." next
+    "@I don't know where you're going,{pause(20)} but I'm not planning on stopping you." next
+    "@But, if you're going outside,{pause(20)} you might want to pack a few things first." next
+    "@Before you go,{pause(20)} make sure you check out the locker room downstairs.{pause(35)} You might find something that will come in handy." next
+    "@If you need me to help you get past the gate,{pause(35)} I'll be waiting.[03]{window_closeall}[1F 11 08][1F EB 08 06][1F F2 B6 00 2F 00][1F 61][1F 1F B6 00 06][1F EC 08 01]{music(123)}{pause(120)}{pause(60)}{window_open(1)}@(Tony,{pause(25)} a longlasting friend, joined you.)[03]{window_closeall}{set(flag 23)}{music_resume}[02][1D 05 FF 24][1B 03 {e(l_0xc7a20c)}][1F 13 08 05][19 22 03 01 08 00][1F 13 03 00]{window_open(1)}@We can make it to the front entrance,{pause(30)} but just don't get caught by the teachers." next
+    "@You've been real quiet about whatever's bugging you.{pause(40)} I don't know what it is,{pause(35)} but I will help you leave if that is what you want.{pause(70)} Besides, that's what good friends do!{wait}{window_closeall}" eob goto(l_0xc7a20c)
+
+l_0xc7a20c:
+    call(data_21.l_0xc683d9) "[1F 15 B6 00 0A 01 01][1F 61][1F 1F B6 00 06][1F 17 7A 02 08 00 01]{set(flag 335)}" eob
+
+l_0xc7a22a:
+    "@Alright!{pause(35)} Now's your chance.{pause(35)} Climb on to me!" next
+    "@Just don't step too hard on my back![03]{window_closeall}[1F EB FF 06][1F 15 51 01 0B 01 01] [1F 15 58 01 0C 01 01]{pause(1)}[1F EF 58 01][1F E8 FF][1F 61][1F E7 51 01][1F E7 58 01]{window_open(1)}@Well then,{pause(35)} I guess this is it." next
+    "@I guess this is when we split paths." next
+    "@It's strange to see you this way,{pause(35)} but everybody feels down from time to time, right?" next
+    "@Take care, [1C 02 03].{pause(40)} I hope you find whatever you are looking for." next
+    "@Your friendship is the best gift anyone has ever given to me.{pause(50)} Remember that." next
+    "@Good luck out there, [1C 02 03].[03]{window_closeall}[1F EA 51 01][1F EA 58 01][1F 61][1F ED][1F EC FF 01][1F 1E 7A 02 06][1F 15 B6 00 0D 01 01][1F 67 01][19 26 06]{unset(flag 335)}[1F 07 03]{pause(120)}{set(flag 544)}{music_resume}{unset(flag 11)}" eob goto(l_0xc7a2f7)
+
+l_0xc7a2f7:
+    "[1F 66 01 36 00 A3 C7 00]" eob
+
+l_0xc7a300:
+    call(data_33.l_0xc7dd8d) "[1B 03 {e(l_0xc7a2f7)}]{music(115)}{pause(60)}{wait}[1F 01 00]{sound(11)}{window_open(1)}@Hello, [1C 02 01].{pause(25)} Apple Kid here!" next
+    "@I've got some great news for you.{pause(35)} You're not going to believe the amount of luck you have right now." next
+    "@If you haven't heard already,{pause(35)} Threed has had a problem with crazy cults and demonic activity for a while now." next
+    "@Actually,{pause(20)} I can tell you're in Threed right now." next
+    "@I can smell ectoplasm all the way from the phone." next
+    "@Since you're in Threed right now,{pause(20)} I decided that I'll give you one of my new inventions." next
+    "@It's called the <Apparition Cleanser>." next
+    "@It's meant to lure victims and spirits of paranormal activity towards it, and cleanse their souls." next
+    "@Sounds pretty freaky,{pause(20)} but it works!" next
+    "@Not only will you be helping yourself,{pause(25)} but you'll be helping the condition of the town itself as well." next
+    "@As cryptic as the name sounds,{pause(25)} it's actually very easy to use." next
+    "@First, what you got to do is place it in a closed off area." next
+    "@Though I'm not exactly sure where...{pause(45)} I dunno..." next
+    "@Like,{pause(15)} maybe a tent or something?" next
+    "@But, once you've done that,{pause(25)} it works like a charm!" next
+    "{pause(60)}" linebreak
+    "@I just finished placing an order to deliver the <Apparition Cleanser> to you." next
+    "@Depending on which class Mach Pizza decides to use,{pause(20)} you should probably get it in no time flat." next
+    "@I know it's a bit weird having Mach Pizza deliver it to you,{pause(25)} but I have a few overdue bills I still haven't paid." next
+    "@So,{pause(20)} until I pay them,{pause(20)} I can't afford to use Escargo Express." next
+    "@It's alright, though.{pause(20)} Don't worry about me,{pause(20)} I can do just fine." next
+    "@Anyway,{pause(20)} the <Aparition Cleanser> should be there any minute,{pause(20)} so keep your eyes peeled." next
+    "@Bye Bye!" linebreak
+    "@*Click!*{pause(20)} Beep...{pause(25)} Beep...{pause(25)} Beep...{wait}{sound(11)}{window_closeall}{music_resume}[1F D3 08]{set(flag 675)}{set(flag 754)}" eob
+
+l_0xc7a542:
+    "{window_open(1)}@<Pizza Deliver-{pause(20)} I mean <Special Delivery>." next
+    "@Oops!{pause(25)} You'll have to forgive me!" next
+    "@I don't get to deliver much,{pause(25)} so I have lots of time to practice my lines." next
+    "@One thing's certain, though,{pause(25)} you're the first person to order something in Threed." next
+    "@Technically,{pause(25)} Threed is off our usual route.{pause(20)} We don't deliver here anymore." next
+    "@But I guess I'll make an exception for this weird item.{pause(55)} Hold on,{pause(20)} let me start over..." next
+    "@<Item Delivery for [1C 02 01].{pause(25)} The fee for the overall delivery will be $40, plus tax>" next
+    "@Oh wait, the bill was already paid for..." next
+    "@Damn it!{pause(20)} I messed up my line!" next
+    "@Just...{pause(35)} take it already..." next
+    "[1D 03 FF][1B 02 {e(l_0xc7a6a9)}]" goto(l_0xc7a63e)
+
+l_0xc7a63e:
+    "[1D 0E 00 AE]" call(data_33.l_0xc7dcb6) next
+    "@Well, I've already humiliated myself enough." next
+    "@Thankfully, I won't have to deliver here again!" next
+    "@Now if you excuse me,{pause(35)} I got lines to practice, and pizzas to deliver.[03]{window_closeall}{unset(flag 675)}{set(flag 552)}" call(data_33.l_0xc7dde8) "{unset(flag 754)}" eob
+
+l_0xc7a6a9:
+    "@Well, hold on a second. You don't have a lot of room to carry this." next
+    "@Would you like to get rid of some unused goods?" linebreak
+    "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc7a72f)} {e(l_0xc7a6ea)}]" goto(l_0xc7a6ea)
+
+l_0xc7a6ea:
+    "@Some guy named Apple Kid set a special delivery specifically for you." next
+    "@Don't you think it's polite to take what you get?" next
+    "@Is there anything you want to get rid of?" linebreak
+    "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc7a72f)} {e(l_0xc7a754)}]" goto(l_0xc7a754)
+
+l_0xc7a72f:
+    call(data_14.l_0xc5e456) "[1B 02 {e(l_0xc7a6ea)}]{store_registers}[19 19 00 00][1D 0B 00][1B 02 {e(l_0xc7a7a6)}]{load_registers}[1D 0F 00 00]" goto(l_0xc7a63e)
+
+l_0xc7a754:
+    "@I don't like to waste people's time,{pause(25)} especially when I have so little time to deliver." next
+    "@Come and get this item when you've got more space.[03]{window_closeall}" call(data_33.l_0xc7dde8) "{unset(flag 754)}" eob
+
+l_0xc7a7a6:
+    "@I wouldn't throw that away if I were you." next
+    "@That's got some unusual significance." next
+    goto(l_0xc7a72f)
+
+l_0xc7a7d8:
+    eob
+
+l_0xc7a7d9:
+    "[1F D3 08]" eob
+
+l_0xc7a7dd:
+    "{music(115)}{pause(60)}{wait}[1F 01 00]{sound(11)}{window_open(1)}@Hey, it's Apple Kid." next
+    "@I just wanted to tell you about a new invention I made." next
+    "@Honestly, it was a stupid idea,{pause(30)} but..." next
+    "@It's called the <Crouton Dispenser>." next
+    "@It provides an infinite source of croutons,{pause(30)} for whatever reason." next
+    "@It's cool and all,{pause(30)} but I think I accidentally tampered with space." next
+    "@You see,{pause(25)} I haven't planned the machine to provide an infinite source." next
+    "@I only made it to help with my diet." next
+    "@But now, I'm really popular." next
+    "@People seem to dig my work,{pause(25)} I'm not exactly used to it." next
+    "@I'll have it delivered to you soon.{pause(35)} Just keep an eye out for the deliveryman." next
+    "@Alright, I gotta go!" next
+    "@Right now I'm working on something a little bit better." next
+    "@...{pause(45)}No, I don't want to meet the hot singles in my area!" next
+    "@Get off my screen!!{pause(25)} Ewwww..." linebreak
+    "@*Click*{pause(25)} Beep...{pause(25)} Beep...{pause(25)} Beep...{wait}{sound(11)}{window_closeall}{music_resume}" eob
+
+l_0xc7a959:
+    "[19 10 01]{rtoarg}{window_open(1)}@*Ding Ding!*" next
+    "@Special delivery from Oscgargo Express!" next
+    "@Hm?{pause(25)} What's that you say?{pause(30)} What's Oscargo Express?" next
+    "@Oh, we're just a budget cut persona of the true and honest Escargo Express." next
+    "@Truth is,{pause(30)} we're a secret underground business." linebreak
+    "@We spit on the rich,{pause(25)} and help the poor!" next
+    "@Anyway, I got this delivery from a guy named <Apple Kid>." next
+    "@And now I can finally give you this cool ite-" linebreak
+    "@and oh god it's not there!!" next
+    "@Where could I have dropped it!{pause(25)} This is real bad!" next
+    "@I guess that's why I ended up working here." next
+    "@Most of us used to work at Escargo,{pause(30)} but left due to some disagreements." next
+    "@I mean,{pause(20)} you can go find your missing item if you want." next
+    "@It's no longer our responsibility." next
+    "@Our responsibility was getting it all the way here." next
+    "@The paper strictly says <We are not responsible for the loss of any items being delivered.>" next
+    "@If it means so much to you,{pause(30)} wouldn't you go and find it right now?" next
+    "@One thing I can tell you,{pause(25)} is that I took a route here from the Dusty Dunes Desert." next
+    "@Maybe you should start there first.{pause(25)} There's a strange hole there that I think you should check out." next
+    "@Ain't that strange?{pause(25)} Why would there be a hole in the desert?" next
+    "@Nobody knows,{pause(25)} until you go looking for it!{pause(30)} So, go find it already!{wait}{window_closeall}[02][06 FE 01 {e(data_50.l_0xc9992f)}]" call(data_33.l_0xc7dd74) "{music(88)}{pause(180)}{pause(60)}[1F 15 8F 00 C0 01 01]          [1F 61]                                      [1F 15 58 01 C1 01 01]  [1F 61][1F E7 8F 00][19 10 01][19 22 00 03 8F 00][1F 14 00]{window_open(1)}[1F 41 12]@Time is quite a valuable thing that we hold on to.{pause(25)} It holds memories that will stick with us for a lifetime!" next
+    "@And now, through the sights and sounds" linebreak
+    "  a memory has been made." next
+    "@Soak it all in,{pause(25)} put on a smile." next
+    "@Time is sure to slip away!" linebreak
+    "@But always remember," next
+    "the life of the photo that marks today!" next
+    "{window_closeall}[1F EB 01 06][06 FD 01 {e(l_0xc7ac3a)}][1F 15 0E 00 C2 01 01] " goto(l_0xc7ac42)
+
+l_0xc7ac3a:
+    "[1F 15 0E 00 C3 01 01] " goto(l_0xc7ac42)
+
+l_0xc7ac42:
+    "{pause(64)}[1F 15 6A 00 C4 01 01]  [1F 61][1F 1F 0E 00 06]        [1F EC 01 01]{window_open(1)}@History has now been made.{pause(25)} All that remains is the still,{pause(25)} grainy visuals." next
+    "@Memories are limited,{pause(25)} but the amount that we make and share with the people we love is infinite." next
+    "{window_closeall}[1F EA 8F 00]                      [1F 61][1F 1F 58 01 06]      [1F 61][1F 07 03]{pause(60)}{music_resume}" eob
+
+l_0xc7acb8:
+    "{music(115)}{pause(60)}{wait}[1F 01 00]{sound(11)}[19 10 01]{rtoarg}{window_open(1)}@Hello, [1C 02 01].{pause(45)} It's the brilliant, next generation genius,{pause(25)} Orange Kid." next
+    "@I'm finished working on a brand new invention,{pause(35)} it's going to take mankind to new heights." next
+    "@It's called the <Snake Toaster>." next
+    "@Not only is it made out of snakes,{pause(30)} but it can also toast snakes as well!" next
+    "@Isn't that amazing?{pause(35)} Just think about how easy our lives will be!" next
+    "@Never has snake toasting been this easy!" next
+    "@In the future,{pause(25)} people are going to point at me and say,{pause(45)} <Hey!{pause(25)} Isn't that the guy who invented that amazing Snake Toaster?>." next
+    "@It's totally better than those silly looking contraptions Apple Kid makes." next
+    "@Ha ha ha ha!!" next
+    "@Say...{pause(55)} Where is he right now?" next
+    "@He hasn't been home for a while now." next
+    "@I just thought he passed out in some alley somewhere." next
+    "@Besides,{pause(30)} I can't rub my inventions in his face if he's not here." next
+    "@Anyway, I got lots of work to do.{pause(35)} See you later." next
+    "@*Click*" next
+    "@*Your call with the brilliant, next generation genius,{pause(35)} Orange Kid,{pause(35)} has ended.*{wait}{window_closeall}{sound(11)}{music_resume}" eob goto(l_0xc7ae41)
+
+l_0xc7ae41:
+    "{music(115)}{pause(60)}{wait}[1F 01 00]{sound(11)}[19 10 01]{rtoarg}{window_open(1)}@Apple Kid here!{pause(35)} I've had lots of time to work on lots of new stuff." next
+    "@Uh...{pause(35)} Ehh..." next
+    "@But things are not exactly going well over here." next
+    "@I'm in Winters right now,{pause(20)} with Doctor Andonuts.{pause(45)} We're under attack right now!" next
+    "@I've got to make this short." next
+    "@The Ravens have invaded the lab,{pause(30)} and they've brought Pokey with them." next
+    "@You gotta get here as fast as you can, [1C 02 01]!{pause(35)} I don't think we'll be here much longer!" next
+    "@I've been hiding for several hours,{pause(30)} but everything is going to be alright if I just keep quiet." next
+    "{music(109)}{pause(160)}@*Crash*{pause(15)} *Clang*" linebreak
+    "@No!{pause(30)} You can't!" next
+    "@Get out of here!" next
+    "@You're not in control,{pause(35)} and you never will be!" next
+    "@Do you understand me?{music(109)}" next
+    "@Hey!{pause(25)} Let me go!" linebreak
+    "@AUU{pause(5)}UU{pause(5)}UU{pause(5)}GH!!" linebreak
+    "@*Clang* *Clang*{pause(65)} *Buzz{pause(25)}zz{pause(25)}zz{pause(25)}zz{pause(25)}zz*{pause(60)}{music(069)}" linebreak
+    "@We've got you completely surrounded.{pause(35)} Resistance will only bring you pain." next
+    "@You will listen to us." next
+    "@We are in control,{pause(30)} and we are what comes next.{pause(60)}" linebreak
+    "@*Click*{pause(30)} Be{pause(5)}ee{pause(5)}ee{pause(10)}ee{pause(10)}ee{pause(10)}ee{pause(10)}ee{pause(10)}eeep!{wait}{window_closeall}{sound(11)}{set(flag 620)}[02]{music(115)}{pause(60)}{wait}[1F 01 00]{sound(11)}{window_open(1)}@Hey,{pause(25)} it's me, Apple Kid.{pause(25)} Don't worry, I'm not dead." next
+    "@Okay, so you know how I told you that I found a way to tamper with space?" next
+    "@Well, I figured out a way we can use time to our advantage instead." next
+    "@We're working on an invention called <Project Vannish>.{pause(35)} It's going to be a while before it's finished." next
+    "@What its supposed to do is take you back to the beginning of any place you want." next
+    "@Since we found out that Pokey used to Phase Distorter we made years ago to travel back in time,{pause(35)} we need something better if we're going to travel to the past in one piece." next
+    "@I'm not sure when we'll be finished,{pause(35)} but please have patience.{pause(60)} Such a machine is a rather difficult and lengthy process to make." next
+    "@*Click*{pause(25)} Beep...{pause(25)} Beep...{pause(25)} Beep...{wait}{window_closeall}{sound(11)}{unset(flag 42)}{music_resume}{isset(flag 117)}[1B 02 {e(data_50.l_0xc9992f)}][1F 66 01 34 A0 B0 C7 00]" eob
+
+l_0xc7b0a0:
+    "{music(115)}{pause(60)}{wait}[1F 01 00]{sound(11)}{window_open(1)}@Hey there!{pause(25)} It's the brilliant, next generation genius,{pause(25)} Orange Kid!" next
+    "@My <Snake Toaster> still hasn't sold well." next
+    "@So, I'm working on a new feature for it, which allows the toaster to provide compliments to you whenever you use it." next
+    "@Like, <Nice day we're having!>" next
+    "@Or <Is that a new haircut, John?{pause(35)} Looks sick!>" next
+    "@Or <You eat your bread without the crust?>" next
+    "@That's what I've been thinking.{pause(35)} And I've got lots of construction and testing to do,{pause(30)} so I'll have to say goodbye for now!{pause(25)} Bye!!" next
+    "@*Click*" next
+    "@*Your call with the brilliant, next generation genius,{pause(35)} Orange Kid,{pause(35)} has ended.*{wait}{window_closeall}{sound(11)}{music_resume}" eob
+
+l_0xc7b146:
+    "[1F 1A 8A 03 03]{pause(30)}[1F 1B 8A 03]{window_open(1)}@Stop!{pause(25)} Where do you think you're going?[03]{window_closeall}[1F F1 8A 03 63 02][1F 61][1F E6 8A 03][19 10 01]{swap}[19 23 8A 03 01 00 00][1F 16 8A 03 00]{window_open(1)}@It'll be $5.00 each for a visit to the museum." next
+    "@Do you want to go in?" linebreak
+    "[19 02]Yes[02] [19 02]No[02]{open_wallet}[1C 07 02][11]{clearline}[09 02 {e(l_0xc7b2bd)} {e(l_0xc7b1d8)}]" goto(l_0xc7b1d8)
+
+l_0xc7b1d8:
+    "[1D 15 05 00]{swap}@You don't have $[1C 0A 00 00 00 00]?{pause(25)}" linebreak
+    "@That sucks." next
+    "@I was thinking about sharing my dinosaur chicken nuggets with you.{wait}{window_closeall}[1F F1 8A 03 64 02][1F 15 6A 00 65 02 01]{pause(1)}[1F EF 6A 00][1F E9 8A 03][1F E8 FF][1F 61][1F E5 FF][1F ED][1F E6 8A 03][19 10 01]{swap}[19 23 8A 03 01 00 00][1F 16 8A 03 00]{window_open(1)}[1D 15 05 00]{swap}@Is $[1C 0A 00 00 00 00] too expensive for you?" linebreak
+    "@C'mon!{pause(25)} This is the lowest I can bring the price!" next
+    "@No one really comes here anymore,{pause(25)} but we need to eat too, you know?[03]{window_closeall}[1F 1F 6A 00 06][1F F1 8A 03 66 02][1F 61][1F F1 8A 03 5D 02][1F 66 01 28 46 B1 C7 00]" eob goto(l_0xc7b2bd)
+
+l_0xc7b2bd:
+    "[1D 15 05 00]{swap}[1D 14 00 00 00 00][1B 03 {e(l_0xc7b1d8)}]{sound(118)}[1D 09 00 00]{open_wallet}@You're free to go in now." next
+    "@Just don't touch ANYTHING." next
+    "@Kids these days don't see value in valuable things...[03]{window_closeall}[1F F1 8A 03 66 02][1F 61][1F F1 8A 03 5D 02]{set(flag 768)}" eob
+
+l_0xc7b318:
+    "[1F 1A 09 04 03]{pause(30)}[1F 1B 09 04]{window_open(1)}@AHA!{pause(25)} Trying to sneak in, aren't you?" linebreak
+    "@Nowadays, everybody thinks everything's for free.[03]{window_closeall}[1F F1 09 04 67 02][1F 61][1F E6 09 04][19 10 01]{swap}[19 23 09 04 01 00 00][1F 16 09 04 00]{window_open(1)}@It costs $3 per person to visit the museum." next
+    "@Do you want to go in?" linebreak
+    "{open_wallet}[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc7b4a2)} {e(l_0xc7b3c0)}]" goto(l_0xc7b3c0)
+
+l_0xc7b3c0:
+    "[1D 15 03 00]{swap}@How greedy you must be to hesitate over $[1C 0A 00 00 00 00]." next
+    "@Either you pay $3 for the fee, or you don't get in at all.{wait}{window_closeall}[1F F1 09 04 68 02][1F 15 6A 00 69 02 01]{pause(1)}[1F EF 6A 00][1F E9 09 04][1F E8 FF][1F 61][1F E5 FF][1F ED][1F E6 09 04][19 10 01]{swap}[19 23 09 04 01 00 00][1F 16 09 04 00]{window_open(1)}[1D 15 03 00]{swap}@You don't feel like paying" linebreak
+    "$[1C 0A 00 00 00 00]?{pause(25)} What's stopping you?" next
+    "@Someone's a little stingy with their chore money.[03]{window_closeall}[1F 1F 6A 00 06][1F F1 09 04 6A 02][1F 61][1F F1 09 04 5D 02][1F 66 01 32 18 B3 C7 00]" eob goto(l_0xc7b4a2)
+
+l_0xc7b4a2:
+    "[1D 15 03 00]{swap}[1D 14 00 00 00 00][1B 03 {e(l_0xc7b3c0)}]{sound(118)}[1D 09 00 00]{open_wallet}@You're free to go in now." next
+    "@Just don't touch ANYTHING!" next
+    "@These exhibits ain't made for curious fingers.[03]{window_closeall}[1F F1 09 04 6A 02][1F 61][1F F1 09 04 5D 02]{set(flag 768)}" eob
+
+l_0xc7b4fb:
+    "[19 23 4E 01 01 01 00][1F 16 4E 01 00][1F 1A 4E 01 03]{pause(60)}[1F 1B 4E 01][1F 1E 4E 01 06][1F 15 8D 01 88 02 01][1F 15 58 01 89 02 01][1F 61][1F 1F 8D 01 06][1F 17 4E 01 80 02 01][1F 61]{pause(10)}{window_open(1)}" call(data_48.l_0xc95c0e) "{window_closeall}[1F F1 4E 01 8A 02][1F 61]{set(flag 612)}{set(flag 624)}" eob goto(l_0xc7b550)
+
+l_0xc7b550:
+    "[1F 1A C7 03 03]{pause(60)}[1F 1B C7 03][1F F1 C7 03 7C 02][1F 61][1F 1E C7 03 06][1F 17 C8 03 08 00 01]{set(flag 592)}{unset(flag 591)}" eob
+
+l_0xc7b576:
+    "[1F 1E C8 03 06][1F 17 C7 03 08 00 01][19 23 C7 03 01 FF 00][1F 16 C7 03 00]{window_open(1)}@Kiyukiko Ukiki" linebreak
+    "(Hello there,{pause(25)} you must be the boy that Talah Rama is looking for.)" next
+    "@Kiki goyukipiko" linebreak
+    "(I have come to request your presence to the monkey cave down in Dusty Dunes Desert.)" next
+    "@Kiyu Kipkiki Ukio" linebreak
+    "(It seems that Talah Rama has forseen a tragic event, regarding your adventure.)" next
+    "@Ukiukikipi Kuku Kiyukiki" linebreak
+    "(It's very important that you attend this meeting,{pause(25)} as it could affect the outcome of this world.)" next
+    "@Kikouki Pikukiki" linebreak
+    "(That's what Talah Rama told me,{pause(25)} but just between you and me,{pause(25)} he's pretty whack!)" next
+    "@Uki Kikipiki Ku Kipkiko" linebreak
+    "(You should still come, though.{pause(25)} You might find something you've lost along the way.)" next
+    "@Kiyuki ku kiyo" linebreak
+    "(People tend to lose their belongings,{pause(25)} and they always end up falling into our home." next
+    "@Who knows? You might find something cool!)" linebreak
+    "@Kiyuki Kuyki Kiki" next
+    "(Okay.{pause(25)} I'll see you there!)" linebreak
+    "(Bye!)" next
+    "{window_closeall}[1F F1 C7 03 7D 02][1F 61]{pause(1)}{music(13)}[1F 61]{music(14)}{pause(60)}{music(13)}{pause(60)}[1F 07 03]{pause(60)}{unset(flag 592)}[1F 15 40 00 7E 02 01][1F 61]{music_resume}[19 10 01][19 22 00 03 40 00][1F 13 00 00][1F F3 40 00 03]{pause(60)}[1F F4 40 00][1F F2 40 00 80 02][1F 61]{pause(10)}" call(l_0xc7a959) "[1F F2 40 00 7F 02][1F 61]{set(flag 745)}[1F 15 8C 01 81 02 01][1F 61][1F E7 8C 01]{window_open(1)}@Oh hi{pause(5)}i{pause(5)}i{pause(5)}i{pause(5)}i{pause(5)} there!" next
+    "@I'm a very important figure down at the Galloway Tower." next
+    "@I work as a maid,{pause(25)} so I'm usually the one that brings the food to the table." next
+    "@The problem is I'm short on croutons." next
+    "@If you have anything that can make croutons,{pause(25)} just let me know." next
+    "@You're probably wondering,{pause(25)} <Why are you asking ME out of all people to help you?>" next
+    "@Uh...{pause(30)} I dunno...{pause(25)} Luck I guess..." next
+    "[1F EA 8C 01][1F 61]{pause(30)}[02]" eob
+
+l_0xc7b7c9:
+    call(l_0xc7b8f6) "{isset(flag 526)}[1B 02 {e(l_0xc7b826)}][1F 15 6A 00 A4 02 01]" call(data_52.l_0xc9b4b8) "[1F EB FF 06][1F E9 17 05]" call(l_0xc7b920) "[1F E6 17 05]{pause(1)}{window_open(1)}@(The warmth of the hot springs washed away your injuries.){wait}{window_closeall}" call(data_44.l_0xc91582) "[1F E9 17 05][1F E8 FF]" eob
+
+l_0xc7b826:
+    "[1F E9 17 05]{pause(1)}" eob
+
+l_0xc7b82d:
+    call(l_0xc7b8f6) "{isset(flag 527)}[1B 02 {e(l_0xc7b88b)}][1F 15 6A 00 A5 02 01]" call(data_52.l_0xc9b4b8) "[1F EB FF 06][1F E9 18 05]" call(l_0xc7b920) "[1F E6 18 05]{pause(1)}{window_open(1)}@(The heart of the hot springs healed your bruises with stronger skin.){wait}{window_closeall}" call(data_44.l_0xc9162c) "[1F E9 18 05][1F E8 FF]" call(data_44.l_0xc9162c) eob
+
+l_0xc7b88b:
+    "[1F E9 18 05]{pause(1)}" eob
+
+l_0xc7b892:
+    call(l_0xc7b8f6) "{isset(flag 528)}[1B 02 {e(l_0xc7b8ef)}][1F 15 6A 00 A6 02 01]" call(data_52.l_0xc9b4b8) "[1F EB FF 06][1F E9 19 05]" call(l_0xc7b920) "[1F E6 19 05]{pause(1)}{window_open(1)}@(The warmth of the hot springs worked to wash away your worries.){wait}{window_closeall}" call(data_44.l_0xc91582) "[1F E9 19 05][1F E8 FF]" eob
+
+l_0xc7b8ef:
+    "[1F E9 19 05]{pause(1)}" eob
+
+l_0xc7b8f6:
+    "[1F 07 19][1F 15 B7 01 63 01 01]{pause(1)}[1F EF B7 01][1F E8 FF][1F 15 6A 00 A3 02 01][1F 61][1F 07 1A][1F ED][1F E5 FF][1F 1F B7 01 06]" eob
+
+l_0xc7b920:
+    "[19 10 01][09 04 {e(l_0xc7b935)} {e(l_0xc7b941)} {e(l_0xc7b94d)} {e(l_0xc7b959)}]" goto(l_0xc7b935)
+
+l_0xc7b935:
+    "[1F 15 1B 00 A7 02 01]" goto(l_0xc7b965)
+
+l_0xc7b941:
+    "[1F 15 1C 00 A7 02 01]" goto(l_0xc7b965)
+
+l_0xc7b94d:
+    "[1F 15 1D 00 A7 02 01]" goto(l_0xc7b965)
+
+l_0xc7b959:
+    "[1F 15 1E 00 A7 02 01]" goto(l_0xc7b965)
+
+l_0xc7b965:
+    "[1F 61][1F EC FF 01]" eob
+
+l_0xc7b96c:
+    "[1F E6 F3 04][19 10 01]{rtoarg}{window_open(1)}@(Lying in the hot springs made you drowsy.){wait}" call(data_44.l_0xc9162c) "{window_closeall}[1F E9 F3 04]" eob goto(l_0xc7b9a1)
+
+l_0xc7b9a1:
+    "{set(flag 11)}[1F EB FF 06]{unset(flag 522)}[1F 15 B8 01 F5 02 FF][1F 21 DD]{pause(120)}[1F E5 FF]{sound(18)}{pause(80)}[1F 15 91 00 CD 02 01][1F 61][1F E7 91 00][1F F3 91 00 03]{pause(60)}[1F F4 91 00][1F EA 91 00][1F 61][1F E7 91 00]{pause(120)}{sound(9)}{pause(30)}{sound(97)}{pause(20)}[1F E4 91 00 07]{pause(20)}[1F 15 92 00 CE 02 01][1F EA 91 00][1F 61]{pause(60)}[1F 15 28 00 CF 02 01][1F 61][1F E7 91 00][1F E7 92 00][1F E7 28 00]{pause(30)}" call(data_54.l_0xc9f442) "{set(flag 522)}[1F 61][1F EC FF 01]{unset(flag 11)}" eob
+
+l_0xc7ba2c:
+    "{set(flag 11)}[1F EB FF 06]{unset(flag 522)}[1F 15 B8 01 F5 02 FF][1F 21 DE][1F E5 FF]{pause(120)}{pause(60)}[1F 1A 31 04 03]{pause(40)}[1F 16 30 04 03]{pause(1)}[1F 16 32 04 03]{pause(10)}[1F F1 33 04 D0 02]{pause(10)}[1F 1B 31 04][1F F1 32 04 D1 02]{pause(30)}[1F 15 BA 00 D2 02 01]{pause(100)}[1F 15 BB 00 D3 02 01][1F 61]{pause(30)}[1F 16 30 04 05]{pause(20)}[1F E4 BB 00 03]{pause(8)}[1F E4 BB 00 05]{pause(14)}[1F E4 BA 00 03]{pause(8)}[1F E4 BA 00 05]{pause(14)}[1F 16 32 04 03]{pause(8)}[1F 16 32 04 05]{pause(60)}" call(data_54.l_0xc9f4a2) "{set(flag 522)}[1F 61][1F EC FF 01]{unset(flag 11)}" eob
+
+l_0xc7bac7:
+    "{set(flag 11)}[1F EB FF 06]{unset(flag 522)}[1F 15 B8 01 F5 02 FF][1F 21 DF][1F E5 FF]{pause(120)}[1F 15 9B 00 D4 02 01][1F 61][1F E7 9B 00][1F F3 9B 00 03]{pause(60)}[1F F4 9B 00][1F EA 9B 00][1F 61]{pause(30)}[1F 15 9C 00 D5 02 01]{pause(30)}[1F 15 7B 00 D6 02 01]{pause(30)}[1F 15 7F 00 D7 02 01]{pause(30)}[1F 15 80 00 D8 02 01][1F 61]{pause(30)}" call(data_54.l_0xc9f4f6) "{set(flag 522)}[1F 61][1F EC FF 01]{unset(flag 11)}" eob
+
+l_0xc7bb38:
+    "{set(flag 11)}[1F EB FF 06]{unset(flag 522)}[1F 15 B8 01 F5 02 FF][1F 21 E0][1F E5 FF]{pause(120)}[1F 15 B6 00 D9 02 01]{pause(5)}[1F F1 58 02 DA 02][1F F1 59 02 DA 02][1F F1 5A 02 DA 02][1F F1 5B 02 DA 02][1F 61][1F E7 B6 00][1F F1 58 02 DB 02][1F F1 59 02 DC 02][1F F1 5A 02 DD 02][1F F1 5B 02 DE 02][1F 61]{pause(100)}[1F EA B6 00]{pause(70)}[1F 15 45 00 DF 02 01][1F 61][1F F2 B6 00 E0 02][1F 61]{pause(20)}[1F F1 58 02 E1 02][1F F1 59 02 E3 02]{pause(20)}[1F F1 5A 02 E2 02]{pause(10)}[1F F2 45 00 E1 02]{pause(20)}[1F F1 5B 02 E1 02]{pause(20)}[1F F1 59 02 E1 02][1F F1 5A 02 E1 02]{pause(60)}" call(data_54.l_0xc9f557) "{set(flag 522)}[1F 61][1F EC FF 01]{unset(flag 11)}" eob
+
+l_0xc7bbf3:
+    "{set(flag 11)}[1F EB FF 06]{unset(flag 522)}[1F 15 B8 01 F5 02 FF][1F 21 E2][1F E5 FF]{pause(120)}[1F 1A 56 04 03]{pause(60)}[1F 1B 56 04][1F F1 56 04 E5 02][1F 61]{pause(50)}[1F 15 59 00 E6 02 01][1F 61]{pause(30)}[1F F1 56 04 E1 02][1F F2 59 00 E1 02]{pause(50)}[1F F1 57 04 E7 02][1F 61]{pause(60)}" call(data_54.l_0xc9f5a8) "{set(flag 522)}[1F 61][1F EC FF 01]{unset(flag 11)}" eob
+
+l_0xc7bc56:
+    "{set(flag 11)}[1F EB FF 06]{unset(flag 522)}[1F 15 B8 01 F5 02 FF][1F 21 E3][1F E5 FF]{pause(120)}[1F 1A 26 00 03]{pause(60)}[1F 1B 26 00][1F F1 26 00 E8 02][1F 61]{pause(30)}" call(data_54.l_0xc9f60d) "{set(flag 522)}[1F 61][1F EC FF 01]{unset(flag 11)}" eob
+
+l_0xc7bc96:
+    "{unset(flag 220)}{unset(flag 74)}{set(flag 11)}[1F EB FF 06]{unset(flag 522)}[1F 15 B8 01 F5 02 FF][1F 21 E5][1F E5 FF][1F 16 D9 02 03][1F F1 D9 02 0A 00]{pause(180)}[1F 17 E5 02 EA 02 04]{pause(180)}[1F F1 D9 02 08 00]{pause(9)}[1F 16 DF 02 03]{pause(1)}[1F F1 DF 02 08 00]{pause(120)}{pause(30)}[1F 17 D8 02 EB 02 01][1F 17 D7 02 ED 02 01][1F 61]{pause(30)}[1F 1A D9 02 03][1F 1A D7 02 03][1F 1A D8 02 03]{pause(60)}[1F 1B D9 02][1F 1B D7 02][1F 1B D8 02][1F F1 D9 02 F3 02][1F F1 D7 02 F3 02]{pause(3)}[1F F1 D8 02 F3 02]{pause(70)}[1F F1 D9 02 F4 02][1F F1 D8 02 EC 02][1F F1 DF 02 EE 02][1F 61][1F 15 AB 00 EF 02 01][1F 15 AB 00 F0 02 01][1F 15 AB 00 F1 02 01][1F 15 AB 00 F2 02 01][1F 61][1F F1 D9 02 E1 02]{pause(30)}[1F F1 D7 02 E1 02]{pause(40)}[1F F1 D8 02 E1 02]{pause(50)}" call(data_54.l_0xc9f66f) "{set(flag 522)}[1F 61][1F EC FF 01]{unset(flag 11)}{set(flag 220)}{set(flag 74)}" eob
+
+l_0xc7bd89:
+    "{unset(flag 522)}[1F 15 6A 00 C8 02 01][1F 61][1F E7 6A 00][1F 07 03]{pause(120)}{music(172)}[1F F1 DE 03 C9 02][1F F1 DF 03 CA 02][1F E9 DD 03][1F 61][1F EA 6A 00][1F F1 E0 03 CB 02][1F 61][1F E7 6A 00][1F E6 DD 03][1F E6 DE 03][1F E6 DF 03][1F 15 A9 01 CC 02 01]{pause(60)}{window_open(1)}@Is that you, [1C 02 01]?" next
+    "@Of course I'd find you here." next
+    "@It's far too late now!" next
+    "@It seems that even in the end of my days,{pause(35)} I will always be one step ahead of you." next
+    "@I've grown weary of running away.{pause(35)} There's just no hope for people like me." next
+    "{pause(60)}{music(030)}" linebreak
+    "@You heard me, [1C 02 01].{pause(35)} I've decided that I'm going to put an end to my problems once and for all." next
+    "@I'm so tired...{pause(35)} My whole life has been a series of mistakes..." next
+    "@I don't think I can go on without losing myself." next
+    "@You could have lived better if I didn't step into your life." next
+    "@When you're stuck in a dream,{pause(30)} anything can bend into what you want it to be." next
+    "@It's about time I shut my eyes for good." next
+    "@I may never see you again, [1C 02 01],{pause(25)} but perhaps it's better this way." next
+    "@We will both be happier,{pause(35)} trust me, [1C 02 01]." next
+    "@You're my good old buddy, right?" next
+    "@..." next
+    "@Goodbye, [1C 02 01].{wait}{window_closeall}{pause(20)}[1F 1F A9 01 06][1F EA 6A 00][1F E9 DD 03][1F E9 DE 03][1F E9 DF 03][1F 07 03][1F 61][1F 1F 6A 00 06][1F 1E DD 03 06][1F 1E DE 03 06][1F 1E DF 03 06]{pause(12)}{set(flag 672)}{unset(flag 11)}" eob
+
+l_0xc7beb9:
+    ":---------------------[1F 15 6A 00 60 01 01]    {unset(flag 2)}               " call(data_33.l_0xc7dd6b) "{music(32)}" call(data_32.l_0xc7c54b) "{set(flag 2)}               [1F 61]                      {counter(1)}" call(data_33.l_0xc7dc7f) "[1B 02 {e(l_0xc7bf1e)}]{window_open(1)}@The memory upon Giant Step" call(data_32.l_0xc7c55d) goto(l_0xc7bf1e)
+
+l_0xc7bf1e:
+    call(data_32.l_0xc7c57d) "{set(flag 4)}{music_resume}[06 B6 00 {e(l_0xc7bf94)}]{window_open(1)}@[1C 02 01] remembered the first time he climbed this hill." next
+    "@He remembered how easy life used to be.[03]{pause(60)}" linebreak
+    "@[1C 02 01]'s Sound Stone responded to the melody of the Giant Step.{wait}{set(flag 182)}{set(flag 36)}{set(flag 449)}{set(flag 450)}{set(flag 634)}{window_closetop}" goto(l_0xc7bf94)
+
+l_0xc7bf94:
+    eob
+
+l_0xc7bf95:
+    "[1F 15 6A 00 60 01 01]    {unset(flag 2)}               " call(data_33.l_0xc7dd6b) "{music(33)}" call(data_32.l_0xc7c54b) "{set(flag 2)}               [1F 61]                      {counter(1)}" call(data_33.l_0xc7dc7f) "[1B 02 {e(l_0xc7bfe8)}]{window_open(1)}@The memory upon Shadow Wood" call(data_32.l_0xc7c55d) goto(l_0xc7bfe8)
+
+l_0xc7bfe8:
+    call(data_32.l_0xc7c57d) "{set(flag 4)}{music_resume}[06 B7 00 {e(l_0xc7c058)}]{window_open(1)}@[1C 02 01] remembered the day he met [1C 02 02]." next
+    "@He remembered how another person changed his life.[03]{pause(60)}" linebreak
+    "@[1C 02 01]'s Sound Stone responded to the melody of Shadow Wood.{wait}{set(flag 183)}{window_closetop}" goto(l_0xc7c058)
+
+l_0xc7c058:
+    call(data_44.l_0xc915f4) call(data_52.l_0xc9b226) "[06 80 01 {e(l_0xc7c06a)}]" eob
+
+l_0xc7c06a:
+    "{set(flag 545)}" eob
+
+l_0xc7c06e:
+    "[1F 15 6A 00 60 01 01]    {unset(flag 2)}               " call(data_33.l_0xc7dd6b) "{music(34)}" call(data_32.l_0xc7c54b) "{set(flag 2)}               [1F 61]                      {counter(1)}" call(data_33.l_0xc7dc7f) "[1B 02 {e(l_0xc7c0c0)}]{window_open(1)}@The memory upon Rainfield" call(data_32.l_0xc7c55d) goto(l_0xc7c0c0)
+
+l_0xc7c0c0:
+    call(data_32.l_0xc7c57d) "{set(flag 4)}{music_resume}[06 B8 00 {e(l_0xc7c129)}]{window_open(1)}@[1C 02 01] remembered the day his father left." next
+    "@He remembered how tough changes can be.[03]{pause(60)}" linebreak
+    "@[1C 02 01]'s Sound Stone responded to the melody of Rainfield.{wait}{set(flag 184)}{window_closetop}" eob
+
+l_0xc7c129:
+    eob
+
+l_0xc7c12a:
+    "[1F 15 6A 00 60 01 01]    {unset(flag 2)}               " call(data_33.l_0xc7dd6b) "{music(35)}" call(data_32.l_0xc7c54b) "{set(flag 2)}               [1F 61]                      {counter(1)}" call(data_33.l_0xc7dc7f) "[1B 02 {e(l_0xc7c17b)}]{window_open(1)}@The memory upon the Welfare Lake." call(data_32.l_0xc7c55d) goto(l_0xc7c17b)
+
+l_0xc7c17b:
+    call(data_32.l_0xc7c57d) "{set(flag 4)}{music_resume}[06 B9 00 {e(l_0xc7c1f7)}]{window_open(1)}@[1C 02 01] remembered hanging out with his best friend Pokey every day after school." next
+    "@He remembered the memories they shared before the rise of Giygas.[03]{pause(60)}" linebreak
+    "@[1C 02 01]'s Sound Stone responded to the memory of the Welfare Lake.{wait}{set(flag 185)}{window_closetop}" goto(l_0xc7c1f7)
+
+l_0xc7c1f7:
+    call(data_52.l_0xc9b226) "[06 80 01 {e(l_0xc7c204)}]" eob
+
+l_0xc7c204:
+    "{set(flag 546)}" eob
+
+l_0xc7c208:
+    "[1F 15 6A 00 60 01 01]    {unset(flag 2)}               " call(data_33.l_0xc7dd6b) "{music(36)}" call(data_32.l_0xc7c54b) "{set(flag 2)}               [1F 61]                      {counter(1)}" call(data_33.l_0xc7dc7f) "[1B 02 {e(l_0xc7c258)}]{window_open(1)}@The memory upon the Remedy Diamond" call(data_32.l_0xc7c55d) goto(l_0xc7c258)
+
+l_0xc7c258:
+    call(data_32.l_0xc7c57d) "{set(flag 4)}{music_resume}[06 BA 00 {e(l_0xc7c2c5)}]{window_open(1)}@[1C 02 01] remembered the time he got hurt by a bully." next
+    "@He remembered the insecurities that held him back.[03]{pause(60)}" linebreak
+    "@[1C 02 01]'s Sound Stone responded to the melody of the Remedy Diamond.{wait}{set(flag 186)}{set(flag 494)}{window_closetop}" goto(l_0xc7c2c5)
+
+l_0xc7c2c5:
+    eob
+
+l_0xc7c2c6:
+    "[1F 15 6A 00 60 01 01]    {unset(flag 2)}               " call(data_33.l_0xc7dd6b) "{music(37)}" call(data_32.l_0xc7c54b) "{set(flag 2)}               [1F 61]                      {counter(1)}" call(data_33.l_0xc7dc7f) "[1B 02 {e(l_0xc7c317)}]{window_open(1)}@The memory upon the Dreaming Cloud" call(data_32.l_0xc7c55d) goto(l_0xc7c317)
+
+l_0xc7c317:
+    call(data_32.l_0xc7c57d) "{set(flag 4)}{music_resume}[06 BB 00 {e(l_0xc7c38a)}]{window_open(1)}@[1C 02 01] remembered the time he saved the world from Giygas." next
+    "@He remembered everything he had to give up in the process.[03]{pause(60)}" linebreak
+    "@[1C 02 01]'s Sound Stone resonded to the melody of the Dreaming Cloud.{wait}{set(flag 187)}{window_closetop}" goto(l_0xc7c38a)
+
+l_0xc7c38a:
+    call(data_52.l_0xc9b226) "[06 80 01 {e(l_0xc7c397)}]" eob
+
+l_0xc7c397:
+    "{set(flag 547)}" eob
+
+l_0xc7c39b:
+    "[06 BC 00 {e(l_0xc7c3c2)}]" call(data_32.l_0xc7c57d) "{pause(1)}[1F E1 1A 02 3C][1F 14 01][1F 15 6A 00 61 01 01]       [1F 61]                                              " goto(l_0xc7c3c2)
+
+l_0xc7c3c2:
+    "[1F 15 6A 00 60 01 01]    {unset(flag 2)}               " call(data_33.l_0xc7dd6b) "{music(38)}" call(data_32.l_0xc7c54b) "{set(flag 2)}               [1F 61]                      {counter(1)}" call(data_33.l_0xc7dc7f) "[1B 02 {e(data_32.l_0xc7c412)}]{window_open(1)}@The memory upon the Ruins of Enigma." call(data_32.l_0xc7c55d) goto(data_32.l_0xc7c412)
+

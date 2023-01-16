@@ -1,0 +1,375 @@
+/*
+ * EarthBound Text Dump
+ * Time: 16:51:30 - 12/09/2019
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xc989e9:
+    eob
+
+l_0xc989ea:
+    "@It's good that you want to donate," next
+    "  but how can you donate money if you have no money?" next
+    "@You got to fill up that wallet first!{wait}{window_closeall}" goto(data_30.l_0xc7907a)
+
+l_0xc98a27:
+    "@How much money would you like to donate?" linebreak
+    "    $[1F 52 02]{clearline}{swap}[18 07 01 00 00 00 01][1B 02 {e(data_49.l_0xc989c5)}][1D 14 00 00 00 00][1B 03 {e(l_0xc98ae8)}]{sound(118)}[1D 09 00 00]{open_wallet}@Thanks for your donation!{pause(30)} Your gratitude shall increase the success of the Red Raven Society.{pause(35)} Take a postcard for being a good citizen!" next
+    "[1D 03 FF][1B 02 {e(l_0xc98ab2)}][1D 0E 00 A5]" call(data_33.l_0xc7dccf) "[03]" newline
+    "@Please spread the word!{pause(20)} Tell as much people as you can!{pause(25)} All proceeds are going to a new world!{wait}{window_closeall}" goto(data_30.l_0xc7907a)
+
+l_0xc98ab2:
+    "@How unfortunate!{pause(25)} You can't take this postcard right now." next
+    "@You've ran out of space in your backpack!{wait}{window_closeall}" eob
+
+l_0xc98ae8:
+    "[1D 14 01 00 00 00][1B 03 {e(l_0xc989ea)}]@...I'm not a dumping ground for useless items!{wait}{window_closeall}" eob
+
+l_0xc98b07:
+    "@Hi!{pause(25)} I just want to inform you that our donation service has been discontinued!{pause(30)} Thank you for your support!{wait}{window_closeall}" eob
+
+l_0xc98b24:
+    "{font_saturn}[06 44 00 {e(l_0xc98b5a)}]@I'm not.{pause(25)} From here." next
+    "@I'm on vacation." next
+    "@Go to my valley.{pause(25)} Good place! Go there!{wait}{font_normal}" eob
+
+l_0xc98b5a:
+    "@Hey hey!{pause(25)} Weather good today?" next
+    "{wait}{font_normal}" eob
+
+l_0xc98b68:
+    call(data_12.l_0xc5d30b) eob
+
+l_0xc98b6e:
+    "[06 49 00 {e(data_49.l_0xc98940)}][06 44 00 {e(l_0xc98be1)}]@One of our duties the other day was to kidnap a girl named <[1C 02 02]>." next
+    "@I'm not really sure how that ties in to what we're doing,{pause(25)} but I won't question the boss's intentions." next
+    "@Edward can be a bit quirky sometimes,{pause(25)} everybody knows that." next
+    "@I just want to figure out why he wants that girl." end
+
+l_0xc98be1:
+    "@Everybody ran out and left me!{pause(25)} I feel so excluded!" end
+
+l_0xc98bef:
+    "[06 49 00 {e(data_49.l_0xc98940)}][06 44 00 {e(l_0xc98cc1)}][06 02 00 {e(l_0xc98cb2)}]@You're not really one of us, are you?" next
+    "@Gee, you had me fooled for a second there.{pause(45)} You look like you'd be good friends with my buddy,{pause(25)} who so happens to not be here right now." next
+    "@I don't know where he went,{pause(25)} but he was almost the same height as you." next
+    "@But that doesn't really help me remember...{pause(25)} He was pretty chubby though." next
+    "@Not really the guy you'd want to leave your lunch near.{pause(25)} That's all I remember." next
+    "@As you can tell,{pause(20)} I'm having difficulties remembering.{pause(30)} My head hurts now!{sound(114)}{wait}{set(flag 2)}" eob
+
+l_0xc98cb2:
+    "@Do you know who I'm talking about?{pause(25)} Or am I not giving enough details?" end
+
+l_0xc98cc1:
+    "@I don't mean no harm!{pause(25)} I'm just blindly following orders!" end
+
+l_0xc98cd3:
+    "[1F F1 9B 01 6F 02] [1F 61][1F E6 9B 01]{window_open(1)}@What have you done, [1C 02 01]?{pause(25)} Do you enjoy putting others through misery?" next
+    "@This world is dead because of people like you!{pause(45)} You leave your dirty prints everywhere you go,{pause(30)} causing people to believe in something that is impossible!" next
+    "@Even a good friend like you doesn't deserve to live in a better world!" next
+    "{window_closeall}[1F E9 9B 01][1F 61][1F E6 9B 01]{window_open(1)}@Do you hear me, [1C 02 01]?{pause(25)} Your pathways are as good as dead!{pause(25)} Remember that.[03]{window_closeall}[1F E9 9B 01]{unset(flag 44)}[1F 41 06]" eob
+
+l_0xc98d78:
+    "[06 49 00 {e(l_0xc98e5e)}][06 44 00 {e(l_0xc98e33)}][06 43 00 {e(l_0xc98df9)}]@You better pay for the food,{pause(25)} or you'll have to answer to me![06 78 00 {e(l_0xc98db4)}]" end
+
+l_0xc98db4:
+    "[03][06 79 00 {e(l_0xc98dd9)}]" newline
+    "@Thank you for paying!{pause(25)} You're a nice person for listening to me.{wait}{unset(flag 120)}" eob
+
+l_0xc98dd9:
+    newline
+    "@You picked the wrong person to mess with!{pause(35)} Now you're going to feel a world of pain.[03]" call(data_21.l_0xc6852a) "[1B 03 {e(data_21.l_0xc683de)}]{window_open(1)}" newline
+    goto(l_0xc98df9)
+
+l_0xc98df9:
+    "@This...{pause(25)} This is the last time a thief gets their way with me!" next
+    "@I'll let you go this time,{pause(25)} but next time you get greedy,{pause(25)} it's jail time for you!{wait}{set(flag 67)}" eob
+
+l_0xc98e33:
+    "@The Red Ravens robbed the food stand!{pause(35)} This isn't the first time this happened!" end
+
+l_0xc98e5e:
+    "@Edward and the rest of the Ravens ran out of town!{pause(30)} That's something you don't really see everyday." end
+
+l_0xc98e8d:
+    "[06 44 00 {e(l_0xc98e9a)}]" call(data_19.l_0xc64eca) eob
+
+l_0xc98e9a:
+    "@(Dear customers,{pause(25)} due to the amount of thieves stealing food,{pause(25)} we are going out of business." next
+    "@Thank you for using the food stand,{pause(25)} whether you were a thief or not.)" end
+
+l_0xc98ede:
+    "[06 49 00 {e(data_49.l_0xc98940)}][06 44 00 {e(l_0xc98f27)}]@Mr. Edward is the holder of a prophecy." next
+    "@He has revealed the long awaited days of our lives,{pause(25)} the light to outshine the dark!" end
+
+l_0xc98f27:
+    "@Wow.{pause(20)} I was super wrong about what I said." end
+
+l_0xc98f37:
+    "[06 49 00 {e(data_49.l_0xc98940)}][06 44 00 {e(l_0xc99002)}]@You are lost.{pause(25)} How does it really feel to live under a rock." next
+    "@The Red Ravens are the future,{pause(25)} with or without your help.{pause(25)} You cannot run away from the truth!" next
+    "@Do you understand me?" linebreak
+    "  [19 02]Yes[02]  [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc98fd3)} {e(l_0xc98fb9)}]" goto(l_0xc98fb9)
+
+l_0xc98fb9:
+    "@You may not understand,{pause(25)} but you will when you're up in the clouds." end
+
+l_0xc98fd3:
+    "@Well, hopefully you learned something new today." next
+    "@Are you really going to live life the way you are now?" end
+
+l_0xc99002:
+    "@I wish I could start my life over again,{pause(25)} only without the Ravens." end
+
+l_0xc99018:
+    "[06 49 00 {e(l_0xc99088)}][06 44 00 {e(l_0xc99061)}]@I'm dressed as a clown,{pause(35)} but you're refusing our upcoming chosen era." next
+    "@So, who's the real clown now?" end
+
+l_0xc99061:
+    "@Now, I see who the real clown is.{pause(25)} I don't need to answer, because it's obviously me." end
+
+l_0xc99088:
+    "@Why did the Red Ravens abandon their own building?{pause(25)} That's just disrespectful!" end
+
+l_0xc990b3:
+    "[06 49 00 {e(data_49.l_0xc98940)}][06 44 00 {e(l_0xc99104)}]@Gee, I feel bad for your parents." next
+    "@Now's not really the time to be in your edgy phase.{pause(35)} Edward is listening." end
+
+l_0xc99104:
+    "@Edward isn't listening anymore.{pause(25)} He ran off with his cronies, and I don't know where." end
+
+l_0xc99120:
+    "[06 49 00 {e(l_0xc9919b)}][06 44 00 {e(l_0xc99171)}]@I moved into this town weeks ago.{pause(25)} It's getting scarier everyday.{pause(20)} I don't know what to do." next
+    "@Everyone is so intense.{pause(45)} It's like living in a ghost town, where the eyes of a thousand souls burn a hole in your skin." end
+
+l_0xc99171:
+    "@Just when I was about to move,{pause(25)} everybody toned it down!{pause(30)} I guess I'm important after all." end
+
+l_0xc9919b:
+    "@You're pretty oblivious to dangerous things,{pause(20)} but I like you for that." end
+
+l_0xc991c7:
+    "[06 D3 00 {e(l_0xc99260)}][06 44 00 {e(l_0xc9922d)}]@A world without violence,{pause(20)} conflict,{pause(25)} sorrow,{pause(25)} or differences." next
+    "@Such a perfect world is far from perfection.{pause(30)} If you believe in the possibility of such a world,{pause(25)} please consider joining the RRS." end
+
+l_0xc9922d:
+    "@I've got to stop being a follower.{pause(25)} I have to lead my own way!" end
+
+l_0xc99260:
+    "@Lightford really needs to be bright again." end
+
+l_0xc99282:
+    "[06 49 00 {e(l_0xc992d1)}][06 44 00 {e(l_0xc992b6)}]@Do you think anyone knows our town exists anymore?" next
+    "@I guess in a closed off area like this, nobody can tell where you are.{pause(50)} No one can hear you scream." end
+
+l_0xc992b6:
+    "@Now, we should get a little more recognition, don't you think?" end
+
+l_0xc992d1:
+    "@Oh, hey! You're super close friends with the Runaway Five!" next
+    "@Do you have a spare autograph or something?{pause(25)} I'm getting a little jealous just looking at you." end
+
+l_0xc992fa:
+    "[06 49 00 {e(l_0xc99389)}][06 44 00 {e(l_0xc99362)}]@People like you deserve to die painfully." next
+    "@Walking around,{pause(25)} living life like you can do what you please,{pause(25)} believe in whatever you want." next
+    "@Don't get too comfortable.{pause(25)} This world doesn't belong to you." end
+
+l_0xc99362:
+    "@Edward's messed up brain messed up my brain!{pause(25)} That's pretty messed up!" end
+
+l_0xc99389:
+    "@I gotta remember how not-stupid I used to be." end
+
+l_0xc993a5:
+    "[06 49 00 {e(l_0xc9946f)}][06 44 00 {e(l_0xc99411)}][06 0A 00 {e(l_0xc99438)}][06 7B 00 {e(l_0xc99405)}]@(Damn hoodlums painting me stupid colors.{pause(25)} Someday, they're all going to step in my dung!){wait}{set(flag 123)}" eob
+
+l_0xc99405:
+    "@(Do humans squeeze each other for milk, too?{pause(25)} Just a little curious...){wait}{unset(flag 123)}" eob
+
+l_0xc99411:
+    "@(Man, oh man, does it feel good to be ol' black and white again!)" end
+
+l_0xc99438:
+    "@(What in the <Moo> happened to you?{pause(25)} You're making my pen all dusty!)" end
+
+l_0xc9946f:
+    "@(I might look like I'm stuck in this pen,{pause(25)} but I can fly away if I wanted to." next
+    "@I just can't do it right now.{pause(25)} This pen is so cozy, I never want to leave.{pause(30)} Plus, cows don't fly.)" end
+
+l_0xc994cb:
+    "@(You are now entering the Peaceful Rest Valley.)" end
+
+l_0xc994f5:
+    call(data_43.l_0xc903ed) eob
+
+l_0xc994fb:
+    "[06 49 00 {e(l_0xc99555)}]@I finally got around to fixing this bridge." next
+    "@Now everyone is welcome to come and visit Lightford." next
+    "@...That is, if they can get past those UFOs." end
+
+l_0xc99555:
+    "@Lightford will finally become a town of peace." next
+    "@This bridge is going to help lots of people." end
+
+l_0xc99582:
+    "[06 BF 00 {e(l_0xc99635)}][06 44 00 {e(l_0xc995e4)}]@This cave is home to dangerous creatures,{pause(35)} including what most call,{pause(25)} The Great Beast." next
+    "@It's not a good idea to go in there, unless you want to get hurt." next
+    "@And we don't have a very reliable hospital, so..." end
+
+l_0xc995e4:
+    "@The whole town has changed, but this cave is still pretty dangerous." next
+    "@You look pretty strong, so I'm not going to attempt to stop you." end
+
+l_0xc99635:
+    "@You went inside the cave?{pause(25)} You're pretty reckless!" next
+    "@Was it dangerous in there?" linebreak
+    "[19 02]Yes[02][19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xc99686)} {e(l_0xc9966e)}]" goto(l_0xc9966e)
+
+l_0xc9966e:
+    "@Either you're crazy, or I was wrong.{pause(25)} It's not exactly peaceful in there." end
+
+l_0xc99686:
+    "@I'm not surprised.{pause(25)} After all,{pause(25)} do I look like a guy who would lie to your face?" end
+
+l_0xc996aa:
+    "@I haven't been inside that cave, but apparently it leads to a strange place." next
+    "@I think the place was called <Shadow Wood>.{pause(20)} Something like that." end
+
+l_0xc99703:
+    "@This town just became very lonely.{pause(25)} Why did everybody leave?" end
+
+l_0xc99720:
+    "@Everyone is gone, but I'm going to stay here." next
+    "@I'm a true Lightfordian!" end
+
+l_0xc99757:
+    "@Can you please forgive me for my mistakes?" end
+
+l_0xc99776:
+    "@We heard that the Red Ravens can provide us the step to better days." next
+    "@I wonder if such a thing is even possible.{pause(25)} I guess we'll have to wait and see." end
+
+l_0xc997ae:
+    "@Hopefully more people take interest in the prophecy of the era." next
+    "@We got to make this a reality,{pause(25)} a reality for all." end
+
+l_0xc997ee:
+    "@You're a new face.{pause(25)} Welcome to the information office of the Red Ravens." next
+    "@Our operation building is located in the center of town." next
+    "@Let's paint the world red in our name,{pause(25)} and rise to new heights in a new world for perfect civilization!" next
+    "@If you're not interested in anything I'm saying,{pause(25)} feel free to pack your stuff and get the fuck out of this town!" end
+
+l_0xc9985a:
+    "@Look how fast things change...{pause(30)} Everybody seemed to regain all their senses." next
+    "@It will only be a matter of time until Lightford is like it used to be." next
+    "@I mean, for the better.{pause(30)} The Red Raven Society isn't going to come back anytime soon, I assume." end
+
+l_0xc998c1:
+    "[06 44 00 {e(l_0xc998fd)}]@(Please remember to keep all wallets in front of you at all times.{pause(30)} Only 1 person allowed in the store at a time!{pause(30)}" linebreak
+    "             -Colray's Drugstore)" end
+
+l_0xc998fd:
+    "@(The store will resume to its regular schedule once Lightford has fully recovered.{pause(25)} Thank you for your patience!{pause(30)}" linebreak
+    "     <Colray's Drugstore>)" end
+
+l_0xc9992f:
+    eob
+
+l_0xc99930:
+    "[06 D1 00 {e(l_0xc9992f)}][06 05 02 {e(l_0xc9992f)}][1F 63 {e(l_0xc99945)}]" eob
+
+l_0xc99945:
+    "{pause(30)}{set(flag 517)}[1F E1 10 03 1E][06 D5 01 {e(l_0xc9992f)}]{set(flag 476)}{set(flag 11)}" eob
+
+l_0xc9995d:
+    "{set(flag 513)}{isset(flag 469)}[1B 02 {e(l_0xc9992f)}][06 1E 00 {e(l_0xc99991)}]{isset(flag 97)}[1B 02 {e(l_0xc9992f)}][06 25 03 {e(l_0xc99981)}]" eob
+
+l_0xc99981:
+    "{isset(flag 94)}[1B 02 {e(l_0xc9992f)}]{set(flag 310)}{unset(flag 301)}" eob
+
+l_0xc99991:
+    "{isset(flag 95)}[1B 02 {e(l_0xc9992f)}][1F 63 {e(data_14.l_0xc5e819)}]" eob
+
+l_0xc999a1:
+    "[06 78 02 {e(data_52.l_0xc9b20e)}]{isset(flag 469)}[1B 02 {e(l_0xc9992f)}][06 68 00 {e(l_0xc9992f)}][06 12 00 {e(l_0xc9992f)}]{window_open(1)}[06 02 00 {e(l_0xc99a3c)}]@Uh, [1C 02 01]?" linebreak
+    "[19 22 01 01 05 00][1F 13 01 00] You gotta help me find Picky!{pause(25)} Please?{pause(25)} My dad is going to lose his mind when he finds out!" next
+    "@Please, man, you gotta help me!{pause(25)} Aren't you supposed to be heroic or something?{pause(45)} Then, you have to help find Picky!" next
+    "@I'll try to help you,{pause(25)} even though I don't really feel good...[19 22 01 01 05 00][1F 13 01 00]{wait}{window_closeall}{set(flag 2)}" eob goto(l_0xc99a3c)
+
+l_0xc99a3c:
+    "@[1C 02 01]!{pause(25)} Don't play dumb!" next
+    "[19 22 01 01 05 00][1F 13 01 00]@You better listen to me, or I'll pee on you!{pause(30)} Ha ha ha ha ha ha!{pause(25)} *Burp*.{wait}{window_closeall}{unset(flag 2)}" eob goto(l_0xc99a6b)
+
+l_0xc99a6b:
+    "{isset(flag 107)}[1B 02 {e(l_0xc9992f)}][1F 63 {e(l_0xc99a7b)}]" eob
+
+l_0xc99a7b:
+    "{music(122)}{pause(155)}[1F E1 01 00 FF]{set(flag 422)}{unset(flag 107)}{music_resume}" eob
+
+l_0xc99a8f:
+    "{unset(flag 103)}" eob
+
+l_0xc99a93:
+    "[06 78 02 {e(data_52.l_0xc9b20e)}][06 69 00 {e(l_0xc9992f)}]{unset(flag 38)}{set(flag 289)}{set(flag 290)}{set(flag 291)}{set(flag 292)}{set(flag 293)}[06 B6 00 {e(l_0xc99abb)}]" eob
+
+l_0xc99abb:
+    "{set(flag 39)}{unset(flag 36)}[06 69 00 {e(l_0xc9992f)}]{set(flag 449)}" eob
+
+l_0xc99acc:
+    "[06 D3 00 {e(l_0xc99ae3)}]{set(flag 43)}{isset(flag 309)}[1B 02 {e(l_0xc9992f)}][1F 67 01]" eob
+
+l_0xc99ae3:
+    "{window_open(1)}@(Due to several issues we rather not bring up,{pause(25)} the Chaos Theatre will be closed down." next
+    "@I guess you could say we're <drawing the curtains>.{pause(30)} Anyway, thank you for all your support!" next
+    "@Sincerely, the Chaos Theatre owner,{pause(25)} Williamshayke Spear.){wait}{window_closeall}" eob
+
+l_0xc99b3f:
+    "{set(flag 416)}{set(flag 417)}{set(flag 418)}{set(flag 419)}{set(flag 420)}{set(flag 421)}[06 0E 00 {e(l_0xc9992f)}]{set(flag 50)}" eob
+
+l_0xc99b5c:
+    "{unset(flag 51)}" eob
+
+l_0xc99b60:
+    call(data_52.l_0xc9b10b) eob
+
+l_0xc99b66:
+    "{set(flag 106)}" eob
+
+l_0xc99b6a:
+    "[06 78 02 {e(data_52.l_0xc9b20e)}]{set(flag 110)}" eob
+
+l_0xc99b75:
+    "{set(flag 750)}{unset(flag 383)}{isset(flag 533)}" call(l_0xc99bb2) "{isset(flag 469)}[1B 02 {e(l_0xc9992f)}][06 62 00 {e(l_0xc99c15)}][06 5F 00 {e(l_0xc99bb6)}]{isset(flag 30)}[1B 02 {e(l_0xc9992f)}][1F F1 15 00 29 00]{set(flag 95)}{set(flag 753)}{pause(120)}" eob
+
+l_0xc99bb2:
+    "{unset(flag 533)}" eob
+
+l_0xc99bb6:
+    "{window_open(1)}@[1C 02 01],{pause(25)} the phone.{pause(25)} The phone is ringing!" next
+    "@Can you answer it?{pause(25)} It might be the police,{pause(35)} maybe they found where Picky is." next
+    "@Are you frozen in time or something?{pause(35)} Go answer it!{wait}{window_closeall}" eob
+
+l_0xc99c15:
+    "{set(flag 209)}{set(flag 200)}" call(l_0xc99c24) "{unset(flag 514)}" eob
+
+l_0xc99c24:
+    "{isset(flag 688)}[1B 02 {e(l_0xc9992f)}]{set(flag 201)}" eob
+
+l_0xc99c31:
+    "{set(flag 210)}[06 34 01 {e(l_0xc9992f)}]{set(flag 31)}{unset(flag 32)}{unset(flag 33)}{unset(flag 306)}{unset(flag 307)}" eob
+
+l_0xc99c4b:
+    "{unset(flag 315)}" eob
+
+l_0xc99c4f:
+    "{set(flag 213)}" eob
+
+l_0xc99c53:
+    "{set(flag 214)}{unset(flag 590)}[06 60 02 {e(l_0xc99c61)}]" eob
+
+l_0xc99c61:
+    "{unset(flag 608)}{set(flag 174)}" eob
+

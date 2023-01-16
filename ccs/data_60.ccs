@@ -1,0 +1,422 @@
+/*
+ * EarthBound Text Dump
+ * Time: 16:51:30 - 12/09/2019
+ * Generated using CCScriptWriter.
+ */
+
+command e(label) "{long label}"
+
+// Text Data
+l_0xef8fad:
+    "[1D 19 02][1B 03 {e(l_0xef8fc9)}][19 10 02][1D 0D 00 01 02][1B 03 {e(l_0xef8fc9)}] each." eob goto(l_0xef8fc9)
+
+l_0xef8fc9:
+    "." eob
+
+l_0xef8fcb:
+    "[06 82 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 B6 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 386)}{pause(1)}" eob
+
+l_0xef8fe4:
+    "[06 83 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 B7 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 387)}{pause(1)}[1F F1 53 05 7B 02]" eob
+
+l_0xef9003:
+    "[06 84 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 B7 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 388)}{pause(1)}[1F F1 5B 05 7B 02]" eob
+
+l_0xef9022:
+    "[06 85 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 B8 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 389)}{pause(1)}[1F F1 56 05 7B 02]" eob
+
+l_0xef9041:
+    "[06 86 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BB 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 390)}{pause(1)}[1F F1 8E 04 7B 02]" eob
+
+l_0xef9060:
+    "[06 87 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BB 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 391)}{pause(1)}[1F F1 8F 04 7B 02]" eob
+
+l_0xef907f:
+    "[06 88 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BB 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 392)}{pause(1)}[1F F1 90 04 7B 02]" eob
+
+l_0xef909e:
+    "[06 89 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BB 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 393)}{pause(1)}[1F F1 91 04 7B 02]" eob
+
+l_0xef90bd:
+    "[06 8A 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BB 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 394)}{pause(1)}[1F F1 94 04 7B 02]" eob
+
+l_0xef90dc:
+    "[06 8B 01 {e(data_32.l_0xc7c588)}][1F 23 BB 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 395)}{pause(1)}[1F F1 95 04 7B 02]" eob
+
+l_0xef90f9:
+    "[06 8C 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BB 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 396)}{pause(1)}[1F F1 96 04 7B 02]" eob
+
+l_0xef9118:
+    "[06 8D 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BB 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 397)}{pause(1)}[1F F1 98 04 7B 02]" eob
+
+l_0xef9137:
+    "[06 8E 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BB 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 398)}{pause(1)}[1F F1 9A 04 7B 02]" eob
+
+l_0xef9156:
+    "[06 8F 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BB 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 399)}{pause(1)}[1F F1 9D 04 7B 02]" eob
+
+l_0xef9175:
+    "[06 90 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BB 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 400)}{pause(1)}[1F F1 9E 04 7B 02]" eob
+
+l_0xef9194:
+    "[06 91 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BB 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 401)}{pause(1)}[1F F1 9F 04 7B 02]" eob
+
+l_0xef91b3:
+    "[06 92 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BB 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 402)}{pause(1)}[1F F1 A1 04 7B 02]" eob
+
+l_0xef91d2:
+    "[06 93 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BB 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 403)}{pause(1)}[1F F1 A2 04 7B 02]" eob
+
+l_0xef91f1:
+    "[06 94 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BB 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 404)}{pause(1)}[1F F1 A4 04 7B 02]" eob
+
+l_0xef9210:
+    "[06 95 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BB 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 405)}{pause(1)}[1F F1 A5 04 7B 02]" eob
+
+l_0xef922f:
+    "[06 96 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BB 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 406)}{pause(1)}[1F F1 A6 04 7B 02]" eob
+
+l_0xef924e:
+    "[06 97 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BC 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 407)}{pause(1)}[1F F1 92 04 7B 02]" eob
+
+l_0xef926d:
+    "[06 98 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BC 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 408)}{pause(1)}[1F F1 93 04 7B 02]" eob
+
+l_0xef928c:
+    "[06 99 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BC 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 409)}{pause(1)}[1F F1 97 04 7B 02]" eob
+
+l_0xef92ab:
+    "[06 9A 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BC 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 410)}{pause(1)}[1F F1 99 04 7B 02]" eob
+
+l_0xef92ca:
+    "[06 9B 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BC 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 411)}{pause(1)}[1F F1 9B 04 7B 02]" eob
+
+l_0xef92e9:
+    "[06 9C 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BC 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 412)}{pause(1)}[1F F1 A0 04 7B 02]" eob
+
+l_0xef9308:
+    "[06 9D 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BC 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 413)}{pause(1)}[1F F1 A3 04 7B 02]" eob
+
+l_0xef9327:
+    "[06 9E 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BC 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 414)}{pause(1)}[1F F1 A7 04 7B 02]" eob
+
+l_0xef9346:
+    "[06 9F 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BC 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 415)}{pause(1)}[1F F1 A8 04 7B 02]" eob
+
+l_0xef9365:
+    "[06 A0 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BD 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 416)}{pause(1)}[1F F1 A6 02 7B 02]" eob
+
+l_0xef9384:
+    "[06 A1 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BD 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 417)}{pause(1)}[1F F1 A7 02 7B 02]" eob
+
+l_0xef93a3:
+    "[06 A2 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BE 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 418)}{pause(1)}[1F F1 A8 02 7B 02]" eob
+
+l_0xef93c2:
+    "[06 A3 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BE 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 419)}{pause(1)}[1F F1 A9 02 7B 02]" eob
+
+l_0xef93e1:
+    "[06 A4 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BF 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 420)}{pause(1)}[1F F1 AA 02 7B 02]" eob
+
+l_0xef9400:
+    "[06 A5 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BF 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 421)}{pause(1)}[1F F1 AB 02 7B 02]" eob
+
+l_0xef941f:
+    "[06 B2 01 {e(data_32.l_0xc7c588)}]" call(data_24.l_0xc6cfc5) "{window_closeall}[1F 23 D2 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 434)}{pause(1)}[1F F1 A0 02 7B 02]" call(data_46.l_0xc92be3) eob
+
+l_0xef9448:
+    "[06 B3 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 D4 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 435)}{pause(1)}[1F F1 9C 04 7B 02]" eob
+
+l_0xef9467:
+    "[06 B4 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 D3 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 436)}{pause(1)}[1F F1 4A 05 7B 02]" eob
+
+l_0xef9486:
+    "[06 B5 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 D3 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 437)}{pause(1)}[1F F1 4B 05 7B 02]" eob
+
+l_0xef94a5:
+    "[06 B6 01 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 D3 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 438)}{pause(1)}[1F F1 4C 05 7B 02]" eob
+
+l_0xef94c4:
+    "[06 59 02 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BA 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 601)}{pause(1)}[1F F1 0F 04 7B 02]" eob
+
+l_0xef94e3:
+    "[06 5A 02 {e(data_32.l_0xc7c588)}]{window_closeall}[1F 23 BA 01][1B 03 {e(data_29.l_0xc77eff)}]{set(flag 602)}{pause(1)}[1F F1 10 04 7B 02]" eob
+
+l_0xef9502:
+    "[06 5B 02 {e(data_32.l_0xc7c588)}]{window_open(1)}" call(data_56.l_0xef681a) "{window_closeall}[1F 23 E2 01][1B 03 {e(data_29.l_0xc77eff)}]" call(data_56.l_0xef68d7) "{set(flag 603)}{pause(1)}[1F F1 4E 02 7B 02]" eob
+
+l_0xef952e:
+    "[06 44 00 {e(l_0xef9737)}][06 56 00 {e(l_0xef970f)}][06 0A 00 {e(l_0xef95a3)}]@Huh...?" next
+    "@[1C 02 01]?" next
+    "@[1C 02 01]!{pause(20)} I can't believe it!{pause(25)} You found me!" next
+    "@I've had a strange feeling that we'd all be reunited at some point.{pause(30)} I guess this was just more than a feeling,{pause(25)} it was a prediction." next
+    "@I knew at some point,{pause(25)} you would come back and help me!" next
+    goto(l_0xef95a3)
+
+l_0xef95a3:
+    "@I've gotten myself into quite the situation here." next
+	"@The leader of the Red Ravens,{pause(25)} Edward,{pause(25)} took me away from home and locked me in here." next
+	"@I've been here for several days." next
+	"@What could they possibly want from me?{pause(30)} I've pondered that question for as long as I've been here." next
+	"@If this is all bound to happen, just like I said,{pause(30)} who is the person causing all this?" next
+	"@Do they sought to make everyone miserable and scared?" next
+	"@All this time spent waiting in a cage makes you think about the uncontrollable possibilities that strive to hurt you." next
+	"@Maybe this was all meant to happen,{pause(25)} for a reason that is still undetermined." next
+	"@We can't spend all this time worrying about things that may or may not take place." next
+	"@We were all called together to stop whoever is causing all of this,{pause(30)} and it is our destiny as the Chosen Four to fulfill that." next
+	"@And the best way to start...{pause(70)} is by getting me out of this cage." next
+	"@Mr. Edward has the key,{pause(30)} you won't be able to free me without it." next
+	"@I don't know where he is." next
+    "@To get to him,{pause(25)} you'll have to go through the entire Red Raven Society." next
+    "@It's not going to be easy,{pause(30)} but I got one thing that can help." next
+    "@I want you to take this." next
+    "@It's the [1C 05 01]." next
+    "@Doesn't it remind you of younger times?[1D 03 FF][1B 02 {e(l_0xef96d3)}][1D 0E 00 01]" call(data_33.l_0xc7dcb6) next
+    "{set(flag 86)}{set(flag 45)}{unset(flag 634)}{unset(flag 635)}@Edward can cast lightning at his will." next
+    "@This [1C 05 01] will reflect all electrical shocks.{pause(30)} Please get the key and come back for me!{pause(25)} I will be waiting for you." next
+    "@Good luck, [1C 02 01]!{wait}{set(flag 11)}[1F 41 05]" eob
+
+l_0xef96d3:
+    "{sound(5)}@Oh my,{pause(25)} you don't have enough space in your bag." next
+    "@Please get rid of a few things.{pause(30)} You're going to need the [1C 05 01].{wait}" linebreak
+    "{set(flag 10)}" eob
+
+l_0xef970f:
+    "@Please be careful.{pause(30)} Mr. Edward is not a person to mess with." next
+    eob
+
+l_0xef9737:
+    "@You got the key!" next
+    "@Are you okay, [1C 02 01]?" linebreak
+    "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xef976b)} {e(l_0xef976b)}]" goto(l_0xef976b)
+
+l_0xef976b:
+    "@I'm sorry for all the trouble I've caused you...{pause(30)} I promise I'll be a bit more careful." end
+
+l_0xef9785:
+    "@(Cross bridge to Lightford)" end
+
+l_0xef97a2:
+    "[06 BF 00 {e(data_32.l_0xc7c588)}]{counter(1)}" call(data_33.l_0xc7dc7f) "[1B 03 {e(data_22.l_0xc690a6)}]{music(155)}@It's been a long time since you've been here." next
+    "@What have you forgotten to find yourself back here?{pause(30)} There is something you came here to do." next
+    "@I'll let you have your way,{pause(30)} but I'm not holding back![03]" call(data_21.l_0xc68410) "[1B 03 {e(data_21.l_0xc683de)}][1F 1E C3 01 08]{pause(120)}{set(flag 191)}" eob
+
+l_0xef981c:
+    call(data_43.l_0xc900f9) eob
+
+l_0xef9822:
+    "@Some moron took down the crossing bridge." next
+    "@I have no idea how I'm going to get home now.{pause(25)} I might as well live in the forest." end
+
+l_0xef9857:
+    "@(Hey there,{pause(25)} I'm a talking mole!)" next
+    "@(I can provide you useful information that I've learned over the years.)" next
+    "@Would you like to know about how to survive in battles?)" next
+    "[19 02]Yes[02] [19 02]No[02][1C 07 02][11]{clearline}[09 02 {e(l_0xef98d3)} {e(l_0xef98ad)}]" goto(l_0xef98ad)
+
+l_0xef98ad:
+    "@(So, you know all this stuff already?{pause(25)} That's good for you.)" end
+
+l_0xef98d3:
+    "@(Okay,{pause(30)} so you may find yourself against multiple strong enemies." next
+    "@Sometimes, you can survive severe damage and win the fight with 1 HP." next
+    "@This is all due to a little something called Guts." next
+    "@Guts help you survive severe hits like those,{pause(25)} and you can also do SMAAAAASH attacks depending on how high your Guts are." next
+    "@Your Guts increase everytime you level up." next
+    "@So, when you've been hit with a powerful attack, don't panic." next
+    "@Just defeat the enemy before your HP drops to 0,{pause(25)} and you'll win." next
+    "@However,{pause(25)} if your HP drops to 0 before your turn,{pause(25)} you lose." next
+    "@So, there you have it.{pause(25)} That's how you can survive tough battles.)" next
+	"@(I've broken the fourth wall too many times.{pause(30)} I'm just gonna go back to being a busy mole again!)" end
+
+l_0xef9a47:
+    newline
+    "{sound(25)}@{user} tried calling" linebreak
+    "  for help!{sound(72)}[03]" eob
+
+l_0xef9a5e:
+    "{sound(25)}" newline
+    "@{user} made the whole" linebreak
+    "  area smell really dusty!{sound(72)}[03]" eob
+
+l_0xef9a7e:
+    newline
+    "{sound(25)}@{user} exploded" linebreak
+    "  into smithereens!{sound(91)}[03]{pause(30)}" eob
+
+l_0xef9a9e:
+    newline
+    "{sound(25)}@{user} made a loud clicking sound," linebreak
+    "  and detonated into bits!{sound(75)}[03]{pause(30)}" eob
+
+l_0xef9abb:
+    newline
+    "@{user}[19 1F][1B 02 {e(l_0xef9ae8)}]{swap} stole a [1C 05 00]" next
+    "  and doesn't feel like giving it back![03]" eob goto(l_0xef9ae8)
+
+l_0xef9ae8:
+    " tried to" linebreak
+    "  steal something, but missed![03]" eob
+
+l_0xef9b02:
+    newline
+    "{sound(25)}@{user} froze" linebreak
+    "  you in time!{music(4)}[03]{pause(1)}" eob
+
+l_0xef9b20:
+    newline
+    "{sound(25)}@{user} glared" linebreak
+    "  with its eerie, starry eyes![03]{pause(1)}" eob
+
+l_0xef9b43:
+    "{sound(25)}" newline
+    "@{user} generated" linebreak
+    "  a mysterious energy field around you!{sound(77)}[03]{pause(1)}" eob
+
+l_0xef9b73:
+    newline
+    "{sound(25)}@{user} stumbled, but fired a strange beam.{sound(77)}[03]{pause(1)}" eob
+
+l_0xef9b96:
+    newline
+    "{sound(25)}@{user} burped" linebreak
+    "  and blew his nauseating, stank breath at you!{sound(78)}[03]{pause(1)}" eob
+
+l_0xef9bc3:
+    newline
+    "{sound(25)}@{user} stung" linebreak
+    "  with its poison stinger![03]{pause(1)}" eob
+
+l_0xef9be6:
+    newline
+    "{sound(25)}@{user} gave" linebreak
+    "  a dead cold glare![03]{pause(1)}" eob
+
+l_0xef9c02:
+    newline
+    "{sound(25)}@{user} exhaled" linebreak
+    "  " call(data_33.l_0xc7e66e) " arctic-cold breath!{sound(81)}[03]{pause(1)}" eob
+
+l_0xef9c30:
+    newline
+    "{sound(25)}@{user} scattered" linebreak
+    "  some spores!{sound(82)}[03]{pause(1)}" eob
+
+l_0xef9c51:
+    newline
+    "{sound(25)}@{user} tried to" linebreak
+    "  possess your soul in a frightening manner.{sound(96)}[03]{pause(1)}" eob
+
+l_0xef9c7e:
+    newline
+    "{sound(25)}@{user} sprinkled around some wonderful-smelling powder.{sound(82)}[03]{pause(1)}" eob
+
+l_0xef9cad:
+    newline
+    "{sound(25)}@{user} scattered" linebreak
+    "  some mold spores!{sound(82)}[03]{pause(1)}" eob
+
+l_0xef9cd1:
+    newline
+    "{sound(25)}@{user} employed" linebreak
+    "  a binding attack![03]{pause(1)}" eob
+
+l_0xef9cf1:
+    newline
+    "{sound(25)}@{user} spit out  a sticky mucus!{sound(81)}[03]{pause(1)}" eob
+
+l_0xef9d14:
+    newline
+    "{sound(25)}@{user} spewed" linebreak
+    "  <Fly Honey> out of his mouth!{sound(81)}[03]{pause(1)}" eob
+
+l_0xef9d3e:
+    newline
+    "{sound(25)}@{user} shot" linebreak
+    "  spider silk out of its body![03]" eob
+
+l_0xef9d62:
+    newline
+    "{sound(25)}@{user} said" linebreak
+    "  something really scary!{sound(84)}[03]{pause(1)}" eob
+
+l_0xef9d81:
+    newline
+    "{sound(25)}@{user} did" linebreak
+    "  something very mysterious!{sound(85)}[03]{pause(1)}" eob
+
+l_0xef9da1:
+    newline
+    "{sound(25)}@{user} disrupted" linebreak
+    "  your senses![03]" eob
+
+l_0xef9dbd:
+    newline
+    "{sound(25)}@{user} is" linebreak
+    "  sizing up the situation![03]" eob
+
+l_0xef9dda:
+    newline
+    "{sound(25)}@{user} exhaled" linebreak
+    "  a blast of stinky breath!{sound(92)}[03]{pause(1)}" eob
+
+l_0xef9e05:
+    newline
+    "{sound(25)}@{user} summoned" linebreak
+    "  a storm!{sound(86)}[03]{pause(1)}" eob
+
+l_0xef9e22:
+    newline
+    "{sound(25)}@{user} spilled" linebreak
+    "  some scalding hot espresso![03]" eob
+
+l_0xef9e47:
+    newline
+    "{sound(25)}@{user} played" linebreak
+    "  a haunting melody![03]{pause(1)}" eob
+
+l_0xef9e69:
+    newline
+    "{sound(25)}@{user} dispensed" linebreak
+    "  an extinguishing blast!{sound(88)}[03]{pause(1)}" eob
+
+l_0xef9e92:
+    newline
+    "{sound(25)}@{user} used a" linebreak
+    "  Crashing Boom Bang attack![03]" eob
+
+l_0xef9eb4:
+    newline
+    "{sound(25)}@{user} shot out" linebreak
+    "  a spray of fire!{sound(75)}[03]{pause(1)}" eob
+
+l_0xef9ed7:
+    newline
+    "{sound(25)}@{user} breathed" linebreak
+    "  fire!{sound(75)}[03]{pause(1)}" eob
+
+l_0xef9ef4:
+    "{store_registers}" newline
+    "[1D 22][1B 02 {e(l_0xef9f9f)}][06 0A 03 {e(l_0xef9fe2)}]{isset(flag 180)}[1B 03 {e(l_0xefa002)}]{isset(flag 181)}[1B 03 {e(l_0xefa07e)}]{isset(flag 645)}[1B 03 {e(l_0xefa07e)}]{isset(flag 446)}[1B 03 {e(l_0xefa029)}]{isset(flag 646)}[1B 03 {e(l_0xefa029)}]{isset(flag 647)}[1B 03 {e(l_0xefa029)}]{isset(flag 648)}[1B 03 {e(l_0xefa029)}]{isset(flag 675)}[1B 03 {e(l_0xefa002)}]{isset(flag 694)}[1B 03 {e(l_0xefa07e)}]{isset(flag 695)}[1B 03 {e(l_0xefa07e)}][06 FE 02 {e(l_0xefa0b7)}][1F 41 05]@(The mouse found the way out and waved for you to follow.)[03][1F 69]{load_registers}[1D 0F 00 00]{unset(flag 512)}[1F 41 06]" call(data_33.l_0xc7de60) eob
+
+l_0xef9f9f:
+    "@(The Exit Mouse cannot be used here.)" next
+    "@(It can only be used in a place with an exit, like a cave!)" end
+
+l_0xef9fe2:
+    "@(The mouse didn't listen to your command.)" end
+
+l_0xefa002:
+    "@Please wait until the pizza arrives." end
+
+l_0xefa029:
+    "@Wait!{pause(25)} A customer will be arriving here any minute." next
+    "@It's better if you wait until they leave in order to release the Exit Mouse." end
+
+l_0xefa07e:
+    "@If you use the Exit Mouse now,{pause(25)} you will miss your delivery." next
+    "@Wait for the deliveryman...{pause(25)} er,{pause(20)} person!" eob
+
+l_0xefa0b7:
+    "@For some reason, the exit mouse is being a total dick." end
+
